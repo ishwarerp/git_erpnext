@@ -1,0 +1,254 @@
+{
+ "etype": "AttributeError",
+ "evalue": "AttributeError(\"'NoneType' object has no attribute 'user_type'\")",
+ "exception": {
+  "args": [
+   40,
+   34,
+   39,
+   78,
+   111,
+   110,
+   101,
+   84,
+   121,
+   112,
+   101,
+   39,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   32,
+   104,
+   97,
+   115,
+   32,
+   110,
+   111,
+   32,
+   97,
+   116,
+   116,
+   114,
+   105,
+   98,
+   117,
+   116,
+   101,
+   32,
+   39,
+   117,
+   115,
+   101,
+   114,
+   95,
+   116,
+   121,
+   112,
+   101,
+   39,
+   34,
+   44,
+   41
+  ],
+  "name": [
+   39,
+   117,
+   115,
+   101,
+   114,
+   95,
+   116,
+   121,
+   112,
+   101,
+   39
+  ],
+  "obj": [
+   78,
+   111,
+   110,
+   101
+  ],
+  "with_traceback": [
+   60,
+   98,
+   117,
+   105,
+   108,
+   116,
+   45,
+   105,
+   110,
+   32,
+   109,
+   101,
+   116,
+   104,
+   111,
+   100,
+   32,
+   119,
+   105,
+   116,
+   104,
+   95,
+   116,
+   114,
+   97,
+   99,
+   101,
+   98,
+   97,
+   99,
+   107,
+   32,
+   111,
+   102,
+   32,
+   65,
+   116,
+   116,
+   114,
+   105,
+   98,
+   117,
+   116,
+   101,
+   69,
+   114,
+   114,
+   111,
+   114,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   62
+  ]
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'https://ssd.edofoxerp.com/favicon.ico' [GET]>)",
+   "dump": {
+    "global init_request": "<function init_request>",
+    "request": "<Request 'https://ssd.edofoxerp.com/favicon.ico' [GET]>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "53": "\t\trollback = True",
+    "54": "",
+    "55": "\t\tinit_request(request)",
+    "56": "",
+    "57": "\t\tfrappe.api.validate_auth()"
+   },
+   "lnum": 55
+  },
+  {
+   "call": "(request=<Request 'https://ssd.edofoxerp.com/favicon.ico' [GET]>)",
+   "dump": {
+    "frappe. auth": "<module 'frappe.auth' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py'>",
+    "frappe. local": "<werkzeug.local.Local object>",
+    "frappe.auth. HTTPRequest": "<class 'frappe.auth.HTTPRequest'>",
+    "frappe.local.http_request": "undefined",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "init_request",
+   "lines": {
+    "141": "",
+    "142": "\tif request.method != \"OPTIONS\":",
+    "143": "\t\tfrappe.local.http_request = frappe.auth.HTTPRequest()",
+    "144": "",
+    "145": "\tfor before_request_task in frappe.get_hooks(\"before_request\"):"
+   },
+   "lnum": 143
+  },
+  {
+   "call": "(self=<frappe.auth.HTTPRequest object>)",
+   "dump": {
+    "self": "<frappe.auth.HTTPRequest object>",
+    "self. set_session": "<bound method HTTPRequest.set_session of <frappe.auth.HTTPRequest object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py",
+   "func": "__init__",
+   "lines": {
+    "32": "",
+    "33": "\t\t# login and start/resume user session",
+    "34": "\t\tself.set_session()",
+    "35": "",
+    "36": "\t\t# set request language"
+   },
+   "lnum": 34
+  },
+  {
+   "call": "(self=<frappe.auth.HTTPRequest object>)",
+   "dump": {
+    "frappe. local": "<werkzeug.local.Local object>",
+    "frappe.local.login_manager": "undefined",
+    "global LoginManager": "<class 'frappe.auth.LoginManager'>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py",
+   "func": "set_session",
+   "lines": {
+    "68": "",
+    "69": "\tdef set_session(self):",
+    "70": "\t\tfrappe.local.login_manager = LoginManager()",
+    "71": "",
+    "72": "\tdef validate_csrf_token(self):"
+   },
+   "lnum": 70
+  },
+  {
+   "call": "(self=<frappe.auth.LoginManager object>)",
+   "dump": {
+    "self": "<frappe.auth.LoginManager object>",
+    "self. get_user_info": "<bound method LoginManager.get_user_info of <frappe.auth.LoginManager object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py",
+   "func": "__init__",
+   "lines": {
+    "122": "\t\t\texcept AttributeError:",
+    "123": "\t\t\t\tself.user = \"Guest\"",
+    "124": "\t\t\t\tself.get_user_info()",
+    "125": "\t\t\t\tself.make_session()",
+    "126": "\t\t\t\tself.set_user_info()"
+   },
+   "lnum": 124
+  },
+  {
+   "call": "(self=<frappe.auth.LoginManager object>)",
+   "dump": {
+    "self": "<frappe.auth.LoginManager object>",
+    "self. info": "None",
+    "self. user_type": "None",
+    "self.info.user_type": "undefined"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py",
+   "func": "get_user_info",
+   "lines": {
+    "163": "\t\t)",
+    "164": "",
+    "165": "\t\tself.user_type = self.info.user_type",
+    "166": "",
+    "167": "\tdef setup_boot_cache(self):"
+   },
+   "lnum": 165
+  }
+ ],
+ "locals": {
+  "self": "<frappe.auth.LoginManager object>"
+ },
+ "pyver": "Python 3.10.12: /home/gauritrans/frappe-bench/env/bin/python (prefix: /home/gauritrans/frappe-bench/env)",
+ "timestamp": "2024-06-14 12:06:05.705106",
+ "traceback": "Traceback (most recent call last):\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py\", line 119, in __init__\n    self.make_session(resume=True)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py\", line 207, in make_session\n    frappe.local.session_obj = Session(\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/sessions.py\", line 238, in __init__\n    self.resume()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/sessions.py\", line 310, in resume\n    validate_ip_address(self.user)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py\", line 420, in validate_ip_address\n    ip_list = get_restricted_ip_list(user_info)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py\", line 1155, in get_restricted_ip_list\n    if not user.restrict_ip:\nAttributeError: 'NoneType' object has no attribute 'restrict_ip'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py\", line 55, in application\n    init_request(request)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py\", line 143, in init_request\n    frappe.local.http_request = frappe.auth.HTTPRequest()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py\", line 34, in __init__\n    self.set_session()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py\", line 70, in set_session\n    frappe.local.login_manager = LoginManager()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py\", line 124, in __init__\n    self.get_user_info()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py\", line 165, in get_user_info\n    self.user_type = self.info.user_type\nAttributeError: 'NoneType' object has no attribute 'user_type'\n"
+}

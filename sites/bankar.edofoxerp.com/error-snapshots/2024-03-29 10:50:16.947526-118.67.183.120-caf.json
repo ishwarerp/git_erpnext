@@ -1,0 +1,248 @@
+{
+ "etype": "AttributeError",
+ "evalue": "AttributeError(\"'NoneType' object has no attribute 'lft'\")",
+ "exception": {
+  "args": [
+   40,
+   34,
+   39,
+   78,
+   111,
+   110,
+   101,
+   84,
+   121,
+   112,
+   101,
+   39,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   32,
+   104,
+   97,
+   115,
+   32,
+   110,
+   111,
+   32,
+   97,
+   116,
+   116,
+   114,
+   105,
+   98,
+   117,
+   116,
+   101,
+   32,
+   39,
+   108,
+   102,
+   116,
+   39,
+   34,
+   44,
+   41
+  ],
+  "name": [
+   39,
+   108,
+   102,
+   116,
+   39
+  ],
+  "obj": [
+   78,
+   111,
+   110,
+   101
+  ],
+  "with_traceback": [
+   60,
+   98,
+   117,
+   105,
+   108,
+   116,
+   45,
+   105,
+   110,
+   32,
+   109,
+   101,
+   116,
+   104,
+   111,
+   100,
+   32,
+   119,
+   105,
+   116,
+   104,
+   95,
+   116,
+   114,
+   97,
+   99,
+   101,
+   98,
+   97,
+   99,
+   107,
+   32,
+   111,
+   102,
+   32,
+   65,
+   116,
+   116,
+   114,
+   105,
+   98,
+   117,
+   116,
+   101,
+   69,
+   114,
+   114,
+   111,
+   114,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   62
+  ]
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'https://bankar.edofoxerp.com/' [POST]>)",
+   "dump": {
+    "frappe. handler": "<module 'frappe.handler' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py'>",
+    "frappe.handler. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "response": "None"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "61": "",
+    "62": "\t\telif frappe.form_dict.cmd:",
+    "63": "\t\t\tresponse = frappe.handler.handle()",
+    "64": "",
+    "65": "\t\telif request.path.startswith(\"/api/\"):"
+   },
+   "lnum": 63
+  },
+  {
+   "call": "()",
+   "dump": {
+    "cmd": "'erpnext.e_commerce.api.get_product_filter_data'",
+    "data": "None",
+    "global execute_cmd": "<function execute_cmd>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "handle",
+   "lines": {
+    "43": "",
+    "44": "\tif cmd != \"login\":",
+    "45": "\t\tdata = execute_cmd(cmd)",
+    "46": "",
+    "47": "\t# data can be an empty string or list which are valid responses"
+   },
+   "lnum": 45
+  },
+  {
+   "call": "(cmd='erpnext.e_commerce.api.get_product_filter_data', from_async=False)",
+   "dump": {
+    "frappe. call": "<function call>",
+    "frappe. form_dict": "{'cmd': 'erpnext.e_commerce.api.get_product_filt...EP(15))--\",\"start\":null,\"from_filters\":\"false\"}'}",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "method": "<function get_product_filter_data>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "execute_cmd",
+   "lines": {
+    "81": "\t\tis_valid_http_method(method)",
+    "82": "",
+    "83": "\treturn frappe.call(method, **frappe.form_dict)",
+    "84": "",
+    "85": ""
+   },
+   "lnum": 83
+  },
+  {
+   "call": "(fn=<function get_product_filter_data>, *args=(), **kwargs={'cmd': 'erpnext.e_commerce.api.get_product_filter_data', 'query_args': '{\"field_filters\":{},\"attribute_filters\":{},\"item...LEEP(15))--\",\"start\":null,\"from_filters\":\"false\"}'})",
+   "dump": {
+    "args": "()",
+    "fn": "<function get_product_filter_data>",
+    "newargs": "{'query_args': '{\"field_filters\":{},\"attribute_filters\":{},\"item...LEEP(15))--\",\"start\":null,\"from_filters\":\"false\"}'}"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "call",
+   "lines": {
+    "1605": "\tnewargs = get_newargs(fn, kwargs)",
+    "1606": "",
+    "1607": "\treturn fn(*args, **newargs)",
+    "1608": "",
+    "1609": ""
+   },
+   "lnum": 1607
+  },
+  {
+   "call": "(query_args={'field_filters': {}, 'attribute_filters': {}, '...(15))--\", 'start': None, 'from_filters': 'false'})",
+   "dump": {
+    "global get_child_groups_for_website": "<function get_child_groups_for_website>",
+    "immediate": "undefined",
+    "item_group": "\"nullvNlGEkj9')) OR 205=(SELECT 205 FROM PG_SLEEP(15))--\"",
+    "sub_categories": "[]"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/erpnext/erpnext/e_commerce/api.py",
+   "func": "get_product_filter_data",
+   "lines": {
+    "49": "\tsub_categories = []",
+    "50": "\tif item_group:",
+    "51": "\t\tsub_categories = get_child_groups_for_website(item_group, immediate=True)",
+    "52": "",
+    "53": "\tengine = ProductQuery()"
+   },
+   "lnum": 51
+  },
+  {
+   "call": "(item_group_name=\"nullvNlGEkj9')) OR 205=(SELECT 205 FROM PG_SLEEP(15))--\", immediate=True, include_self=False)",
+   "dump": {
+    "filters": "undefined",
+    "item_group": "None",
+    "item_group.lft": "undefined",
+    "item_group.rgt": "undefined"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/erpnext/erpnext/setup/doctype/item_group/item_group.py",
+   "func": "get_child_groups_for_website",
+   "lines": {
+    "129": "\t\"\"\"Returns child item groups *excluding* passed group.\"\"\"",
+    "130": "\titem_group = frappe.get_cached_value(\"Item Group\", item_group_name, [\"lft\", \"rgt\"], as_dict=1)",
+    "131": "\tfilters = {\"lft\": [\">\", item_group.lft], \"rgt\": [\"<\", item_group.rgt], \"show_in_website\": 1}",
+    "132": "",
+    "133": "\tif immediate:"
+   },
+   "lnum": 131
+  }
+ ],
+ "locals": {
+  "immediate": "True",
+  "include_self": "False",
+  "item_group": "None",
+  "item_group_name": "nullvNlGEkj9')) OR 205=(SELECT 205 FROM PG_SLEEP(15))--"
+ },
+ "pyver": "Python 3.10.12: /home/gauritrans/frappe-bench/env/bin/python (prefix: /home/gauritrans/frappe-bench/env)",
+ "timestamp": "2024-03-29 10:50:16.947611",
+ "traceback": "Traceback (most recent call last):\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py\", line 63, in application\n    response = frappe.handler.handle()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py\", line 45, in handle\n    data = execute_cmd(cmd)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py\", line 83, in execute_cmd\n    return frappe.call(method, **frappe.form_dict)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py\", line 1607, in call\n    return fn(*args, **newargs)\n  File \"/home/gauritrans/frappe-bench/apps/erpnext/erpnext/e_commerce/api.py\", line 51, in get_product_filter_data\n    sub_categories = get_child_groups_for_website(item_group, immediate=True)\n  File \"/home/gauritrans/frappe-bench/apps/erpnext/erpnext/setup/doctype/item_group/item_group.py\", line 131, in get_child_groups_for_website\n    filters = {\"lft\": [\">\", item_group.lft], \"rgt\": [\"<\", item_group.rgt], \"show_in_website\": 1}\nAttributeError: 'NoneType' object has no attribute 'lft'\n"
+}

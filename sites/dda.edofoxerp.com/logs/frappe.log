@@ -1,0 +1,1148 @@
+2023-08-21 13:55:41,448 ERROR frappe Failed to run after request hook
+Site: dda.edofoxerp.com
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 1642472048890996309
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 616, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 55, in application
+    init_request(request)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 143, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 34, in __init__
+    self.set_session()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 70, in set_session
+    frappe.local.login_manager = LoginManager()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 119, in __init__
+    self.make_session(resume=True)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 207, in make_session
+    frappe.local.session_obj = Session(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/sessions.py", line 238, in __init__
+    self.resume()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/sessions.py", line 310, in resume
+    validate_ip_address(self.user)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 416, in validate_ip_address
+    frappe.get_cached_value("User", user, user_fields, as_dict=True)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1150, in get_cached_value
+    doc = get_cached_doc(doctype, name)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1091, in get_cached_doc
+    doc = get_doc(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1184, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/base_document.py", line 82, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/base_document.py", line 48, in _get_controller
+    module_name, custom = frappe.db.get_value(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 496, in get_value
+    result = self.get_values(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 593, in get_values
+    out = self._get_values_from_table(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 810, in _get_values_from_table
+    query = frappe.qb.engine.get_query(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 515, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 371, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 330, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1461, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(_ensure_on_bench=True)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1417, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 961, in get_global
+    return self.get_default(key, user)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 965, in get_default
+    d = self.get_defaults(key, parent)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 981, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/defaults.py", line 239, in get_defaults_for
+    frappe.qb.from_(table)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 200, in sql
+    self.connect()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 114, in connect
+    self._conn = self.get_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 98, in get_connection
+    conn = self._get_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 104, in _get_connection
+    return self.create_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 107, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 352, in __init__
+    self.connect()
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 668, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 1642472048890996309
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 616, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/website/serve.py", line 17, in get_response
+    endpoint, renderer_instance = path_resolver.resolve()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 36, in resolve
+    resolve_redirect(self.path, request.query_string)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 107, in resolve_redirect
+    redirects = frappe.get_hooks("website_redirects")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1461, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(_ensure_on_bench=True)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1417, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 961, in get_global
+    return self.get_default(key, user)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 965, in get_default
+    d = self.get_defaults(key, parent)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 981, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/defaults.py", line 239, in get_defaults_for
+    frappe.qb.from_(table)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 200, in sql
+    self.connect()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 114, in connect
+    self._conn = self.get_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 98, in get_connection
+    conn = self._get_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 104, in _get_connection
+    return self.create_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 107, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 352, in __init__
+    self.connect()
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 668, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 1642472048890996309
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 616, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 84, in application
+    response = handle_exception(e)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 338, in handle_exception
+    response = get_response("message", http_status_code=http_status_code)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/website/serve.py", line 26, in get_response
+    frappe.log_error(f"{path} failed")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 2238, in log_error
+    error_log = get_doc(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1184, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/base_document.py", line 82, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/base_document.py", line 48, in _get_controller
+    module_name, custom = frappe.db.get_value(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 496, in get_value
+    result = self.get_values(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 593, in get_values
+    out = self._get_values_from_table(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 810, in _get_values_from_table
+    query = frappe.qb.engine.get_query(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 515, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 371, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 330, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1461, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(_ensure_on_bench=True)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1417, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 961, in get_global
+    return self.get_default(key, user)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 965, in get_default
+    d = self.get_defaults(key, parent)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 981, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/defaults.py", line 239, in get_defaults_for
+    frappe.qb.from_(table)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 200, in sql
+    self.connect()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 114, in connect
+    self._conn = self.get_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 98, in get_connection
+    conn = self._get_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 104, in _get_connection
+    return self.create_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 107, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 352, in __init__
+    self.connect()
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 668, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 1642472048890996309
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 616, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 98, in application
+    run_after_request_hooks(request, response)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 114, in run_after_request_hooks
+    for after_request_task in frappe.get_hooks("after_request"):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1461, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(_ensure_on_bench=True)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1417, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 961, in get_global
+    return self.get_default(key, user)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 965, in get_default
+    d = self.get_defaults(key, parent)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 981, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/defaults.py", line 239, in get_defaults_for
+    frappe.qb.from_(table)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 200, in sql
+    self.connect()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 114, in connect
+    self._conn = self.get_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 98, in get_connection
+    conn = self._get_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 104, in _get_connection
+    return self.create_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 107, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 352, in __init__
+    self.connect()
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 668, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+2023-08-21 13:55:41,894 ERROR frappe Could not take error snapshot: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+Site: dda.edofoxerp.com
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 1642472048890996309
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 616, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 55, in application
+    init_request(request)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 143, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 34, in __init__
+    self.set_session()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 70, in set_session
+    frappe.local.login_manager = LoginManager()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 119, in __init__
+    self.make_session(resume=True)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 207, in make_session
+    frappe.local.session_obj = Session(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/sessions.py", line 238, in __init__
+    self.resume()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/sessions.py", line 310, in resume
+    validate_ip_address(self.user)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 416, in validate_ip_address
+    frappe.get_cached_value("User", user, user_fields, as_dict=True)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1150, in get_cached_value
+    doc = get_cached_doc(doctype, name)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1091, in get_cached_doc
+    doc = get_doc(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1184, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/base_document.py", line 82, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/base_document.py", line 48, in _get_controller
+    module_name, custom = frappe.db.get_value(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 496, in get_value
+    result = self.get_values(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 593, in get_values
+    out = self._get_values_from_table(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 810, in _get_values_from_table
+    query = frappe.qb.engine.get_query(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 515, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 371, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 330, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1461, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(_ensure_on_bench=True)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1417, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 961, in get_global
+    return self.get_default(key, user)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 965, in get_default
+    d = self.get_defaults(key, parent)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 981, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/defaults.py", line 239, in get_defaults_for
+    frappe.qb.from_(table)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 200, in sql
+    self.connect()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 114, in connect
+    self._conn = self.get_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 98, in get_connection
+    conn = self._get_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 104, in _get_connection
+    return self.create_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 107, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 352, in __init__
+    self.connect()
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 668, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 1642472048890996309
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 616, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/error.py", line 48, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/error.py", line 106, in get_snapshot
+    vars = cgitb.scanvars(reader, frame, locals)
+  File "/usr/lib/python3.10/cgitb.py", line 88, in scanvars
+    value = getattr(parent, token, __UNDEF__)
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1461, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(_ensure_on_bench=True)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1417, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 961, in get_global
+    return self.get_default(key, user)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 965, in get_default
+    d = self.get_defaults(key, parent)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 981, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/defaults.py", line 239, in get_defaults_for
+    frappe.qb.from_(table)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 200, in sql
+    self.connect()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 114, in connect
+    self._conn = self.get_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 98, in get_connection
+    conn = self._get_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 104, in _get_connection
+    return self.create_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 107, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 352, in __init__
+    self.connect()
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 668, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+2023-08-21 13:55:41,902 ERROR frappe Failed to run after request hook
+Site: dda.edofoxerp.com
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 1642472048890996309
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 616, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 55, in application
+    init_request(request)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 143, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 34, in __init__
+    self.set_session()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 70, in set_session
+    frappe.local.login_manager = LoginManager()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 119, in __init__
+    self.make_session(resume=True)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 207, in make_session
+    frappe.local.session_obj = Session(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/sessions.py", line 238, in __init__
+    self.resume()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/sessions.py", line 310, in resume
+    validate_ip_address(self.user)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 416, in validate_ip_address
+    frappe.get_cached_value("User", user, user_fields, as_dict=True)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1150, in get_cached_value
+    doc = get_cached_doc(doctype, name)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1091, in get_cached_doc
+    doc = get_doc(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1184, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/base_document.py", line 82, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/base_document.py", line 48, in _get_controller
+    module_name, custom = frappe.db.get_value(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 496, in get_value
+    result = self.get_values(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 593, in get_values
+    out = self._get_values_from_table(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 810, in _get_values_from_table
+    query = frappe.qb.engine.get_query(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 515, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 371, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 330, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1461, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(_ensure_on_bench=True)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1417, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 961, in get_global
+    return self.get_default(key, user)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 965, in get_default
+    d = self.get_defaults(key, parent)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 981, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/defaults.py", line 239, in get_defaults_for
+    frappe.qb.from_(table)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 200, in sql
+    self.connect()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 114, in connect
+    self._conn = self.get_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 98, in get_connection
+    conn = self._get_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 104, in _get_connection
+    return self.create_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 107, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 352, in __init__
+    self.connect()
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 668, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 1642472048890996309
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 616, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/website/serve.py", line 17, in get_response
+    endpoint, renderer_instance = path_resolver.resolve()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 36, in resolve
+    resolve_redirect(self.path, request.query_string)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 107, in resolve_redirect
+    redirects = frappe.get_hooks("website_redirects")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1461, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(_ensure_on_bench=True)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1417, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 961, in get_global
+    return self.get_default(key, user)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 965, in get_default
+    d = self.get_defaults(key, parent)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 981, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/defaults.py", line 239, in get_defaults_for
+    frappe.qb.from_(table)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 200, in sql
+    self.connect()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 114, in connect
+    self._conn = self.get_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 98, in get_connection
+    conn = self._get_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 104, in _get_connection
+    return self.create_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 107, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 352, in __init__
+    self.connect()
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 668, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 1642472048890996309
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 616, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 84, in application
+    response = handle_exception(e)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 338, in handle_exception
+    response = get_response("message", http_status_code=http_status_code)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/website/serve.py", line 26, in get_response
+    frappe.log_error(f"{path} failed")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 2238, in log_error
+    error_log = get_doc(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1184, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/base_document.py", line 82, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/base_document.py", line 48, in _get_controller
+    module_name, custom = frappe.db.get_value(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 496, in get_value
+    result = self.get_values(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 593, in get_values
+    out = self._get_values_from_table(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 810, in _get_values_from_table
+    query = frappe.qb.engine.get_query(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 515, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 371, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 330, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1461, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(_ensure_on_bench=True)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1417, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 961, in get_global
+    return self.get_default(key, user)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 965, in get_default
+    d = self.get_defaults(key, parent)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 981, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/defaults.py", line 239, in get_defaults_for
+    frappe.qb.from_(table)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 200, in sql
+    self.connect()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 114, in connect
+    self._conn = self.get_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 98, in get_connection
+    conn = self._get_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 104, in _get_connection
+    return self.create_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 107, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 352, in __init__
+    self.connect()
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 668, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 1642472048890996309
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 616, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 98, in application
+    run_after_request_hooks(request, response)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 114, in run_after_request_hooks
+    for after_request_task in frappe.get_hooks("after_request"):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1461, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(_ensure_on_bench=True)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1417, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 961, in get_global
+    return self.get_default(key, user)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 965, in get_default
+    d = self.get_defaults(key, parent)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 981, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/defaults.py", line 239, in get_defaults_for
+    frappe.qb.from_(table)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 200, in sql
+    self.connect()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 114, in connect
+    self._conn = self.get_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 98, in get_connection
+    conn = self._get_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 104, in _get_connection
+    return self.create_connection()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 107, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 352, in __init__
+    self.connect()
+  File "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 668, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+2023-08-25 23:37:40,318 ERROR frappe New Exception collected with id: 2023-08-25 23:37:40.245596-219.91.170.66-190
+Site: dda.edofoxerp.com
+Form Dict: {'user': 'shubham@mattersoft.xyz', 'cmd': 'frappe.dda.countClients'}
+2023-08-25 23:38:19,562 ERROR frappe New Exception collected with id: 2023-08-25 23:38:19.490166-219.91.170.66-092
+Site: dda.edofoxerp.com
+Form Dict: {'user': 'shubham@mattersoft.xyz', 'cmd': 'frappe.dda.countClients'}
+2023-08-25 23:41:55,368 ERROR frappe New Exception collected with id: 2023-08-25 23:41:55.284469-219.91.170.66-b74
+Site: dda.edofoxerp.com
+Form Dict: {'user': 'shubham@mattersoft.xyz', 'cmd': 'frappe.dda.countClients'}
+2023-09-01 14:42:40,279 ERROR frappe New Exception collected with id: 2023-09-01 14:42:40.273216-45.115.57.27-003
+Site: dda.edofoxerp.com
+Form Dict: {'filters': '{"residential", "=", "1"}', 'limit_page_length': 20}
+2023-09-07 18:42:05,478 ERROR frappe New Exception collected with id: 2023-09-07 18:42:05.469537-52.114.14.71-0a7
+Site: dda.edofoxerp.com
+Form Dict: {'filters': '[["client_id"', 'limit_page_length': 20}
+2023-09-07 18:42:05,601 ERROR frappe New Exception collected with id: 2023-09-07 18:42:05.597930-52.114.14.71-3d9
+Site: dda.edofoxerp.com
+Form Dict: {'filters': '[["client_id"', 'limit_page_length': 20}
+2023-09-07 20:07:40,929 ERROR frappe New Exception collected with id: 2023-09-07 20:07:40.926782-106.195.6.44-5f4
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:27:08,811 ERROR frappe New Exception collected with id: 2023-09-07 20:27:08.808675-106.195.6.44-b97
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:27:14,125 ERROR frappe New Exception collected with id: 2023-09-07 20:27:14.122777-106.195.6.44-414
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:27:19,132 ERROR frappe New Exception collected with id: 2023-09-07 20:27:19.129974-106.195.6.44-d5c
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:27:19,498 ERROR frappe New Exception collected with id: 2023-09-07 20:27:19.495858-106.195.6.44-990
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:27:24,806 ERROR frappe New Exception collected with id: 2023-09-07 20:27:24.804296-106.195.6.44-94d
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:36:01,132 ERROR frappe New Exception collected with id: 2023-09-07 20:36:01.126617-106.195.6.44-e1d
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:36:01,962 ERROR frappe New Exception collected with id: 2023-09-07 20:36:01.959861-106.195.6.44-3d6
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:36:02,567 ERROR frappe New Exception collected with id: 2023-09-07 20:36:02.564279-106.195.6.44-e3e
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:36:03,408 ERROR frappe New Exception collected with id: 2023-09-07 20:36:03.405937-106.195.6.44-d73
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:48:02,645 ERROR frappe New Exception collected with id: 2023-09-07 20:48:02.642841-106.195.6.44-3f5
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:48:04,836 ERROR frappe New Exception collected with id: 2023-09-07 20:48:04.833849-106.195.6.44-95a
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:48:05,267 ERROR frappe New Exception collected with id: 2023-09-07 20:48:05.265319-106.195.6.44-803
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:48:05,746 ERROR frappe New Exception collected with id: 2023-09-07 20:48:05.743991-106.195.6.44-438
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:48:06,560 ERROR frappe New Exception collected with id: 2023-09-07 20:48:06.558039-106.195.6.44-e48
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:49:11,428 ERROR frappe New Exception collected with id: 2023-09-07 20:49:11.426368-106.195.6.44-ca4
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:49:13,038 ERROR frappe New Exception collected with id: 2023-09-07 20:49:13.035831-106.195.6.44-16c
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:49:13,722 ERROR frappe New Exception collected with id: 2023-09-07 20:49:13.719732-106.195.6.44-222
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:49:14,067 ERROR frappe New Exception collected with id: 2023-09-07 20:49:14.065008-106.195.6.44-54f
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:49:21,989 ERROR frappe New Exception collected with id: 2023-09-07 20:49:21.986909-106.195.6.44-61d
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:49:22,799 ERROR frappe New Exception collected with id: 2023-09-07 20:49:22.796695-106.195.6.44-582
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:49:24,951 ERROR frappe New Exception collected with id: 2023-09-07 20:49:24.948472-106.195.6.44-101
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:49:25,447 ERROR frappe New Exception collected with id: 2023-09-07 20:49:25.445215-106.195.6.44-740
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:49:25,911 ERROR frappe New Exception collected with id: 2023-09-07 20:49:25.908447-106.195.6.44-78e
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:49:26,310 ERROR frappe New Exception collected with id: 2023-09-07 20:49:26.307649-106.195.6.44-bb8
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-07 20:49:27,164 ERROR frappe New Exception collected with id: 2023-09-07 20:49:27.162531-106.195.6.44-3e9
+Site: dda.edofoxerp.com
+Form Dict: {}
+2023-09-27 21:19:54,745 ERROR frappe New Exception collected with id: 2023-09-27 21:19:54.742366-58.84.61.210-76b
+Site: dda.edofoxerp.com
+Form Dict: {'doctype': 'ClientDetails001', 'name': '', 'cmd': 'frappe.client.get'}
+2023-09-27 21:19:55,741 ERROR frappe New Exception collected with id: 2023-09-27 21:19:55.737813-58.84.61.210-b05
+Site: dda.edofoxerp.com
+Form Dict: {'txt': '', 'doctype': 'Client Details', 'ignore_user_permissions': '0', 'reference_doctype': 'Tech Initiation', 'cmd': 'frappe.desk.search.search_link'}
+2023-09-27 21:20:07,115 ERROR frappe New Exception collected with id: 2023-09-27 21:20:07.112763-58.84.61.210-210
+Site: dda.edofoxerp.com
+Form Dict: {'doctype': 'ClientDetails001', 'name': 'new-case-status-1', 'cmd': 'frappe.client.get'}
+2023-09-27 21:22:05,521 ERROR frappe New Exception collected with id: 2023-09-27 21:22:05.518610-58.84.61.210-720
+Site: dda.edofoxerp.com
+Form Dict: {'doctype': 'ClientDetails001', 'name': '', 'cmd': 'frappe.client.get'}
+2023-09-27 21:22:06,536 ERROR frappe New Exception collected with id: 2023-09-27 21:22:06.532636-58.84.61.210-951
+Site: dda.edofoxerp.com
+Form Dict: {'txt': '', 'doctype': 'Client Details', 'ignore_user_permissions': '0', 'reference_doctype': 'Tech Initiation', 'cmd': 'frappe.desk.search.search_link'}
+2023-09-27 21:24:30,836 ERROR frappe New Exception collected with id: 2023-09-27 21:24:30.832644-58.84.61.210-bfe
+Site: dda.edofoxerp.com
+Form Dict: {'doctype': 'ClientDetails001', 'name': 'new-case-status-1', 'cmd': 'frappe.client.get'}
+2023-09-27 21:29:37,779 ERROR frappe New Exception collected with id: 2023-09-27 21:29:37.775825-58.84.61.210-689
+Site: dda.edofoxerp.com
+Form Dict: {'doctype': 'Client Details', 'name': '', 'cmd': 'frappe.client.get'}
+2023-09-27 21:29:38,782 ERROR frappe New Exception collected with id: 2023-09-27 21:29:38.778782-58.84.61.210-a1e
+Site: dda.edofoxerp.com
+Form Dict: {'txt': '', 'doctype': 'Client Details', 'ignore_user_permissions': '0', 'reference_doctype': 'Tech Initiation', 'cmd': 'frappe.desk.search.search_link'}
+2023-09-27 21:37:22,364 ERROR frappe New Exception collected with id: 2023-09-27 21:37:22.361274-58.84.61.210-420
+Site: dda.edofoxerp.com
+Form Dict: {'doctype': 'Client Details', 'name': '', 'cmd': 'frappe.client.get'}
+2023-09-27 21:37:23,368 ERROR frappe New Exception collected with id: 2023-09-27 21:37:23.364292-58.84.61.210-0ee
+Site: dda.edofoxerp.com
+Form Dict: {'txt': '', 'doctype': 'Client Details', 'ignore_user_permissions': '0', 'reference_doctype': 'Tech Initiation', 'cmd': 'frappe.desk.search.search_link'}
+2023-09-27 21:58:55,426 ERROR frappe New Exception collected with id: 2023-09-27 21:58:55.422934-58.84.61.210-18a
+Site: dda.edofoxerp.com
+Form Dict: {'txt': '', 'doctype': 'Client Details', 'ignore_user_permissions': '0', 'reference_doctype': 'Tech Initiation', 'cmd': 'frappe.desk.search.search_link'}
+2023-09-27 22:24:10,718 ERROR frappe New Exception collected with id: 2023-09-27 22:24:10.714140-58.84.61.210-de2
+Site: dda.edofoxerp.com
+Form Dict: {'txt': '', 'doctype': 'Client Details', 'ignore_user_permissions': '0', 'reference_doctype': 'Tech Initiation', 'cmd': 'frappe.desk.search.search_link'}
+2023-09-27 22:27:16,148 ERROR frappe New Exception collected with id: 2023-09-27 22:27:16.145053-58.84.61.210-61b
+Site: dda.edofoxerp.com
+Form Dict: {'doctype': 'Client Details', 'name': '', 'cmd': 'frappe.client.get'}
+2023-09-27 22:27:17,147 ERROR frappe New Exception collected with id: 2023-09-27 22:27:17.143513-58.84.61.210-d0c
+Site: dda.edofoxerp.com
+Form Dict: {'txt': '', 'doctype': 'Client Details', 'ignore_user_permissions': '0', 'reference_doctype': 'Tech Initiation', 'cmd': 'frappe.desk.search.search_link'}
+2023-09-27 22:27:49,757 ERROR frappe Could not take error snapshot: characters_written
+Site: dda.edofoxerp.com
+Form Dict: {'doctype': 'Client Details', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 66, in application
+    response = frappe.api.handle()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py", line 54, in handle
+    return frappe.handler.handle()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py", line 45, in handle
+    data = execute_cmd(cmd)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py", line 83, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1607, in call
+    return fn(*args, **newargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 73, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 84, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 45, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 56, in __init__
+    self.load_assets()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 66, in load_assets
+    self.add_code()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 121, in add_code
+    self.add_html_templates(path)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 134, in add_html_templates
+    for fname in os.listdir(path):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/gauritrans/frappe-bench/apps/frappe/frappe/ddaerp/doctype/client_details'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/error.py", line 48, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/error.py", line 141, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+2023-09-27 22:28:00,959 ERROR frappe Could not take error snapshot: characters_written
+Site: dda.edofoxerp.com
+Form Dict: {'doctype': 'Client Details', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 66, in application
+    response = frappe.api.handle()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py", line 54, in handle
+    return frappe.handler.handle()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py", line 45, in handle
+    data = execute_cmd(cmd)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py", line 83, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1607, in call
+    return fn(*args, **newargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 73, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 84, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 45, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 56, in __init__
+    self.load_assets()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 66, in load_assets
+    self.add_code()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 121, in add_code
+    self.add_html_templates(path)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 134, in add_html_templates
+    for fname in os.listdir(path):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/gauritrans/frappe-bench/apps/frappe/frappe/ddaerp/doctype/client_details'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/error.py", line 48, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/error.py", line 141, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+2023-09-27 22:29:01,487 ERROR frappe Could not take error snapshot: characters_written
+Site: dda.edofoxerp.com
+Form Dict: {'doctype': 'Client Details', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 66, in application
+    response = frappe.api.handle()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py", line 54, in handle
+    return frappe.handler.handle()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py", line 45, in handle
+    data = execute_cmd(cmd)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py", line 83, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1607, in call
+    return fn(*args, **newargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 73, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 84, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 45, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 56, in __init__
+    self.load_assets()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 66, in load_assets
+    self.add_code()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 121, in add_code
+    self.add_html_templates(path)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 134, in add_html_templates
+    for fname in os.listdir(path):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/gauritrans/frappe-bench/apps/frappe/frappe/ddaerp/doctype/client_details'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/error.py", line 48, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/error.py", line 141, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+2023-12-12 12:01:23,901 ERROR frappe New Exception collected with id: 2023-12-12 12:01:23.887990-219.91.178.24-07d
+Site: dda.edofoxerp.com
+Form Dict: {'cmd': 'frappe.dda.getData'}
+2023-12-12 12:01:36,130 ERROR frappe New Exception collected with id: 2023-12-12 12:01:36.120253-219.91.178.24-431
+Site: dda.edofoxerp.com
+Form Dict: {'cmd': 'frappe.dda.getData'}
+2023-12-14 13:14:29,904 ERROR frappe New Exception collected with id: 2023-12-14 13:14:29.894061-103.200.100.30-77a
+Site: dda.edofoxerp.com
+Form Dict: {'cmd': 'login', 'usr': 'Admin@DDA.com', 'device': 'desktop'}
+2024-03-08 21:42:55,521 ERROR frappe New Exception collected with id: 2024-03-08 21:42:55.515299-219.91.175.128-f0d
+Site: dda.edofoxerp.com
+Form Dict: {'parenttype': 'Site Images', 'parent': 'Pune-0061-23-08-16', 'parentfield': 'property_photographs', 'attach_image': 'upload_file/files/IMG_20230711_152106.jpg', 'view': 'Approach Road'}
+2024-03-08 21:43:24,927 ERROR frappe New Exception collected with id: 2024-03-08 21:43:24.922209-219.91.175.128-c50
+Site: dda.edofoxerp.com
+Form Dict: {'parenttype': 'Site Images', 'parent': 'Pune-0061-23-08-16', 'parentfield': 'property_photographs', 'attach_image': 'upload_file/files/IMG_20230711_152106.jpg', 'view': 'Approach Road'}
+2024-03-08 21:43:49,078 ERROR frappe New Exception collected with id: 2024-03-08 21:43:49.071503-219.91.175.128-51f
+Site: dda.edofoxerp.com
+Form Dict: {'limit_page_length': 20}
+2024-03-08 21:44:02,871 ERROR frappe New Exception collected with id: 2024-03-08 21:44:02.864781-219.91.175.128-5aa
+Site: dda.edofoxerp.com
+Form Dict: {'limit_page_length': 20}
+2024-03-08 21:44:39,185 ERROR frappe New Exception collected with id: 2024-03-08 21:44:39.179031-219.91.175.128-066
+Site: dda.edofoxerp.com
+Form Dict: {'limit_page_length': 20}

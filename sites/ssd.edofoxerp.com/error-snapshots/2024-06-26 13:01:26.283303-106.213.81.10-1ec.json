@@ -1,0 +1,296 @@
+{
+ "etype": "TypeError",
+ "evalue": "TypeError(\"DatabaseQuery.execute() got an unexpected keyword argument 'customer'\")",
+ "exception": {
+  "args": [
+   40,
+   34,
+   68,
+   97,
+   116,
+   97,
+   98,
+   97,
+   115,
+   101,
+   81,
+   117,
+   101,
+   114,
+   121,
+   46,
+   101,
+   120,
+   101,
+   99,
+   117,
+   116,
+   101,
+   40,
+   41,
+   32,
+   103,
+   111,
+   116,
+   32,
+   97,
+   110,
+   32,
+   117,
+   110,
+   101,
+   120,
+   112,
+   101,
+   99,
+   116,
+   101,
+   100,
+   32,
+   107,
+   101,
+   121,
+   119,
+   111,
+   114,
+   100,
+   32,
+   97,
+   114,
+   103,
+   117,
+   109,
+   101,
+   110,
+   116,
+   32,
+   39,
+   99,
+   117,
+   115,
+   116,
+   111,
+   109,
+   101,
+   114,
+   39,
+   34,
+   44,
+   41
+  ],
+  "with_traceback": [
+   60,
+   98,
+   117,
+   105,
+   108,
+   116,
+   45,
+   105,
+   110,
+   32,
+   109,
+   101,
+   116,
+   104,
+   111,
+   100,
+   32,
+   119,
+   105,
+   116,
+   104,
+   95,
+   116,
+   114,
+   97,
+   99,
+   101,
+   98,
+   97,
+   99,
+   107,
+   32,
+   111,
+   102,
+   32,
+   84,
+   121,
+   112,
+   101,
+   69,
+   114,
+   114,
+   111,
+   114,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   62
+  ]
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'https://ssd.edofoxerp.com/api/method/f...%5B%22name%22%5D&limit=20&_=1719386339416' [GET]>)",
+   "dump": {
+    "frappe. api": "<module 'frappe.api' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py'>",
+    "frappe.api. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "response": "None"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "64": "",
+    "65": "\t\telif request.path.startswith(\"/api/\"):",
+    "66": "\t\t\tresponse = frappe.api.handle()",
+    "67": "",
+    "68": "\t\telif request.path.startswith(\"/backups\"):"
+   },
+   "lnum": 66
+  },
+  {
+   "call": "()",
+   "dump": {
+    "frappe. handler": "<module 'frappe.handler' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py'>",
+    "frappe.handler. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py",
+   "func": "handle",
+   "lines": {
+    "52": "\tif call == \"method\":",
+    "53": "\t\tfrappe.local.form_dict.cmd = doctype",
+    "54": "\t\treturn frappe.handler.handle()",
+    "55": "",
+    "56": "\telif call == \"resource\":"
+   },
+   "lnum": 54
+  },
+  {
+   "call": "()",
+   "dump": {
+    "cmd": "'frappe.desk.reportview.get_list'",
+    "data": "None",
+    "global execute_cmd": "<function execute_cmd>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "handle",
+   "lines": {
+    "43": "",
+    "44": "\tif cmd != \"login\":",
+    "45": "\t\tdata = execute_cmd(cmd)",
+    "46": "",
+    "47": "\t# data can be an empty string or list which are valid responses"
+   },
+   "lnum": 45
+  },
+  {
+   "call": "(cmd='frappe.desk.reportview.get_list', from_async=False)",
+   "dump": {
+    "frappe. call": "<function call>",
+    "frappe. form_dict": "{'customer': 'CUST-2023-00297', 'doctype': 'Cust...: '20', 'cmd': 'frappe.desk.reportview.get_list'}",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "method": "<function read_only.<locals>.innfn.<locals>.wrapper_fn>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "execute_cmd",
+   "lines": {
+    "81": "\t\tis_valid_http_method(method)",
+    "82": "",
+    "83": "\treturn frappe.call(method, **frappe.form_dict)",
+    "84": "",
+    "85": ""
+   },
+   "lnum": 83
+  },
+  {
+   "call": "(fn=<function read_only.<locals>.innfn.<locals>.wrapper_fn>, *args=(), **kwargs={'cmd': 'frappe.desk.reportview.get_list', 'customer': 'CUST-2023-00297', 'doctype': 'Customer Property', 'fields': '[\"name\"]', 'limit': '20'})",
+   "dump": {
+    "args": "()",
+    "fn": "<function read_only.<locals>.innfn.<locals>.wrapper_fn>",
+    "newargs": "{'cmd': 'frappe.desk.reportview.get_list', 'customer': 'CUST-2023-00297', 'doctype': 'Customer Property', 'fields': '[\"name\"]', 'limit': '20'}"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "call",
+   "lines": {
+    "1605": "\tnewargs = get_newargs(fn, kwargs)",
+    "1606": "",
+    "1607": "\treturn fn(*args, **newargs)",
+    "1608": "",
+    "1609": ""
+   },
+   "lnum": 1607
+  },
+  {
+   "call": "(*args=(), **kwargs={'cmd': 'frappe.desk.reportview.get_list', 'customer': 'CUST-2023-00297', 'doctype': 'Customer Property', 'fields': '[\"name\"]', 'limit': '20'})",
+   "dump": {
+    "args": "()",
+    "fn": "<function get_list>",
+    "global get_newargs": "<function get_newargs>",
+    "kwargs": "{'cmd': 'frappe.desk.reportview.get_list', 'customer': 'CUST-2023-00297', 'doctype': 'Customer Property', 'fields': '[\"name\"]', 'limit': '20'}",
+    "retval": "undefined"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "wrapper_fn",
+   "lines": {
+    "787": "",
+    "788": "\t\t\ttry:",
+    "789": "\t\t\t\tretval = fn(*args, **get_newargs(fn, kwargs))",
+    "790": "\t\t\tfinally:",
+    "791": "\t\t\t\tif local and hasattr(local, \"primary_db\"):"
+   },
+   "lnum": 789
+  },
+  {
+   "call": "()",
+   "dump": {
+    "args": "{'customer': 'CUST-2023-00297', 'doctype': 'Cust...'20', 'save_user_settings': True, 'strict': None}",
+    "data": "undefined",
+    "global execute": "<function execute>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/reportview.py",
+   "func": "get_list",
+   "lines": {
+    "41": "\telse:",
+    "42": "\t\t# uncompressed (refactored from frappe.model.db_query.get_list)",
+    "43": "\t\tdata = execute(**args)",
+    "44": "",
+    "45": "\treturn data"
+   },
+   "lnum": 43
+  },
+  {
+   "call": "(doctype='Customer Property', *args=(), **kwargs={'customer': 'CUST-2023-00297', 'fields': ['name'], 'limit': '20', 'save_user_settings': True, 'strict': None})",
+   "dump": {
+    ").execute": "undefined",
+    "args": "()",
+    "doctype": "'Customer Property'",
+    "global DatabaseQuery": "<class 'frappe.model.db_query.DatabaseQuery'>",
+    "kwargs": "{'customer': 'CUST-2023-00297', 'fields': ['name'], 'limit': '20', 'save_user_settings': True, 'strict': None}"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/reportview.py",
+   "func": "execute",
+   "lines": {
+    "63": "",
+    "64": "def execute(doctype, *args, **kwargs):",
+    "65": "\treturn DatabaseQuery(doctype).execute(*args, **kwargs)",
+    "66": "",
+    "67": ""
+   },
+   "lnum": 65
+  }
+ ],
+ "locals": {
+  "args": "()",
+  "doctype": "Customer Property",
+  "kwargs": "{'customer': 'CUST-2023-00297', 'fields': ['name'], 'limit': '20', 'save_user_settings': True, 'strict': None}"
+ },
+ "pyver": "Python 3.10.12: /home/gauritrans/frappe-bench/env/bin/python (prefix: /home/gauritrans/frappe-bench/env)",
+ "timestamp": "2024-06-26 13:01:26.283391",
+ "traceback": "Traceback (most recent call last):\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py\", line 66, in application\n    response = frappe.api.handle()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py\", line 54, in handle\n    return frappe.handler.handle()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py\", line 45, in handle\n    data = execute_cmd(cmd)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py\", line 83, in execute_cmd\n    return frappe.call(method, **frappe.form_dict)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py\", line 1607, in call\n    return fn(*args, **newargs)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py\", line 789, in wrapper_fn\n    retval = fn(*args, **get_newargs(fn, kwargs))\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/reportview.py\", line 43, in get_list\n    data = execute(**args)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/reportview.py\", line 65, in execute\n    return DatabaseQuery(doctype).execute(*args, **kwargs)\nTypeError: DatabaseQuery.execute() got an unexpected keyword argument 'customer'\n"
+}

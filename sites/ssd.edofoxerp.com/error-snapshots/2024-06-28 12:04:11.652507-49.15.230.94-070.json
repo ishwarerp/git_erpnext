@@ -1,0 +1,678 @@
+{
+ "etype": "DataError",
+ "evalue": "DataError(1366, \"Incorrect integer value: 'new-crm-note-1' for column `_039cc45dd718bebf`.`tabCRM Note`.`name` at row 1\")",
+ "exception": {
+  "args": [
+   40,
+   49,
+   51,
+   54,
+   54,
+   44,
+   32,
+   34,
+   73,
+   110,
+   99,
+   111,
+   114,
+   114,
+   101,
+   99,
+   116,
+   32,
+   105,
+   110,
+   116,
+   101,
+   103,
+   101,
+   114,
+   32,
+   118,
+   97,
+   108,
+   117,
+   101,
+   58,
+   32,
+   39,
+   110,
+   101,
+   119,
+   45,
+   99,
+   114,
+   109,
+   45,
+   110,
+   111,
+   116,
+   101,
+   45,
+   49,
+   39,
+   32,
+   102,
+   111,
+   114,
+   32,
+   99,
+   111,
+   46,
+   46,
+   46,
+   96,
+   95,
+   48,
+   51,
+   57,
+   99,
+   99,
+   52,
+   53,
+   100,
+   100,
+   55,
+   49,
+   56,
+   98,
+   101,
+   98,
+   102,
+   96,
+   46,
+   96,
+   116,
+   97,
+   98,
+   67,
+   82,
+   77,
+   32,
+   78,
+   111,
+   116,
+   101,
+   96,
+   46,
+   96,
+   110,
+   97,
+   109,
+   101,
+   96,
+   32,
+   97,
+   116,
+   32,
+   114,
+   111,
+   119,
+   32,
+   49,
+   34,
+   41
+  ],
+  "with_traceback": [
+   60,
+   98,
+   117,
+   105,
+   108,
+   116,
+   45,
+   105,
+   110,
+   32,
+   109,
+   101,
+   116,
+   104,
+   111,
+   100,
+   32,
+   119,
+   105,
+   116,
+   104,
+   95,
+   116,
+   114,
+   97,
+   99,
+   101,
+   98,
+   97,
+   99,
+   107,
+   32,
+   111,
+   102,
+   32,
+   68,
+   97,
+   116,
+   97,
+   69,
+   114,
+   114,
+   111,
+   114,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   62
+  ]
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'https://ssd.edofoxerp.com/api/method/run_doc_method' [POST]>)",
+   "dump": {
+    "frappe. api": "<module 'frappe.api' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py'>",
+    "frappe.api. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "response": "None"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "64": "",
+    "65": "\t\telif request.path.startswith(\"/api/\"):",
+    "66": "\t\t\tresponse = frappe.api.handle()",
+    "67": "",
+    "68": "\t\telif request.path.startswith(\"/backups\"):"
+   },
+   "lnum": 66
+  },
+  {
+   "call": "()",
+   "dump": {
+    "frappe. handler": "<module 'frappe.handler' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py'>",
+    "frappe.handler. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py",
+   "func": "handle",
+   "lines": {
+    "52": "\tif call == \"method\":",
+    "53": "\t\tfrappe.local.form_dict.cmd = doctype",
+    "54": "\t\treturn frappe.handler.handle()",
+    "55": "",
+    "56": "\telif call == \"resource\":"
+   },
+   "lnum": 54
+  },
+  {
+   "call": "()",
+   "dump": {
+    "cmd": "'run_doc_method'",
+    "data": "None",
+    "global execute_cmd": "<function execute_cmd>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "handle",
+   "lines": {
+    "43": "",
+    "44": "\tif cmd != \"login\":",
+    "45": "\t\tdata = execute_cmd(cmd)",
+    "46": "",
+    "47": "\t# data can be an empty string or list which are valid responses"
+   },
+   "lnum": 45
+  },
+  {
+   "call": "(cmd='run_doc_method', from_async=False)",
+   "dump": {
+    "frappe. call": "<function call>",
+    "frappe. form_dict": "{'note': '<div class=\"ql-editor read-mode\"><p>Cu...ite visit.</p></div>\"}', 'cmd': 'run_doc_method'}",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "method": "<function run_doc_method>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "execute_cmd",
+   "lines": {
+    "81": "\t\tis_valid_http_method(method)",
+    "82": "",
+    "83": "\treturn frappe.call(method, **frappe.form_dict)",
+    "84": "",
+    "85": ""
+   },
+   "lnum": 83
+  },
+  {
+   "call": "(fn=<function run_doc_method>, *args=(), **kwargs={'args': r'{\"note\":\"<div class=\\\"ql-editor read-mode\\\"><p>C...r when it is possible for site visit.</p></div>\"}', 'cmd': 'run_doc_method', 'docs': '{\"name\":\"LEAD-02-1701\",\"owner\":\"Guest\",\"creation...ync_on\":\"2024-06-28T06:32:25.856Z\",\"__unsaved\":1}', 'method': 'add_note', 'note': '<div class=\"ql-editor read-mode\"><p>Customer is ...ter when it is possible for site visit.</p></div>'})",
+   "dump": {
+    "args": "()",
+    "fn": "<function run_doc_method>",
+    "newargs": "{'args': r'{\"note\":\"<div class=\\\"ql-editor read-mode\\\"><p>C...r when it is possible for site visit.</p></div>\"}', 'docs': '{\"name\":\"LEAD-02-1701\",\"owner\":\"Guest\",\"creation...ync_on\":\"2024-06-28T06:32:25.856Z\",\"__unsaved\":1}', 'method': 'add_note'}"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "call",
+   "lines": {
+    "1605": "\tnewargs = get_newargs(fn, kwargs)",
+    "1606": "",
+    "1607": "\treturn fn(*args, **newargs)",
+    "1608": "",
+    "1609": ""
+   },
+   "lnum": 1607
+  },
+  {
+   "call": "(method='add_note', docs={'name': 'LEAD-02-1701', 'owner': 'Guest', 'crea..._on': '2024-06-28T06:32:25.856Z', '__unsaved': 1}, dt=None, dn=None, arg=None, args={'note': '<div class=\"ql-editor read-mode\"><p>Cu...r when it is possible for site visit.</p></div>'})",
+   "dump": {
+    "args": "{'note': '<div class=\"ql-editor read-mode\"><p>Cu...r when it is possible for site visit.</p></div>'}",
+    "doc": "<Lead: LEAD-02-1701>",
+    "doc. run_method": "<bound method Document.run_method of <Lead: LEAD-02-1701>>",
+    "method": "'add_note'",
+    "response": "undefined"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "run_doc_method",
+   "lines": {
+    "308": "",
+    "309": "\telse:",
+    "310": "\t\tresponse = doc.run_method(method, **args)",
+    "311": "",
+    "312": "\tfrappe.response.docs.append(doc)"
+   },
+   "lnum": 310
+  },
+  {
+   "call": "(self=<Lead: LEAD-02-1701>, method='add_note', *args=(), **kwargs={'note': '<div class=\"ql-editor read-mode\"><p>Customer is ...ter when it is possible for site visit.</p></div>'})",
+   "dump": {
+    "Document. hook": "<function Document.hook>",
+    "args": "()",
+    "fn": "<function Document.run_method.<locals>.fn>",
+    "global Document": "<class 'frappe.model.document.Document'>",
+    "kwargs": "{'note': '<div class=\"ql-editor read-mode\"><p>Customer is ...ter when it is possible for site visit.</p></div>'}",
+    "out": "undefined",
+    "self": "<Lead: LEAD-02-1701>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "run_method",
+   "lines": {
+    "914": "",
+    "915": "\t\tfn.__name__ = str(method)",
+    "916": "\t\tout = Document.hook(fn)(self, *args, **kwargs)",
+    "917": "",
+    "918": "\t\tself.run_notifications(method)"
+   },
+   "lnum": 916
+  },
+  {
+   "call": "(self=<Lead: LEAD-02-1701>, *args=(), **kwargs={'note': '<div class=\"ql-editor read-mode\"><p>Customer is ...ter when it is possible for site visit.</p></div>'})",
+   "dump": {
+    "args": "()",
+    "composed": "<function Document.hook.<locals>.compose.<locals>.runner>",
+    "kwargs": "{'note': '<div class=\"ql-editor read-mode\"><p>Customer is ...ter when it is possible for site visit.</p></div>'}",
+    "method": "'add_note'",
+    "self": "<Lead: LEAD-02-1701>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "composer",
+   "lines": {
+    "1264": "",
+    "1265": "\t\t\tcomposed = compose(f, *hooks)",
+    "1266": "\t\t\treturn composed(self, method, *args, **kwargs)",
+    "1267": "",
+    "1268": "\t\treturn composer"
+   },
+   "lnum": 1266
+  },
+  {
+   "call": "(self=<Lead: LEAD-02-1701>, method='add_note', *args=(), **kwargs={'note': '<div class=\"ql-editor read-mode\"><p>Customer is ...ter when it is possible for site visit.</p></div>'})",
+   "dump": {
+    "add_to_return_value": "<function Document.hook.<locals>.add_to_return_value>",
+    "args": "()",
+    "fn": "<function Document.run_method.<locals>.fn>",
+    "kwargs": "{'note': '<div class=\"ql-editor read-mode\"><p>Customer is ...ter when it is possible for site visit.</p></div>'}",
+    "self": "<Lead: LEAD-02-1701>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "runner",
+   "lines": {
+    "1246": "\t\tdef compose(fn, *hooks):",
+    "1247": "\t\t\tdef runner(self, method, *args, **kwargs):",
+    "1248": "\t\t\t\tadd_to_return_value(self, fn(self, *args, **kwargs))",
+    "1249": "\t\t\t\tfor f in hooks:",
+    "1250": "\t\t\t\t\tadd_to_return_value(self, f(self, method, *args, **kwargs))"
+   },
+   "lnum": 1248
+  },
+  {
+   "call": "(self=<Lead: LEAD-02-1701>, *args=(), **kwargs={'note': '<div class=\"ql-editor read-mode\"><p>Customer is ...ter when it is possible for site visit.</p></div>'})",
+   "dump": {
+    "args": "()",
+    "kwargs": "{'note': '<div class=\"ql-editor read-mode\"><p>Customer is ...ter when it is possible for site visit.</p></div>'}",
+    "method_object": "<bound method CRMNote.add_note of <Lead: LEAD-02-1701>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "fn",
+   "lines": {
+    "911": "\t\t\t# If method found in __dict__, expect it to be callable",
+    "912": "\t\t\tif method in self.__dict__ or callable(method_object):",
+    "913": "\t\t\t\treturn method_object(*args, **kwargs)",
+    "914": "",
+    "915": "\t\tfn.__name__ = str(method)"
+   },
+   "lnum": 913
+  },
+  {
+   "call": "(self=<Lead: LEAD-02-1701>, note='<div class=\"ql-editor read-mode\"><p>Customer is ...ter when it is possible for site visit.</p></div>')",
+   "dump": {
+    "self": "<Lead: LEAD-02-1701>",
+    "self. save": "<bound method Document.save of <Lead: LEAD-02-1701>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/erpnext/erpnext/crm/utils.py",
+   "func": "add_note",
+   "lines": {
+    "205": "\tdef add_note(self, note):",
+    "206": "\t\tself.append(\"notes\", {\"note\": note, \"added_by\": frappe.session.user, \"added_on\": now()})",
+    "207": "\t\tself.save()",
+    "208": "\t\tnotify_mentions(self.doctype, self.name, note)",
+    "209": ""
+   },
+   "lnum": 207
+  },
+  {
+   "call": "(self=<Lead: LEAD-02-1701>, *args=(), **kwargs={})",
+   "dump": {
+    "args": "()",
+    "kwargs": "{}",
+    "self": "<Lead: LEAD-02-1701>",
+    "self. _save": "<bound method Document._save of <Lead: LEAD-02-1701>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "save",
+   "lines": {
+    "303": "\tdef save(self, *args, **kwargs):",
+    "304": "\t\t\"\"\"Wrapper for _save\"\"\"",
+    "305": "\t\treturn self._save(*args, **kwargs)",
+    "306": "",
+    "307": "\tdef _save(self, ignore_permissions=None, ignore_version=None) -> \"Document\":"
+   },
+   "lnum": 305
+  },
+  {
+   "call": "(self=<Lead: LEAD-02-1701>, ignore_permissions=None, ignore_version=None)",
+   "dump": {
+    "self": "<Lead: LEAD-02-1701>",
+    "self. update_children": "<bound method Document.update_children of <Lead: LEAD-02-1701>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "_save",
+   "lines": {
+    "353": "\t\t\tself.db_update()",
+    "354": "",
+    "355": "\t\tself.update_children()",
+    "356": "\t\tself.run_post_save_methods()",
+    "357": ""
+   },
+   "lnum": 355
+  },
+  {
+   "call": "(self=<Lead: LEAD-02-1701>)",
+   "dump": {
+    "df": "<DocField: d0f68597fa parent=Lead>",
+    "df. fieldname": "'notes'",
+    "self": "<Lead: LEAD-02-1701>",
+    "self. update_child_table": "<bound method Document.update_child_table of <Lead: LEAD-02-1701>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "update_children",
+   "lines": {
+    "385": "\t\t\"\"\"update child tables\"\"\"",
+    "386": "\t\tfor df in self.meta.get_table_fields():",
+    "387": "\t\t\tself.update_child_table(df.fieldname, df)",
+    "388": "",
+    "389": "\tdef update_child_table(self, fieldname, df=None):"
+   },
+   "lnum": 387
+  },
+  {
+   "call": "(self=<Lead: LEAD-02-1701>, fieldname='notes', df=<DocField: d0f68597fa parent=Lead>)",
+   "dump": {
+    "d": "<CRMNote: new-crm-note-1 parent=LEAD-02-1701>",
+    "d. db_update": "<bound method BaseDocument.db_update of <CRMNote: new-crm-note-1 parent=LEAD-02-1701>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "update_child_table",
+   "lines": {
+    "394": "",
+    "395": "\t\tfor d in self.get(df.fieldname):",
+    "396": "\t\t\td.db_update()",
+    "397": "\t\t\trows.append(d.name)",
+    "398": ""
+   },
+   "lnum": 396
+  },
+  {
+   "call": "(self=<CRMNote: new-crm-note-1 parent=LEAD-02-1701>)",
+   "dump": {
+    "self": "<CRMNote: new-crm-note-1 parent=LEAD-02-1701>",
+    "self. db_insert": "<bound method BaseDocument.db_insert of <CRMNote: new-crm-note-1 parent=LEAD-02-1701>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/base_document.py",
+   "func": "db_update",
+   "lines": {
+    "540": "\tdef db_update(self):",
+    "541": "\t\tif self.get(\"__islocal\") or not self.name:",
+    "542": "\t\t\tself.db_insert()",
+    "543": "\t\t\treturn",
+    "544": ""
+   },
+   "lnum": 542
+  },
+  {
+   "call": "(self=<CRMNote: new-crm-note-1 parent=LEAD-02-1701>, ignore_if_duplicate=False)",
+   "dump": {
+    "\"\"\"INSERT INTO `tab{doctype}` ({columns})\n\t\t\t\t\tVALUES ({values}) {conflict_handler}\"\"\".format": "undefined",
+    "\", \".join": "undefined",
+    "builtin len": "<built-in function len>",
+    "builtin list": "<class 'list'>",
+    "c": "undefined",
+    "columns": "['name', 'owner', 'creation', 'modified', 'modified_by', 'docstatus', 'idx', 'note', 'added_by', 'added_on', 'parent', 'parentfield', 'parenttype']",
+    "conflict_handler": "''",
+    "d": "{'name': 'new-crm-note-1', 'owner': 'vishal@walk...1', 'parentfield': 'notes', 'parenttype': 'Lead'}",
+    "d. values": "<built-in method values of _dict object>",
+    "doctype": "undefined",
+    "frappe. db": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "frappe.db. sql": "<bound method Database.sql of <frappe.database.mariadb.database.MariaDBDatabase object>>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "self": "<CRMNote: new-crm-note-1 parent=LEAD-02-1701>",
+    "self. doctype": "'CRM Note'",
+    "values": "undefined"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/base_document.py",
+   "func": "db_insert",
+   "lines": {
+    "500": "\t\tcolumns = list(d)",
+    "501": "\t\ttry:",
+    "502": "\t\t\tfrappe.db.sql(",
+    "503": "\t\t\t\t\"\"\"INSERT INTO `tab{doctype}` ({columns})",
+    "504": "\t\t\t\t\tVALUES ({values}) {conflict_handler}\"\"\".format("
+   },
+   "lnum": 502
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>, query='INSERT INTO `tabCRM Note` (`name`, `owner`, `cre..., %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)', values=['new-crm-note-1', 'vishal@walkore.com', '2024-02-26 17:22:50.715347', '2024-06-28 12:04:11.141263', 'vishal@walkore.com', 0, 1, 'Followup in process', 'vishal@walkore.com', '2024-06-28 12:02:33', 'LEAD-02-1701', 'notes', 'Lead'], as_dict=0, as_list=0, formatted=0, debug=False, ignore_ddl=0, as_utf8=0, auto_commit=0, update=None, explain=False, run=True, pluck=False)",
+   "dump": {
+    "query": "'INSERT INTO `tabCRM Note` (`name`, `owner`, `cre..., %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)'",
+    "self": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "self. _cursor": "<pymysql.cursors.Cursor object>",
+    "self._cursor. execute": "<bound method Cursor.execute of <pymysql.cursors.Cursor object>>",
+    "values": "['new-crm-note-1', 'vishal@walkore.com', '2024-02-26 17:22:50.715347', '2024-06-28 12:04:11.141263', 'vishal@walkore.com', 0, 1, 'Followup in process', 'vishal@walkore.com', '2024-06-28 12:02:33', 'LEAD-02-1701', 'notes', 'Lead']"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py",
+   "func": "sql",
+   "lines": {
+    "217": "",
+    "218": "\t\ttry:",
+    "219": "\t\t\tself._cursor.execute(query, values)",
+    "220": "\t\texcept Exception as e:",
+    "221": "\t\t\tif self.is_syntax_error(e):"
+   },
+   "lnum": 219
+  },
+  {
+   "call": "(self=<pymysql.cursors.Cursor object>, query=\"INSERT INTO `tabCRM Note` (`name`, `owner`, `cre...06-28 12:02:33', 'LEAD-02-1701', 'notes', 'Lead')\", args=['new-crm-note-1', 'vishal@walkore.com', '2024-02-26 17:22:50.715347', '2024-06-28 12:04:11.141263', 'vishal@walkore.com', 0, 1, 'Followup in process', 'vishal@walkore.com', '2024-06-28 12:02:33', 'LEAD-02-1701', 'notes', 'Lead'])",
+   "dump": {
+    "query": "\"INSERT INTO `tabCRM Note` (`name`, `owner`, `cre...06-28 12:02:33', 'LEAD-02-1701', 'notes', 'Lead')\"",
+    "result": "undefined",
+    "self": "<pymysql.cursors.Cursor object>",
+    "self. _query": "<bound method Cursor._query of <pymysql.cursors.Cursor object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py",
+   "func": "execute",
+   "lines": {
+    "156": "        query = self.mogrify(query, args)",
+    "157": "",
+    "158": "        result = self._query(query)",
+    "159": "        self._executed = query",
+    "160": "        return result"
+   },
+   "lnum": 158
+  },
+  {
+   "call": "(self=<pymysql.cursors.Cursor object>, q=\"INSERT INTO `tabCRM Note` (`name`, `owner`, `cre...06-28 12:02:33', 'LEAD-02-1701', 'notes', 'Lead')\")",
+   "dump": {
+    "conn": "<pymysql.connections.Connection object>",
+    "conn. query": "<bound method Connection.query of <pymysql.connections.Connection object>>",
+    "q": "\"INSERT INTO `tabCRM Note` (`name`, `owner`, `cre...06-28 12:02:33', 'LEAD-02-1701', 'notes', 'Lead')\""
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py",
+   "func": "_query",
+   "lines": {
+    "323": "        conn = self._get_db()",
+    "324": "        self._clear_result()",
+    "325": "        conn.query(q)",
+    "326": "        self._do_get_result()",
+    "327": "        return self.rowcount"
+   },
+   "lnum": 325
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, sql=b\"INSERT INTO `tabCRM Note` (`name`, `owner`, `c...6-28 12:02:33', 'LEAD-02-1701', 'notes', 'Lead')\", unbuffered=False)",
+   "dump": {
+    "self": "<pymysql.connections.Connection object>",
+    "self. _affected_rows": "0",
+    "self. _read_query_result": "<bound method Connection._read_query_result of <pymysql.connections.Connection object>>",
+    "unbuffered": "False"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py",
+   "func": "query",
+   "lines": {
+    "547": "            sql = sql.encode(self.encoding, \"surrogateescape\")",
+    "548": "        self._execute_command(COMMAND.COM_QUERY, sql)",
+    "549": "        self._affected_rows = self._read_query_result(unbuffered=unbuffered)",
+    "550": "        return self._affected_rows",
+    "551": ""
+   },
+   "lnum": 549
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, unbuffered=False)",
+   "dump": {
+    "result": "<pymysql.connections.MySQLResult object>",
+    "result. read": "<bound method MySQLResult.read of <pymysql.connections.MySQLResult object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py",
+   "func": "_read_query_result",
+   "lines": {
+    "777": "        else:",
+    "778": "            result = MySQLResult(self)",
+    "779": "            result.read()",
+    "780": "        self._result = result",
+    "781": "        if result.server_status is not None:"
+   },
+   "lnum": 779
+  },
+  {
+   "call": "(self=<pymysql.connections.MySQLResult object>)",
+   "dump": {
+    "first_packet": "undefined",
+    "self": "<pymysql.connections.MySQLResult object>",
+    "self. connection": "None",
+    "self.connection._read_packet": "undefined"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py",
+   "func": "read",
+   "lines": {
+    "1155": "    def read(self):",
+    "1156": "        try:",
+    "1157": "            first_packet = self.connection._read_packet()",
+    "1158": "",
+    "1159": "            if first_packet.is_ok_packet():"
+   },
+   "lnum": 1157
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, packet_type=<class 'pymysql.protocol.MysqlPacket'>)",
+   "dump": {
+    "packet": "<pymysql.protocol.MysqlPacket object>",
+    "packet. raise_for_error": "<bound method MysqlPacket.raise_for_error of <pymysql.protocol.MysqlPacket object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py",
+   "func": "_read_packet",
+   "lines": {
+    "727": "            if self._result is not None and self._result.unbuffered_active is True:",
+    "728": "                self._result.unbuffered_active = False",
+    "729": "            packet.raise_for_error()",
+    "730": "        return packet",
+    "731": ""
+   },
+   "lnum": 729
+  },
+  {
+   "call": "(self=<pymysql.protocol.MysqlPacket object>)",
+   "dump": {
+    "err. raise_mysql_exception": "<function raise_mysql_exception>",
+    "global err": "<module 'pymysql.err' from '/home/gauritrans/fra...env/lib/python3.10/site-packages/pymysql/err.py'>",
+    "self": "<pymysql.protocol.MysqlPacket object>",
+    "self. _data": "b\"\\xffV\\x05#22007Incorrect integer value: 'new-c..._039cc45dd718bebf`.`tabCRM Note`.`name` at row 1\""
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/protocol.py",
+   "func": "raise_for_error",
+   "lines": {
+    "219": "        if DEBUG:",
+    "220": "            print(\"errno =\", errno)",
+    "221": "        err.raise_mysql_exception(self._data)",
+    "222": "",
+    "223": "    def dump(self):"
+   },
+   "lnum": 221
+  },
+  {
+   "call": "(data=b\"\\xffV\\x05#22007Incorrect integer value: 'new-c..._039cc45dd718bebf`.`tabCRM Note`.`name` at row 1\")",
+   "dump": {
+    "errno": "1366",
+    "errorclass": "<class 'pymysql.err.DataError'>",
+    "errval": "\"Incorrect integer value: 'new-crm-note-1' for co...`_039cc45dd718bebf`.`tabCRM Note`.`name` at row 1\""
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/err.py",
+   "func": "raise_mysql_exception",
+   "lines": {
+    "139": "    errval = data[9:].decode(\"utf-8\", \"replace\")",
+    "140": "    errorclass = error_map.get(errno)",
+    "141": "    if errorclass is None:",
+    "142": "        errorclass = InternalError if errno < 1000 else OperationalError",
+    "143": "    raise errorclass(errno, errval)"
+   },
+   "lnum": 143
+  }
+ ],
+ "locals": {
+  "data": "b\"\\xffV\\x05#22007Incorrect integer value: 'new-c..._039cc45dd718bebf`.`tabCRM Note`.`name` at row 1\"",
+  "errno": "1366",
+  "errorclass": "<class 'pymysql.err.DataError'>",
+  "errval": "Incorrect integer value: 'new-crm-note-1' for column `_039cc45dd718bebf`.`tabCRM Note`.`name` at row 1"
+ },
+ "pyver": "Python 3.10.12: /home/gauritrans/frappe-bench/env/bin/python (prefix: /home/gauritrans/frappe-bench/env)",
+ "timestamp": "2024-06-28 12:04:11.652618",
+ "traceback": "Traceback (most recent call last):\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py\", line 66, in application\n    response = frappe.api.handle()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py\", line 54, in handle\n    return frappe.handler.handle()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py\", line 45, in handle\n    data = execute_cmd(cmd)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py\", line 83, in execute_cmd\n    return frappe.call(method, **frappe.form_dict)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py\", line 1607, in call\n    return fn(*args, **newargs)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py\", line 310, in run_doc_method\n    response = doc.run_method(method, **args)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 916, in run_method\n    out = Document.hook(fn)(self, *args, **kwargs)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 1266, in composer\n    return composed(self, method, *args, **kwargs)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 1248, in runner\n    add_to_return_value(self, fn(self, *args, **kwargs))\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 913, in fn\n    return method_object(*args, **kwargs)\n  File \"/home/gauritrans/frappe-bench/apps/erpnext/erpnext/crm/utils.py\", line 207, in add_note\n    self.save()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 305, in save\n    return self._save(*args, **kwargs)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 355, in _save\n    self.update_children()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 387, in update_children\n    self.update_child_table(df.fieldname, df)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 396, in update_child_table\n    d.db_update()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/base_document.py\", line 542, in db_update\n    self.db_insert()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/base_document.py\", line 502, in db_insert\n    frappe.db.sql(\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py\", line 219, in sql\n    self._cursor.execute(query, values)\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py\", line 158, in execute\n    result = self._query(query)\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py\", line 325, in _query\n    conn.query(q)\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 549, in query\n    self._affected_rows = self._read_query_result(unbuffered=unbuffered)\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 779, in _read_query_result\n    result.read()\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 1157, in read\n    first_packet = self.connection._read_packet()\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 729, in _read_packet\n    packet.raise_for_error()\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/protocol.py\", line 221, in raise_for_error\n    err.raise_mysql_exception(self._data)\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/err.py\", line 143, in raise_mysql_exception\n    raise errorclass(errno, errval)\npymysql.err.DataError: (1366, \"Incorrect integer value: 'new-crm-note-1' for column `_039cc45dd718bebf`.`tabCRM Note`.`name` at row 1\")\n"
+}

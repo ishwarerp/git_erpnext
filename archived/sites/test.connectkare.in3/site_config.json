@@ -1,0 +1,12 @@
+{
+ "db_name": "_039cc45dd718bebf",
+ "db_password": "xH9lJcGAoxAcKzIe",
+ "db_type": "mariadb",
+ "developer_mode": 1,
+ "max_file_size": 20000000,
+ "encryption_key": "ZkqCU-7G77-lIdWZY610RX8PKepD3_UH9h15FCyAKyA=",
+ "ssl_certificate": "/etc/letsencrypt/live/ssd.edofoxerp.com/fullchain.pem",
+ "ssl_certificate_key": "/etc/letsencrypt/live/ssd.edofoxerp.com/privkey.pem"
+}
+
+

@@ -1,0 +1,991 @@
+2023-05-13 15:17:22,994 ERROR scheduler Exception in Enqueue Events for Site connectcare.edofoxerp.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 71, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 776, in get_single_value
+    df = frappe.get_meta(doctype).get_field(fieldname)
+  File "apps/frappe/frappe/__init__.py", line 1211, in get_meta
+    return frappe.model.meta.get_meta(doctype, cached=cached)
+  File "apps/frappe/frappe/model/meta.py", line 65, in get_meta
+    meta = Meta(doctype)
+  File "apps/frappe/frappe/model/meta.py", line 117, in __init__
+    super().__init__("DocType", doctype)
+  File "apps/frappe/frappe/model/document.py", line 106, in __init__
+    self.load_from_db()
+  File "apps/frappe/frappe/model/meta.py", line 123, in load_from_db
+    super().load_from_db()
+  File "apps/frappe/frappe/model/document.py", line 149, in load_from_db
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 525, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 493, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.DoesNotExistError: DocType System Settings not found
+
+2023-07-03 17:32:10,139 ERROR scheduler Exception in Enqueue Events for Site connectcare.edofoxerp.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 71, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 769, in get_single_value
+    val = frappe.qb.engine.get_query(
+  File "apps/frappe/frappe/database/query.py", line 515, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "apps/frappe/frappe/database/query.py", line 371, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "apps/frappe/frappe/database/query.py", line 330, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "apps/frappe/frappe/__init__.py", line 1465, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "apps/frappe/frappe/__init__.py", line 1327, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "apps/frappe/frappe/hooks.py", line 198
+    		"1 0 * * *"
+    		          ^
+SyntaxError: ':' expected after dictionary key
+
+2023-07-04 17:32:22,079 ERROR scheduler Exception in Enqueue Events for Site connectcare.edofoxerp.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 71, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 769, in get_single_value
+    val = frappe.qb.engine.get_query(
+  File "apps/frappe/frappe/database/query.py", line 515, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "apps/frappe/frappe/database/query.py", line 371, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "apps/frappe/frappe/database/query.py", line 330, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "apps/frappe/frappe/__init__.py", line 1465, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "apps/frappe/frappe/__init__.py", line 1327, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "apps/fcm_notification/fcm_notification/hooks.py", line 110
+    	"cron":{
+    	       
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+2023-07-04 17:33:22,516 ERROR scheduler Exception in Enqueue Events for Site connectcare.edofoxerp.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 71, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 769, in get_single_value
+    val = frappe.qb.engine.get_query(
+  File "apps/frappe/frappe/database/query.py", line 515, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "apps/frappe/frappe/database/query.py", line 371, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "apps/frappe/frappe/database/query.py", line 330, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "apps/frappe/frappe/__init__.py", line 1465, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "apps/frappe/frappe/__init__.py", line 1327, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "apps/fcm_notification/fcm_notification/hooks.py", line 110
+    	"cron":{
+    	       
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+2023-07-04 17:34:22,726 ERROR scheduler Exception in Enqueue Events for Site connectcare.edofoxerp.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 71, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 769, in get_single_value
+    val = frappe.qb.engine.get_query(
+  File "apps/frappe/frappe/database/query.py", line 515, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "apps/frappe/frappe/database/query.py", line 371, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "apps/frappe/frappe/database/query.py", line 330, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "apps/frappe/frappe/__init__.py", line 1465, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "apps/frappe/frappe/__init__.py", line 1327, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "apps/fcm_notification/fcm_notification/hooks.py", line 110
+    	"cron":{
+    	       
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+2023-08-21 13:43:30,252 ERROR scheduler Exception in Enqueue Events for Site connectcare.edofoxerp.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 616, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 71, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 773, in get_single_value
+    ).run()
+  File "apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "apps/frappe/frappe/database/database.py", line 200, in sql
+    self.connect()
+  File "apps/frappe/frappe/database/database.py", line 114, in connect
+    self._conn = self.get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 98, in get_connection
+    conn = self._get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 104, in _get_connection
+    return self.create_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 107, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 352, in __init__
+    self.connect()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 668, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+2023-08-21 13:44:30,450 ERROR scheduler Exception in Enqueue Events for Site connectcare.edofoxerp.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 616, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 71, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 773, in get_single_value
+    ).run()
+  File "apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "apps/frappe/frappe/database/database.py", line 200, in sql
+    self.connect()
+  File "apps/frappe/frappe/database/database.py", line 114, in connect
+    self._conn = self.get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 98, in get_connection
+    conn = self._get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 104, in _get_connection
+    return self.create_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 107, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 352, in __init__
+    self.connect()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 668, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+2023-08-21 13:45:30,499 ERROR scheduler Exception in Enqueue Events for Site connectcare.edofoxerp.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 616, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 71, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 773, in get_single_value
+    ).run()
+  File "apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "apps/frappe/frappe/database/database.py", line 200, in sql
+    self.connect()
+  File "apps/frappe/frappe/database/database.py", line 114, in connect
+    self._conn = self.get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 98, in get_connection
+    conn = self._get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 104, in _get_connection
+    return self.create_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 107, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 352, in __init__
+    self.connect()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 668, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+2023-08-21 13:46:30,562 ERROR scheduler Exception in Enqueue Events for Site connectcare.edofoxerp.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 616, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 71, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 773, in get_single_value
+    ).run()
+  File "apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "apps/frappe/frappe/database/database.py", line 200, in sql
+    self.connect()
+  File "apps/frappe/frappe/database/database.py", line 114, in connect
+    self._conn = self.get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 98, in get_connection
+    conn = self._get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 104, in _get_connection
+    return self.create_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 107, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 352, in __init__
+    self.connect()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 668, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+2023-08-21 13:47:30,627 ERROR scheduler Exception in Enqueue Events for Site connectcare.edofoxerp.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 616, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 71, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 773, in get_single_value
+    ).run()
+  File "apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "apps/frappe/frappe/database/database.py", line 200, in sql
+    self.connect()
+  File "apps/frappe/frappe/database/database.py", line 114, in connect
+    self._conn = self.get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 98, in get_connection
+    conn = self._get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 104, in _get_connection
+    return self.create_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 107, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 352, in __init__
+    self.connect()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 668, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+2023-08-21 13:48:30,696 ERROR scheduler Exception in Enqueue Events for Site connectcare.edofoxerp.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 616, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 71, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 773, in get_single_value
+    ).run()
+  File "apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "apps/frappe/frappe/database/database.py", line 200, in sql
+    self.connect()
+  File "apps/frappe/frappe/database/database.py", line 114, in connect
+    self._conn = self.get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 98, in get_connection
+    conn = self._get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 104, in _get_connection
+    return self.create_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 107, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 352, in __init__
+    self.connect()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 668, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+2023-08-21 13:50:28,518 ERROR scheduler Exception in Enqueue Events for Site connectcare.edofoxerp.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: -3932228002696913068
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 616, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 71, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 769, in get_single_value
+    val = frappe.qb.engine.get_query(
+  File "apps/frappe/frappe/database/query.py", line 515, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "apps/frappe/frappe/database/query.py", line 371, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "apps/frappe/frappe/database/query.py", line 330, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "apps/frappe/frappe/__init__.py", line 1461, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(_ensure_on_bench=True)
+  File "apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "apps/frappe/frappe/__init__.py", line 1417, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "apps/frappe/frappe/database/database.py", line 961, in get_global
+    return self.get_default(key, user)
+  File "apps/frappe/frappe/database/database.py", line 965, in get_default
+    d = self.get_defaults(key, parent)
+  File "apps/frappe/frappe/database/database.py", line 981, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "apps/frappe/frappe/defaults.py", line 239, in get_defaults_for
+    frappe.qb.from_(table)
+  File "apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "apps/frappe/frappe/database/database.py", line 200, in sql
+    self.connect()
+  File "apps/frappe/frappe/database/database.py", line 114, in connect
+    self._conn = self.get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 98, in get_connection
+    conn = self._get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 104, in _get_connection
+    return self.create_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 107, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 352, in __init__
+    self.connect()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 668, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+2023-08-21 13:51:28,563 ERROR scheduler Exception in Enqueue Events for Site connectcare.edofoxerp.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: -3932228002696913068
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 616, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 71, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 769, in get_single_value
+    val = frappe.qb.engine.get_query(
+  File "apps/frappe/frappe/database/query.py", line 515, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "apps/frappe/frappe/database/query.py", line 371, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "apps/frappe/frappe/database/query.py", line 330, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "apps/frappe/frappe/__init__.py", line 1461, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(_ensure_on_bench=True)
+  File "apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "apps/frappe/frappe/__init__.py", line 1417, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "apps/frappe/frappe/database/database.py", line 961, in get_global
+    return self.get_default(key, user)
+  File "apps/frappe/frappe/database/database.py", line 965, in get_default
+    d = self.get_defaults(key, parent)
+  File "apps/frappe/frappe/database/database.py", line 981, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "apps/frappe/frappe/defaults.py", line 239, in get_defaults_for
+    frappe.qb.from_(table)
+  File "apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "apps/frappe/frappe/database/database.py", line 200, in sql
+    self.connect()
+  File "apps/frappe/frappe/database/database.py", line 114, in connect
+    self._conn = self.get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 98, in get_connection
+    conn = self._get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 104, in _get_connection
+    return self.create_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 107, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 352, in __init__
+    self.connect()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 668, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+2023-08-21 13:53:31,238 ERROR scheduler Exception in Enqueue Events for Site connectcare.edofoxerp.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: -4401694092146045853
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 616, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 71, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 769, in get_single_value
+    val = frappe.qb.engine.get_query(
+  File "apps/frappe/frappe/database/query.py", line 515, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "apps/frappe/frappe/database/query.py", line 371, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "apps/frappe/frappe/database/query.py", line 330, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "apps/frappe/frappe/__init__.py", line 1461, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(_ensure_on_bench=True)
+  File "apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "apps/frappe/frappe/__init__.py", line 1417, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "apps/frappe/frappe/database/database.py", line 961, in get_global
+    return self.get_default(key, user)
+  File "apps/frappe/frappe/database/database.py", line 965, in get_default
+    d = self.get_defaults(key, parent)
+  File "apps/frappe/frappe/database/database.py", line 981, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "apps/frappe/frappe/defaults.py", line 239, in get_defaults_for
+    frappe.qb.from_(table)
+  File "apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "apps/frappe/frappe/database/database.py", line 200, in sql
+    self.connect()
+  File "apps/frappe/frappe/database/database.py", line 114, in connect
+    self._conn = self.get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 98, in get_connection
+    conn = self._get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 104, in _get_connection
+    return self.create_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 107, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 352, in __init__
+    self.connect()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 668, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+2023-08-21 13:55:21,096 ERROR scheduler Exception in Enqueue Events for Site connectcare.edofoxerp.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 2662351619947802296
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 616, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 71, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 769, in get_single_value
+    val = frappe.qb.engine.get_query(
+  File "apps/frappe/frappe/database/query.py", line 515, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "apps/frappe/frappe/database/query.py", line 371, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "apps/frappe/frappe/database/query.py", line 330, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "apps/frappe/frappe/__init__.py", line 1461, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(_ensure_on_bench=True)
+  File "apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "apps/frappe/frappe/__init__.py", line 1417, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "apps/frappe/frappe/database/database.py", line 961, in get_global
+    return self.get_default(key, user)
+  File "apps/frappe/frappe/database/database.py", line 965, in get_default
+    d = self.get_defaults(key, parent)
+  File "apps/frappe/frappe/database/database.py", line 981, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "apps/frappe/frappe/defaults.py", line 239, in get_defaults_for
+    frappe.qb.from_(table)
+  File "apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "apps/frappe/frappe/database/database.py", line 200, in sql
+    self.connect()
+  File "apps/frappe/frappe/database/database.py", line 114, in connect
+    self._conn = self.get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 98, in get_connection
+    conn = self._get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 104, in _get_connection
+    return self.create_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 107, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 352, in __init__
+    self.connect()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 668, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+2023-08-21 13:56:21,168 ERROR scheduler Exception in Enqueue Events for Site connectcare.edofoxerp.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 2662351619947802296
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 616, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 71, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 769, in get_single_value
+    val = frappe.qb.engine.get_query(
+  File "apps/frappe/frappe/database/query.py", line 515, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "apps/frappe/frappe/database/query.py", line 371, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "apps/frappe/frappe/database/query.py", line 330, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "apps/frappe/frappe/__init__.py", line 1461, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(_ensure_on_bench=True)
+  File "apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "apps/frappe/frappe/__init__.py", line 1417, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "apps/frappe/frappe/database/database.py", line 961, in get_global
+    return self.get_default(key, user)
+  File "apps/frappe/frappe/database/database.py", line 965, in get_default
+    d = self.get_defaults(key, parent)
+  File "apps/frappe/frappe/database/database.py", line 981, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "apps/frappe/frappe/defaults.py", line 239, in get_defaults_for
+    frappe.qb.from_(table)
+  File "apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "apps/frappe/frappe/database/database.py", line 200, in sql
+    self.connect()
+  File "apps/frappe/frappe/database/database.py", line 114, in connect
+    self._conn = self.get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 98, in get_connection
+    conn = self._get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 104, in _get_connection
+    return self.create_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 107, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 352, in __init__
+    self.connect()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 668, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+2023-09-06 17:41:36,527 ERROR scheduler Exception in Enqueue Events for Site connectcare.edofoxerp.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 71, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 779, in get_single_value
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 525, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 493, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.database.database.Database.InvalidColumnName: Invalid field name: <strong>enable_scheduler</strong>
+
+2023-09-06 17:42:37,002 ERROR scheduler Exception in Enqueue Events for Site connectcare.edofoxerp.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 71, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 779, in get_single_value
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 525, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 493, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.database.database.Database.InvalidColumnName: Invalid field name: <strong>enable_scheduler</strong>
+
+2023-09-06 17:43:37,231 ERROR scheduler Exception in Enqueue Events for Site connectcare.edofoxerp.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 71, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 779, in get_single_value
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 525, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 493, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.database.database.Database.InvalidColumnName: Invalid field name: <strong>enable_scheduler</strong>
+
+2023-09-06 17:44:37,461 ERROR scheduler Exception in Enqueue Events for Site connectcare.edofoxerp.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 71, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 779, in get_single_value
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 525, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 493, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.database.database.Database.InvalidColumnName: Invalid field name: <strong>enable_scheduler</strong>
+
+2023-09-06 17:45:37,759 ERROR scheduler Exception in Enqueue Events for Site connectcare.edofoxerp.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 71, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 779, in get_single_value
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 525, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 493, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.database.database.Database.InvalidColumnName: Invalid field name: <strong>enable_scheduler</strong>
+
+2024-03-04 18:01:06,413 ERROR scheduler Exception in Enqueue Events for Site bankar.edofoxerp.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 71, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 773, in get_single_value
+    ).run()
+  File "apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "apps/frappe/frappe/database/database.py", line 219, in sql
+    self._cursor.execute(query, values)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 158, in execute
+    result = self._query(query)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 325, in _query
+    conn.query(q)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 549, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 779, in _read_query_result
+    result.read()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1157, in read
+    first_packet = self.connection._read_packet()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 729, in _read_packet
+    packet.raise_for_error()
+  File "env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table '_a2d389dfb62ad77b.tabSingles' doesn't exist")
+

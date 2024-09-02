@@ -1,0 +1,641 @@
+{
+ "etype": "OperationalError",
+ "evalue": "OperationalError(1045, \"Access denied for user '_039cc45dd718bebf'@'localhost' (using password: YES)\")",
+ "exception": {
+  "args": [
+   40,
+   49,
+   48,
+   52,
+   53,
+   44,
+   32,
+   34,
+   65,
+   99,
+   99,
+   101,
+   115,
+   115,
+   32,
+   100,
+   101,
+   110,
+   105,
+   101,
+   100,
+   32,
+   102,
+   111,
+   114,
+   32,
+   117,
+   115,
+   101,
+   114,
+   32,
+   39,
+   95,
+   48,
+   51,
+   57,
+   99,
+   99,
+   52,
+   53,
+   100,
+   100,
+   55,
+   49,
+   56,
+   98,
+   101,
+   98,
+   102,
+   39,
+   64,
+   39,
+   108,
+   111,
+   99,
+   97,
+   108,
+   104,
+   111,
+   115,
+   116,
+   39,
+   32,
+   40,
+   117,
+   115,
+   105,
+   110,
+   103,
+   32,
+   112,
+   97,
+   115,
+   115,
+   119,
+   111,
+   114,
+   100,
+   58,
+   32,
+   89,
+   69,
+   83,
+   41,
+   34,
+   41
+  ],
+  "errno": [
+   52,
+   48,
+   56,
+   52
+  ],
+  "with_traceback": [
+   60,
+   98,
+   117,
+   105,
+   108,
+   116,
+   45,
+   105,
+   110,
+   32,
+   109,
+   101,
+   116,
+   104,
+   111,
+   100,
+   32,
+   119,
+   105,
+   116,
+   104,
+   95,
+   116,
+   114,
+   97,
+   99,
+   101,
+   98,
+   97,
+   99,
+   107,
+   32,
+   111,
+   102,
+   32,
+   79,
+   112,
+   101,
+   114,
+   97,
+   116,
+   105,
+   111,
+   110,
+   97,
+   108,
+   69,
+   114,
+   114,
+   111,
+   114,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   62
+  ]
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'https://ssd.edofoxerp.com/app/workspace/SSD' [GET]>)",
+   "dump": {
+    "global get_response": "<function get_response>",
+    "response": "None"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "73": "",
+    "74": "\t\telif request.method in (\"GET\", \"HEAD\", \"POST\"):",
+    "75": "\t\t\tresponse = get_response()",
+    "76": "",
+    "77": "\t\telse:"
+   },
+   "lnum": 75
+  },
+  {
+   "call": "(path='/app/workspace/SSD', http_status_code=200)",
+   "dump": {
+    "frappe. log_error": "<function log_error>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/website/serve.py",
+   "func": "get_response",
+   "lines": {
+    "24": "\t\tresponse = NotFoundPage(endpoint, http_status_code).render()",
+    "25": "\texcept Exception as e:",
+    "26": "\t\tfrappe.log_error(f\"{path} failed\")",
+    "27": "\t\tresponse = ErrorPage(exception=e).render()",
+    "28": ""
+   },
+   "lnum": 26
+  },
+  {
+   "call": "(title='/app/workspace/SSD failed', message=None, reference_doctype=None, reference_name=None)",
+   "dump": {
+    "error_log": "<ErrorLog: unsaved>",
+    "error_log. insert": "<bound method Document.insert of <ErrorLog: unsaved>>",
+    "ignore_permissions": "undefined"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "log_error",
+   "lines": {
+    "2247": "\t\terror_log.deferred_insert()",
+    "2248": "\telse:",
+    "2249": "\t\treturn error_log.insert(ignore_permissions=True)",
+    "2250": "",
+    "2251": ""
+   },
+   "lnum": 2249
+  },
+  {
+   "call": "(self=<ErrorLog: unsaved>, ignore_permissions=True, ignore_links=None, ignore_if_duplicate=False, ignore_mandatory=None, set_name=None, set_child_names=True)",
+   "dump": {
+    "self": "<ErrorLog: unsaved>",
+    "self. _set_defaults": "<bound method Document._set_defaults of <ErrorLog: unsaved>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "insert",
+   "lines": {
+    "245": "\t\tself.set(\"__islocal\", True)",
+    "246": "",
+    "247": "\t\tself._set_defaults()",
+    "248": "\t\tself.set_user_and_timestamp()",
+    "249": "\t\tself.set_docstatus()"
+   },
+   "lnum": 247
+  },
+  {
+   "call": "(self=<ErrorLog: unsaved>)",
+   "dump": {
+    "as_dict": "undefined",
+    "frappe. new_doc": "<function new_doc>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "new_doc": "undefined",
+    "self": "<ErrorLog: unsaved>",
+    "self. doctype": "'Error Log'"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "_set_defaults",
+   "lines": {
+    "736": "\t\t\treturn",
+    "737": "",
+    "738": "\t\tnew_doc = frappe.new_doc(self.doctype, as_dict=True)",
+    "739": "\t\tself.update_if_missing(new_doc)",
+    "740": ""
+   },
+   "lnum": 738
+  },
+  {
+   "call": "(doctype='Error Log', parent_doc=None, parentfield=None, as_dict=True)",
+   "dump": {
+    "as_dict": "True",
+    "doctype": "'Error Log'",
+    "get_new_doc": "<function get_new_doc>",
+    "parent_doc": "None",
+    "parentfield": "None"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "new_doc",
+   "lines": {
+    "1059": "\tfrom frappe.model.create_new import get_new_doc",
+    "1060": "",
+    "1061": "\treturn get_new_doc(doctype, parent_doc, parentfield, as_dict=as_dict)",
+    "1062": "",
+    "1063": ""
+   },
+   "lnum": 1061
+  },
+  {
+   "call": "(doctype='Error Log', parent_doc=None, parentfield=None, as_dict=True)",
+   "dump": {
+    "doctype": "'Error Log'",
+    "frappe. local": "<werkzeug.local.Local object>",
+    "frappe.local. new_doc_templates": "{}",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "global make_new_doc": "<function make_new_doc>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/create_new.py",
+   "func": "get_new_doc",
+   "lines": {
+    "20": "\t\t# cache a copy of new doc as it is called",
+    "21": "\t\t# frequently for inserts",
+    "22": "\t\tfrappe.local.new_doc_templates[doctype] = make_new_doc(doctype)",
+    "23": "",
+    "24": "\tdoc = copy.deepcopy(frappe.local.new_doc_templates[doctype])"
+   },
+   "lnum": 22
+  },
+  {
+   "call": "(doctype='Error Log')",
+   "dump": {
+    "doctype": "'Error Log'",
+    "frappe. model": "<module 'frappe.model' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/model/__init__.py'>",
+    "frappe.model. meta": "<module 'frappe.model.meta' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/model/meta.py'>",
+    "frappe.model.meta. is_single": "<function is_single>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/create_new.py",
+   "func": "make_new_doc",
+   "lines": {
+    "44": "\tdoc[\"__islocal\"] = 1",
+    "45": "",
+    "46": "\tif not frappe.model.meta.is_single(doctype):",
+    "47": "\t\tdoc[\"__unsaved\"] = 1",
+    "48": ""
+   },
+   "lnum": 46
+  },
+  {
+   "call": "(doctype='Error Log')",
+   "dump": {
+    "doctype": "'Error Log'",
+    "frappe. db": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "frappe.db. get_value": "<bound method Database.get_value of <frappe.database.mariadb.database.MariaDBDatabase object>>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/meta.py",
+   "func": "is_single",
+   "lines": {
+    "676": "def is_single(doctype):",
+    "677": "\ttry:",
+    "678": "\t\treturn frappe.db.get_value(\"DocType\", doctype, \"issingle\")",
+    "679": "\texcept IndexError:",
+    "680": "\t\traise Exception(\"Cannot determine whether %s is single\" % doctype)"
+   },
+   "lnum": 678
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>, doctype='DocType', filters='Error Log', fieldname='issingle', ignore=None, as_dict=False, debug=False, order_by='KEEP_DEFAULT_ORDERING', cache=False, for_update=False, run=True, pluck=False, distinct=False)",
+   "dump": {
+    "as_dict": "False",
+    "cache": "False",
+    "debug": "False",
+    "distinct": "False",
+    "doctype": "'DocType'",
+    "fieldname": "'issingle'",
+    "filters": "'Error Log'",
+    "for_update": "False",
+    "ignore": "None",
+    "limit": "undefined",
+    "order_by": "'KEEP_DEFAULT_ORDERING'",
+    "pluck": "False",
+    "result": "undefined",
+    "run": "True",
+    "self": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "self. get_values": "<bound method Database.get_values of <frappe.database.mariadb.database.MariaDBDatabase object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py",
+   "func": "get_value",
+   "lines": {
+    "494": "\t\t\"\"\"",
+    "495": "",
+    "496": "\t\tresult = self.get_values(",
+    "497": "\t\t\tdoctype,",
+    "498": "\t\t\tfilters,"
+   },
+   "lnum": 496
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>, doctype='DocType', filters='Error Log', fieldname='issingle', ignore=None, as_dict=False, debug=False, order_by='modified', update=None, cache=False, for_update=False, run=True, pluck=False, distinct=False, limit=1)",
+   "dump": {
+    "as_dict": "False",
+    "debug": "False",
+    "distinct": "False",
+    "doctype": "'DocType'",
+    "fields": "['issingle']",
+    "filters": "'Error Log'",
+    "for_update": "False",
+    "limit": "1",
+    "order_by": "'modified'",
+    "out": "None",
+    "pluck": "False",
+    "run": "True",
+    "self": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "self. _get_values_from_table": "<bound method Database._get_values_from_table of...atabase.mariadb.database.MariaDBDatabase object>>",
+    "update": "None"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py",
+   "func": "get_values",
+   "lines": {
+    "591": "\t\t\t\t\tif order_by:",
+    "592": "\t\t\t\t\t\torder_by = \"modified\" if order_by == DefaultOrderBy else order_by",
+    "593": "\t\t\t\t\tout = self._get_values_from_table(",
+    "594": "\t\t\t\t\t\tfields=fields,",
+    "595": "\t\t\t\t\t\tfilters=filters,"
+   },
+   "lnum": 593
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>, fields=['issingle'], filters='Error Log', doctype='DocType', as_dict=False, debug=False, order_by='modified', update=None, for_update=False, run=True, pluck=False, distinct=False, limit=1)",
+   "dump": {
+    "as_dict": "False",
+    "debug": "False",
+    "pluck": "False",
+    "query": "SELECT `issingle` FROM `tabDocType` WHERE `name`='Error Log' ORDER BY `modified` DESC LIMIT 1",
+    "query. run": "<bound method patch_query_execute.<locals>.execu...me`='Error Log' ORDER BY `modified` DESC LIMIT 1>",
+    "run": "True",
+    "update": "None"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py",
+   "func": "_get_values_from_table",
+   "lines": {
+    "821": "\t\t\tas_dict = True",
+    "822": "",
+    "823": "\t\treturn query.run(as_dict=as_dict, debug=debug, update=update, run=run, pluck=pluck)",
+    "824": "",
+    "825": "\tdef _get_value_for_many_names("
+   },
+   "lnum": 823
+  },
+  {
+   "call": "(query='SELECT `issingle` FROM `tabDocType` WHERE `name`=%(param1)s ORDER BY `modified` DESC LIMIT 1', *args=(), **kwargs={'as_dict': False, 'debug': False, 'pluck': False, 'run': True, 'update': None})",
+   "dump": {
+    "args": "()",
+    "frappe. db": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "frappe.db. sql": "<bound method Database.sql of <frappe.database.mariadb.database.MariaDBDatabase object>>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "kwargs": "{'as_dict': False, 'debug': False, 'pluck': False, 'run': True, 'update': None}",
+    "params": "{'param1': 'Error Log'}",
+    "query": "'SELECT `issingle` FROM `tabDocType` WHERE `name`=%(param1)s ORDER BY `modified` DESC LIMIT 1'"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/query_builder/utils.py",
+   "func": "execute_query",
+   "lines": {
+    "74": "\tdef execute_query(query, *args, **kwargs):",
+    "75": "\t\tquery, params = prepare_query(query)",
+    "76": "\t\treturn frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep",
+    "77": "",
+    "78": "\tdef prepare_query(query):"
+   },
+   "lnum": 76
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>, query='SELECT `issingle` FROM `tabDocType` WHERE `name`=%(param1)s ORDER BY `modified` DESC LIMIT 1', values={'param1': 'Error Log'}, as_dict=False, as_list=0, formatted=0, debug=False, ignore_ddl=0, as_utf8=0, auto_commit=0, update=None, explain=False, run=True, pluck=False)",
+   "dump": {
+    "self": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "self. connect": "<bound method Database.connect of <frappe.database.mariadb.database.MariaDBDatabase object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py",
+   "func": "sql",
+   "lines": {
+    "198": "",
+    "199": "\t\tif not self._conn:",
+    "200": "\t\t\tself.connect()",
+    "201": "",
+    "202": "\t\t# in transaction validations"
+   },
+   "lnum": 200
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>)",
+   "dump": {
+    "self": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "self. _conn": "None",
+    "self. get_connection": "<bound method MariaDBConnectionUtil.get_connecti...atabase.mariadb.database.MariaDBDatabase object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py",
+   "func": "connect",
+   "lines": {
+    "112": "\t\t\"\"\"Connects to a database as set in `site_config.json`.\"\"\"",
+    "113": "\t\tself.cur_db_name = self.user",
+    "114": "\t\tself._conn = self.get_connection()",
+    "115": "\t\tself._cursor = self._conn.cursor()",
+    "116": "\t\tfrappe.local.rollback_observers = []"
+   },
+   "lnum": 114
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>)",
+   "dump": {
+    "conn": "undefined",
+    "self": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "self. _get_connection": "<bound method MariaDBConnectionUtil._get_connect...atabase.mariadb.database.MariaDBDatabase object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py",
+   "func": "get_connection",
+   "lines": {
+    "96": "class MariaDBConnectionUtil:",
+    "97": "\tdef get_connection(self):",
+    "98": "\t\tconn = self._get_connection()",
+    "99": "\t\tconn.auto_reconnect = True",
+    "100": "\t\treturn conn"
+   },
+   "lnum": 98
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>)",
+   "dump": {
+    "self": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "self. create_connection": "<bound method MariaDBConnectionUtil.create_conne...atabase.mariadb.database.MariaDBDatabase object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py",
+   "func": "_get_connection",
+   "lines": {
+    "102": "\tdef _get_connection(self):",
+    "103": "\t\t\"\"\"Return MariaDB connection object.\"\"\"",
+    "104": "\t\treturn self.create_connection()",
+    "105": "",
+    "106": "\tdef create_connection(self):"
+   },
+   "lnum": 104
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>)",
+   "dump": {
+    "global pymysql": "<module 'pymysql' from '/home/gauritrans/frappe-...ib/python3.10/site-packages/pymysql/__init__.py'>",
+    "pymysql. connect": "<class 'pymysql.connections.Connection'>",
+    "self": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "self. get_connection_settings": "<bound method MariaDBConnectionUtil.get_connecti...atabase.mariadb.database.MariaDBDatabase object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py",
+   "func": "create_connection",
+   "lines": {
+    "105": "",
+    "106": "\tdef create_connection(self):",
+    "107": "\t\treturn pymysql.connect(**self.get_connection_settings())",
+    "108": "",
+    "109": "\tdef set_execution_timeout(self, seconds: int):"
+   },
+   "lnum": 107
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, user='_039cc45dd718bebf', password='xH9lJcGAoxAcKzIe', host='127.0.0.1', database='_039cc45dd718bebf', unix_socket=None, port=0, charset='utf8mb4', sql_mode=None, read_default_file=None, conv={<class 'bool'>: <function escape_bool>, <class 'int'>: <function escape_int>, <class 'float'>: <function escape_float>, <class 'str'>: <function escape_str>, <class 'bytes'>: <function escape_bytes>, <class 'tuple'>: <function escape_sequence>, <class 'list'>: <function escape_sequence>, <class 'set'>: <function escape_sequence>, <class 'frozenset'>: <function escape_sequence>, <class 'dict'>: <function escape_dict>, ...}, use_unicode=True, client_flag=3842573, cursorclass=<class 'pymysql.cursors.Cursor'>, init_command=None, connect_timeout=10, read_default_group=None, autocommit=False, local_infile=False, max_allowed_packet=16777216, defer_connect=False, auth_plugin_map=None, read_timeout=None, write_timeout=None, bind_address=None, binary_prefix=False, program_name=None, server_public_key=None, ssl=None, ssl_ca=None, ssl_cert=None, ssl_disabled=None, ssl_key=None, ssl_verify_cert=None, ssl_verify_identity=None, compress=None, named_pipe=None, passwd=None, db=None)",
+   "dump": {
+    "self": "<pymysql.connections.Connection object>",
+    "self. connect": "<bound method Connection.connect of <pymysql.connections.Connection object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py",
+   "func": "__init__",
+   "lines": {
+    "350": "            self._sock = None",
+    "351": "        else:",
+    "352": "            self.connect()",
+    "353": "",
+    "354": "    def __enter__(self):"
+   },
+   "lnum": 352
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, sock=<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6>)",
+   "dump": {
+    "self": "<pymysql.connections.Connection object>",
+    "self. _request_authentication": "<bound method Connection._request_authentication of <pymysql.connections.Connection object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py",
+   "func": "connect",
+   "lines": {
+    "634": "",
+    "635": "            self._get_server_information()",
+    "636": "            self._request_authentication()",
+    "637": "",
+    "638": "            if self.sql_mode is not None:"
+   },
+   "lnum": 636
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>)",
+   "dump": {
+    "auth_packet": "undefined",
+    "self": "<pymysql.connections.Connection object>",
+    "self. _read_packet": "<bound method Connection._read_packet of <pymysql.connections.Connection object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py",
+   "func": "_request_authentication",
+   "lines": {
+    "909": "",
+    "910": "        self.write_packet(data)",
+    "911": "        auth_packet = self._read_packet()",
+    "912": "",
+    "913": "        # if authentication method isn't accepted the first byte"
+   },
+   "lnum": 911
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, packet_type=<class 'pymysql.protocol.MysqlPacket'>)",
+   "dump": {
+    "packet": "<pymysql.protocol.MysqlPacket object>",
+    "packet. raise_for_error": "<bound method MysqlPacket.raise_for_error of <pymysql.protocol.MysqlPacket object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py",
+   "func": "_read_packet",
+   "lines": {
+    "727": "            if self._result is not None and self._result.unbuffered_active is True:",
+    "728": "                self._result.unbuffered_active = False",
+    "729": "            packet.raise_for_error()",
+    "730": "        return packet",
+    "731": ""
+   },
+   "lnum": 729
+  },
+  {
+   "call": "(self=<pymysql.protocol.MysqlPacket object>)",
+   "dump": {
+    "err. raise_mysql_exception": "<function raise_mysql_exception>",
+    "global err": "<module 'pymysql.err' from '/home/gauritrans/fra...env/lib/python3.10/site-packages/pymysql/err.py'>",
+    "self": "<pymysql.protocol.MysqlPacket object>",
+    "self. _data": "b\"\\xff\\x15\\x04#28000Access denied for user '_039cc45dd718bebf'@'localhost' (using password: YES)\""
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/protocol.py",
+   "func": "raise_for_error",
+   "lines": {
+    "219": "        if DEBUG:",
+    "220": "            print(\"errno =\", errno)",
+    "221": "        err.raise_mysql_exception(self._data)",
+    "222": "",
+    "223": "    def dump(self):"
+   },
+   "lnum": 221
+  },
+  {
+   "call": "(data=b\"\\xff\\x15\\x04#28000Access denied for user '_039cc45dd718bebf'@'localhost' (using password: YES)\")",
+   "dump": {
+    "errno": "1045",
+    "errorclass": "<class 'pymysql.err.OperationalError'>",
+    "errval": "\"Access denied for user '_039cc45dd718bebf'@'localhost' (using password: YES)\""
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/err.py",
+   "func": "raise_mysql_exception",
+   "lines": {
+    "139": "    errval = data[9:].decode(\"utf-8\", \"replace\")",
+    "140": "    errorclass = error_map.get(errno)",
+    "141": "    if errorclass is None:",
+    "142": "        errorclass = InternalError if errno < 1000 else OperationalError",
+    "143": "    raise errorclass(errno, errval)"
+   },
+   "lnum": 143
+  }
+ ],
+ "locals": {
+  "data": "b\"\\xff\\x15\\x04#28000Access denied for user '_039cc45dd718bebf'@'localhost' (using password: YES)\"",
+  "errno": "1045",
+  "errorclass": "<class 'pymysql.err.OperationalError'>",
+  "errval": "Access denied for user '_039cc45dd718bebf'@'localhost' (using password: YES)"
+ },
+ "pyver": "Python 3.10.12: /home/gauritrans/frappe-bench/env/bin/python (prefix: /home/gauritrans/frappe-bench/env)",
+ "timestamp": "2024-06-24 19:05:01.781684",
+ "traceback": "Traceback (most recent call last):\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/website/serve.py\", line 17, in get_response\n    endpoint, renderer_instance = path_resolver.resolve()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/website/path_resolver.py\", line 36, in resolve\n    resolve_redirect(self.path, request.query_string)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/website/path_resolver.py\", line 108, in resolve_redirect\n    redirects += frappe.get_all(\"Website Route Redirect\", [\"source\", \"target\"], order_by=None)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py\", line 1924, in get_all\n    return get_list(doctype, *args, **kwargs)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py\", line 1896, in get_list\n    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/db_query.py\", line 181, in execute\n    if is_virtual_doctype(self.doctype):\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py\", line 119, in site_cache_wrapper\n    _SITE_CACHE[func_key][frappe.local.site][func_call_key] = func(*args, **kwargs)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/utils/__init__.py\", line 134, in is_virtual_doctype\n    return frappe.db.get_value(\"DocType\", doctype, \"is_virtual\")\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py\", line 496, in get_value\n    result = self.get_values(\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py\", line 593, in get_values\n    out = self._get_values_from_table(\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py\", line 823, in _get_values_from_table\n    return query.run(as_dict=as_dict, debug=debug, update=update, run=run, pluck=pluck)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/query_builder/utils.py\", line 76, in execute_query\n    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py\", line 200, in sql\n    self.connect()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py\", line 114, in connect\n    self._conn = self.get_connection()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py\", line 98, in get_connection\n    conn = self._get_connection()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py\", line 104, in _get_connection\n    return self.create_connection()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py\", line 107, in create_connection\n    return pymysql.connect(**self.get_connection_settings())\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 352, in __init__\n    self.connect()\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 636, in connect\n    self._request_authentication()\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 911, in _request_authentication\n    auth_packet = self._read_packet()\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 729, in _read_packet\n    packet.raise_for_error()\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/protocol.py\", line 221, in raise_for_error\n    err.raise_mysql_exception(self._data)\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/err.py\", line 143, in raise_mysql_exception\n    raise errorclass(errno, errval)\npymysql.err.OperationalError: (1045, \"Access denied for user '_039cc45dd718bebf'@'localhost' (using password: YES)\")\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py\", line 75, in application\n    response = get_response()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/website/serve.py\", line 26, in get_response\n    frappe.log_error(f\"{path} failed\")\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py\", line 2249, in log_error\n    return error_log.insert(ignore_permissions=True)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 247, in insert\n    self._set_defaults()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 738, in _set_defaults\n    new_doc = frappe.new_doc(self.doctype, as_dict=True)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py\", line 1061, in new_doc\n    return get_new_doc(doctype, parent_doc, parentfield, as_dict=as_dict)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/create_new.py\", line 22, in get_new_doc\n    frappe.local.new_doc_templates[doctype] = make_new_doc(doctype)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/create_new.py\", line 46, in make_new_doc\n    if not frappe.model.meta.is_single(doctype):\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/meta.py\", line 678, in is_single\n    return frappe.db.get_value(\"DocType\", doctype, \"issingle\")\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py\", line 496, in get_value\n    result = self.get_values(\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py\", line 593, in get_values\n    out = self._get_values_from_table(\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py\", line 823, in _get_values_from_table\n    return query.run(as_dict=as_dict, debug=debug, update=update, run=run, pluck=pluck)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/query_builder/utils.py\", line 76, in execute_query\n    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py\", line 200, in sql\n    self.connect()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py\", line 114, in connect\n    self._conn = self.get_connection()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py\", line 98, in get_connection\n    conn = self._get_connection()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py\", line 104, in _get_connection\n    return self.create_connection()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py\", line 107, in create_connection\n    return pymysql.connect(**self.get_connection_settings())\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 352, in __init__\n    self.connect()\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 636, in connect\n    self._request_authentication()\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 911, in _request_authentication\n    auth_packet = self._read_packet()\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 729, in _read_packet\n    packet.raise_for_error()\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/protocol.py\", line 221, in raise_for_error\n    err.raise_mysql_exception(self._data)\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/err.py\", line 143, in raise_mysql_exception\n    raise errorclass(errno, errval)\npymysql.err.OperationalError: (1045, \"Access denied for user '_039cc45dd718bebf'@'localhost' (using password: YES)\")\n"
+}

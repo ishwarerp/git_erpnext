@@ -1,0 +1,630 @@
+{
+ "etype": "DataError",
+ "evalue": "DataError(1265, \"Data truncated for column 'no_of_floors' at row 1\")",
+ "exception": {
+  "args": [
+   40,
+   49,
+   50,
+   54,
+   53,
+   44,
+   32,
+   34,
+   68,
+   97,
+   116,
+   97,
+   32,
+   116,
+   114,
+   117,
+   110,
+   99,
+   97,
+   116,
+   101,
+   100,
+   32,
+   102,
+   111,
+   114,
+   32,
+   99,
+   111,
+   108,
+   117,
+   109,
+   110,
+   32,
+   39,
+   110,
+   111,
+   95,
+   111,
+   102,
+   95,
+   102,
+   108,
+   111,
+   111,
+   114,
+   115,
+   39,
+   32,
+   97,
+   116,
+   32,
+   114,
+   111,
+   119,
+   32,
+   49,
+   34,
+   41
+  ],
+  "with_traceback": [
+   60,
+   98,
+   117,
+   105,
+   108,
+   116,
+   45,
+   105,
+   110,
+   32,
+   109,
+   101,
+   116,
+   104,
+   111,
+   100,
+   32,
+   119,
+   105,
+   116,
+   104,
+   95,
+   116,
+   114,
+   97,
+   99,
+   101,
+   98,
+   97,
+   99,
+   107,
+   32,
+   111,
+   102,
+   32,
+   68,
+   97,
+   116,
+   97,
+   69,
+   114,
+   114,
+   111,
+   114,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   62
+  ]
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'https://ssd.edofoxerp.com/api/method/frappe.desk.form.save.savedocs' [POST]>)",
+   "dump": {
+    "frappe. api": "<module 'frappe.api' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py'>",
+    "frappe.api. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "response": "None"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "64": "",
+    "65": "\t\telif request.path.startswith(\"/api/\"):",
+    "66": "\t\t\tresponse = frappe.api.handle()",
+    "67": "",
+    "68": "\t\telif request.path.startswith(\"/backups\"):"
+   },
+   "lnum": 66
+  },
+  {
+   "call": "()",
+   "dump": {
+    "frappe. handler": "<module 'frappe.handler' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py'>",
+    "frappe.handler. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py",
+   "func": "handle",
+   "lines": {
+    "52": "\tif call == \"method\":",
+    "53": "\t\tfrappe.local.form_dict.cmd = doctype",
+    "54": "\t\treturn frappe.handler.handle()",
+    "55": "",
+    "56": "\telif call == \"resource\":"
+   },
+   "lnum": 54
+  },
+  {
+   "call": "()",
+   "dump": {
+    "cmd": "'frappe.desk.form.save.savedocs'",
+    "data": "None",
+    "global execute_cmd": "<function execute_cmd>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "handle",
+   "lines": {
+    "43": "",
+    "44": "\tif cmd != \"login\":",
+    "45": "\t\tdata = execute_cmd(cmd)",
+    "46": "",
+    "47": "\t# data can be an empty string or list which are valid responses"
+   },
+   "lnum": 45
+  },
+  {
+   "call": "(cmd='frappe.desk.form.save.savedocs', from_async=False)",
+   "dump": {
+    "frappe. call": "<function call>",
+    "frappe. form_dict": "{'doc': '{\"name\":\"Building\",\"creation\":\"2023-05-... 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "method": "<function savedocs>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "execute_cmd",
+   "lines": {
+    "81": "\t\tis_valid_http_method(method)",
+    "82": "",
+    "83": "\treturn frappe.call(method, **frappe.form_dict)",
+    "84": "",
+    "85": ""
+   },
+   "lnum": 83
+  },
+  {
+   "call": "(fn=<function savedocs>, *args=(), **kwargs={'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs', 'doc': '{\"name\":\"Building\",\"creation\":\"2023-05-13 18:22:...ync_on\":\"2024-06-17T10:53:46.974Z\",\"__unsaved\":1}'})",
+   "dump": {
+    "args": "()",
+    "fn": "<function savedocs>",
+    "newargs": "{'action': 'Save', 'doc': '{\"name\":\"Building\",\"creation\":\"2023-05-13 18:22:...ync_on\":\"2024-06-17T10:53:46.974Z\",\"__unsaved\":1}'}"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "call",
+   "lines": {
+    "1605": "\tnewargs = get_newargs(fn, kwargs)",
+    "1606": "",
+    "1607": "\treturn fn(*args, **newargs)",
+    "1608": "",
+    "1609": ""
+   },
+   "lnum": 1607
+  },
+  {
+   "call": "(doc=<DocType: Building>, action='Save')",
+   "dump": {
+    "doc": "<DocType: Building>",
+    "doc. save": "<bound method Document.save of <DocType: Building>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/save.py",
+   "func": "savedocs",
+   "lines": {
+    "24": "\t}[action]",
+    "25": "",
+    "26": "\tdoc.save()",
+    "27": "",
+    "28": "\t# update recent documents"
+   },
+   "lnum": 26
+  },
+  {
+   "call": "(self=<DocType: Building>, *args=(), **kwargs={})",
+   "dump": {
+    "args": "()",
+    "kwargs": "{}",
+    "self": "<DocType: Building>",
+    "self. _save": "<bound method Document._save of <DocType: Building>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "save",
+   "lines": {
+    "303": "\tdef save(self, *args, **kwargs):",
+    "304": "\t\t\"\"\"Wrapper for _save\"\"\"",
+    "305": "\t\treturn self._save(*args, **kwargs)",
+    "306": "",
+    "307": "\tdef _save(self, ignore_permissions=None, ignore_version=None) -> \"Document\":"
+   },
+   "lnum": 305
+  },
+  {
+   "call": "(self=<DocType: Building>, ignore_permissions=None, ignore_version=None)",
+   "dump": {
+    "self": "<DocType: Building>",
+    "self. run_post_save_methods": "<bound method Document.run_post_save_methods of <DocType: Building>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "_save",
+   "lines": {
+    "354": "",
+    "355": "\t\tself.update_children()",
+    "356": "\t\tself.run_post_save_methods()",
+    "357": "",
+    "358": "\t\t# clear unsaved flag"
+   },
+   "lnum": 356
+  },
+  {
+   "call": "(self=<DocType: Building>)",
+   "dump": {
+    "self": "<DocType: Building>",
+    "self. run_method": "<bound method Document.run_method of <DocType: Building>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "run_post_save_methods",
+   "lines": {
+    "1082": "",
+    "1083": "\t\tif self._action == \"save\":",
+    "1084": "\t\t\tself.run_method(\"on_update\")",
+    "1085": "\t\telif self._action == \"submit\":",
+    "1086": "\t\t\tself.run_method(\"on_update\")"
+   },
+   "lnum": 1084
+  },
+  {
+   "call": "(self=<DocType: Building>, method='on_update', *args=(), **kwargs={})",
+   "dump": {
+    "Document. hook": "<function Document.hook>",
+    "args": "()",
+    "fn": "<function Document.run_method.<locals>.fn>",
+    "global Document": "<class 'frappe.model.document.Document'>",
+    "kwargs": "{}",
+    "out": "undefined",
+    "self": "<DocType: Building>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "run_method",
+   "lines": {
+    "914": "",
+    "915": "\t\tfn.__name__ = str(method)",
+    "916": "\t\tout = Document.hook(fn)(self, *args, **kwargs)",
+    "917": "",
+    "918": "\t\tself.run_notifications(method)"
+   },
+   "lnum": 916
+  },
+  {
+   "call": "(self=<DocType: Building>, *args=(), **kwargs={})",
+   "dump": {
+    "args": "()",
+    "composed": "<function Document.hook.<locals>.compose.<locals>.runner>",
+    "kwargs": "{}",
+    "method": "'on_update'",
+    "self": "<DocType: Building>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "composer",
+   "lines": {
+    "1264": "",
+    "1265": "\t\t\tcomposed = compose(f, *hooks)",
+    "1266": "\t\t\treturn composed(self, method, *args, **kwargs)",
+    "1267": "",
+    "1268": "\t\treturn composer"
+   },
+   "lnum": 1266
+  },
+  {
+   "call": "(self=<DocType: Building>, method='on_update', *args=(), **kwargs={})",
+   "dump": {
+    "add_to_return_value": "<function Document.hook.<locals>.add_to_return_value>",
+    "args": "()",
+    "fn": "<function Document.run_method.<locals>.fn>",
+    "kwargs": "{}",
+    "self": "<DocType: Building>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "runner",
+   "lines": {
+    "1246": "\t\tdef compose(fn, *hooks):",
+    "1247": "\t\t\tdef runner(self, method, *args, **kwargs):",
+    "1248": "\t\t\t\tadd_to_return_value(self, fn(self, *args, **kwargs))",
+    "1249": "\t\t\t\tfor f in hooks:",
+    "1250": "\t\t\t\t\tadd_to_return_value(self, f(self, method, *args, **kwargs))"
+   },
+   "lnum": 1248
+  },
+  {
+   "call": "(self=<DocType: Building>, *args=(), **kwargs={})",
+   "dump": {
+    "args": "()",
+    "kwargs": "{}",
+    "method_object": "<bound method DocType.on_update of <DocType: Building>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "fn",
+   "lines": {
+    "911": "\t\t\t# If method found in __dict__, expect it to be callable",
+    "912": "\t\t\tif method in self.__dict__ or callable(method_object):",
+    "913": "\t\t\t\treturn method_object(*args, **kwargs)",
+    "914": "",
+    "915": "\t\tfn.__name__ = str(method)"
+   },
+   "lnum": 913
+  },
+  {
+   "call": "(self=<DocType: Building>)",
+   "dump": {
+    "e": "undefined"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/core/doctype/doctype/doctype.py",
+   "func": "on_update",
+   "lines": {
+    "388": "\t\texcept Exception as e:",
+    "389": "\t\t\tprint(f\"\\n\\nThere was an issue while migrating the DocType: {self.name}\\n\")",
+    "390": "\t\t\traise e",
+    "391": "",
+    "392": "\t\tself.change_modified_of_parent()"
+   },
+   "lnum": 390
+  },
+  {
+   "call": "(self=<DocType: Building>)",
+   "dump": {
+    "frappe. db": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "frappe.db. updatedb": "<bound method MariaDBDatabase.updatedb of <frappe.database.mariadb.database.MariaDBDatabase object>>",
+    "global Meta": "<class 'frappe.model.meta.Meta'>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "self": "<DocType: Building>",
+    "self. name": "'Building'"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/core/doctype/doctype/doctype.py",
+   "func": "on_update",
+   "lines": {
+    "385": "",
+    "386": "\t\ttry:",
+    "387": "\t\t\tfrappe.db.updatedb(self.name, Meta(self))",
+    "388": "\t\texcept Exception as e:",
+    "389": "\t\t\tprint(f\"\\n\\nThere was an issue while migrating the DocType: {self.name}\\n\")"
+   },
+   "lnum": 387
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>, doctype='Building', meta=<Meta: Building>)",
+   "dump": {
+    "db_table": "<frappe.database.mariadb.schema.MariaDBTable object>",
+    "db_table. sync": "<bound method DBTable.sync of <frappe.database.mariadb.schema.MariaDBTable object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py",
+   "func": "updatedb",
+   "lines": {
+    "405": "",
+    "406": "\t\t\tself.commit()",
+    "407": "\t\t\tdb_table.sync()",
+    "408": "\t\t\tself.begin()",
+    "409": ""
+   },
+   "lnum": 407
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.schema.MariaDBTable object>)",
+   "dump": {
+    "self": "<frappe.database.mariadb.schema.MariaDBTable object>",
+    "self. alter": "<bound method MariaDBTable.alter of <frappe.database.mariadb.schema.MariaDBTable object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/schema.py",
+   "func": "sync",
+   "lines": {
+    "42": "\t\telse:",
+    "43": "\t\t\tfrappe.cache().hdel(\"table_columns\", self.table_name)",
+    "44": "\t\t\tself.alter()",
+    "45": "",
+    "46": "\tdef create(self):"
+   },
+   "lnum": 44
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.schema.MariaDBTable object>)",
+   "dump": {
+    "frappe. db": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "frappe.db. sql": "<bound method Database.sql of <frappe.database.mariadb.database.MariaDBDatabase object>>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "query": "'ALTER TABLE `tabBuilding` MODIFY `no_of_floors` int(11) not null default 0'"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/schema.py",
+   "func": "alter",
+   "lines": {
+    "116": "\t\t\t\t\tquery_body = \", \".join(query_parts)",
+    "117": "\t\t\t\t\tquery = f\"ALTER TABLE `{self.table_name}` {query_body}\"",
+    "118": "\t\t\t\t\tfrappe.db.sql(query)",
+    "119": "",
+    "120": "\t\texcept Exception as e:"
+   },
+   "lnum": 118
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>, query='ALTER TABLE `tabBuilding` MODIFY `no_of_floors` int(11) not null default 0', values=None, as_dict=0, as_list=0, formatted=0, debug=False, ignore_ddl=0, as_utf8=0, auto_commit=0, update=None, explain=False, run=True, pluck=False)",
+   "dump": {
+    "query": "'ALTER TABLE `tabBuilding` MODIFY `no_of_floors` int(11) not null default 0'",
+    "self": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "self. _cursor": "<pymysql.cursors.Cursor object>",
+    "self._cursor. execute": "<bound method Cursor.execute of <pymysql.cursors.Cursor object>>",
+    "values": "None"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py",
+   "func": "sql",
+   "lines": {
+    "217": "",
+    "218": "\t\ttry:",
+    "219": "\t\t\tself._cursor.execute(query, values)",
+    "220": "\t\texcept Exception as e:",
+    "221": "\t\t\tif self.is_syntax_error(e):"
+   },
+   "lnum": 219
+  },
+  {
+   "call": "(self=<pymysql.cursors.Cursor object>, query='ALTER TABLE `tabBuilding` MODIFY `no_of_floors` int(11) not null default 0', args=None)",
+   "dump": {
+    "query": "'ALTER TABLE `tabBuilding` MODIFY `no_of_floors` int(11) not null default 0'",
+    "result": "undefined",
+    "self": "<pymysql.cursors.Cursor object>",
+    "self. _query": "<bound method Cursor._query of <pymysql.cursors.Cursor object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py",
+   "func": "execute",
+   "lines": {
+    "156": "        query = self.mogrify(query, args)",
+    "157": "",
+    "158": "        result = self._query(query)",
+    "159": "        self._executed = query",
+    "160": "        return result"
+   },
+   "lnum": 158
+  },
+  {
+   "call": "(self=<pymysql.cursors.Cursor object>, q='ALTER TABLE `tabBuilding` MODIFY `no_of_floors` int(11) not null default 0')",
+   "dump": {
+    "conn": "<pymysql.connections.Connection object>",
+    "conn. query": "<bound method Connection.query of <pymysql.connections.Connection object>>",
+    "q": "'ALTER TABLE `tabBuilding` MODIFY `no_of_floors` int(11) not null default 0'"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py",
+   "func": "_query",
+   "lines": {
+    "323": "        conn = self._get_db()",
+    "324": "        self._clear_result()",
+    "325": "        conn.query(q)",
+    "326": "        self._do_get_result()",
+    "327": "        return self.rowcount"
+   },
+   "lnum": 325
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, sql=b'ALTER TABLE `tabBuilding` MODIFY `no_of_floors` int(11) not null default 0', unbuffered=False)",
+   "dump": {
+    "self": "<pymysql.connections.Connection object>",
+    "self. _affected_rows": "0",
+    "self. _read_query_result": "<bound method Connection._read_query_result of <pymysql.connections.Connection object>>",
+    "unbuffered": "False"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py",
+   "func": "query",
+   "lines": {
+    "547": "            sql = sql.encode(self.encoding, \"surrogateescape\")",
+    "548": "        self._execute_command(COMMAND.COM_QUERY, sql)",
+    "549": "        self._affected_rows = self._read_query_result(unbuffered=unbuffered)",
+    "550": "        return self._affected_rows",
+    "551": ""
+   },
+   "lnum": 549
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, unbuffered=False)",
+   "dump": {
+    "result": "<pymysql.connections.MySQLResult object>",
+    "result. read": "<bound method MySQLResult.read of <pymysql.connections.MySQLResult object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py",
+   "func": "_read_query_result",
+   "lines": {
+    "777": "        else:",
+    "778": "            result = MySQLResult(self)",
+    "779": "            result.read()",
+    "780": "        self._result = result",
+    "781": "        if result.server_status is not None:"
+   },
+   "lnum": 779
+  },
+  {
+   "call": "(self=<pymysql.connections.MySQLResult object>)",
+   "dump": {
+    "first_packet": "undefined",
+    "self": "<pymysql.connections.MySQLResult object>",
+    "self. connection": "None",
+    "self.connection._read_packet": "undefined"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py",
+   "func": "read",
+   "lines": {
+    "1155": "    def read(self):",
+    "1156": "        try:",
+    "1157": "            first_packet = self.connection._read_packet()",
+    "1158": "",
+    "1159": "            if first_packet.is_ok_packet():"
+   },
+   "lnum": 1157
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, packet_type=<class 'pymysql.protocol.MysqlPacket'>)",
+   "dump": {
+    "packet": "<pymysql.protocol.MysqlPacket object>",
+    "packet. raise_for_error": "<bound method MysqlPacket.raise_for_error of <pymysql.protocol.MysqlPacket object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py",
+   "func": "_read_packet",
+   "lines": {
+    "727": "            if self._result is not None and self._result.unbuffered_active is True:",
+    "728": "                self._result.unbuffered_active = False",
+    "729": "            packet.raise_for_error()",
+    "730": "        return packet",
+    "731": ""
+   },
+   "lnum": 729
+  },
+  {
+   "call": "(self=<pymysql.protocol.MysqlPacket object>)",
+   "dump": {
+    "err. raise_mysql_exception": "<function raise_mysql_exception>",
+    "global err": "<module 'pymysql.err' from '/home/gauritrans/fra...env/lib/python3.10/site-packages/pymysql/err.py'>",
+    "self": "<pymysql.protocol.MysqlPacket object>",
+    "self. _data": "b\"\\xff\\xf1\\x04#01000Data truncated for column 'no_of_floors' at row 1\""
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/protocol.py",
+   "func": "raise_for_error",
+   "lines": {
+    "219": "        if DEBUG:",
+    "220": "            print(\"errno =\", errno)",
+    "221": "        err.raise_mysql_exception(self._data)",
+    "222": "",
+    "223": "    def dump(self):"
+   },
+   "lnum": 221
+  },
+  {
+   "call": "(data=b\"\\xff\\xf1\\x04#01000Data truncated for column 'no_of_floors' at row 1\")",
+   "dump": {
+    "errno": "1265",
+    "errorclass": "<class 'pymysql.err.DataError'>",
+    "errval": "\"Data truncated for column 'no_of_floors' at row 1\""
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/err.py",
+   "func": "raise_mysql_exception",
+   "lines": {
+    "139": "    errval = data[9:].decode(\"utf-8\", \"replace\")",
+    "140": "    errorclass = error_map.get(errno)",
+    "141": "    if errorclass is None:",
+    "142": "        errorclass = InternalError if errno < 1000 else OperationalError",
+    "143": "    raise errorclass(errno, errval)"
+   },
+   "lnum": 143
+  }
+ ],
+ "locals": {
+  "data": "b\"\\xff\\xf1\\x04#01000Data truncated for column 'no_of_floors' at row 1\"",
+  "errno": "1265",
+  "errorclass": "<class 'pymysql.err.DataError'>",
+  "errval": "Data truncated for column 'no_of_floors' at row 1"
+ },
+ "pyver": "Python 3.10.12: /home/gauritrans/frappe-bench/env/bin/python (prefix: /home/gauritrans/frappe-bench/env)",
+ "timestamp": "2024-06-17 16:24:06.165634",
+ "traceback": "Traceback (most recent call last):\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py\", line 66, in application\n    response = frappe.api.handle()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py\", line 54, in handle\n    return frappe.handler.handle()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py\", line 45, in handle\n    data = execute_cmd(cmd)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py\", line 83, in execute_cmd\n    return frappe.call(method, **frappe.form_dict)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py\", line 1607, in call\n    return fn(*args, **newargs)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/save.py\", line 26, in savedocs\n    doc.save()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 305, in save\n    return self._save(*args, **kwargs)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 356, in _save\n    self.run_post_save_methods()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 1084, in run_post_save_methods\n    self.run_method(\"on_update\")\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 916, in run_method\n    out = Document.hook(fn)(self, *args, **kwargs)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 1266, in composer\n    return composed(self, method, *args, **kwargs)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 1248, in runner\n    add_to_return_value(self, fn(self, *args, **kwargs))\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 913, in fn\n    return method_object(*args, **kwargs)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/core/doctype/doctype/doctype.py\", line 390, in on_update\n    raise e\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/core/doctype/doctype/doctype.py\", line 387, in on_update\n    frappe.db.updatedb(self.name, Meta(self))\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/database.py\", line 407, in updatedb\n    db_table.sync()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/schema.py\", line 44, in sync\n    self.alter()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/mariadb/schema.py\", line 118, in alter\n    frappe.db.sql(query)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py\", line 219, in sql\n    self._cursor.execute(query, values)\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py\", line 158, in execute\n    result = self._query(query)\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py\", line 325, in _query\n    conn.query(q)\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 549, in query\n    self._affected_rows = self._read_query_result(unbuffered=unbuffered)\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 779, in _read_query_result\n    result.read()\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 1157, in read\n    first_packet = self.connection._read_packet()\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 729, in _read_packet\n    packet.raise_for_error()\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/protocol.py\", line 221, in raise_for_error\n    err.raise_mysql_exception(self._data)\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/err.py\", line 143, in raise_mysql_exception\n    raise errorclass(errno, errval)\npymysql.err.DataError: (1265, \"Data truncated for column 'no_of_floors' at row 1\")\n"
+}

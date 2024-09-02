@@ -1,0 +1,6 @@
+2023-10-30 17:15:17,788 ERROR frappe New Exception collected with id: 2023-10-30 17:15:17.785281-106.213.85.127-915
+Site: connectcare.edofoxerp.com
+Form Dict: {'fields': ['*'], 'order_by': 'creation desc', 'filters': '[["user_id","like","9422468507@connectkare.in\n%"]]', 'limit_start': '0', 'limit_page_length': '30'}
+2023-10-30 18:40:44,316 ERROR frappe New Exception collected with id: 2023-10-30 18:40:44.314655-106.213.85.127-724
+Site: connectcare.edofoxerp.com
+Form Dict: {'fields': '["'}

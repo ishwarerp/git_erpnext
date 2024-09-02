@@ -1,0 +1,319 @@
+{
+ "etype": "TypeError",
+ "evalue": "TypeError(\"object of type 'NoneType' has no len()\")",
+ "exception": {
+  "args": [
+   40,
+   34,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   32,
+   111,
+   102,
+   32,
+   116,
+   121,
+   112,
+   101,
+   32,
+   39,
+   78,
+   111,
+   110,
+   101,
+   84,
+   121,
+   112,
+   101,
+   39,
+   32,
+   104,
+   97,
+   115,
+   32,
+   110,
+   111,
+   32,
+   108,
+   101,
+   110,
+   40,
+   41,
+   34,
+   44,
+   41
+  ],
+  "with_traceback": [
+   60,
+   98,
+   117,
+   105,
+   108,
+   116,
+   45,
+   105,
+   110,
+   32,
+   109,
+   101,
+   116,
+   104,
+   111,
+   100,
+   32,
+   119,
+   105,
+   116,
+   104,
+   95,
+   116,
+   114,
+   97,
+   99,
+   101,
+   98,
+   97,
+   99,
+   107,
+   32,
+   111,
+   102,
+   32,
+   84,
+   121,
+   112,
+   101,
+   69,
+   114,
+   114,
+   111,
+   114,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   62
+  ]
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'https://bankar.edofoxerp.com/' [POST]>)",
+   "dump": {
+    "frappe. handler": "<module 'frappe.handler' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py'>",
+    "frappe.handler. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "response": "None"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "61": "",
+    "62": "\t\telif frappe.form_dict.cmd:",
+    "63": "\t\t\tresponse = frappe.handler.handle()",
+    "64": "",
+    "65": "\t\telif request.path.startswith(\"/api/\"):"
+   },
+   "lnum": 63
+  },
+  {
+   "call": "()",
+   "dump": {
+    "cmd": "'erpnext.templates.utils.send_message'",
+    "data": "None",
+    "global execute_cmd": "<function execute_cmd>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "handle",
+   "lines": {
+    "43": "",
+    "44": "\tif cmd != \"login\":",
+    "45": "\t\tdata = execute_cmd(cmd)",
+    "46": "",
+    "47": "\t# data can be an empty string or list which are valid responses"
+   },
+   "lnum": 45
+  },
+  {
+   "call": "(cmd='erpnext.templates.utils.send_message', from_async=False)",
+   "dump": {
+    "frappe. call": "<function call>",
+    "frappe. form_dict": "{'cmd': 'erpnext.templates.utils.send_message', ...t148ut' OR 515=(SELECT 515 FROM PG_SLEEP(15))--\"}",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "method": "<function send_message>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "execute_cmd",
+   "lines": {
+    "81": "\t\tis_valid_http_method(method)",
+    "82": "",
+    "83": "\treturn frappe.call(method, **frappe.form_dict)",
+    "84": "",
+    "85": ""
+   },
+   "lnum": 83
+  },
+  {
+   "call": "(fn=<function send_message>, *args=(), **kwargs={'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tst', 'subject': \"Generaltnt148ut' OR 515=(SELECT 515 FROM PG_SLEEP(15))--\"})",
+   "dump": {
+    "args": "()",
+    "fn": "<function send_message>",
+    "newargs": "{'message': 'e', 'sender': 'sample@email.tst', 'subject': \"Generaltnt148ut' OR 515=(SELECT 515 FROM PG_SLEEP(15))--\"}"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "call",
+   "lines": {
+    "1605": "\tnewargs = get_newargs(fn, kwargs)",
+    "1606": "",
+    "1607": "\treturn fn(*args, **newargs)",
+    "1608": "",
+    "1609": ""
+   },
+   "lnum": 1607
+  },
+  {
+   "call": "(sender='sample@email.tst', message='e', subject=\"Generaltnt148ut' OR 515=(SELECT 515 FROM PG_SLEEP(15))--\")",
+   "dump": {
+    "].title": "undefined",
+    "builtin dict": "<class 'dict'>",
+    "doctype": "undefined",
+    "email_id": "undefined",
+    "frappe. get_doc": "<function get_doc>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "ignore_permissions": "undefined",
+    "lead_name": "undefined",
+    "new_lead": "undefined",
+    "sender": "'sample@email.tst'",
+    "sender. split": "<built-in method split of str object>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/erpnext/erpnext/templates/utils.py",
+   "func": "send_message",
+   "lines": {
+    "23": "\t\tlead = frappe.db.get_value(\"Lead\", dict(email_id=sender))",
+    "24": "\t\tif not lead:",
+    "25": "\t\t\tnew_lead = frappe.get_doc(",
+    "26": "\t\t\t\tdict(doctype=\"Lead\", email_id=sender, lead_name=sender.split(\"@\")[0].title())",
+    "27": "\t\t\t).insert(ignore_permissions=True)"
+   },
+   "lnum": 25
+  },
+  {
+   "call": "(self=<Lead: unsaved>, ignore_permissions=True, ignore_links=None, ignore_if_duplicate=False, ignore_mandatory=None, set_name=None, set_child_names=True)",
+   "dump": {
+    "self": "<Lead: unsaved>",
+    "self. run_method": "<bound method Document.run_method of <Lead: unsaved>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "insert",
+   "lines": {
+    "251": "\t\tself._validate_links()",
+    "252": "\t\tself.check_permission(\"create\")",
+    "253": "\t\tself.run_method(\"before_insert\")",
+    "254": "\t\tself.set_new_name(set_name=set_name, set_child_names=set_child_names)",
+    "255": "\t\tself.set_parent_in_children()"
+   },
+   "lnum": 253
+  },
+  {
+   "call": "(self=<Lead: unsaved>, method='before_insert', *args=(), **kwargs={})",
+   "dump": {
+    "global run_server_script_for_doc_event": "<function run_server_script_for_doc_event>",
+    "method": "'before_insert'",
+    "self": "<Lead: unsaved>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "run_method",
+   "lines": {
+    "918": "\t\tself.run_notifications(method)",
+    "919": "\t\trun_webhooks(self, method)",
+    "920": "\t\trun_server_script_for_doc_event(self, method)",
+    "921": "",
+    "922": "\t\treturn out"
+   },
+   "lnum": 920
+  },
+  {
+   "call": "(doc=<Lead: unsaved>, event='before_insert')",
+   "dump": {
+    ").execute_doc": "undefined",
+    "doc": "<Lead: unsaved>",
+    "frappe. get_doc": "<function get_doc>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "script_name": "'Re-entry'"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/core/doctype/server_script/server_script_utils.py",
+   "func": "run_server_script_for_doc_event",
+   "lines": {
+    "37": "\t\t# run all scripts for this doctype + event",
+    "38": "\t\tfor script_name in scripts:",
+    "39": "\t\t\tfrappe.get_doc(\"Server Script\", script_name).execute_doc(doc)",
+    "40": "",
+    "41": ""
+   },
+   "lnum": 39
+  },
+  {
+   "call": "(self=<ServerScript: Re-entry>, doc=<Lead: unsaved>)",
+   "dump": {
+    "_locals": "undefined",
+    "doc": "<Lead: unsaved>",
+    "global safe_exec": "<function safe_exec>",
+    "restrict_commit_rollback": "undefined",
+    "self": "<ServerScript: Re-entry>",
+    "self. script": "'Mob_No = doc.mobile_no\\nbFlag = frappe.db.exists(...pe.throw(\"Please Enter Valid Mobile No\");\\n       '"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/core/doctype/server_script/server_script.py",
+   "func": "execute_doc",
+   "lines": {
+    "96": "\t\t        doc (Document): Executes script with for a certain document's events",
+    "97": "\t\t\"\"\"",
+    "98": "\t\tsafe_exec(self.script, _locals={\"doc\": doc}, restrict_commit_rollback=True)",
+    "99": "",
+    "100": "\tdef execute_scheduled_method(self):"
+   },
+   "lnum": 98
+  },
+  {
+   "call": "(script='Mob_No = doc.mobile_no\\nbFlag = frappe.db.exists(...pe.throw(\"Please Enter Valid Mobile No\");\\n       ', _globals=None, _locals={'Mob_No': None, 'bFlag': None, 'doc': <Lead: unsaved>}, restrict_commit_rollback=True)",
+   "dump": {
+    "_locals": "{'Mob_No': None, 'bFlag': None, 'doc': <Lead: unsaved>}",
+    "builtin exec": "<built-in function exec>",
+    "exec_globals": "{'json': {'loads': <function loads at 0x7fc81bc1...built-in function sum>, 'tuple': <class 'tuple'>}",
+    "global compile_restricted": "<function compile_restricted>",
+    "script": "'Mob_No = doc.mobile_no\\nbFlag = frappe.db.exists(...pe.throw(\"Please Enter Valid Mobile No\");\\n       '"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/safe_exec.py",
+   "func": "safe_exec",
+   "lines": {
+    "70": "\twith safe_exec_flags(), patched_qb():",
+    "71": "\t\t# execute script compiled by RestrictedPython",
+    "72": "\t\texec(compile_restricted(script), exec_globals, _locals)  # pylint: disable=exec-used",
+    "73": "",
+    "74": "\treturn exec_globals, _locals"
+   },
+   "lnum": 72
+  },
+  {
+   "call": "()",
+   "dump": {},
+   "file": "/home/gauritrans/frappe-bench/sites/<unknown>",
+   "func": "<module>",
+   "lines": {},
+   "lnum": 7
+  }
+ ],
+ "locals": {
+  "Mob_No": "None",
+  "bFlag": "None",
+  "doc": "<Lead: unsaved>"
+ },
+ "pyver": "Python 3.10.12: /home/gauritrans/frappe-bench/env/bin/python (prefix: /home/gauritrans/frappe-bench/env)",
+ "timestamp": "2024-03-29 10:50:45.093496",
+ "traceback": "Traceback (most recent call last):\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py\", line 63, in application\n    response = frappe.handler.handle()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py\", line 45, in handle\n    data = execute_cmd(cmd)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py\", line 83, in execute_cmd\n    return frappe.call(method, **frappe.form_dict)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py\", line 1607, in call\n    return fn(*args, **newargs)\n  File \"/home/gauritrans/frappe-bench/apps/erpnext/erpnext/templates/utils.py\", line 25, in send_message\n    new_lead = frappe.get_doc(\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 253, in insert\n    self.run_method(\"before_insert\")\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 920, in run_method\n    run_server_script_for_doc_event(self, method)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/core/doctype/server_script/server_script_utils.py\", line 39, in run_server_script_for_doc_event\n    frappe.get_doc(\"Server Script\", script_name).execute_doc(doc)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/core/doctype/server_script/server_script.py\", line 98, in execute_doc\n    safe_exec(self.script, _locals={\"doc\": doc}, restrict_commit_rollback=True)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/safe_exec.py\", line 72, in safe_exec\n    exec(compile_restricted(script), exec_globals, _locals)  # pylint: disable=exec-used\n  File \"<unknown>\", line 7, in <module>\nTypeError: object of type 'NoneType' has no len()\n"
+}

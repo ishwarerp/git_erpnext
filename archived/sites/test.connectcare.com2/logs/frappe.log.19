@@ -1,0 +1,934 @@
+2023-08-29 18:33:44,450 ERROR frappe New Exception collected with id: 2023-08-29 18:33:44.441916-106.213.84.56-038
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-29 18:33:57,245 ERROR frappe New Exception collected with id: 2023-08-29 18:33:57.237888-106.213.84.56-e49
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-30 17:53:02,844 ERROR frappe New Exception collected with id: 2023-08-30 17:53:02.841569-106.213.81.144-ea5
+Site: connectcare.edofoxerp.com
+Form Dict: {'txt': '', 'doctype': 'Coupons', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Coupons', 'query': 'frappe.connect_care.api.get_coupons', 'cmd': 'frappe.desk.search.search_link'}
+2023-08-30 17:53:50,811 ERROR frappe New Exception collected with id: 2023-08-30 17:53:50.736860-106.213.81.144-144
+Site: connectcare.edofoxerp.com
+Form Dict: {'txt': '', 'doctype': 'Coupons', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Coupons', 'query': 'frappe.connect_care.api.get_coupons', 'cmd': 'frappe.desk.search.search_link'}
+2023-08-30 17:58:25,556 ERROR frappe New Exception collected with id: 2023-08-30 17:58:25.481721-106.213.81.144-627
+Site: connectcare.edofoxerp.com
+Form Dict: {'txt': '', 'doctype': 'Coupons', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Coupons', 'query': 'frappe.connect_care.api.get_coupons', 'cmd': 'frappe.desk.search.search_link'}
+2023-08-30 17:58:54,252 ERROR frappe New Exception collected with id: 2023-08-30 17:58:54.182197-106.213.81.144-364
+Site: connectcare.edofoxerp.com
+Form Dict: {'txt': '', 'doctype': 'Coupons', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Coupons', 'query': 'frappe.connect_care.api.get_coupons', 'cmd': 'frappe.desk.search.search_link'}
+2023-08-30 17:59:11,840 ERROR frappe New Exception collected with id: 2023-08-30 17:59:11.767728-106.213.81.144-c5b
+Site: connectcare.edofoxerp.com
+Form Dict: {'txt': '', 'doctype': 'Coupons', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Coupons', 'query': 'frappe.connect_care.api.get_coupons', 'cmd': 'frappe.desk.search.search_link'}
+2023-08-30 17:59:14,740 ERROR frappe New Exception collected with id: 2023-08-30 17:59:14.670778-106.213.81.144-e8d
+Site: connectcare.edofoxerp.com
+Form Dict: {'txt': '', 'doctype': 'Coupons', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Coupons', 'query': 'frappe.connect_care.api.get_coupons', 'cmd': 'frappe.desk.search.search_link'}
+2023-08-30 18:00:39,876 ERROR frappe New Exception collected with id: 2023-08-30 18:00:39.803948-106.213.81.144-6fa
+Site: connectcare.edofoxerp.com
+Form Dict: {'txt': '', 'doctype': 'Coupons', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Coupons', 'query': 'frappe.connect_care.api.get_coupons', 'cmd': 'frappe.desk.search.search_link'}
+2023-08-31 11:33:38,948 ERROR frappe New Exception collected with id: 2023-08-31 11:33:38.806832-106.213.81.246-19f
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:33:39,967 ERROR frappe New Exception collected with id: 2023-08-31 11:33:39.861046-106.213.81.246-244
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:33:40,271 ERROR frappe New Exception collected with id: 2023-08-31 11:33:40.263892-106.213.81.246-479
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:35:43,859 ERROR frappe New Exception collected with id: 2023-08-31 11:35:43.752379-106.213.81.246-311
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:35:44,582 ERROR frappe New Exception collected with id: 2023-08-31 11:35:44.574562-106.213.81.246-443
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:35:45,984 ERROR frappe New Exception collected with id: 2023-08-31 11:35:45.976767-106.213.81.246-6a9
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:05,431 ERROR frappe New Exception collected with id: 2023-08-31 11:50:05.324896-106.213.81.246-ffa
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:05,989 ERROR frappe New Exception collected with id: 2023-08-31 11:50:05.981386-106.213.81.246-ca1
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:06,271 ERROR frappe New Exception collected with id: 2023-08-31 11:50:06.263373-106.213.81.246-1b1
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:07,003 ERROR frappe New Exception collected with id: 2023-08-31 11:50:06.983307-106.213.81.246-5ee
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:07,428 ERROR frappe New Exception collected with id: 2023-08-31 11:50:07.419948-106.213.81.246-178
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:07,653 ERROR frappe New Exception collected with id: 2023-08-31 11:50:07.645080-106.213.81.246-98b
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:27,069 ERROR frappe New Exception collected with id: 2023-08-31 11:50:27.061096-106.213.81.246-01f
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:27,399 ERROR frappe New Exception collected with id: 2023-08-31 11:50:27.392076-106.213.81.246-830
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:27,618 ERROR frappe New Exception collected with id: 2023-08-31 11:50:27.611005-106.213.81.246-47a
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:33,836 ERROR frappe New Exception collected with id: 2023-08-31 11:50:33.828263-106.213.81.246-2db
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:34,107 ERROR frappe New Exception collected with id: 2023-08-31 11:50:34.099163-106.213.81.246-3a2
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:34,280 ERROR frappe New Exception collected with id: 2023-08-31 11:50:34.273307-106.213.81.246-4f9
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:38,998 ERROR frappe New Exception collected with id: 2023-08-31 11:50:38.990920-106.213.81.246-94b
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:39,225 ERROR frappe New Exception collected with id: 2023-08-31 11:50:39.218055-106.213.81.246-4a2
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:39,529 ERROR frappe New Exception collected with id: 2023-08-31 11:50:39.521297-106.213.81.246-f0b
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:43,361 ERROR frappe New Exception collected with id: 2023-08-31 11:50:43.354478-106.213.81.246-de6
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:43,801 ERROR frappe New Exception collected with id: 2023-08-31 11:50:43.793438-106.213.81.246-44f
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:44,063 ERROR frappe New Exception collected with id: 2023-08-31 11:50:44.055799-106.213.81.246-8aa
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:52,649 ERROR frappe New Exception collected with id: 2023-08-31 11:50:52.639889-106.213.81.246-37b
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:52,922 ERROR frappe New Exception collected with id: 2023-08-31 11:50:52.913697-106.213.81.246-fb6
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:53,171 ERROR frappe New Exception collected with id: 2023-08-31 11:50:53.163957-106.213.81.246-675
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:59,269 ERROR frappe New Exception collected with id: 2023-08-31 11:50:59.252205-106.213.81.246-5eb
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:59,708 ERROR frappe New Exception collected with id: 2023-08-31 11:50:59.701470-106.213.81.246-a60
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 11:50:59,889 ERROR frappe New Exception collected with id: 2023-08-31 11:50:59.881555-106.213.81.246-033
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 12:03:48,205 ERROR frappe New Exception collected with id: 2023-08-31 12:03:48.196947-106.213.81.246-bb8
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 12:03:49,509 ERROR frappe New Exception collected with id: 2023-08-31 12:03:49.501496-106.213.81.246-cde
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 12:03:49,975 ERROR frappe New Exception collected with id: 2023-08-31 12:03:49.968049-106.213.81.246-9e3
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 12:14:20,107 ERROR frappe New Exception collected with id: 2023-08-31 12:14:20.099065-106.213.81.246-a44
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 12:14:20,890 ERROR frappe New Exception collected with id: 2023-08-31 12:14:20.883300-106.213.81.246-40a
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 12:14:21,171 ERROR frappe New Exception collected with id: 2023-08-31 12:14:21.163630-106.213.81.246-b18
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 12:29:07,790 ERROR frappe New Exception collected with id: 2023-08-31 12:29:07.782388-106.213.81.246-4b0
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 12:29:09,233 ERROR frappe New Exception collected with id: 2023-08-31 12:29:09.225430-106.213.81.246-30c
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 12:29:10,359 ERROR frappe New Exception collected with id: 2023-08-31 12:29:10.351635-106.213.81.246-701
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 12:33:40,811 ERROR frappe New Exception collected with id: 2023-08-31 12:33:40.803952-106.213.81.246-166
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 12:33:41,490 ERROR frappe New Exception collected with id: 2023-08-31 12:33:41.481527-106.213.81.246-87c
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 12:33:41,749 ERROR frappe New Exception collected with id: 2023-08-31 12:33:41.742250-106.213.81.246-5b8
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 12:42:31,270 ERROR frappe New Exception collected with id: 2023-08-31 12:42:31.262229-106.213.81.246-491
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 12:42:32,118 ERROR frappe New Exception collected with id: 2023-08-31 12:42:32.109776-106.213.81.246-65d
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 12:42:32,375 ERROR frappe New Exception collected with id: 2023-08-31 12:42:32.367557-106.213.81.246-494
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 12:53:47,238 ERROR frappe New Exception collected with id: 2023-08-31 12:53:47.229830-106.213.81.246-2a8
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 12:53:48,065 ERROR frappe New Exception collected with id: 2023-08-31 12:53:48.058369-106.213.81.246-89e
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 12:53:48,362 ERROR frappe New Exception collected with id: 2023-08-31 12:53:48.354543-106.213.81.246-482
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 13:30:51,339 ERROR frappe New Exception collected with id: 2023-08-31 13:30:51.331563-106.213.81.246-d40
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 13:30:52,211 ERROR frappe New Exception collected with id: 2023-08-31 13:30:52.201935-106.213.81.246-026
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 13:30:52,518 ERROR frappe New Exception collected with id: 2023-08-31 13:30:52.508706-106.213.81.246-5ca
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 13:32:30,569 ERROR frappe New Exception collected with id: 2023-08-31 13:32:30.556238-106.213.81.246-0fd
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 13:32:30,596 ERROR frappe New Exception collected with id: 2023-08-31 13:32:30.582965-106.213.81.246-673
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 13:32:30,941 ERROR frappe New Exception collected with id: 2023-08-31 13:32:30.930263-106.213.81.246-c2a
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 13:54:41,110 ERROR frappe New Exception collected with id: 2023-08-31 13:54:41.095096-106.213.81.246-6d2
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 13:54:41,826 ERROR frappe New Exception collected with id: 2023-08-31 13:54:41.818612-106.213.81.246-143
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 13:54:42,140 ERROR frappe New Exception collected with id: 2023-08-31 13:54:42.132435-106.213.81.246-318
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 14:16:07,548 ERROR frappe New Exception collected with id: 2023-08-31 14:16:07.535069-58.84.61.68-ebf
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Customer","name":"new-customer-1","__islocal":1,"__unsaved":1,"owner":"abhay.gangarde@mattersoft.xyz","naming_series":"CUST-.YYYY.-","customer_type":"Company","is_internal_customer":0,"language":"en","so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"marital_status":"","referral_code":"1","has_edited":0,"first_name":null,"middle_name":null,"last_name":null,"phone_no":"2365894517","address":null,"state":"Maharashtra","email":null,"customer_name":"Virat Kohli","date_of_birth":null,"city":"Pune","lead_name":"Lead-08-2023-0598"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-08-31 14:16:30,895 ERROR frappe New Exception collected with id: 2023-08-31 14:16:30.882582-58.84.61.68-0e4
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Customer","name":"new-customer-1","__islocal":1,"__unsaved":1,"owner":"abhay.gangarde@mattersoft.xyz","naming_series":"CUST-.YYYY.-","customer_type":"Company","is_internal_customer":0,"language":"en","so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"marital_status":"","referral_code":"1","has_edited":0,"first_name":null,"middle_name":null,"last_name":null,"phone_no":"2365894517","address":null,"state":"Maharashtra","email":null,"customer_name":"Virat Kohli","date_of_birth":null,"city":"Pune","lead_name":"Lead-08-2023-0598"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-08-31 15:49:13,553 ERROR frappe New Exception collected with id: 2023-08-31 15:49:13.550907-52.114.77.236-33f
+Site: connectcare.edofoxerp.com
+Form Dict: {'fields': ['*'], 'amp;filters': '["is_disabled"', 'limit_page_length': 20}
+2023-08-31 15:49:14,952 ERROR frappe New Exception collected with id: 2023-08-31 15:49:14.949444-52.114.77.236-cf9
+Site: connectcare.edofoxerp.com
+Form Dict: {'fields': ['*'], 'amp;filters': '["is_disabled"', 'limit_page_length': 20}
+2023-08-31 15:49:25,825 ERROR frappe New Exception collected with id: 2023-08-31 15:49:25.809717-106.213.81.246-b6c
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 15:49:26,865 ERROR frappe New Exception collected with id: 2023-08-31 15:49:26.856542-106.213.81.246-9a5
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 15:49:27,315 ERROR frappe New Exception collected with id: 2023-08-31 15:49:27.300802-106.213.81.246-1a8
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 15:55:15,356 ERROR frappe New Exception collected with id: 2023-08-31 15:55:15.340261-106.213.81.246-548
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 15:55:15,637 ERROR frappe New Exception collected with id: 2023-08-31 15:55:15.628558-106.213.81.246-38f
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 15:55:15,838 ERROR frappe New Exception collected with id: 2023-08-31 15:55:15.830008-106.213.81.246-fa4
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 16:08:18,026 ERROR frappe New Exception collected with id: 2023-08-31 16:08:18.017921-106.213.81.246-022
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 16:08:18,787 ERROR frappe New Exception collected with id: 2023-08-31 16:08:18.779297-106.213.81.246-064
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 16:08:19,039 ERROR frappe New Exception collected with id: 2023-08-31 16:08:19.031533-106.213.81.246-782
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 16:15:22,647 ERROR frappe New Exception collected with id: 2023-08-31 16:15:22.638839-106.213.81.246-916
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 16:15:23,499 ERROR frappe New Exception collected with id: 2023-08-31 16:15:23.487450-106.213.81.246-5cb
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 16:15:23,766 ERROR frappe New Exception collected with id: 2023-08-31 16:15:23.757693-106.213.81.246-c59
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 16:25:52,642 ERROR frappe New Exception collected with id: 2023-08-31 16:25:52.632347-106.213.81.246-f96
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 16:25:53,421 ERROR frappe New Exception collected with id: 2023-08-31 16:25:53.409216-106.213.81.246-d17
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 16:25:53,683 ERROR frappe New Exception collected with id: 2023-08-31 16:25:53.675852-106.213.81.246-404
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 16:26:21,230 ERROR frappe New Exception collected with id: 2023-08-31 16:26:21.222075-106.213.81.246-f93
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 16:26:21,606 ERROR frappe New Exception collected with id: 2023-08-31 16:26:21.598146-106.213.81.246-af5
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 16:26:22,020 ERROR frappe New Exception collected with id: 2023-08-31 16:26:22.011747-106.213.81.246-eec
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 17:14:14,921 ERROR frappe New Exception collected with id: 2023-08-31 17:14:14.913234-106.213.81.246-092
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 17:14:15,285 ERROR frappe New Exception collected with id: 2023-08-31 17:14:15.273334-106.213.81.246-ae3
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 17:14:15,471 ERROR frappe New Exception collected with id: 2023-08-31 17:14:15.462567-106.213.81.246-60b
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 17:15:57,508 ERROR frappe New Exception collected with id: 2023-08-31 17:15:57.499791-106.213.81.246-ac8
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 17:15:58,365 ERROR frappe New Exception collected with id: 2023-08-31 17:15:58.357073-106.213.81.246-e48
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 17:15:58,652 ERROR frappe New Exception collected with id: 2023-08-31 17:15:58.644321-106.213.81.246-a49
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 17:16:04,815 ERROR frappe New Exception collected with id: 2023-08-31 17:16:04.806954-106.213.81.246-06d
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 17:16:05,112 ERROR frappe New Exception collected with id: 2023-08-31 17:16:05.104096-106.213.81.246-740
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 17:16:05,353 ERROR frappe New Exception collected with id: 2023-08-31 17:16:05.344655-106.213.81.246-60e
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 17:18:36,752 ERROR frappe New Exception collected with id: 2023-08-31 17:18:36.744122-106.213.81.246-e7d
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 17:18:37,233 ERROR frappe New Exception collected with id: 2023-08-31 17:18:37.225880-106.213.81.246-d10
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 17:18:37,641 ERROR frappe New Exception collected with id: 2023-08-31 17:18:37.633010-106.213.81.246-9db
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 17:26:25,762 ERROR frappe New Exception collected with id: 2023-08-31 17:26:25.753930-106.213.81.246-777
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 17:26:26,160 ERROR frappe New Exception collected with id: 2023-08-31 17:26:26.152244-106.213.81.246-07f
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 17:26:26,847 ERROR frappe New Exception collected with id: 2023-08-31 17:26:26.839388-106.213.81.246-cf9
+Site: connectcare.edofoxerp.com
+Form Dict: {'user': '9999999999@connectcare.in', 'device_name': 'M2101K7AI', 'device_id': 'cEYFW44LQJOV_jTZaFpJLw:APA91bFA8pCcGDHXOhbFXb4mESzAPgBGK06YKaFSKxEa5UuO7p5fE2w-h0Yg_ksTLSkFkttiKMyEuV72M8oh-a4iWC4aWGAl3RGs8fIBswWKZIQaFSuhVXUPKvs0aKGptd3sDBfaYAeo', 'cmd': 'user_device'}
+2023-08-31 18:25:32,570 ERROR frappe New Exception collected with id: 2023-08-31 18:25:32.568776-106.213.81.246-138
+Site: connectcare.edofoxerp.com
+Form Dict: {'mobile_no': '9423028849', 'uid': 'X8fLbCdlRHQftHifiSvzjRRA2ZW2', 'cmd': 'frappe.ConnectCareLogin.login'}
+2023-08-31 18:26:02,280 ERROR frappe New Exception collected with id: 2023-08-31 18:26:02.275737-106.213.81.246-ea1
+Site: connectcare.edofoxerp.com
+Form Dict: {'mobile_no': '9423028849', 'uid': 'X8fLbCdlRHQftHifiSvzjRRA2ZW2', 'cmd': 'frappe.ConnectCareLogin.login'}
+2023-08-31 18:28:18,035 ERROR frappe New Exception collected with id: 2023-08-31 18:28:18.032886-152.57.133.38-12b
+Site: connectcare.edofoxerp.com
+Form Dict: {'mobile_no': '9423028849', 'uid': 'X8fLbCdlRHQftHifiSvzjRRA2ZW2', 'cmd': 'frappe.ConnectCareLogin.login'}
+2023-08-31 18:29:05,385 ERROR frappe New Exception collected with id: 2023-08-31 18:29:05.383426-152.57.133.38-ead
+Site: connectcare.edofoxerp.com
+Form Dict: {'mobile_no': '9423028849', 'uid': 'X8fLbCdlRHQftHifiSvzjRRA2ZW2', 'cmd': 'frappe.ConnectCareLogin.login'}
+2023-08-31 18:31:46,295 ERROR frappe New Exception collected with id: 2023-08-31 18:31:46.291077-190.2.130.168-b27
+Site: connectcare.edofoxerp.com
+Form Dict: {'mobile_no': '9423028849', 'uid': 'X8fLbCdlRHQftHifiSvzjRRA2ZW2', 'cmd': 'frappe.ConnectCareLogin.login'}
+2023-08-31 18:33:02,325 ERROR frappe New Exception collected with id: 2023-08-31 18:33:02.323606-190.2.130.168-593
+Site: connectcare.edofoxerp.com
+Form Dict: {'mobile_no': '9404354412', 'uid': 'oIPmIkUTrHb8Q1zHL1nEm55oNHY2', 'cmd': 'frappe.ConnectCareLogin.login'}
+2023-08-31 18:33:35,706 ERROR frappe New Exception collected with id: 2023-08-31 18:33:35.703864-190.2.130.168-7a2
+Site: connectcare.edofoxerp.com
+Form Dict: {'mobile_no': '9404354412', 'uid': 'oIPmIkUTrHb8Q1zHL1nEm55oNHY2', 'cmd': 'frappe.ConnectCareLogin.login'}
+2023-08-31 18:39:35,560 ERROR frappe New Exception collected with id: 2023-08-31 18:39:35.555945-190.2.130.168-e48
+Site: connectcare.edofoxerp.com
+Form Dict: {'mobile_no': '9404354412', 'uid': 'oIPmIkUTrHb8Q1zHL1nEm55oNHY2', 'cmd': 'frappe.ConnectCareLogin.login'}
+2023-08-31 18:54:52,486 ERROR frappe New Exception collected with id: 2023-08-31 18:54:52.390973-106.213.84.206-e28
+Site: connectcare.edofoxerp.com
+Form Dict: {'mobile_no': '9423028849', 'uid': 'X8fLbCdlRHQftHifiSvzjRRA2ZW2', 'cmd': 'frappe.ConnectCareLogin.login'}
+2023-08-31 18:55:01,406 ERROR frappe New Exception collected with id: 2023-08-31 18:55:01.321359-106.213.84.206-7e8
+Site: connectcare.edofoxerp.com
+Form Dict: {'mobile_no': '9423028849', 'uid': 'X8fLbCdlRHQftHifiSvzjRRA2ZW2', 'cmd': 'frappe.ConnectCareLogin.login'}
+2023-08-31 18:56:19,064 ERROR frappe New Exception collected with id: 2023-08-31 18:56:19.060978-190.2.130.168-8e3
+Site: connectcare.edofoxerp.com
+Form Dict: {'mobile_no': '9423028849', 'uid': 'X8fLbCdlRHQftHifiSvzjRRA2ZW2', 'cmd': 'frappe.ConnectCareLogin.login'}
+2023-08-31 19:58:02,573 ERROR frappe New Exception collected with id: 2023-08-31 19:58:02.561601-106.213.84.206-e14
+Site: connectcare.edofoxerp.com
+Form Dict: {'email': '9423028850@connectcare.in', 'date_of_birth': '2023-08-09', 'gender': 'male', 'marital_status': 'Married', 'spouse_name': 'Married', 'anniversary_date': 'Married', 'spouse_date_of_birth': 'Married', 'spouse_mobile_number': 'Married', 'address': 'ajaj', 'city': 'auja', 'state': 'aauuw', 'has_edited': 1}
+2023-09-01 18:52:29,461 ERROR frappe Could not take error snapshot: characters_written
+Site: connectcare.edofoxerp.com
+Form Dict: {'name': '49359040a3', 'cmd': 'frappe.core.doctype.deleted_document.deleted_document.restore'}
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 66, in application
+    response = frappe.api.handle()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py", line 54, in handle
+    return frappe.handler.handle()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py", line 45, in handle
+    data = execute_cmd(cmd)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py", line 83, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1607, in call
+    return fn(*args, **newargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/core/doctype/deleted_document/deleted_document.py", line 27, in restore
+    doc.insert()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py", line 253, in insert
+    self.run_method("before_insert")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py", line 916, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py", line 1266, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py", line 1248, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py", line 913, in fn
+    return method_object(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 70, in before_insert
+    self.save_file(content=self.get_content())
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 463, in get_content
+    with open(file_path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './connectcare.edofoxerp.com/public/files/gandhi.jpg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/error.py", line 48, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/error.py", line 141, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+2023-09-01 19:31:45,765 ERROR frappe New Exception collected with id: 2023-09-01 19:31:45.755985-152.57.229.159-46d
+Site: connectcare.edofoxerp.com
+Form Dict: {'mobile_no': '9823439699', 'cmd': 'ReferralCodeApi'}
+2023-09-01 19:46:14,526 ERROR frappe New Exception collected with id: 2023-09-01 19:46:14.513881-152.57.225.254-309
+Site: connectcare.edofoxerp.com
+Form Dict: {'mobile_no': '9823439699', 'cmd': 'ReferralCodeApi'}
+2023-09-01 19:56:07,691 ERROR frappe New Exception collected with id: 2023-09-01 19:56:07.681530-157.33.250.83-f1a
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ishwar.pandit@mattersoft.xyz","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","country":"India","occupation":"2. Private Employee / खाजगी नोकरदार","budget":"Rs. 35 - 40 Lacs","qualification_status":"Unqualified","company":"Connect Care","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"__run_link_triggers":1,"lead_name":"Vishal Girwalkar","gender":"Male","mobile_no":"9823439699"}', 'cmd': 'frappe.client.save'}
+2023-09-01 19:56:48,022 ERROR frappe New Exception collected with id: 2023-09-01 19:56:48.008026-157.33.250.83-670
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ishwar.pandit@mattersoft.xyz","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","country":"India","occupation":"2. Private Employee / खाजगी नोकरदार","budget":"Rs. 35 - 40 Lacs","qualification_status":"Unqualified","company":"Connect Care","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"lead_name":"Vishal Girwalkar","gender":"Male","mobile_no":"9823439699"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-09-01 20:03:14,300 ERROR frappe New Exception collected with id: 2023-09-01 20:03:14.290423-157.33.250.83-d10
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ishwar.pandit@mattersoft.xyz","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","country":"India","occupation":"2. Private Employee / खाजगी नोकरदार","budget":"Rs. 35 - 40 Lacs","qualification_status":"Unqualified","company":"Connect Care","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"lead_name":"Vishal Girwalkar","gender":"Male","mobile_no":"9823439699"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-09-01 20:08:35,390 ERROR frappe New Exception collected with id: 2023-09-01 20:08:35.380830-157.33.250.83-4d5
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-2","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ishwar.pandit@mattersoft.xyz","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","country":"India","occupation":"3. Business / व्यवसाय","budget":"Rs. 30 - 35 Lacs","qualification_status":"Unqualified","company":"Connect Care","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"__run_link_triggers":1,"lead_name":"Vishal Girwalkar","gender":"Male","mobile_no":"9823439699"}', 'cmd': 'frappe.client.save'}
+2023-09-02 14:39:01,444 ERROR frappe New Exception collected with id: 2023-09-02 14:39:01.439292-190.2.130.164-42c
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '\'[[ "customer", "=", "Ishwar Pandit" ]]\'', 'fields': '\'["*"]\''}
+2023-09-04 13:26:12,977 ERROR frappe New Exception collected with id: 2023-09-04 13:26:12.964972-152.57.74.119-fc0
+Site: connectcare.edofoxerp.com
+Form Dict: {'mobile_no': '9834454089', 'cmd': 'ReferralCodeApi'}
+2023-09-04 13:27:29,024 ERROR frappe New Exception collected with id: 2023-09-04 13:27:29.016952-152.57.107.158-07d
+Site: connectcare.edofoxerp.com
+Form Dict: {'mobile_no': '9834454089', 'cmd': 'ReferralCodeApi'}
+2023-09-05 12:59:49,284 ERROR frappe New Exception collected with id: 2023-09-05 12:59:49.267888-65.0.131.237-594
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"staff1@connectcare.in","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"staff1@connectcare.in","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","country":"India","occupation":"2. Private Employee / खाजगी नोकरदार","budget":"Rs. 15 - 20 Lacs","qualification_status":"Unqualified","company":"Connect Care","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"__run_link_triggers":1,"lead_name":"Anand Kore","gender":"Male","email_id":"koreanand@gmail.com","mobile_no":"7350182285","address":"Latur","interested_in":[{"interested_in":"2 BHK"},{"interested_in":"3BHK"}],"suggestion":"NA"}', 'cmd': 'frappe.client.save'}
+2023-09-05 13:03:06,960 ERROR frappe New Exception collected with id: 2023-09-05 13:03:06.950610-65.0.131.237-7bc
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"superadmin@connectcare.in","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"superadmin@connectcare.in","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","country":"India","occupation":"2. Private Employee / खाजगी नोकरदार","budget":"Rs. 35 - 40 Lacs","qualification_status":"Unqualified","company":"Connect Care","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"__run_link_triggers":1,"lead_name":"Anand P Kore","gender":"Male","email_id":"koreanand@gmail.com","mobile_no":"9561860956","address":"Latur","how_do_you_know_about_project":[{"project_inquiry":"Advertisement"},{"project_inquiry":"Hoarding"}],"interested_in":[{"interested_in":"3BHK"}],"suggestion":"NA"}', 'cmd': 'frappe.client.save'}
+2023-09-05 13:03:19,846 ERROR frappe New Exception collected with id: 2023-09-05 13:03:19.830686-65.0.131.237-d14
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"superadmin@connectcare.in","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"superadmin@connectcare.in","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","country":"India","occupation":"2. Private Employee / खाजगी नोकरदार","budget":"Rs. 35 - 40 Lacs","qualification_status":"Unqualified","company":"Connect Care","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"lead_name":"Anand P Kore","gender":"Male","email_id":"koreanand@gmail.com","mobile_no":"9561860956","address":"Latur","how_do_you_know_about_project":[{"project_inquiry":"Advertisement"},{"project_inquiry":"Hoarding"}],"interested_in":[{"interested_in":"3BHK"}],"suggestion":"NA"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-09-05 13:08:43,037 ERROR frappe New Exception collected with id: 2023-09-05 13:08:43.028190-106.213.82.67-882
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"staff1@connectcare.in","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"staff1@connectcare.in","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","country":"India","occupation":"1. Government Employee / सरकारी नोकरदार","budget":"Rs. 45 - 50 Lacs","qualification_status":"Unqualified","company":"Connect Care","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"lead_name":"Ishwar","gender":"Male","mobile_no":"9988776644","how_do_you_know_about_project":[{"docstatus":0,"doctype":"About Proj","name":"new-about-proj-1","__islocal":1,"__unsaved":1,"owner":"staff1@connectcare.in","parent":"new-lead-1","parentfield":"how_do_you_know_about_project","parenttype":"Lead","idx":1,"project_inquiry":"Friend/ Relative"}],"interested_in":[{"docstatus":0,"doctype":"Interested Prop","name":"new-interested-prop-1","__islocal":1,"__unsaved":1,"owner":"staff1@connectcare.in","parent":"new-lead-1","parentfield":"interested_in","parenttype":"Lead","idx":1,"interested_in":"2 BHK"}]}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-09-05 13:09:11,043 ERROR frappe New Exception collected with id: 2023-09-05 13:09:11.018877-106.213.82.67-b5b
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"staff1@connectcare.in","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"staff1@connectcare.in","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","country":"India","occupation":"1. Government Employee / सरकारी नोकरदार","budget":"Rs. 45 - 50 Lacs","qualification_status":"Unqualified","company":"Connect Care","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"lead_name":"Ishwar","gender":"Male","mobile_no":"9988776644","how_do_you_know_about_project":[{"docstatus":0,"doctype":"About Proj","name":"new-about-proj-1","__islocal":1,"__unsaved":1,"owner":"staff1@connectcare.in","parent":"new-lead-1","parentfield":"how_do_you_know_about_project","parenttype":"Lead","idx":1,"project_inquiry":"Friend/ Relative"}],"interested_in":[{"docstatus":0,"doctype":"Interested Prop","name":"new-interested-prop-1","__islocal":1,"__unsaved":1,"owner":"staff1@connectcare.in","parent":"new-lead-1","parentfield":"interested_in","parenttype":"Lead","idx":1,"interested_in":"2 BHK"}]}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-09-05 13:10:24,939 ERROR frappe New Exception collected with id: 2023-09-05 13:10:24.920798-106.213.82.67-37e
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"staff1@connectcare.in","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"staff1@connectcare.in","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","country":"India","occupation":"1. Government Employee / सरकारी नोकरदार","budget":"Rs. 45 - 50 Lacs","qualification_status":"Unqualified","company":"Connect Care","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"lead_name":"Ishwar","gender":"Male","mobile_no":"9988776644","how_do_you_know_about_project":[{"docstatus":0,"doctype":"About Proj","name":"new-about-proj-1","__islocal":1,"__unsaved":1,"owner":"staff1@connectcare.in","parent":"new-lead-1","parentfield":"how_do_you_know_about_project","parenttype":"Lead","idx":1,"project_inquiry":"Friend/ Relative"}],"interested_in":[{"docstatus":0,"doctype":"Interested Prop","name":"new-interested-prop-1","__islocal":1,"__unsaved":1,"owner":"staff1@connectcare.in","parent":"new-lead-1","parentfield":"interested_in","parenttype":"Lead","idx":1,"interested_in":"2 BHK"}]}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-09-05 13:11:19,400 ERROR frappe New Exception collected with id: 2023-09-05 13:11:19.391075-106.213.82.67-497
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"staff1@connectcare.in","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"staff1@connectcare.in","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","country":"India","occupation":"1. Government Employee / सरकारी नोकरदार","budget":"Rs. 45 - 50 Lacs","qualification_status":"Unqualified","company":"Connect Care","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"lead_name":"Ishwar","gender":"Male","mobile_no":"9988776644","how_do_you_know_about_project":[{"docstatus":0,"doctype":"About Proj","name":"new-about-proj-1","__islocal":1,"__unsaved":1,"owner":"staff1@connectcare.in","parent":"new-lead-1","parentfield":"how_do_you_know_about_project","parenttype":"Lead","idx":1,"project_inquiry":"Friend/ Relative"}],"interested_in":[{"docstatus":0,"doctype":"Interested Prop","name":"new-interested-prop-1","__islocal":1,"__unsaved":1,"owner":"staff1@connectcare.in","parent":"new-lead-1","parentfield":"interested_in","parenttype":"Lead","idx":1,"interested_in":"2 BHK"}]}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-09-05 13:12:13,878 ERROR frappe New Exception collected with id: 2023-09-05 13:12:13.869418-106.213.82.67-aef
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"staff1@connectcare.in","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"staff1@connectcare.in","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","country":"India","occupation":"1. Government Employee / सरकारी नोकरदार","budget":"Rs. 45 - 50 Lacs","qualification_status":"Unqualified","company":"Connect Care","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"lead_name":"Ishwar","gender":"Male","mobile_no":"9988776644","how_do_you_know_about_project":[{"docstatus":0,"doctype":"About Proj","name":"new-about-proj-1","__islocal":1,"__unsaved":1,"owner":"staff1@connectcare.in","parent":"new-lead-1","parentfield":"how_do_you_know_about_project","parenttype":"Lead","idx":1,"project_inquiry":"Friend/ Relative"}],"interested_in":[{"docstatus":0,"doctype":"Interested Prop","name":"new-interested-prop-1","__islocal":1,"__unsaved":1,"owner":"staff1@connectcare.in","parent":"new-lead-1","parentfield":"interested_in","parenttype":"Lead","idx":1,"interested_in":"2 BHK"}]}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-09-05 13:22:13,579 ERROR frappe New Exception collected with id: 2023-09-05 13:22:13.565637-106.213.82.67-c5d
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-5","__islocal":1,"__unsaved":1,"owner":"staff1@connectcare.in","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"staff1@connectcare.in","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","country":"India","occupation":"2. Private Employee / खाजगी नोकरदार","budget":"Rs. 45 - 50 Lacs","qualification_status":"Unqualified","company":"Connect Care","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"lead_name":"Ishwar","gender":"Male","mobile_no":"2562624724"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-09-05 16:41:24,382 ERROR frappe New Exception collected with id: 2023-09-05 16:41:24.380023-127.0.0.1-ea1
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-05 16:41:35,799 ERROR frappe New Exception collected with id: 2023-09-05 16:41:35.796885-127.0.0.1-38c
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-05 16:43:39,231 ERROR frappe New Exception collected with id: 2023-09-05 16:43:39.229056-127.0.0.1-c01
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-05 16:46:38,479 ERROR frappe New Exception collected with id: 2023-09-05 16:46:38.477491-127.0.0.1-6de
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-05 16:49:11,137 ERROR frappe New Exception collected with id: 2023-09-05 16:49:11.125043-106.213.82.67-456
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer_name': 'CUST-2023-00214', 'property': 'PROP-2023-0388', 'project': 'PROJ-0002', 'building': 'Building 3', 'cmd': 'documents'}
+2023-09-05 20:01:22,723 ERROR frappe New Exception collected with id: 2023-09-05 20:01:22.718850-152.57.211.199-a9b
+Site: connectcare.edofoxerp.com
+Form Dict: {'email': '9823439699@connectcare.in', 'date_of_birth': '1984/01/20', 'gender': 'male', 'marital_status': 'Married', 'spouse_name': 'Married', 'anniversary_date': 'Married', 'spouse_date_of_birth': 'Married', 'spouse_mobile_number': 'Married', 'address': 'Narayan Nagar', 'city': 'Latur', 'state': 'Maharashtra', 'has_edited': 1}
+2023-09-06 12:47:24,413 ERROR frappe New Exception collected with id: 2023-09-06 12:47:24.324946-190.2.130.177-359
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '[["user_id","like","9503368774@connectcare.in%"]]', 'fields': '["'}
+2023-09-06 13:15:34,705 ERROR frappe New Exception collected with id: 2023-09-06 13:15:34.689137-190.2.130.177-767
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'cmd': 'totalReward'}
+2023-09-06 13:16:02,708 ERROR frappe New Exception collected with id: 2023-09-06 13:16:02.691321-190.2.130.177-0c3
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'cmd': 'totalReward'}
+2023-09-06 13:47:09,129 ERROR frappe New Exception collected with id: 2023-09-06 13:47:09.056432-190.2.130.177-f46
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '\'[[ "customer", "=", "Ishwar Pandit" ]]\'', 'fields': '\'["*"]\''}
+2023-09-06 14:31:05,108 ERROR frappe New Exception collected with id: 2023-09-06 14:31:05.009122-65.0.131.237-03b
+Site: connectcare.edofoxerp.com
+Form Dict: {'doctype': 'Lead', 'name': 'Lead-09-2023-0510', 'items': '["Opportunity","Quotation","Prospect"]', 'cmd': 'frappe.desk.notifications.get_open_count'}
+2023-09-06 14:31:17,697 ERROR frappe New Exception collected with id: 2023-09-06 14:31:17.603300-65.0.131.237-65e
+Site: connectcare.edofoxerp.com
+Form Dict: {'doctype': 'Lead', 'name': 'Lead-09-2023-0510', 'items': '["Opportunity","Quotation","Prospect"]', 'cmd': 'frappe.desk.notifications.get_open_count'}
+2023-09-06 17:29:19,085 ERROR frappe New Exception collected with id: 2023-09-06 17:29:19.073989-106.213.80.197-1e8
+Site: connectcare.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00214', 'cmd': 'CustomerData'}
+2023-09-06 17:29:27,464 ERROR frappe New Exception collected with id: 2023-09-06 17:29:27.448634-106.213.80.197-ed2
+Site: connectcare.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00214', 'cmd': 'CustomerData'}
+2023-09-06 17:40:51,451 ERROR frappe New Exception collected with id: 2023-09-06 17:40:51.445322-106.213.80.197-c5c
+Site: connectcare.edofoxerp.com
+Form Dict: {'app_path': 'property/PROP-2023-0388'}
+2023-09-06 17:40:51,715 ERROR frappe New Exception collected with id: 2023-09-06 17:40:51.708499-106.213.80.197-f0b
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:41:07,022 ERROR frappe New Exception collected with id: 2023-09-06 17:41:07.019345-106.213.80.197-7e7
+Site: connectcare.edofoxerp.com
+Form Dict: {'app_path': 'property/PROP-2023-0388'}
+2023-09-06 17:41:07,415 ERROR frappe New Exception collected with id: 2023-09-06 17:41:07.408042-106.213.80.197-82d
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:41:07,764 ERROR frappe New Exception collected with id: 2023-09-06 17:41:07.761202-106.213.80.197-018
+Site: connectcare.edofoxerp.com
+Form Dict: {'app_path': 'property/PROP-2023-0388'}
+2023-09-06 17:41:08,136 ERROR frappe New Exception collected with id: 2023-09-06 17:41:08.129386-106.213.80.197-584
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:41:08,244 ERROR frappe New Exception collected with id: 2023-09-06 17:41:08.241064-106.213.80.197-65e
+Site: connectcare.edofoxerp.com
+Form Dict: {'app_path': 'property/PROP-2023-0388'}
+2023-09-06 17:41:08,386 ERROR frappe New Exception collected with id: 2023-09-06 17:41:08.382559-106.213.80.197-6f6
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:43:08,996 ERROR frappe New Exception collected with id: 2023-09-06 17:43:08.993266-106.213.80.197-a12
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:43:09,982 ERROR frappe New Exception collected with id: 2023-09-06 17:43:09.978369-65.0.131.237-6f8
+Site: connectcare.edofoxerp.com
+Form Dict: {'app_path': 'lead/Lead-09-2023-0510'}
+2023-09-06 17:43:10,151 ERROR frappe New Exception collected with id: 2023-09-06 17:43:10.144268-106.213.80.197-60b
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:43:13,201 ERROR frappe New Exception collected with id: 2023-09-06 17:43:13.197722-65.0.131.237-0f8
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:43:14,736 ERROR frappe New Exception collected with id: 2023-09-06 17:43:14.732973-65.0.131.237-668
+Site: connectcare.edofoxerp.com
+Form Dict: {'app_path': 'lead/Lead-09-2023-0510'}
+2023-09-06 17:43:15,430 ERROR frappe New Exception collected with id: 2023-09-06 17:43:15.426752-65.0.131.237-83b
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:44:41,351 ERROR frappe New Exception collected with id: 2023-09-06 17:44:41.348492-65.0.131.237-04c
+Site: connectcare.edofoxerp.com
+Form Dict: {'app_path': 'lead/Lead-09-2023-0510'}
+2023-09-06 17:44:41,686 ERROR frappe New Exception collected with id: 2023-09-06 17:44:41.682910-65.0.131.237-0eb
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:44:42,307 ERROR frappe New Exception collected with id: 2023-09-06 17:44:42.303948-65.0.131.237-675
+Site: connectcare.edofoxerp.com
+Form Dict: {'app_path': 'lead/Lead-09-2023-0510'}
+2023-09-06 17:44:42,828 ERROR frappe New Exception collected with id: 2023-09-06 17:44:42.825676-65.0.131.237-fe5
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:44:43,286 ERROR frappe New Exception collected with id: 2023-09-06 17:44:43.282743-65.0.131.237-0d9
+Site: connectcare.edofoxerp.com
+Form Dict: {'app_path': 'lead/Lead-09-2023-0510'}
+2023-09-06 17:44:43,641 ERROR frappe New Exception collected with id: 2023-09-06 17:44:43.638284-65.0.131.237-0a7
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:44:43,715 ERROR frappe New Exception collected with id: 2023-09-06 17:44:43.712454-65.0.131.237-b12
+Site: connectcare.edofoxerp.com
+Form Dict: {'app_path': 'lead/Lead-09-2023-0510'}
+2023-09-06 17:44:44,080 ERROR frappe New Exception collected with id: 2023-09-06 17:44:44.076856-65.0.131.237-d1f
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:44:44,594 ERROR frappe New Exception collected with id: 2023-09-06 17:44:44.591492-65.0.131.237-aa8
+Site: connectcare.edofoxerp.com
+Form Dict: {'app_path': 'lead/Lead-09-2023-0510'}
+2023-09-06 17:44:44,926 ERROR frappe New Exception collected with id: 2023-09-06 17:44:44.922602-65.0.131.237-e9c
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:44:49,141 ERROR frappe New Exception collected with id: 2023-09-06 17:44:49.137916-106.213.80.197-ec9
+Site: connectcare.edofoxerp.com
+Form Dict: {'app_path': 'property/PROP-2023-0388'}
+2023-09-06 17:44:49,324 ERROR frappe New Exception collected with id: 2023-09-06 17:44:49.321458-106.213.80.197-9a4
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:44:50,802 ERROR frappe New Exception collected with id: 2023-09-06 17:44:50.799131-106.213.80.197-eba
+Site: connectcare.edofoxerp.com
+Form Dict: {'app_path': 'property/PROP-2023-0388'}
+2023-09-06 17:44:50,969 ERROR frappe New Exception collected with id: 2023-09-06 17:44:50.966140-106.213.80.197-313
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:44:51,168 ERROR frappe New Exception collected with id: 2023-09-06 17:44:51.164860-106.213.80.197-22b
+Site: connectcare.edofoxerp.com
+Form Dict: {'app_path': 'property/PROP-2023-0388'}
+2023-09-06 17:44:51,395 ERROR frappe New Exception collected with id: 2023-09-06 17:44:51.391810-106.213.80.197-fa1
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:44:51,397 ERROR frappe New Exception collected with id: 2023-09-06 17:44:51.393722-106.213.80.197-219
+Site: connectcare.edofoxerp.com
+Form Dict: {'app_path': 'property/PROP-2023-0388'}
+2023-09-06 17:44:51,566 ERROR frappe New Exception collected with id: 2023-09-06 17:44:51.563284-106.213.80.197-d48
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:44:52,321 ERROR frappe New Exception collected with id: 2023-09-06 17:44:52.318140-65.0.131.237-567
+Site: connectcare.edofoxerp.com
+Form Dict: {'app_path': 'lead/Lead-09-2023-0510'}
+2023-09-06 17:44:52,620 ERROR frappe New Exception collected with id: 2023-09-06 17:44:52.617536-65.0.131.237-d84
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:44:53,218 ERROR frappe New Exception collected with id: 2023-09-06 17:44:53.215324-65.0.131.237-9ea
+Site: connectcare.edofoxerp.com
+Form Dict: {'app_path': 'lead/Lead-09-2023-0510'}
+2023-09-06 17:44:53,549 ERROR frappe New Exception collected with id: 2023-09-06 17:44:53.546193-65.0.131.237-9e7
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:44:58,145 ERROR frappe New Exception collected with id: 2023-09-06 17:44:58.142304-65.0.131.237-dec
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:44:58,505 ERROR frappe New Exception collected with id: 2023-09-06 17:44:58.502620-65.0.131.237-679
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:44:59,530 ERROR frappe New Exception collected with id: 2023-09-06 17:44:59.526756-65.0.131.237-7f9
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:44:59,884 ERROR frappe New Exception collected with id: 2023-09-06 17:44:59.880633-65.0.131.237-d1c
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:00,487 ERROR frappe New Exception collected with id: 2023-09-06 17:45:00.484333-65.0.131.237-318
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:00,807 ERROR frappe New Exception collected with id: 2023-09-06 17:45:00.803868-65.0.131.237-7cc
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:01,445 ERROR frappe New Exception collected with id: 2023-09-06 17:45:01.442210-65.0.131.237-97c
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:01,751 ERROR frappe New Exception collected with id: 2023-09-06 17:45:01.747699-65.0.131.237-072
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:02,244 ERROR frappe New Exception collected with id: 2023-09-06 17:45:02.241365-65.0.131.237-32b
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:02,581 ERROR frappe New Exception collected with id: 2023-09-06 17:45:02.577708-65.0.131.237-013
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:03,273 ERROR frappe New Exception collected with id: 2023-09-06 17:45:03.269654-65.0.131.237-3b9
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:03,630 ERROR frappe New Exception collected with id: 2023-09-06 17:45:03.627518-65.0.131.237-bc1
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:03,960 ERROR frappe New Exception collected with id: 2023-09-06 17:45:03.957359-65.0.131.237-bb0
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:04,293 ERROR frappe New Exception collected with id: 2023-09-06 17:45:04.290073-65.0.131.237-5dd
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:05,213 ERROR frappe New Exception collected with id: 2023-09-06 17:45:05.209857-65.0.131.237-31d
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:05,531 ERROR frappe New Exception collected with id: 2023-09-06 17:45:05.528060-65.0.131.237-6f4
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:05,988 ERROR frappe New Exception collected with id: 2023-09-06 17:45:05.985160-65.0.131.237-3c4
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:06,321 ERROR frappe New Exception collected with id: 2023-09-06 17:45:06.318224-65.0.131.237-fd6
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:06,632 ERROR frappe New Exception collected with id: 2023-09-06 17:45:06.628778-65.0.131.237-4fe
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:06,977 ERROR frappe New Exception collected with id: 2023-09-06 17:45:06.974241-65.0.131.237-f13
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:07,094 ERROR frappe New Exception collected with id: 2023-09-06 17:45:07.091311-65.0.131.237-a27
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:07,456 ERROR frappe New Exception collected with id: 2023-09-06 17:45:07.452938-65.0.131.237-a6d
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:07,579 ERROR frappe New Exception collected with id: 2023-09-06 17:45:07.576424-65.0.131.237-584
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:07,933 ERROR frappe New Exception collected with id: 2023-09-06 17:45:07.929638-65.0.131.237-fbf
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:08,154 ERROR frappe New Exception collected with id: 2023-09-06 17:45:08.151397-65.0.131.237-eaf
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:08,524 ERROR frappe New Exception collected with id: 2023-09-06 17:45:08.520969-65.0.131.237-206
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:09,048 ERROR frappe New Exception collected with id: 2023-09-06 17:45:09.045314-65.0.131.237-5b9
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:09,408 ERROR frappe New Exception collected with id: 2023-09-06 17:45:09.404795-65.0.131.237-097
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:09,934 ERROR frappe New Exception collected with id: 2023-09-06 17:45:09.931450-65.0.131.237-9fc
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:10,279 ERROR frappe New Exception collected with id: 2023-09-06 17:45:10.276233-65.0.131.237-8df
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:10,830 ERROR frappe New Exception collected with id: 2023-09-06 17:45:10.826755-65.0.131.237-870
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:11,103 ERROR frappe New Exception collected with id: 2023-09-06 17:45:11.100166-65.0.131.237-895
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:27,278 ERROR frappe New Exception collected with id: 2023-09-06 17:45:27.275370-65.0.131.237-399
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:27,594 ERROR frappe New Exception collected with id: 2023-09-06 17:45:27.590722-65.0.131.237-c06
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:28,059 ERROR frappe New Exception collected with id: 2023-09-06 17:45:28.056333-65.0.131.237-2fb
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:28,360 ERROR frappe New Exception collected with id: 2023-09-06 17:45:28.357064-65.0.131.237-d51
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:28,560 ERROR frappe New Exception collected with id: 2023-09-06 17:45:28.556717-65.0.131.237-035
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:28,914 ERROR frappe New Exception collected with id: 2023-09-06 17:45:28.910829-65.0.131.237-7c8
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:30,536 ERROR frappe New Exception collected with id: 2023-09-06 17:45:30.533480-65.0.131.237-bcf
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:30,885 ERROR frappe New Exception collected with id: 2023-09-06 17:45:30.882125-65.0.131.237-220
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:31,330 ERROR frappe New Exception collected with id: 2023-09-06 17:45:31.327183-65.0.131.237-caa
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:31,696 ERROR frappe New Exception collected with id: 2023-09-06 17:45:31.691612-65.0.131.237-415
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:31,736 ERROR frappe New Exception collected with id: 2023-09-06 17:45:31.733715-65.0.131.237-1bc
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:32,017 ERROR frappe New Exception collected with id: 2023-09-06 17:45:32.013884-65.0.131.237-8c6
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:48,382 ERROR frappe New Exception collected with id: 2023-09-06 17:45:48.378855-106.213.82.180-c70
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-06 17:45:48,572 ERROR frappe New Exception collected with id: 2023-09-06 17:45:48.568791-106.213.82.180-733
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-07 16:22:44,606 ERROR frappe New Exception collected with id: 2023-09-07 16:22:44.598147-127.0.0.1-dc4
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-07 16:56:05,479 ERROR frappe New Exception collected with id: 2023-09-07 16:56:05.383896-106.213.87.54-713
+Site: connectcare.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00214', 'cmd': 'PropertyData'}
+2023-09-07 16:58:37,534 ERROR frappe New Exception collected with id: 2023-09-07 16:58:37.437582-106.213.87.54-fd5
+Site: connectcare.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00214', 'cmd': 'PropertyData'}
+2023-09-07 17:02:51,011 ERROR frappe New Exception collected with id: 2023-09-07 17:02:51.003150-106.213.87.54-121
+Site: connectcare.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00214', 'cmd': 'PropertyData'}
+2023-09-08 11:54:36,570 ERROR frappe New Exception collected with id: 2023-09-08 11:54:36.568603-106.213.83.40-d4c
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '\'[[ "customer", "=", "CUST-2023-00214\n" ]]\'', 'fields': '\'["*"]\''}
+2023-09-08 11:54:45,621 ERROR frappe New Exception collected with id: 2023-09-08 11:54:45.619878-106.213.83.40-cd8
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '\'[[ "customer", "=", "CUST-2023-00214" ]]\'', 'fields': '\'["*"]\''}
+2023-09-08 11:55:00,409 ERROR frappe New Exception collected with id: 2023-09-08 11:55:00.407247-106.213.83.40-c31
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '[["user_id","like","9503368774@connectcare.in%"]]', 'fields': '["'}
+2023-09-08 17:44:37,319 ERROR frappe New Exception collected with id: 2023-09-08 17:44:37.221852-152.57.230.118-16a
+Site: connectcare.edofoxerp.com
+Form Dict: {'email': '8806071133@connectcare.in', 'date_of_birth': '1984/01/20', 'gender': 'male', 'marital_status': 'Married', 'spouse_name': 'Married', 'anniversary_date': 'Married', 'spouse_date_of_birth': 'Married', 'spouse_mobile_number': 'Married', 'address': 'Narayan Nagar Latur', 'city': 'Latur', 'state': 'Maharashtra', 'has_edited': 1}
+2023-09-08 17:49:17,459 ERROR frappe New Exception collected with id: 2023-09-08 17:49:17.285851-152.57.230.118-ff7
+Site: connectcare.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00225', 'cmd': 'CustomerData'}
+2023-09-08 17:49:43,513 ERROR frappe New Exception collected with id: 2023-09-08 17:49:43.505847-152.57.230.118-c66
+Site: connectcare.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00225', 'cmd': 'CustomerData'}
+2023-09-08 17:50:58,675 ERROR frappe New Exception collected with id: 2023-09-08 17:50:58.662020-152.57.230.118-454
+Site: connectcare.edofoxerp.com
+Form Dict: {'mobile_no': '8806071133', 'uid': 'u3cf1QxG8dOCMdiAr0xMCbpWeVb2', 'cmd': 'frappe.ConnectCareLogin.login'}
+2023-09-08 17:56:06,845 ERROR frappe New Exception collected with id: 2023-09-08 17:56:06.840710-152.57.230.118-15a
+Site: connectcare.edofoxerp.com
+Form Dict: {'email': '8806071133@connectcare.in', 'date_of_birth': '1984/01/20', 'gender': 'male', 'marital_status': 'Married', 'spouse_name': 'Married', 'anniversary_date': 'Married', 'spouse_date_of_birth': 'Married', 'spouse_mobile_number': 'Married', 'address': 'Barshi Road Latur', 'city': 'Latur', 'state': 'Maharashtra', 'has_edited': 1}
+2023-09-09 13:54:46,381 ERROR frappe New Exception collected with id: 2023-09-09 13:54:46.379387-138.199.7.160-b59
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '[["user_id","like","9503368774@connectcare.in%"]]', 'fields': '["'}
+2023-09-09 13:54:49,256 ERROR frappe New Exception collected with id: 2023-09-09 13:54:49.250761-138.199.7.160-21e
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '[["user_id","like","9503368774@connectcare.in%"]]', 'fields': '["'}
+2023-09-12 16:34:04,054 ERROR frappe New Exception collected with id: 2023-09-12 16:34:03.983250-58.84.62.110-eeb
+Site: connectcare.edofoxerp.com
+Form Dict: {'cmd': 'frappe.ConnectKare.Counts'}
+2023-09-13 12:55:08,970 ERROR frappe New Exception collected with id: 2023-09-13 12:55:08.862810-106.213.83.69-554
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Customer Coupons","name":"new-customer-coupons-3","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","occasion_type":"Birth Day","customer":"CUST-2023-00214","company_registration":"ConnectCare","hotel_name":"Hotel-0002","discount_percentage":0,"coupon_code":"86vrx","coupon_type":"Discounted","coupon_no":"Coupon-00018","hotel":"Wada Hotel"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-09-13 12:55:44,068 ERROR frappe New Exception collected with id: 2023-09-13 12:55:44.058706-106.213.83.69-c80
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Customer Coupons","name":"new-customer-coupons-3","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","occasion_type":"Birth Day","customer":"CUST-2023-00214","company_registration":"ConnectCare","hotel_name":"Hotel-0002","discount_percentage":0,"coupon_code":"86vrx","coupon_type":"Discounted","coupon_no":"Coupon-00018","hotel":"Wada Hotel"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-09-13 12:55:53,760 ERROR frappe New Exception collected with id: 2023-09-13 12:55:53.634229-106.213.83.69-075
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Customer Coupons","name":"new-customer-coupons-3","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","occasion_type":"Birth Day","customer":"CUST-2023-00214","company_registration":"ConnectCare","hotel_name":"Hotel-0002","discount_percentage":0,"coupon_code":"86vrx","coupon_type":"Discounted","coupon_no":"Coupon-00018","hotel":"Wada Hotel"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-09-13 12:57:55,775 ERROR frappe New Exception collected with id: 2023-09-13 12:57:55.670021-106.213.83.69-b58
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Customer Coupons","name":"new-customer-coupons-3","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","occasion_type":"Birth Day","customer":"CUST-2023-00214","company_registration":"ConnectCare","hotel_name":"Hotel-0002","discount_percentage":0,"coupon_code":"86vrx","coupon_type":"Discounted","coupon_no":"Coupon-00018","hotel":"Wada Hotel"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-09-13 14:49:46,654 ERROR frappe New Exception collected with id: 2023-09-13 14:49:46.651276-106.213.83.69-4b4
+Site: connectcare.edofoxerp.com
+Form Dict: {'limit_page_length': 20}
+2023-09-15 12:38:24,692 ERROR frappe New Exception collected with id: 2023-09-15 12:38:24.589510-106.213.87.54-450
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:28,135 ERROR frappe New Exception collected with id: 2023-09-15 12:38:28.036518-106.213.87.54-ea8
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:30,364 ERROR frappe New Exception collected with id: 2023-09-15 12:38:30.343609-106.213.87.54-1df
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:30,362 ERROR frappe New Exception collected with id: 2023-09-15 12:38:30.341365-106.213.87.54-5b2
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:30,476 ERROR frappe New Exception collected with id: 2023-09-15 12:38:30.298336-106.213.87.54-fe5
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:30,479 ERROR frappe New Exception collected with id: 2023-09-15 12:38:30.345515-106.213.87.54-4c2
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:34,461 ERROR frappe New Exception collected with id: 2023-09-15 12:38:34.453218-106.213.87.54-ff2
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:34,469 ERROR frappe New Exception collected with id: 2023-09-15 12:38:34.461333-106.213.87.54-829
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:35,872 ERROR frappe New Exception collected with id: 2023-09-15 12:38:35.864343-106.213.87.54-7ea
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:35,873 ERROR frappe New Exception collected with id: 2023-09-15 12:38:35.865324-106.213.87.54-314
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:36,490 ERROR frappe New Exception collected with id: 2023-09-15 12:38:36.482951-106.213.87.54-474
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:36,578 ERROR frappe New Exception collected with id: 2023-09-15 12:38:36.486136-106.213.87.54-f98
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:37,200 ERROR frappe New Exception collected with id: 2023-09-15 12:38:37.192976-106.213.87.54-50f
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:37,205 ERROR frappe New Exception collected with id: 2023-09-15 12:38:37.197975-106.213.87.54-812
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:38,468 ERROR frappe New Exception collected with id: 2023-09-15 12:38:38.460435-106.213.87.54-201
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:39,632 ERROR frappe New Exception collected with id: 2023-09-15 12:38:39.624962-106.213.87.54-173
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:39,635 ERROR frappe New Exception collected with id: 2023-09-15 12:38:39.627503-106.213.87.54-4fd
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:40,594 ERROR frappe New Exception collected with id: 2023-09-15 12:38:40.580762-106.213.87.54-cee
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:40,614 ERROR frappe New Exception collected with id: 2023-09-15 12:38:40.606806-106.213.87.54-217
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:42,089 ERROR frappe New Exception collected with id: 2023-09-15 12:38:42.081250-106.213.87.54-deb
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:42,234 ERROR frappe New Exception collected with id: 2023-09-15 12:38:42.226299-106.213.87.54-340
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:43,366 ERROR frappe New Exception collected with id: 2023-09-15 12:38:43.359042-106.213.87.54-0aa
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:44,339 ERROR frappe New Exception collected with id: 2023-09-15 12:38:44.332082-106.213.87.54-244
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:44,341 ERROR frappe New Exception collected with id: 2023-09-15 12:38:44.334301-106.213.87.54-7dd
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:38:46,354 ERROR frappe New Exception collected with id: 2023-09-15 12:38:46.346012-106.213.87.54-42b
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:04,115 ERROR frappe New Exception collected with id: 2023-09-15 12:39:04.108249-106.213.87.54-e2e
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:04,964 ERROR frappe New Exception collected with id: 2023-09-15 12:39:04.956322-106.213.87.54-b88
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:07,084 ERROR frappe New Exception collected with id: 2023-09-15 12:39:07.076826-106.213.87.54-e9e
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:07,198 ERROR frappe New Exception collected with id: 2023-09-15 12:39:07.189625-106.213.87.54-667
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:07,199 ERROR frappe New Exception collected with id: 2023-09-15 12:39:07.192159-106.213.87.54-9a6
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:09,805 ERROR frappe New Exception collected with id: 2023-09-15 12:39:09.797189-106.213.87.54-aea
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:09,962 ERROR frappe New Exception collected with id: 2023-09-15 12:39:09.954700-106.213.87.54-072
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:10,131 ERROR frappe New Exception collected with id: 2023-09-15 12:39:10.123621-106.213.87.54-cc6
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:10,194 ERROR frappe New Exception collected with id: 2023-09-15 12:39:10.186543-106.213.87.54-d64
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:10,247 ERROR frappe New Exception collected with id: 2023-09-15 12:39:10.239537-106.213.87.54-2eb
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:10,279 ERROR frappe New Exception collected with id: 2023-09-15 12:39:10.248927-106.213.87.54-6cd
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:10,287 ERROR frappe New Exception collected with id: 2023-09-15 12:39:10.279216-106.213.87.54-1f3
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:10,300 ERROR frappe New Exception collected with id: 2023-09-15 12:39:10.292915-106.213.87.54-3a0
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:11,991 ERROR frappe New Exception collected with id: 2023-09-15 12:39:11.983842-106.213.87.54-2a7
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:12,049 ERROR frappe New Exception collected with id: 2023-09-15 12:39:12.042197-106.213.87.54-93d
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:12,058 ERROR frappe New Exception collected with id: 2023-09-15 12:39:12.050635-106.213.87.54-efd
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:12,098 ERROR frappe New Exception collected with id: 2023-09-15 12:39:12.090146-106.213.87.54-22f
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:12,816 ERROR frappe New Exception collected with id: 2023-09-15 12:39:12.808077-106.213.87.54-868
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:12,834 ERROR frappe New Exception collected with id: 2023-09-15 12:39:12.827399-106.213.87.54-24a
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:12,940 ERROR frappe New Exception collected with id: 2023-09-15 12:39:12.931953-106.213.87.54-8d1
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:12,951 ERROR frappe New Exception collected with id: 2023-09-15 12:39:12.943824-106.213.87.54-1fd
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:48,031 ERROR frappe New Exception collected with id: 2023-09-15 12:39:48.022416-106.213.87.54-aac
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-103', 'cmd': 'SellData'}
+2023-09-15 12:39:55,441 ERROR frappe New Exception collected with id: 2023-09-15 12:39:55.434108-106.213.87.54-2da
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-201', 'cmd': 'RentData'}
+2023-09-15 12:40:02,207 ERROR frappe New Exception collected with id: 2023-09-15 12:40:02.199723-106.213.87.54-6cc
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-201', 'cmd': 'RentData'}

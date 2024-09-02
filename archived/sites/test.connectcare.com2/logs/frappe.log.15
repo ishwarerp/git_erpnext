@@ -1,0 +1,114 @@
+2023-09-15 12:40:05,838 ERROR frappe New Exception collected with id: 2023-09-15 12:40:05.830337-106.213.87.54-201
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-201', 'cmd': 'RentData'}
+2023-09-15 12:40:07,248 ERROR frappe New Exception collected with id: 2023-09-15 12:40:07.240484-106.213.87.54-bef
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-201', 'cmd': 'RentData'}
+2023-09-15 12:40:09,511 ERROR frappe New Exception collected with id: 2023-09-15 12:40:09.503378-106.213.87.54-4a8
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-201', 'cmd': 'RentData'}
+2023-09-15 12:40:15,016 ERROR frappe New Exception collected with id: 2023-09-15 12:40:15.008293-106.213.87.54-858
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-201', 'cmd': 'RentData'}
+2023-09-15 12:40:19,429 ERROR frappe New Exception collected with id: 2023-09-15 12:40:19.421859-106.213.87.54-f88
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'DP-B3-F-201', 'cmd': 'RentData'}
+2023-09-15 18:08:36,389 ERROR frappe New Exception collected with id: 2023-09-15 18:08:36.387272-127.0.0.1-565
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-15 18:28:11,075 ERROR frappe New Exception collected with id: 2023-09-15 18:28:11.066179-106.213.87.54-5be
+Site: connectcare.edofoxerp.com
+Form Dict: {'customer': 'CUST-2023-00214', 'property': 'CU-PR-09.2023-0226', 'cmd': 'RentData'}
+2023-09-16 12:03:57,159 ERROR frappe New Exception collected with id: 2023-09-16 12:03:57.157430-54.86.50.139-aa3
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-09-25 18:31:44,469 ERROR frappe New Exception collected with id: 2023-09-25 18:31:44.464472-106.213.87.10-513
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:44,518 ERROR frappe New Exception collected with id: 2023-09-25 18:31:44.513020-106.213.87.10-101
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:44,550 ERROR frappe New Exception collected with id: 2023-09-25 18:31:44.544711-106.213.87.10-4df
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:44,630 ERROR frappe New Exception collected with id: 2023-09-25 18:31:44.625557-106.213.87.10-99f
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:44,735 ERROR frappe New Exception collected with id: 2023-09-25 18:31:44.717699-106.213.87.10-185
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:44,853 ERROR frappe New Exception collected with id: 2023-09-25 18:31:44.847584-106.213.87.10-540
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:44,896 ERROR frappe New Exception collected with id: 2023-09-25 18:31:44.889927-106.213.87.10-e36
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:45,140 ERROR frappe New Exception collected with id: 2023-09-25 18:31:45.135487-106.213.87.10-2c5
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:45,465 ERROR frappe New Exception collected with id: 2023-09-25 18:31:45.452643-106.213.87.10-3f2
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:45,532 ERROR frappe New Exception collected with id: 2023-09-25 18:31:45.520483-106.213.87.10-3d2
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:45,714 ERROR frappe New Exception collected with id: 2023-09-25 18:31:45.700092-106.213.87.10-566
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:46,000 ERROR frappe New Exception collected with id: 2023-09-25 18:31:45.993074-106.213.87.10-fcd
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:46,032 ERROR frappe New Exception collected with id: 2023-09-25 18:31:46.026415-106.213.87.10-fb2
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:46,264 ERROR frappe New Exception collected with id: 2023-09-25 18:31:46.246991-106.213.87.10-063
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:46,298 ERROR frappe New Exception collected with id: 2023-09-25 18:31:46.293123-106.213.87.10-ad8
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:46,372 ERROR frappe New Exception collected with id: 2023-09-25 18:31:46.367367-106.213.87.10-7ae
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:46,500 ERROR frappe New Exception collected with id: 2023-09-25 18:31:46.494596-106.213.87.10-7fa
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:46,544 ERROR frappe New Exception collected with id: 2023-09-25 18:31:46.534818-106.213.87.10-b1c
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:46,629 ERROR frappe New Exception collected with id: 2023-09-25 18:31:46.624637-106.213.87.10-06a
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:46,865 ERROR frappe New Exception collected with id: 2023-09-25 18:31:46.858552-106.213.87.10-bad
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:47,042 ERROR frappe New Exception collected with id: 2023-09-25 18:31:47.037637-106.213.87.10-0a6
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:47,262 ERROR frappe New Exception collected with id: 2023-09-25 18:31:47.249519-106.213.87.10-2bf
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:47,549 ERROR frappe New Exception collected with id: 2023-09-25 18:31:47.541112-106.213.87.10-628
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:47,919 ERROR frappe New Exception collected with id: 2023-09-25 18:31:47.913166-106.213.87.10-86e
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:48,157 ERROR frappe New Exception collected with id: 2023-09-25 18:31:48.152224-106.213.87.10-ef7
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:48,482 ERROR frappe New Exception collected with id: 2023-09-25 18:31:48.477297-106.213.87.10-279
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:48,533 ERROR frappe New Exception collected with id: 2023-09-25 18:31:48.526862-106.213.87.10-06e
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:48,988 ERROR frappe New Exception collected with id: 2023-09-25 18:31:48.967893-106.213.87.10-bf7
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:49,260 ERROR frappe New Exception collected with id: 2023-09-25 18:31:49.254899-106.213.87.10-4b4
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-09-25 18:31:49,298 ERROR frappe New Exception collected with id: 2023-09-25 18:31:49.294039-106.213.87.10-602
+Site: connectcare.edofoxerp.com
+Form Dict: {'filters': '{"name1":{"readyState":1}}', 'fields': '["name"]', 'doctype': 'Site Visit Form', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}

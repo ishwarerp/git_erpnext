@@ -1,0 +1,1104 @@
+2023-12-27 15:00:05,442 ERROR frappe New Exception collected with id: 2023-12-27 15:00:05.429376-152.58.18.114-417
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2023-12-27 15:01:45,924 ERROR frappe New Exception collected with id: 2023-12-27 15:01:45.915949-152.58.22.21-d69
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2023-12-29 18:11:43,222 ERROR frappe New Exception collected with id: 2023-12-29 18:11:43.212308-106.213.84.206-0ce
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2023-12-29 18:17:52,385 ERROR frappe New Exception collected with id: 2023-12-29 18:17:52.376700-106.213.84.206-16c
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2023-12-29 18:21:07,876 ERROR frappe New Exception collected with id: 2023-12-29 18:21:07.867909-106.213.84.206-0f9
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2023-12-29 18:24:46,300 ERROR frappe New Exception collected with id: 2023-12-29 18:24:46.291480-106.213.84.206-3c2
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2023-12-29 18:27:21,699 ERROR frappe New Exception collected with id: 2023-12-29 18:27:21.690413-106.213.84.206-b0a
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2023-12-29 18:44:08,326 ERROR frappe New Exception collected with id: 2023-12-29 18:44:08.317974-106.213.84.206-b8a
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2023-12-29 18:45:08,208 ERROR frappe New Exception collected with id: 2023-12-29 18:45:08.199707-106.213.84.206-404
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2023-12-29 18:46:32,320 ERROR frappe New Exception collected with id: 2023-12-29 18:46:32.311496-106.213.84.206-a12
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2023-12-30 12:10:13,022 ERROR frappe New Exception collected with id: 2023-12-30 12:10:13.012185-152.57.91.50-e5d
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2023-12-30 12:10:14,972 ERROR frappe New Exception collected with id: 2023-12-30 12:10:14.970368-52.114.14.102-eea
+Site: ssd.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2023-12-30 12:56:53,870 ERROR frappe New Exception collected with id: 2023-12-30 12:56:53.860651-106.213.87.232-1dd
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00254', 'cmd': 'CustomerData'}
+2023-12-30 13:11:32,093 ERROR frappe New Exception collected with id: 2023-12-30 13:11:32.084335-106.213.87.232-397
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2023-12-30 13:25:19,794 ERROR frappe New Exception collected with id: 2023-12-30 13:25:19.785658-106.213.87.232-e6b
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00254', 'cmd': 'CustomerData'}
+2023-12-30 13:28:28,474 ERROR frappe New Exception collected with id: 2023-12-30 13:28:28.465224-106.213.87.232-4e8
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00254', 'cmd': 'CustomerData'}
+2023-12-30 13:28:54,468 ERROR frappe New Exception collected with id: 2023-12-30 13:28:54.458538-106.213.87.232-179
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00254', 'cmd': 'CustomerData'}
+2024-01-01 15:57:43,858 ERROR frappe New Exception collected with id: 2024-01-01 15:57:43.849531-106.213.87.25-3bd
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-01 16:21:27,500 ERROR frappe New Exception collected with id: 2024-01-01 16:21:27.411612-106.213.87.25-d57
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-01 16:29:06,756 ERROR frappe New Exception collected with id: 2024-01-01 16:29:06.740893-106.213.87.25-b39
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-01 16:29:32,908 ERROR frappe New Exception collected with id: 2024-01-01 16:29:32.900741-106.213.87.25-eb6
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-01 16:30:44,759 ERROR frappe New Exception collected with id: 2024-01-01 16:30:44.751716-106.213.87.25-8e6
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-01 16:32:14,265 ERROR frappe New Exception collected with id: 2024-01-01 16:32:14.256257-106.213.87.25-378
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00254', 'cmd': 'CustomerData'}
+2024-01-01 16:32:39,526 ERROR frappe New Exception collected with id: 2024-01-01 16:32:39.517505-106.213.87.25-ad3
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00254', 'cmd': 'CustomerData'}
+2024-01-01 16:52:21,707 ERROR frappe New Exception collected with id: 2024-01-01 16:52:21.699245-106.213.87.25-0e3
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00254', 'cmd': 'CustomerData'}
+2024-01-01 16:53:19,471 ERROR frappe New Exception collected with id: 2024-01-01 16:53:19.454758-106.213.87.25-79d
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-01 16:57:11,452 ERROR frappe New Exception collected with id: 2024-01-01 16:57:11.439374-106.213.87.25-d63
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-01 16:59:39,347 ERROR frappe New Exception collected with id: 2024-01-01 16:59:39.337143-106.213.87.25-055
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-01 17:12:42,656 ERROR frappe New Exception collected with id: 2024-01-01 17:12:42.556359-106.213.87.25-07e
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-01 17:12:47,256 ERROR frappe New Exception collected with id: 2024-01-01 17:12:47.249525-106.213.87.25-647
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-01 17:12:57,682 ERROR frappe New Exception collected with id: 2024-01-01 17:12:57.674426-106.213.87.25-92b
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-01 17:13:22,858 ERROR frappe New Exception collected with id: 2024-01-01 17:13:22.726262-106.213.87.25-a06
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-01 17:21:18,125 ERROR frappe New Exception collected with id: 2024-01-01 17:21:18.115314-106.213.87.25-945
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-01 17:31:51,529 ERROR frappe New Exception collected with id: 2024-01-01 17:31:51.521061-106.213.87.25-882
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-01 17:44:26,871 ERROR frappe New Exception collected with id: 2024-01-01 17:44:26.861723-106.213.87.25-556
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-02 11:41:54,617 ERROR frappe New Exception collected with id: 2024-01-02 11:41:54.606016-106.213.80.93-dfa
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00254', 'cmd': 'CustomerData'}
+2024-01-02 11:42:22,236 ERROR frappe New Exception collected with id: 2024-01-02 11:42:22.226267-106.213.80.93-f88
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00254', 'cmd': 'CustomerData'}
+2024-01-02 11:42:34,788 ERROR frappe New Exception collected with id: 2024-01-02 11:42:34.683599-106.213.80.93-4cb
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00254', 'cmd': 'CustomerData'}
+2024-01-02 11:43:49,578 ERROR frappe New Exception collected with id: 2024-01-02 11:43:49.570064-106.213.80.93-7f0
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00254', 'cmd': 'CustomerData'}
+2024-01-02 11:53:25,628 ERROR frappe New Exception collected with id: 2024-01-02 11:53:25.626713-106.213.80.93-3e3
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'f06a983cc8', 'parent': 'Customer Payments', 'format': 'Customer Payment', 'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-01-02 12:27:37,888 ERROR frappe New Exception collected with id: 2024-01-02 12:27:37.880519-152.58.21.141-96e
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-02 12:28:02,036 ERROR frappe New Exception collected with id: 2024-01-02 12:28:02.028575-152.58.19.9-c52
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-02 12:29:02,444 ERROR frappe New Exception collected with id: 2024-01-02 12:29:02.436982-152.58.21.141-ebc
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-02 12:29:07,269 ERROR frappe New Exception collected with id: 2024-01-02 12:29:07.259437-152.58.21.141-902
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-02 13:18:20,951 ERROR frappe New Exception collected with id: 2024-01-02 13:18:20.949833-52.114.14.71-984
+Site: ssd.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-01-02 13:18:21,012 ERROR frappe New Exception collected with id: 2024-01-02 13:18:21.010901-52.112.125.8-e81
+Site: ssd.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-01-02 13:18:29,902 ERROR frappe New Exception collected with id: 2024-01-02 13:18:29.900658-106.213.85.180-e57
+Site: ssd.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-01-02 16:59:45,205 ERROR frappe New Exception collected with id: 2024-01-02 16:59:45.195862-152.58.16.58-27a
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-02 17:04:01,248 ERROR frappe New Exception collected with id: 2024-01-02 17:04:01.240734-106.213.80.93-187
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-02 17:29:28,502 ERROR frappe New Exception collected with id: 2024-01-02 17:29:28.493774-106.213.80.93-f0f
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-02 17:29:54,279 ERROR frappe New Exception collected with id: 2024-01-02 17:29:54.271124-106.213.80.93-e31
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-02 18:02:06,542 ERROR frappe New Exception collected with id: 2024-01-02 18:02:06.534502-106.213.80.93-239
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-02 18:12:06,781 ERROR frappe New Exception collected with id: 2024-01-02 18:12:06.773268-106.213.80.93-da2
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-02 18:12:30,939 ERROR frappe New Exception collected with id: 2024-01-02 18:12:30.930024-106.213.80.93-310
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-02 18:14:23,873 ERROR frappe New Exception collected with id: 2024-01-02 18:14:23.864507-106.213.80.93-e18
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-02 18:15:22,447 ERROR frappe New Exception collected with id: 2024-01-02 18:15:22.439778-106.213.80.93-828
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-02 18:16:27,020 ERROR frappe New Exception collected with id: 2024-01-02 18:16:27.012783-106.213.80.93-91c
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-02 18:18:46,708 ERROR frappe New Exception collected with id: 2024-01-02 18:18:46.700523-106.213.80.93-843
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-02 18:19:18,882 ERROR frappe New Exception collected with id: 2024-01-02 18:19:18.873885-106.213.80.93-5b6
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-02 18:21:02,507 ERROR frappe New Exception collected with id: 2024-01-02 18:21:02.499639-106.213.80.93-7f2
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-02 18:21:05,214 ERROR frappe New Exception collected with id: 2024-01-02 18:21:05.206686-106.213.80.93-cad
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-02 18:28:37,864 ERROR frappe New Exception collected with id: 2024-01-02 18:28:37.856380-106.213.80.93-f68
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-02 18:28:45,567 ERROR frappe New Exception collected with id: 2024-01-02 18:28:45.559774-106.213.80.93-949
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-02 18:28:49,247 ERROR frappe New Exception collected with id: 2024-01-02 18:28:49.239892-106.213.80.93-a3e
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-02 18:29:29,402 ERROR frappe New Exception collected with id: 2024-01-02 18:29:29.391892-106.213.80.93-dc1
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-02 18:29:45,955 ERROR frappe New Exception collected with id: 2024-01-02 18:29:45.947474-106.213.80.93-b7a
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-02 18:29:46,797 ERROR frappe New Exception collected with id: 2024-01-02 18:29:46.789081-106.213.80.93-d6e
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-02 19:05:03,923 ERROR frappe New Exception collected with id: 2024-01-02 19:05:03.921144-52.112.74.60-289
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'Pay-01-2024-0001', 'amp;doctype': 'Customer', 'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-01-03 08:03:13,852 ERROR frappe New Exception collected with id: 2024-01-03 08:03:13.844162-152.58.33.51-6bc
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-03 08:03:56,645 ERROR frappe New Exception collected with id: 2024-01-03 08:03:56.635828-152.58.33.51-446
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-03 08:07:08,922 ERROR frappe New Exception collected with id: 2024-01-03 08:07:08.914834-152.58.33.120-056
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-03 08:07:35,438 ERROR frappe New Exception collected with id: 2024-01-03 08:07:35.430423-152.58.30.120-ec1
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-03 08:08:08,614 ERROR frappe New Exception collected with id: 2024-01-03 08:08:08.606096-152.58.33.120-f41
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-03 12:30:54,532 ERROR frappe New Exception collected with id: 2024-01-03 12:30:54.530324-52.112.125.8-d97
+Site: ssd.edofoxerp.com
+Form Dict: {'name': '2f4749dbf9', 'amp;doctype': 'CP', 'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-01-03 15:00:28,785 ERROR frappe New Exception collected with id: 2024-01-03 15:00:28.778201-106.213.87.114-1c6
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-03 15:02:08,677 ERROR frappe New Exception collected with id: 2024-01-03 15:02:08.669217-106.213.87.114-ae8
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-03 15:02:13,194 ERROR frappe New Exception collected with id: 2024-01-03 15:02:13.186643-106.213.87.114-cfc
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-03 15:29:47,446 ERROR frappe New Exception collected with id: 2024-01-03 15:29:47.438930-106.213.87.114-d6d
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-03 15:35:31,967 ERROR frappe New Exception collected with id: 2024-01-03 15:35:31.957783-106.213.87.114-979
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-04 16:14:34,735 ERROR frappe New Exception collected with id: 2024-01-04 16:14:34.723243-106.213.82.62-726
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-04 18:01:39,223 ERROR frappe New Exception collected with id: 2024-01-04 18:01:39.214634-106.213.82.62-f95
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00254', 'cmd': 'CustomerData'}
+2024-01-04 18:02:23,468 ERROR frappe New Exception collected with id: 2024-01-04 18:02:23.459965-106.213.82.62-b74
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00254', 'cmd': 'CustomerData'}
+2024-01-04 18:06:40,393 ERROR frappe New Exception collected with id: 2024-01-04 18:06:40.385366-106.213.82.62-123
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00254', 'cmd': 'CustomerData'}
+2024-01-04 18:07:02,274 ERROR frappe New Exception collected with id: 2024-01-04 18:07:02.264044-106.213.82.62-1e4
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00254', 'cmd': 'CustomerData'}
+2024-01-04 18:12:53,905 ERROR frappe New Exception collected with id: 2024-01-04 18:12:53.895731-106.213.82.62-4be
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-04 18:14:28,111 ERROR frappe New Exception collected with id: 2024-01-04 18:14:28.103745-106.213.82.62-be8
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00254', 'cmd': 'CustomerData'}
+2024-01-04 18:15:14,317 ERROR frappe New Exception collected with id: 2024-01-04 18:15:14.309614-106.213.82.62-5f3
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00254', 'cmd': 'CustomerData'}
+2024-01-04 18:24:36,832 ERROR frappe New Exception collected with id: 2024-01-04 18:24:36.824989-106.213.82.62-bf2
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-01-05 02:18:12,376 ERROR frappe New Exception collected with id: 2024-01-05 02:18:12.368891-152.58.33.153-f12
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-05 02:19:04,988 ERROR frappe New Exception collected with id: 2024-01-05 02:19:04.979686-152.58.33.249-21f
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-05 02:19:26,150 ERROR frappe New Exception collected with id: 2024-01-05 02:19:26.143372-152.58.33.249-2f2
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-05 02:19:55,160 ERROR frappe New Exception collected with id: 2024-01-05 02:19:55.152847-152.58.33.249-aa3
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-05 02:19:59,147 ERROR frappe New Exception collected with id: 2024-01-05 02:19:59.139217-152.58.33.153-dd6
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-05 02:20:07,218 ERROR frappe New Exception collected with id: 2024-01-05 02:20:07.210206-152.58.33.249-5d2
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-05 02:20:28,857 ERROR frappe New Exception collected with id: 2024-01-05 02:20:28.839422-152.58.33.249-a44
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-05 02:20:39,654 ERROR frappe New Exception collected with id: 2024-01-05 02:20:39.646682-152.58.33.249-849
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-05 02:20:44,766 ERROR frappe New Exception collected with id: 2024-01-05 02:20:44.758209-152.58.33.249-fc1
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-05 22:06:10,750 ERROR frappe New Exception collected with id: 2024-01-05 22:06:10.742182-152.57.207.249-8de
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-05 22:06:42,867 ERROR frappe New Exception collected with id: 2024-01-05 22:06:42.859618-152.58.30.191-45f
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-05 22:06:43,979 ERROR frappe New Exception collected with id: 2024-01-05 22:06:43.968422-152.58.30.199-db8
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-16 22:26:57,236 ERROR frappe New Exception collected with id: 2024-01-16 22:26:57.228013-152.58.33.20-7fe
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-16 22:27:19,829 ERROR frappe New Exception collected with id: 2024-01-16 22:27:19.821765-152.58.33.20-03a
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-16 22:27:24,687 ERROR frappe New Exception collected with id: 2024-01-16 22:27:24.678999-152.58.33.20-650
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-18 07:52:24,074 ERROR frappe New Exception collected with id: 2024-01-18 07:52:24.066013-152.58.20.170-dc2
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-18 07:52:46,085 ERROR frappe New Exception collected with id: 2024-01-18 07:52:46.077956-152.58.20.170-aba
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-01-18 07:52:47,926 ERROR frappe New Exception collected with id: 2024-01-18 07:52:47.918094-152.58.20.71-b35
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-02-02 12:29:00,043 ERROR frappe New Exception collected with id: 2024-02-02 12:29:00.031083-106.213.82.116-59e
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-02 12:47:32,889 ERROR frappe New Exception collected with id: 2024-02-02 12:47:32.875850-106.213.82.116-d98
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-02 13:05:05,389 ERROR frappe New Exception collected with id: 2024-02-02 13:05:05.376985-106.213.82.116-00d
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-02 13:51:39,419 ERROR frappe New Exception collected with id: 2024-02-02 13:51:39.411054-106.213.82.116-e9b
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-02 13:52:17,077 ERROR frappe New Exception collected with id: 2024-02-02 13:52:17.068897-106.213.82.116-69a
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-02 13:54:35,834 ERROR frappe New Exception collected with id: 2024-02-02 13:54:35.820866-106.213.82.116-aee
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-02 13:59:32,222 ERROR frappe New Exception collected with id: 2024-02-02 13:59:32.213618-106.213.82.116-109
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-02 14:13:45,699 ERROR frappe New Exception collected with id: 2024-02-02 14:13:45.678981-157.33.118.114-3ce
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-02 14:14:40,895 ERROR frappe New Exception collected with id: 2024-02-02 14:14:40.886664-157.33.46.253-10b
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-02 14:15:16,364 ERROR frappe New Exception collected with id: 2024-02-02 14:15:16.356287-157.33.118.114-c16
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-02 14:15:43,645 ERROR frappe New Exception collected with id: 2024-02-02 14:15:43.636980-157.33.118.114-8c2
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-02 16:39:24,525 ERROR frappe New Exception collected with id: 2024-02-02 16:39:24.517399-106.213.82.116-6fe
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-02 17:10:02,450 ERROR frappe New Exception collected with id: 2024-02-02 17:10:02.396365-106.213.82.116-e28
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-02 17:18:09,736 ERROR frappe New Exception collected with id: 2024-02-02 17:18:09.727348-106.213.82.116-171
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-02 17:31:04,947 ERROR frappe New Exception collected with id: 2024-02-02 17:31:04.938376-106.213.82.116-4a9
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-02 17:32:53,205 ERROR frappe New Exception collected with id: 2024-02-02 17:32:53.193537-106.213.82.116-b49
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-02 17:33:04,098 ERROR frappe New Exception collected with id: 2024-02-02 17:33:04.090218-106.213.82.116-4ac
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-02 19:34:28,875 ERROR frappe New Exception collected with id: 2024-02-02 19:34:28.868028-157.33.80.143-567
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-05 12:20:46,215 ERROR frappe New Exception collected with id: 2024-02-05 12:20:46.206684-106.213.84.255-447
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-05 12:27:44,947 ERROR frappe New Exception collected with id: 2024-02-05 12:27:44.938095-106.213.84.255-0cd
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-05 12:28:01,588 ERROR frappe New Exception collected with id: 2024-02-05 12:28:01.579987-106.213.84.255-7de
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-05 12:28:06,731 ERROR frappe New Exception collected with id: 2024-02-05 12:28:06.722587-106.213.84.255-a6e
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-05 13:13:11,171 ERROR frappe New Exception collected with id: 2024-02-05 13:13:11.163276-106.213.84.255-a1b
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-05 13:13:17,362 ERROR frappe New Exception collected with id: 2024-02-05 13:13:17.353759-106.213.84.255-116
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-05 13:13:28,334 ERROR frappe New Exception collected with id: 2024-02-05 13:13:28.325513-106.213.84.255-4fe
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-05 13:13:48,705 ERROR frappe New Exception collected with id: 2024-02-05 13:13:48.695991-106.213.84.255-cf4
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-05 13:16:13,046 ERROR frappe New Exception collected with id: 2024-02-05 13:16:13.038003-106.213.84.255-021
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-05 13:17:06,060 ERROR frappe New Exception collected with id: 2024-02-05 13:17:06.054014-106.213.84.255-63c
+Site: ssd.edofoxerp.com
+Form Dict: {'doc': '{"name":"daf3ba38c7","owner":"Administrator","creation":"2023-11-06 21:57:17.691493","modified":"2023-11-06 21:57:17.691493","modified_by":"Administrator","docstatus":0,"idx":0,"file_name":"Temple.png","is_private":0,"is_home_folder":0,"is_attachments_folder":0,"file_size":996557,"file_url":"/private/files/Temple.png","folder":"Home","is_folder":0,"attached_to_doctype":"Amenities","attached_to_name":"Amenities (ARH)","attached_to_field":"images","content_hash":"354e445d5d622a3dab4512e3cfb228d8","uploaded_to_dropbox":0,"uploaded_to_google_drive":0,"doctype":"File","__last_sync_on":"2024-02-05T07:47:01.384Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-02-05 13:17:18,687 ERROR frappe New Exception collected with id: 2024-02-05 13:17:18.681220-106.213.84.255-22a
+Site: ssd.edofoxerp.com
+Form Dict: {'doc': '{"name":"daf3ba38c7","owner":"Administrator","creation":"2023-11-06 21:57:17.691493","modified":"2023-11-06 21:57:17.691493","modified_by":"Administrator","docstatus":0,"idx":0,"file_name":"Temple.png","is_private":0,"is_home_folder":0,"is_attachments_folder":0,"file_size":996557,"file_url":"/private/files/Temple.png","folder":"Home","is_folder":0,"attached_to_doctype":"Amenities","attached_to_name":"Amenities (ARH)","attached_to_field":"images","content_hash":"354e445d5d622a3dab4512e3cfb228d8","uploaded_to_dropbox":0,"uploaded_to_google_drive":0,"doctype":"File","__last_sync_on":"2024-02-05T07:47:16.655Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-02-05 13:17:35,027 ERROR frappe New Exception collected with id: 2024-02-05 13:17:35.020893-106.213.84.255-b7a
+Site: ssd.edofoxerp.com
+Form Dict: {'doc': '{"name":"daf3ba38c7","owner":"Administrator","creation":"2023-11-06 21:57:17.691493","modified":"2023-11-06 21:57:17.691493","modified_by":"Administrator","docstatus":0,"idx":0,"file_name":"Temple.png","is_private":0,"is_home_folder":0,"is_attachments_folder":0,"file_size":996557,"file_url":"/private/files/Temple.png","folder":"Home","is_folder":0,"attached_to_doctype":"Amenities","attached_to_name":"Amenities (ARH)","attached_to_field":"images","content_hash":"354e445d5d622a3dab4512e3cfb228d8","uploaded_to_dropbox":0,"uploaded_to_google_drive":0,"doctype":"File","__last_sync_on":"2024-02-05T07:47:32.331Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-02-05 13:18:54,861 ERROR frappe New Exception collected with id: 2024-02-05 13:18:54.854341-106.213.84.255-c83
+Site: ssd.edofoxerp.com
+Form Dict: {'doc': '{"name":"daf3ba38c7","owner":"Administrator","creation":"2023-11-06 21:57:17.691493","modified":"2023-11-06 21:57:17.691493","modified_by":"Administrator","docstatus":0,"idx":0,"file_name":"Temple.png","is_private":0,"is_home_folder":0,"is_attachments_folder":0,"file_size":996557,"file_url":"/private/files/Temple.png","folder":"Home","is_folder":0,"attached_to_doctype":"Amenities","attached_to_name":"Amenities (ARH)","attached_to_field":"images","content_hash":"354e445d5d622a3dab4512e3cfb228d8","uploaded_to_dropbox":0,"uploaded_to_google_drive":0,"doctype":"File","__last_sync_on":"2024-02-05T07:48:49.437Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-02-06 11:53:22,780 ERROR frappe New Exception collected with id: 2024-02-06 11:53:22.770613-106.213.87.85-2fc
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 11:54:15,833 ERROR frappe New Exception collected with id: 2024-02-06 11:54:15.823693-106.213.87.85-460
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 12:10:43,071 ERROR frappe New Exception collected with id: 2024-02-06 12:10:43.062146-106.213.87.85-23f
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 12:20:47,135 ERROR frappe New Exception collected with id: 2024-02-06 12:20:47.127301-106.213.87.85-3c3
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 12:22:13,246 ERROR frappe New Exception collected with id: 2024-02-06 12:22:13.238786-106.213.87.85-d4d
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 12:22:17,113 ERROR frappe New Exception collected with id: 2024-02-06 12:22:17.104941-106.213.87.85-d48
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 12:33:21,576 ERROR frappe New Exception collected with id: 2024-02-06 12:33:21.568352-106.213.87.85-9c7
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 12:35:07,681 ERROR frappe New Exception collected with id: 2024-02-06 12:35:07.672636-106.213.87.85-275
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 12:43:18,494 ERROR frappe New Exception collected with id: 2024-02-06 12:43:18.485128-106.213.87.85-f4d
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 12:52:50,652 ERROR frappe New Exception collected with id: 2024-02-06 12:52:50.638786-106.213.87.85-b39
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 12:58:40,106 ERROR frappe New Exception collected with id: 2024-02-06 12:58:40.098390-106.213.87.85-a81
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 13:01:12,339 ERROR frappe New Exception collected with id: 2024-02-06 13:01:12.330327-106.213.87.85-a01
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 13:04:39,574 ERROR frappe New Exception collected with id: 2024-02-06 13:04:39.566938-106.213.87.85-1d6
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 13:05:23,558 ERROR frappe New Exception collected with id: 2024-02-06 13:05:23.550552-106.213.87.85-c63
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 13:08:53,293 ERROR frappe New Exception collected with id: 2024-02-06 13:08:53.285158-106.213.87.85-072
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 13:10:51,712 ERROR frappe New Exception collected with id: 2024-02-06 13:10:51.704697-106.213.87.85-aa4
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 13:11:41,508 ERROR frappe New Exception collected with id: 2024-02-06 13:11:41.499804-106.213.87.85-c33
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 13:11:46,514 ERROR frappe New Exception collected with id: 2024-02-06 13:11:46.506440-106.213.87.85-94d
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 13:17:13,206 ERROR frappe New Exception collected with id: 2024-02-06 13:17:13.197536-106.213.87.85-be9
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 13:26:06,514 ERROR frappe New Exception collected with id: 2024-02-06 13:26:06.505984-106.213.87.85-711
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 13:27:32,551 ERROR frappe New Exception collected with id: 2024-02-06 13:27:32.534389-106.213.87.85-a72
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 13:27:32,617 ERROR frappe New Exception collected with id: 2024-02-06 13:27:32.608690-106.213.87.85-d17
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 14:01:16,663 ERROR frappe New Exception collected with id: 2024-02-06 14:01:16.654742-106.213.87.85-cee
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 14:02:51,844 ERROR frappe New Exception collected with id: 2024-02-06 14:02:51.836006-106.213.87.85-5e9
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 14:02:53,383 ERROR frappe New Exception collected with id: 2024-02-06 14:02:53.375301-106.213.87.85-9ba
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 14:06:33,959 ERROR frappe New Exception collected with id: 2024-02-06 14:06:33.950618-106.213.87.85-16f
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 15:52:54,444 ERROR frappe New Exception collected with id: 2024-02-06 15:52:54.436761-106.213.87.85-d12
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 15:53:18,998 ERROR frappe New Exception collected with id: 2024-02-06 15:53:18.989716-106.213.87.85-d06
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 15:53:25,019 ERROR frappe New Exception collected with id: 2024-02-06 15:53:25.011450-106.213.87.85-944
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 15:53:26,496 ERROR frappe New Exception collected with id: 2024-02-06 15:53:26.487885-106.213.87.85-b5a
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 15:53:27,745 ERROR frappe New Exception collected with id: 2024-02-06 15:53:27.736886-106.213.87.85-18d
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 15:54:00,470 ERROR frappe New Exception collected with id: 2024-02-06 15:54:00.462002-106.213.87.85-19d
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 15:54:03,306 ERROR frappe New Exception collected with id: 2024-02-06 15:54:03.298024-106.213.87.85-304
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 15:54:04,753 ERROR frappe New Exception collected with id: 2024-02-06 15:54:04.745444-106.213.87.85-36b
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 15:54:23,222 ERROR frappe New Exception collected with id: 2024-02-06 15:54:23.213777-106.213.87.85-68a
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 15:54:24,835 ERROR frappe New Exception collected with id: 2024-02-06 15:54:24.827280-106.213.87.85-289
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 15:54:26,344 ERROR frappe New Exception collected with id: 2024-02-06 15:54:26.336304-106.213.87.85-c16
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 15:54:27,156 ERROR frappe New Exception collected with id: 2024-02-06 15:54:27.147403-106.213.87.85-9de
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 15:54:28,324 ERROR frappe New Exception collected with id: 2024-02-06 15:54:28.315914-106.213.87.85-a15
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 15:54:28,863 ERROR frappe New Exception collected with id: 2024-02-06 15:54:28.849429-106.213.87.85-16a
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 15:54:28,972 ERROR frappe New Exception collected with id: 2024-02-06 15:54:28.962360-106.213.87.85-fe7
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 15:54:31,410 ERROR frappe New Exception collected with id: 2024-02-06 15:54:31.401639-106.213.87.85-be7
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 15:54:43,716 ERROR frappe New Exception collected with id: 2024-02-06 15:54:43.707973-106.213.87.85-d8f
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 15:54:49,344 ERROR frappe New Exception collected with id: 2024-02-06 15:54:49.336705-106.213.87.85-f2c
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 16:02:03,319 ERROR frappe New Exception collected with id: 2024-02-06 16:02:03.310398-106.213.87.85-10d
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 16:04:52,553 ERROR frappe New Exception collected with id: 2024-02-06 16:04:52.545370-106.213.87.85-3b1
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 16:06:53,935 ERROR frappe New Exception collected with id: 2024-02-06 16:06:53.926565-106.213.87.85-cb3
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 16:07:21,343 ERROR frappe New Exception collected with id: 2024-02-06 16:07:21.335201-106.213.87.85-15a
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 16:09:52,629 ERROR frappe New Exception collected with id: 2024-02-06 16:09:52.620530-106.213.87.85-b07
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 16:13:39,727 ERROR frappe New Exception collected with id: 2024-02-06 16:13:39.718631-106.213.87.85-d6e
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 16:13:43,185 ERROR frappe New Exception collected with id: 2024-02-06 16:13:43.176601-106.213.87.85-943
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 16:13:48,739 ERROR frappe New Exception collected with id: 2024-02-06 16:13:48.731740-106.213.87.85-12f
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 16:14:22,183 ERROR frappe New Exception collected with id: 2024-02-06 16:14:22.174326-106.213.87.85-b4d
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 16:14:32,928 ERROR frappe New Exception collected with id: 2024-02-06 16:14:32.920552-106.213.87.85-8b0
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 16:14:33,869 ERROR frappe New Exception collected with id: 2024-02-06 16:14:33.860033-106.213.87.85-bc6
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 16:14:39,314 ERROR frappe New Exception collected with id: 2024-02-06 16:14:39.306441-106.213.87.85-9db
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 16:14:40,789 ERROR frappe New Exception collected with id: 2024-02-06 16:14:40.781674-106.213.87.85-3d7
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 16:18:54,556 ERROR frappe New Exception collected with id: 2024-02-06 16:18:54.547488-106.213.87.85-003
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 16:20:43,910 ERROR frappe New Exception collected with id: 2024-02-06 16:20:43.901541-106.213.87.85-dca
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 16:21:23,613 ERROR frappe New Exception collected with id: 2024-02-06 16:21:23.605075-106.213.87.85-1d3
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 16:27:39,960 ERROR frappe New Exception collected with id: 2024-02-06 16:27:39.952193-106.213.87.85-d02
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 16:29:14,371 ERROR frappe New Exception collected with id: 2024-02-06 16:29:14.362601-106.213.87.85-97e
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 16:42:46,948 ERROR frappe New Exception collected with id: 2024-02-06 16:42:46.940343-106.213.87.85-f26
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 16:43:11,324 ERROR frappe New Exception collected with id: 2024-02-06 16:43:11.316516-106.213.87.85-e9a
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 17:06:05,429 ERROR frappe New Exception collected with id: 2024-02-06 17:06:05.420116-106.213.87.85-00e
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 17:07:44,763 ERROR frappe New Exception collected with id: 2024-02-06 17:07:44.754502-106.213.87.85-9bf
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 17:07:49,579 ERROR frappe New Exception collected with id: 2024-02-06 17:07:49.571436-106.213.87.85-cb2
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 17:08:06,131 ERROR frappe New Exception collected with id: 2024-02-06 17:08:06.123379-106.213.87.85-15a
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 17:14:31,409 ERROR frappe New Exception collected with id: 2024-02-06 17:14:31.400713-106.213.87.85-801
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 17:20:29,602 ERROR frappe New Exception collected with id: 2024-02-06 17:20:29.594426-106.213.87.85-183
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 17:28:05,731 ERROR frappe New Exception collected with id: 2024-02-06 17:28:05.722932-106.213.87.85-5e0
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 17:28:07,470 ERROR frappe New Exception collected with id: 2024-02-06 17:28:07.461596-106.213.87.85-021
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 17:35:10,658 ERROR frappe New Exception collected with id: 2024-02-06 17:35:10.650617-106.213.87.85-c7f
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 17:35:27,865 ERROR frappe New Exception collected with id: 2024-02-06 17:35:27.856376-106.213.87.85-2a7
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 17:35:27,893 ERROR frappe New Exception collected with id: 2024-02-06 17:35:27.884879-106.213.87.85-6f7
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 17:35:30,529 ERROR frappe New Exception collected with id: 2024-02-06 17:35:30.520917-106.213.87.85-7af
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 17:49:46,136 ERROR frappe New Exception collected with id: 2024-02-06 17:49:46.128522-106.213.87.85-2f0
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 17:59:56,742 ERROR frappe New Exception collected with id: 2024-02-06 17:59:56.733810-106.213.87.85-baa
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:00:42,737 ERROR frappe New Exception collected with id: 2024-02-06 18:00:42.727215-106.213.87.85-c4e
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:02:24,768 ERROR frappe New Exception collected with id: 2024-02-06 18:02:24.760208-106.213.87.85-a11
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:02:25,511 ERROR frappe New Exception collected with id: 2024-02-06 18:02:25.502254-106.213.87.85-7c1
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:05:56,973 ERROR frappe New Exception collected with id: 2024-02-06 18:05:56.964952-106.213.87.85-e1d
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:05:59,798 ERROR frappe New Exception collected with id: 2024-02-06 18:05:59.789696-106.213.87.85-5ab
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:10:21,996 ERROR frappe New Exception collected with id: 2024-02-06 18:10:21.987254-106.213.87.85-ab1
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:10:27,978 ERROR frappe New Exception collected with id: 2024-02-06 18:10:27.970622-106.213.87.85-2e7
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:10:50,142 ERROR frappe New Exception collected with id: 2024-02-06 18:10:50.134369-106.213.87.85-820
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:10:52,927 ERROR frappe New Exception collected with id: 2024-02-06 18:10:52.918036-106.213.87.85-1c4
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:13:02,600 ERROR frappe New Exception collected with id: 2024-02-06 18:13:02.591662-106.213.87.85-a8c
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:13:04,109 ERROR frappe New Exception collected with id: 2024-02-06 18:13:04.100072-106.213.87.85-978
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:13:06,608 ERROR frappe New Exception collected with id: 2024-02-06 18:13:06.599506-106.213.87.85-f0a
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:13:08,734 ERROR frappe New Exception collected with id: 2024-02-06 18:13:08.725039-106.213.87.85-d59
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:13:31,015 ERROR frappe New Exception collected with id: 2024-02-06 18:13:31.006330-106.213.87.85-888
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:13:33,511 ERROR frappe New Exception collected with id: 2024-02-06 18:13:33.502475-106.213.87.85-a07
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:13:35,198 ERROR frappe New Exception collected with id: 2024-02-06 18:13:35.190742-106.213.87.85-7c7
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:13:37,257 ERROR frappe New Exception collected with id: 2024-02-06 18:13:37.248736-106.213.87.85-2b0
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:13:54,007 ERROR frappe New Exception collected with id: 2024-02-06 18:13:53.997590-106.213.87.85-c90
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:13:56,579 ERROR frappe New Exception collected with id: 2024-02-06 18:13:56.571611-106.213.87.85-5ca
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:13:58,872 ERROR frappe New Exception collected with id: 2024-02-06 18:13:58.864747-106.213.87.85-7a1
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:14:00,156 ERROR frappe New Exception collected with id: 2024-02-06 18:14:00.147747-106.213.87.85-822
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:16:46,254 ERROR frappe New Exception collected with id: 2024-02-06 18:16:46.246287-106.213.87.85-63f
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:16:53,026 ERROR frappe New Exception collected with id: 2024-02-06 18:16:53.018742-106.213.87.85-983
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:17:07,482 ERROR frappe New Exception collected with id: 2024-02-06 18:17:07.474168-106.213.87.85-b9d
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:17:43,946 ERROR frappe New Exception collected with id: 2024-02-06 18:17:43.936512-106.213.87.85-84b
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:18:31,931 ERROR frappe New Exception collected with id: 2024-02-06 18:18:31.922642-106.213.87.85-9a7
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:18:35,660 ERROR frappe New Exception collected with id: 2024-02-06 18:18:35.652771-106.213.87.85-719
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:22:15,171 ERROR frappe New Exception collected with id: 2024-02-06 18:22:15.163888-106.213.87.85-46c
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:23:19,178 ERROR frappe New Exception collected with id: 2024-02-06 18:23:19.170235-106.213.87.85-dde
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:23:21,560 ERROR frappe New Exception collected with id: 2024-02-06 18:23:21.543307-106.213.87.85-695
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:27:50,857 ERROR frappe New Exception collected with id: 2024-02-06 18:27:50.849152-106.213.87.85-d15
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:28:46,637 ERROR frappe New Exception collected with id: 2024-02-06 18:28:46.620339-106.213.87.85-f7a
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:28:48,282 ERROR frappe New Exception collected with id: 2024-02-06 18:28:48.274186-106.213.87.85-d8a
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:28:50,020 ERROR frappe New Exception collected with id: 2024-02-06 18:28:50.011567-106.213.87.85-573
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:28:51,065 ERROR frappe New Exception collected with id: 2024-02-06 18:28:51.056898-106.213.87.85-5cf
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:28:52,525 ERROR frappe New Exception collected with id: 2024-02-06 18:28:52.516738-106.213.87.85-ba7
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:28:54,270 ERROR frappe New Exception collected with id: 2024-02-06 18:28:54.262321-106.213.87.85-b34
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:28:56,016 ERROR frappe New Exception collected with id: 2024-02-06 18:28:56.007301-106.213.87.85-c22
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:38:20,563 ERROR frappe New Exception collected with id: 2024-02-06 18:38:20.554097-106.213.87.85-315
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:38:36,605 ERROR frappe New Exception collected with id: 2024-02-06 18:38:36.597739-106.213.87.85-cca
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:38:38,936 ERROR frappe New Exception collected with id: 2024-02-06 18:38:38.928000-106.213.87.85-b51
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:38:42,694 ERROR frappe New Exception collected with id: 2024-02-06 18:38:42.685953-106.213.87.85-c04
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:39:46,407 ERROR frappe New Exception collected with id: 2024-02-06 18:39:46.399439-106.213.87.85-f51
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:39:47,762 ERROR frappe New Exception collected with id: 2024-02-06 18:39:47.754274-106.213.87.85-849
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:39:53,537 ERROR frappe New Exception collected with id: 2024-02-06 18:39:53.529198-106.213.87.85-2cb
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:39:55,470 ERROR frappe New Exception collected with id: 2024-02-06 18:39:55.462364-106.213.87.85-f1c
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:41:04,890 ERROR frappe New Exception collected with id: 2024-02-06 18:41:04.882256-106.213.87.85-574
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:45:42,294 ERROR frappe New Exception collected with id: 2024-02-06 18:45:42.284339-106.213.87.85-610
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:45:58,902 ERROR frappe New Exception collected with id: 2024-02-06 18:45:58.894125-106.213.87.85-875
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 18:48:27,509 ERROR frappe New Exception collected with id: 2024-02-06 18:48:27.500854-106.213.87.85-a1a
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 19:07:19,096 ERROR frappe New Exception collected with id: 2024-02-06 19:07:19.088589-106.213.87.85-931
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 19:07:54,659 ERROR frappe New Exception collected with id: 2024-02-06 19:07:54.651204-106.213.87.85-ac9
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 19:07:56,458 ERROR frappe New Exception collected with id: 2024-02-06 19:07:56.449398-106.213.87.85-f03
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 19:08:22,069 ERROR frappe New Exception collected with id: 2024-02-06 19:08:22.061728-157.33.224.96-2f8
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 19:08:22,490 ERROR frappe New Exception collected with id: 2024-02-06 19:08:22.482131-157.33.224.96-268
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 19:10:23,799 ERROR frappe New Exception collected with id: 2024-02-06 19:10:23.791840-157.33.250.163-536
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 19:10:26,359 ERROR frappe New Exception collected with id: 2024-02-06 19:10:26.351474-157.33.224.96-450
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-06 19:10:41,234 ERROR frappe New Exception collected with id: 2024-02-06 19:10:41.226053-157.33.224.96-1f9
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 12:50:33,279 ERROR frappe New Exception collected with id: 2024-02-07 12:50:33.270691-106.213.83.104-8da
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 12:53:41,287 ERROR frappe New Exception collected with id: 2024-02-07 12:53:41.279273-106.213.83.104-cb4
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 12:55:52,097 ERROR frappe New Exception collected with id: 2024-02-07 12:55:52.087395-106.213.83.104-22f
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 12:55:57,862 ERROR frappe New Exception collected with id: 2024-02-07 12:55:57.854220-106.213.83.104-a6e
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 13:03:00,664 ERROR frappe New Exception collected with id: 2024-02-07 13:03:00.656622-106.213.83.104-dd9
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 13:20:19,354 ERROR frappe New Exception collected with id: 2024-02-07 13:20:19.346099-106.213.83.104-37f
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 13:26:05,639 ERROR frappe New Exception collected with id: 2024-02-07 13:26:05.629919-106.213.83.104-dce
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 13:26:27,000 ERROR frappe New Exception collected with id: 2024-02-07 13:26:26.992348-106.213.83.104-88e
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 13:26:30,001 ERROR frappe New Exception collected with id: 2024-02-07 13:26:29.992874-106.213.83.104-d3f
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 13:26:34,937 ERROR frappe New Exception collected with id: 2024-02-07 13:26:34.928751-106.213.83.104-358
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 13:27:28,356 ERROR frappe New Exception collected with id: 2024-02-07 13:27:28.348057-106.213.83.104-098
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 13:29:57,557 ERROR frappe New Exception collected with id: 2024-02-07 13:29:57.548793-106.213.83.104-e52
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 13:30:01,113 ERROR frappe New Exception collected with id: 2024-02-07 13:30:01.105217-106.213.83.104-b22
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 13:30:05,143 ERROR frappe New Exception collected with id: 2024-02-07 13:30:05.135085-106.213.83.104-5c7
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 13:39:49,797 ERROR frappe New Exception collected with id: 2024-02-07 13:39:49.789759-106.213.83.104-706
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 13:42:35,554 ERROR frappe New Exception collected with id: 2024-02-07 13:42:35.545985-106.213.83.104-64f
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 13:52:48,660 ERROR frappe New Exception collected with id: 2024-02-07 13:52:48.652115-106.213.83.104-576
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 13:52:58,859 ERROR frappe New Exception collected with id: 2024-02-07 13:52:58.851170-106.213.83.104-1a2
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 14:04:28,203 ERROR frappe New Exception collected with id: 2024-02-07 14:04:28.195014-152.57.78.105-ade
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 15:10:17,134 ERROR frappe New Exception collected with id: 2024-02-07 15:10:17.126025-106.213.83.104-ed4
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 15:27:10,067 ERROR frappe New Exception collected with id: 2024-02-07 15:27:10.058310-106.213.83.104-786
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 15:29:33,503 ERROR frappe New Exception collected with id: 2024-02-07 15:29:33.495076-106.213.83.104-3ee
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 15:29:38,795 ERROR frappe New Exception collected with id: 2024-02-07 15:29:38.787442-106.213.83.104-d93
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 15:37:05,675 ERROR frappe New Exception collected with id: 2024-02-07 15:37:05.667118-106.213.83.104-739
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 15:45:16,355 ERROR frappe New Exception collected with id: 2024-02-07 15:45:16.347761-106.213.83.104-38d
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 15:45:22,372 ERROR frappe New Exception collected with id: 2024-02-07 15:45:22.364113-106.213.83.104-a90
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 15:46:11,289 ERROR frappe New Exception collected with id: 2024-02-07 15:46:11.281123-106.213.83.104-d32
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:10:18,964 ERROR frappe New Exception collected with id: 2024-02-07 16:10:18.955624-106.213.83.104-cdf
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:10:21,519 ERROR frappe New Exception collected with id: 2024-02-07 16:10:21.510841-106.213.83.104-060
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:10:26,695 ERROR frappe New Exception collected with id: 2024-02-07 16:10:26.686906-106.213.83.104-903
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:17:18,851 ERROR frappe New Exception collected with id: 2024-02-07 16:17:18.843058-106.213.83.104-6fc
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:17:46,644 ERROR frappe New Exception collected with id: 2024-02-07 16:17:46.635914-106.213.83.104-b15
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:17:55,546 ERROR frappe New Exception collected with id: 2024-02-07 16:17:55.537901-106.213.83.104-dae
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:30:06,325 ERROR frappe New Exception collected with id: 2024-02-07 16:30:06.316831-106.213.83.104-7de
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:34:52,465 ERROR frappe New Exception collected with id: 2024-02-07 16:34:52.457244-106.213.83.104-316
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:35:08,478 ERROR frappe New Exception collected with id: 2024-02-07 16:35:08.468759-106.213.83.104-c8b
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:35:12,161 ERROR frappe New Exception collected with id: 2024-02-07 16:35:12.153033-106.213.83.104-a26
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:35:55,158 ERROR frappe New Exception collected with id: 2024-02-07 16:35:55.150073-106.213.83.104-58e
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:35:59,055 ERROR frappe New Exception collected with id: 2024-02-07 16:35:59.046950-106.213.83.104-7f8
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:41:33,208 ERROR frappe New Exception collected with id: 2024-02-07 16:41:33.200253-106.213.83.104-81f
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:41:58,842 ERROR frappe New Exception collected with id: 2024-02-07 16:41:58.834887-106.213.83.104-943
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:45:47,505 ERROR frappe New Exception collected with id: 2024-02-07 16:45:47.497207-106.213.83.104-14f
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:47:51,414 ERROR frappe New Exception collected with id: 2024-02-07 16:47:51.406393-106.213.83.104-64b
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:49:46,781 ERROR frappe New Exception collected with id: 2024-02-07 16:49:46.773121-106.213.83.104-6ba
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:50:02,606 ERROR frappe New Exception collected with id: 2024-02-07 16:50:02.598317-106.213.83.104-59f
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:50:04,545 ERROR frappe New Exception collected with id: 2024-02-07 16:50:04.537307-106.213.83.104-de3
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:50:05,275 ERROR frappe New Exception collected with id: 2024-02-07 16:50:05.266081-106.213.83.104-e86
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:53:02,914 ERROR frappe New Exception collected with id: 2024-02-07 16:53:02.905695-106.213.83.104-8e8
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:53:05,456 ERROR frappe New Exception collected with id: 2024-02-07 16:53:05.447623-106.213.83.104-fca
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:53:08,037 ERROR frappe New Exception collected with id: 2024-02-07 16:53:08.028541-106.213.83.104-462
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:55:18,737 ERROR frappe New Exception collected with id: 2024-02-07 16:55:18.729724-106.213.83.104-c73
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:56:11,908 ERROR frappe New Exception collected with id: 2024-02-07 16:56:11.899389-106.213.83.104-b4f
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:56:15,633 ERROR frappe New Exception collected with id: 2024-02-07 16:56:15.624412-106.213.83.104-7d3
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:57:08,832 ERROR frappe New Exception collected with id: 2024-02-07 16:57:08.824682-106.213.83.104-0f0
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:57:33,452 ERROR frappe New Exception collected with id: 2024-02-07 16:57:33.443371-106.213.83.104-fec
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:57:37,156 ERROR frappe New Exception collected with id: 2024-02-07 16:57:37.147528-106.213.83.104-99c
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:57:38,000 ERROR frappe New Exception collected with id: 2024-02-07 16:57:37.992028-106.213.83.104-a4b
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:58:24,881 ERROR frappe New Exception collected with id: 2024-02-07 16:58:24.872791-106.213.83.104-036
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:58:28,826 ERROR frappe New Exception collected with id: 2024-02-07 16:58:28.818343-106.213.83.104-a21
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:58:30,990 ERROR frappe New Exception collected with id: 2024-02-07 16:58:30.980935-106.213.83.104-1d9
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 16:59:47,461 ERROR frappe New Exception collected with id: 2024-02-07 16:59:47.453731-106.213.83.104-998
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 17:00:24,626 ERROR frappe New Exception collected with id: 2024-02-07 17:00:24.618266-106.213.83.104-4a4
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 17:00:50,811 ERROR frappe New Exception collected with id: 2024-02-07 17:00:50.793476-106.213.83.104-4b2
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 17:00:52,640 ERROR frappe New Exception collected with id: 2024-02-07 17:00:52.626516-106.213.83.104-382
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 17:00:54,331 ERROR frappe New Exception collected with id: 2024-02-07 17:00:54.309152-106.213.83.104-05f
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 17:16:11,134 ERROR frappe New Exception collected with id: 2024-02-07 17:16:11.125873-106.213.83.104-400
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 17:16:15,487 ERROR frappe New Exception collected with id: 2024-02-07 17:16:15.478575-106.213.83.104-5bf
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 17:16:20,216 ERROR frappe New Exception collected with id: 2024-02-07 17:16:20.207837-106.213.83.104-826
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 17:18:36,601 ERROR frappe New Exception collected with id: 2024-02-07 17:18:36.593178-106.213.83.104-107
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 17:18:38,150 ERROR frappe New Exception collected with id: 2024-02-07 17:18:38.142212-106.213.83.104-77d
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 17:19:35,561 ERROR frappe New Exception collected with id: 2024-02-07 17:19:35.553418-106.213.83.104-473
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 17:19:57,268 ERROR frappe New Exception collected with id: 2024-02-07 17:19:57.260474-106.213.83.104-2a4
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 17:26:32,811 ERROR frappe New Exception collected with id: 2024-02-07 17:26:32.803370-54.86.50.139-be3
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00254', 'cmd': 'CustomerData'}
+2024-02-07 17:50:23,881 ERROR frappe New Exception collected with id: 2024-02-07 17:50:23.873446-54.86.50.139-421
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 18:05:18,255 ERROR frappe New Exception collected with id: 2024-02-07 18:05:18.247167-54.86.50.139-6c1
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00297', 'cmd': 'CustomerData'}
+2024-02-07 18:06:06,182 ERROR frappe New Exception collected with id: 2024-02-07 18:06:06.173705-106.213.81.205-e88
+Site: ssd.edofoxerp.com
+Form Dict: {'cmd': 'CustomerData'}
+2024-02-07 18:06:44,058 ERROR frappe New Exception collected with id: 2024-02-07 18:06:44.049513-106.213.81.205-f5d
+Site: ssd.edofoxerp.com
+Form Dict: {'name': 'CUST-2023-00335', 'cmd': 'CustomerData'}
+2024-02-15 17:35:20,126 ERROR frappe New Exception collected with id: 2024-02-15 17:35:20.032168-152.57.130.91-275
+Site: ssd.edofoxerp.com
+Form Dict: {'coupon_status': 'Assigned'}
+2024-02-27 17:31:48,684 ERROR frappe New Exception collected with id: 2024-02-27 17:31:48.663118-106.213.81.242-281
+Site: ssd.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Customer Property","name":"new-customer-property-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","payment_terms":"Days","customer_name":"Mahesh","customer":"CUST-2023-00297","company_registration":"SSD Developers","project":"PROJ-0005","cycle_days":30,"cycle_percent":10,"building":"BLD-0006","property":"AH-BLD-0006-B-1","rate":23000000,"token_amount":100000}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-02-27 17:56:33,202 ERROR frappe New Exception collected with id: 2024-02-27 17:56:33.159999-106.213.81.242-13c
+Site: ssd.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Customer Property","name":"new-customer-property-7","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","payment_terms":"Days","customer_name":"Mahesh","customer":"CUST-2023-00297","company_registration":"SSD Developers","project":"PROJ-0005","cycle_days":10,"cycle_percent":10,"building":"BLD-0006","property":"AH-BLD-0006-B-1","rate":100000,"token_amount":1000}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-02-29 11:59:24,263 ERROR frappe New Exception collected with id: 2024-02-29 11:59:24.253630-106.213.82.164-3f0
+Site: ssd.edofoxerp.com
+Form Dict: {'docs': '{"name":"Document Naming Settings","owner":"Administrator","modified":"2023-05-13 15:17:48.729668","modified_by":"Administrator","docstatus":0,"idx":"0","user_must_always_select":0,"current_value":1724,"doctype":"Document Naming Settings","prefix":"","__unsaved":1,"transaction_type":""}', 'method': 'update_series', 'cmd': 'run_doc_method'}
+2024-02-29 12:06:55,755 ERROR frappe New Exception collected with id: 2024-02-29 12:06:55.746281-106.213.82.164-3b1
+Site: ssd.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Customer Property","name":"new-customer-property-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","payment_terms":"Days","customer_name":"Mahesh","customer":"CUST-2023-00297","company_registration":"SSD Developers","project":"PROJ-0005","cycle_days":10,"cycle_percent":10,"building":"BLD-0006","property":"AH-BLD-0006-B-1","rate":20000,"token_amount":2000}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-02-29 12:23:46,521 ERROR frappe New Exception collected with id: 2024-02-29 12:23:46.514437-106.213.82.164-c82
+Site: ssd.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Customer Property","name":"new-customer-property-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","payment_terms":"Days","customer_name":"Mahesh","customer":"CUST-2023-00297","company_registration":"SSD Developers","project":"PROJ-0005","cycle_days":10,"cycle_percent":10,"building":"BLD-0006","property":"AH-BLD-0006-B-1","rate":200000,"token_amount":2000}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-02-29 12:25:35,212 ERROR frappe New Exception collected with id: 2024-02-29 12:25:34.877189-106.213.82.164-281
+Site: ssd.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Customer Property","name":"new-customer-property-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","payment_terms":"Days","customer_name":"Mahesh","customer":"CUST-2023-00297","company_registration":"SSD Developers","project":"PROJ-0005","cycle_days":10,"cycle_percent":10,"building":"BLD-0006","property":"AH-BLD-0006-B-1","rate":200000,"token_amount":2000}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-03-04 16:56:59,542 ERROR frappe New Exception collected with id: 2024-03-04 16:56:59.437502-106.213.87.225-4d4
+Site: ssd.edofoxerp.com
+Form Dict: {'doc': '{"name":"SP-2024-00006","owner":"ishwar.pandit@mattersoft.xyz","creation":"2024-03-04 16:45:49.390608","modified":"2024-03-04 16:47:29.021241","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"project":"PROJ-0006","company_registration":"SSD Developers","building":"BLD-0002","project_category":"Building","property":"ARH-BLD-0002-F-2","work_type":"Earth Works","status":"In Progress","percent_completed":"33","doctype":"Site Progress","work_type_tracker":[{"name":"8bd7d9e550","owner":"ishwar.pandit@mattersoft.xyz","creation":"2024-03-04 16:45:49.390608","modified":"2024-03-04 16:47:29.021241","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":1,"images":"/files/4k-the-wheel-of-time-wallpaper.jpg","parent":"SP-2024-00006","parentfield":"work_type_tracker","parenttype":"Site Progress","doctype":"Images"}],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-03-04 16:59:37,174 ERROR frappe New Exception collected with id: 2024-03-04 16:59:37.164281-106.213.87.225-164
+Site: ssd.edofoxerp.com
+Form Dict: {'doc': '{"name":"SP-2024-00006","owner":"ishwar.pandit@mattersoft.xyz","creation":"2024-03-04 16:45:49.390608","modified":"2024-03-04 16:47:29.021241","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"project":"PROJ-0006","company_registration":"SSD Developers","building":"BLD-0002","project_category":"Building","property":"ARH-BLD-0002-F-2","work_type":"Earth Works","status":"Completed","percent_completed":"33","doctype":"Site Progress","work_type_tracker":[{"name":"8bd7d9e550","owner":"ishwar.pandit@mattersoft.xyz","creation":"2024-03-04 16:45:49.390608","modified":"2024-03-04 16:47:29.021241","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":1,"images":"/files/4k-the-wheel-of-time-wallpaper.jpg","parent":"SP-2024-00006","parentfield":"work_type_tracker","parenttype":"Site Progress","doctype":"Images"}],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-03-04 16:59:49,937 ERROR frappe New Exception collected with id: 2024-03-04 16:59:49.835857-106.213.87.225-7b1
+Site: ssd.edofoxerp.com
+Form Dict: {'doc': '{"name":"SP-2024-00006","owner":"ishwar.pandit@mattersoft.xyz","creation":"2024-03-04 16:45:49.390608","modified":"2024-03-04 16:47:29.021241","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"project":"PROJ-0006","company_registration":"SSD Developers","building":"BLD-0002","project_category":"Building","property":"ARH-BLD-0002-F-2","work_type":"Earth Works","status":"Completed","percent_completed":"33","doctype":"Site Progress","work_type_tracker":[{"name":"8bd7d9e550","owner":"ishwar.pandit@mattersoft.xyz","creation":"2024-03-04 16:45:49.390608","modified":"2024-03-04 16:47:29.021241","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":1,"images":"/files/4k-the-wheel-of-time-wallpaper.jpg","parent":"SP-2024-00006","parentfield":"work_type_tracker","parenttype":"Site Progress","doctype":"Images"}],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-03-04 16:59:53,696 ERROR frappe New Exception collected with id: 2024-03-04 16:59:53.686039-106.213.87.225-318
+Site: ssd.edofoxerp.com
+Form Dict: {'doc': '{"name":"SP-2024-00006","owner":"ishwar.pandit@mattersoft.xyz","creation":"2024-03-04 16:45:49.390608","modified":"2024-03-04 16:47:29.021241","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"project":"PROJ-0006","company_registration":"SSD Developers","building":"BLD-0002","project_category":"Building","property":"ARH-BLD-0002-F-2","work_type":"Earth Works","status":"Completed","percent_completed":"33","doctype":"Site Progress","work_type_tracker":[{"name":"8bd7d9e550","owner":"ishwar.pandit@mattersoft.xyz","creation":"2024-03-04 16:45:49.390608","modified":"2024-03-04 16:47:29.021241","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":1,"images":"/files/4k-the-wheel-of-time-wallpaper.jpg","parent":"SP-2024-00006","parentfield":"work_type_tracker","parenttype":"Site Progress","doctype":"Images"}],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-03-04 17:00:26,573 ERROR frappe New Exception collected with id: 2024-03-04 17:00:26.430062-106.213.87.225-d6f
+Site: ssd.edofoxerp.com
+Form Dict: {'doc': '{"name":"SP-2024-00006","owner":"ishwar.pandit@mattersoft.xyz","creation":"2024-03-04 16:45:49.390608","modified":"2024-03-04 16:47:29.021241","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"project":"PROJ-0006","company_registration":"SSD Developers","building":"BLD-0002","project_category":"Building","property":"ARH-BLD-0002-F-2","work_type":"Earth Works","status":"Completed","percent_completed":"33","doctype":"Site Progress","work_type_tracker":[{"name":"8bd7d9e550","owner":"ishwar.pandit@mattersoft.xyz","creation":"2024-03-04 16:45:49.390608","modified":"2024-03-04 16:47:29.021241","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":1,"images":"/files/4k-the-wheel-of-time-wallpaper.jpg","parent":"SP-2024-00006","parentfield":"work_type_tracker","parenttype":"Site Progress","doctype":"Images"}],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-03-04 17:01:07,313 ERROR frappe New Exception collected with id: 2024-03-04 17:01:07.304459-106.213.87.225-562
+Site: ssd.edofoxerp.com
+Form Dict: {'doc': '{"name":"SP-2024-00006","owner":"ishwar.pandit@mattersoft.xyz","creation":"2024-03-04 16:45:49.390608","modified":"2024-03-04 16:47:29.021241","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"project":"PROJ-0006","company_registration":"SSD Developers","building":"BLD-0002","project_category":"Building","property":"ARH-BLD-0002-F-2","work_type":"Earth Works","status":"Completed","percent_completed":"33","doctype":"Site Progress","work_type_tracker":[{"name":"8bd7d9e550","owner":"ishwar.pandit@mattersoft.xyz","creation":"2024-03-04 16:45:49.390608","modified":"2024-03-04 16:47:29.021241","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":1,"images":"/files/4k-the-wheel-of-time-wallpaper.jpg","parent":"SP-2024-00006","parentfield":"work_type_tracker","parenttype":"Site Progress","doctype":"Images"}],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-03-04 17:01:31,121 ERROR frappe New Exception collected with id: 2024-03-04 17:01:31.107019-106.213.87.225-e3c
+Site: ssd.edofoxerp.com
+Form Dict: {'doc': '{"name":"SP-2024-00006","owner":"ishwar.pandit@mattersoft.xyz","creation":"2024-03-04 16:45:49.390608","modified":"2024-03-04 16:47:29.021241","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"project":"PROJ-0006","company_registration":"SSD Developers","building":"BLD-0002","project_category":"Building","property":"ARH-BLD-0002-F-2","work_type":"Earth Works","status":"Completed","percent_completed":"33","doctype":"Site Progress","work_type_tracker":[{"name":"8bd7d9e550","owner":"ishwar.pandit@mattersoft.xyz","creation":"2024-03-04 16:45:49.390608","modified":"2024-03-04 16:47:29.021241","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":1,"images":"/files/4k-the-wheel-of-time-wallpaper.jpg","parent":"SP-2024-00006","parentfield":"work_type_tracker","parenttype":"Site Progress","doctype":"Images"}],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-03-04 17:02:55,254 ERROR frappe New Exception collected with id: 2024-03-04 17:02:55.245198-106.213.87.225-25a
+Site: ssd.edofoxerp.com
+Form Dict: {'doc': '{"name":"SP-2024-00006","owner":"ishwar.pandit@mattersoft.xyz","creation":"2024-03-04 16:45:49.390608","modified":"2024-03-04 16:47:29.021241","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"project":"PROJ-0006","company_registration":"SSD Developers","building":"BLD-0002","project_category":"Building","property":"ARH-BLD-0002-F-2","work_type":"Earth Works","status":"Completed","percent_completed":"33","doctype":"Site Progress","work_type_tracker":[{"name":"8bd7d9e550","owner":"ishwar.pandit@mattersoft.xyz","creation":"2024-03-04 16:45:49.390608","modified":"2024-03-04 16:47:29.021241","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":1,"images":"/files/4k-the-wheel-of-time-wallpaper.jpg","parent":"SP-2024-00006","parentfield":"work_type_tracker","parenttype":"Site Progress","doctype":"Images"}],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-03-04 17:40:41,583 ERROR frappe New Exception collected with id: 2024-03-04 17:40:41.574085-106.213.87.225-540
+Site: ssd.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Site Progress","name":"new-site-progress-2","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","project_category":"Building","status":"Pending","work_type_tracker":[{"docstatus":0,"doctype":"Images","name":"new-images-2","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","parent":"new-site-progress-2","parentfield":"work_type_tracker","parenttype":"Site Progress","idx":1,"images":"/files/4k-the-wheel-of-time-wallpaper.jpg"}],"company_registration":"SSD Developers","project":"PROJ-0006","building":"BLD-0002","property":"ARH-BLD-0002-F-2","work_type":"Door Works","percent_completed":"44"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-03-04 17:41:24,617 ERROR frappe New Exception collected with id: 2024-03-04 17:41:24.608006-106.213.87.225-b90
+Site: ssd.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Site Progress","name":"new-site-progress-2","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","project_category":"Building","status":"Pending","work_type_tracker":[{"docstatus":0,"doctype":"Images","name":"new-images-2","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","parent":"new-site-progress-2","parentfield":"work_type_tracker","parenttype":"Site Progress","idx":1,"images":"/files/4k-the-wheel-of-time-wallpaper.jpg"}],"company_registration":"SSD Developers","project":"PROJ-0006","building":"BLD-0002","property":"ARH-BLD-0002-F-2","work_type":"Door Works","percent_completed":"44"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-03-04 17:41:44,351 ERROR frappe New Exception collected with id: 2024-03-04 17:41:44.244963-106.213.87.225-f51
+Site: ssd.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Site Progress","name":"new-site-progress-2","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","project_category":"Building","status":"Pending","work_type_tracker":[{"docstatus":0,"doctype":"Images","name":"new-images-2","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","parent":"new-site-progress-2","parentfield":"work_type_tracker","parenttype":"Site Progress","idx":1,"images":"/files/4k-the-wheel-of-time-wallpaper.jpg"}],"company_registration":"SSD Developers","project":"PROJ-0006","building":"BLD-0002","property":"ARH-BLD-0002-F-2","work_type":"Door Works","percent_completed":"44"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}

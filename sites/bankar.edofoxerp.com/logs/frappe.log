@@ -1,0 +1,264 @@
+2024-03-29 10:42:50,897 ERROR frappe New Exception collected with id: 2024-03-29 10:42:50.887728-118.67.183.120-5ed
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:42:58,029 ERROR frappe New Exception collected with id: 2024-03-29 10:42:58.025864-118.67.183.120-84b
+Site: bankar.edofoxerp.com
+Form Dict: {'doctype': '(select(0)from(select(sleep(15)))v)/*\'+(select(0)from(select(sleep(15)))v)+\'"+(select(0)from(select(sleep(15)))v)+"*/', 'key': '********', 'name': 'printview', 'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:42:59,457 ERROR frappe New Exception collected with id: 2024-03-29 10:42:59.448163-118.67.183.120-831
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:43:06,176 ERROR frappe New Exception collected with id: 2024-03-29 10:43:06.172730-118.67.183.120-f1f
+Site: bankar.edofoxerp.com
+Form Dict: {'doctype': "{{ doctype }}-1 waitfor delay '0:0:15' -- ", 'key': '********', 'name': 'printview', 'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:43:15,122 ERROR frappe New Exception collected with id: 2024-03-29 10:43:15.119375-118.67.183.120-78a
+Site: bankar.edofoxerp.com
+Form Dict: {'doctype': "{{ doctype }}ULfRWxzu'; waitfor delay '0:0:15' -- ", 'key': '********', 'name': 'printview', 'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:44:24,551 ERROR frappe New Exception collected with id: 2024-03-29 10:44:24.547683-118.67.183.120-389
+Site: bankar.edofoxerp.com
+Form Dict: {'doctype': '{{ doctype }}', 'key': '********', 'name': 'printview', 'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:44:25,096 ERROR frappe New Exception collected with id: 2024-03-29 10:44:25.092270-118.67.183.120-37d
+Site: bankar.edofoxerp.com
+Form Dict: {'doctype': '{{ doctype }}', 'key': '********', 'name': 'printview', 'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:44:34,900 ERROR frappe New Exception collected with id: 2024-03-29 10:44:34.897449-118.67.183.120-4db
+Site: bankar.edofoxerp.com
+Form Dict: {'doctype': '{{ doctype }}', 'key': '********', 'name': 'printview', 'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:44:44,760 ERROR frappe New Exception collected with id: 2024-03-29 10:44:44.756919-118.67.183.120-5dc
+Site: bankar.edofoxerp.com
+Form Dict: {'doctype': '{{ doctype }}', 'key': '********', 'name': 'printview', 'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:44:53,603 ERROR frappe New Exception collected with id: 2024-03-29 10:44:53.599668-118.67.183.120-279
+Site: bankar.edofoxerp.com
+Form Dict: {'doctype': '{{ doctype }}', 'key': '********', 'name': 'printview', 'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:44:57,984 ERROR frappe New Exception collected with id: 2024-03-29 10:44:57.973045-118.67.183.120-968
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:45:01,562 ERROR frappe New Exception collected with id: 2024-03-29 10:45:01.558934-118.67.183.120-756
+Site: bankar.edofoxerp.com
+Form Dict: {'doctype': '{{ doctype }}', 'key': '********', 'name': 'printview', 'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:45:04,853 ERROR frappe New Exception collected with id: 2024-03-29 10:45:04.843042-118.67.183.120-01f
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:45:29,757 ERROR frappe New Exception collected with id: 2024-03-29 10:45:29.748808-118.67.183.120-0da
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:45:48,812 ERROR frappe New Exception collected with id: 2024-03-29 10:45:48.804804-118.67.183.120-668
+Site: bankar.edofoxerp.com
+Form Dict: {'doctype': '{{ doctype }}', 'key': '********', 'name': 'printview', 'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:45:54,050 ERROR frappe New Exception collected with id: 2024-03-29 10:45:54.041529-118.67.183.120-2cb
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:46:15,779 ERROR frappe New Exception collected with id: 2024-03-29 10:46:15.776118-118.67.183.120-f2f
+Site: bankar.edofoxerp.com
+Form Dict: {'doctype': '{{ doctype }}', 'key': '********', 'name': '-1 OR 2+14-14-1=0+0+0+1 -- ', 'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:46:24,199 ERROR frappe New Exception collected with id: 2024-03-29 10:46:24.190292-118.67.183.120-dcd
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:46:43,118 ERROR frappe New Exception collected with id: 2024-03-29 10:46:43.108681-118.67.183.120-28b
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:46:49,136 ERROR frappe New Exception collected with id: 2024-03-29 10:46:49.126362-118.67.183.120-af1
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:47:09,804 ERROR frappe New Exception collected with id: 2024-03-29 10:47:09.800975-118.67.183.120-ae5
+Site: bankar.edofoxerp.com
+Form Dict: {'doctype': '{{ doctype }}', 'key': '********', 'name': "printviewggQzpScG') OR 854=(SELECT 854 FROM PG_SLEEP(15))--", 'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:47:21,847 ERROR frappe New Exception collected with id: 2024-03-29 10:47:21.837827-118.67.183.120-d5b
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:47:23,796 ERROR frappe New Exception collected with id: 2024-03-29 10:47:23.792794-118.67.183.120-277
+Site: bankar.edofoxerp.com
+Form Dict: {'doctype': '{{ doctype }}', 'key': '********', 'name': 'printview����%2527%2522\\\'\\"', 'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:47:29,716 ERROR frappe New Exception collected with id: 2024-03-29 10:47:29.706939-118.67.183.120-713
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:47:42,547 ERROR frappe New Exception collected with id: 2024-03-29 10:47:42.538138-118.67.183.120-c9e
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:48:54,826 ERROR frappe New Exception collected with id: 2024-03-29 10:48:54.817383-118.67.183.120-15e
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:48:59,377 ERROR frappe New Exception collected with id: 2024-03-29 10:48:59.367996-118.67.183.120-f4b
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'envZQQhbR', 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:49:06,154 ERROR frappe New Exception collected with id: 2024-03-29 10:49:06.145025-118.67.183.120-239
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': '-1 OR 2+44-44-1=0+0+0+1', 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:49:12,419 ERROR frappe New Exception collected with id: 2024-03-29 10:49:12.410092-118.67.183.120-e68
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'if(now()=sysdate(),sleep(15),0)', 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:49:22,263 ERROR frappe New Exception collected with id: 2024-03-29 10:49:22.261355-118.67.183.120-682
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.e_commerce.api.get_product_filter_data', 'query_args': '{"field_filters":{},"attribute_filters":{},"item_group":null,"start":null,"from_filters":false}AXJ2PSSL\'; waitfor delay \'0:0:15\' -- '}
+2024-03-29 10:49:28,588 ERROR frappe New Exception collected with id: 2024-03-29 10:49:28.586068-118.67.183.120-9c5
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.e_commerce.api.get_product_filter_data', 'query_args': '{"field_filters":{},"attribute_filters":{},"item_group":null,"start":null,"from_filters":false}7f5H3W57\') OR 830=(SELECT 830 FROM PG_SLEEP(15))--'}
+2024-03-29 10:49:32,598 ERROR frappe New Exception collected with id: 2024-03-29 10:49:32.589223-118.67.183.120-8ac
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': "eGNCqhABf' OR 718=(SELECT 718 FROM PG_SLEEP(15))--", 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:49:43,259 ERROR frappe New Exception collected with id: 2024-03-29 10:49:43.249813-118.67.183.120-dbb
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e\'"', 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:49:43,892 ERROR frappe New Exception collected with id: 2024-03-29 10:49:43.883112-118.67.183.120-09b
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e����%2527%2522\\\'\\"', 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:49:47,977 ERROR frappe New Exception collected with id: 2024-03-29 10:49:47.968252-118.67.183.120-43e
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:49:50,229 ERROR frappe New Exception collected with id: 2024-03-29 10:49:50.227506-118.67.183.120-328
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.e_commerce.api.get_product_filter_data', 'query_args': '{"field_filters":{},"attribute_filters":{},"item_group":"null%\' AND 2*3*8=6*8 AND \'P0zw\'!=\'P0zw%","start":null,"from_filters":"false"}'}
+2024-03-29 10:49:54,853 ERROR frappe New Exception collected with id: 2024-03-29 10:49:54.844180-118.67.183.120-3a4
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tstt725PdP3', 'subject': 'General'}
+2024-03-29 10:49:58,038 ERROR frappe New Exception collected with id: 2024-03-29 10:49:58.028704-118.67.183.120-a01
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:50:23,437 ERROR frappe New Exception collected with id: 2024-03-29 10:50:23.428198-118.67.183.120-16a
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tst\'"', 'subject': 'General'}
+2024-03-29 10:50:26,212 ERROR frappe New Exception collected with id: 2024-03-29 10:50:26.203723-118.67.183.120-cf3
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:50:29,225 ERROR frappe New Exception collected with id: 2024-03-29 10:50:29.215757-118.67.183.120-494
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tst', 'subject': 'General'}
+2024-03-29 10:50:33,513 ERROR frappe New Exception collected with id: 2024-03-29 10:50:33.503778-118.67.183.120-c81
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tst', 'subject': '-1 OR 2+340-340-1=0+0+0+1 -- '}
+2024-03-29 10:50:36,521 ERROR frappe New Exception collected with id: 2024-03-29 10:50:36.511831-118.67.183.120-733
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tst', 'subject': '-1" OR 2+441-441-1=0+0+0+1 -- '}
+2024-03-29 10:50:43,838 ERROR frappe New Exception collected with id: 2024-03-29 10:50:43.829006-118.67.183.120-581
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'erpnext.templates.utils.send_message', 'message': 'e', 'sender': 'sample@email.tst', 'subject': "Generallo6Ks49s'; waitfor delay '0:0:15' -- "}
+2024-03-29 10:53:10,968 ERROR frappe New Exception collected with id: 2024-03-29 10:53:10.966857-118.67.183.120-a10
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:54:23,375 ERROR frappe New Exception collected with id: 2024-03-29 10:54:23.373158-118.67.183.120-172
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:54:57,149 ERROR frappe New Exception collected with id: 2024-03-29 10:54:57.148083-118.67.183.120-eb9
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:54:59,636 ERROR frappe New Exception collected with id: 2024-03-29 10:54:59.634787-118.67.183.120-232
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:55:23,771 ERROR frappe New Exception collected with id: 2024-03-29 10:55:23.769695-118.67.183.120-491
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:56:14,425 ERROR frappe New Exception collected with id: 2024-03-29 10:56:14.423902-118.67.183.120-83f
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:56:15,718 ERROR frappe New Exception collected with id: 2024-03-29 10:56:15.716356-118.67.183.120-94b
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:58:03,599 ERROR frappe New Exception collected with id: 2024-03-29 10:58:03.597853-118.67.183.120-6b5
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:58:33,599 ERROR frappe New Exception collected with id: 2024-03-29 10:58:33.597702-118.67.183.120-98d
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:58:51,283 ERROR frappe New Exception collected with id: 2024-03-29 10:58:51.281373-118.67.183.120-d51
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:59:10,696 ERROR frappe New Exception collected with id: 2024-03-29 10:59:10.694887-118.67.183.120-84a
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 10:59:12,913 ERROR frappe New Exception collected with id: 2024-03-29 10:59:12.911779-118.67.183.120-682
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:00:01,643 ERROR frappe New Exception collected with id: 2024-03-29 11:00:01.641195-118.67.183.120-e87
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:00:23,221 ERROR frappe New Exception collected with id: 2024-03-29 11:00:23.219867-118.67.183.120-ab4
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:00:27,673 ERROR frappe New Exception collected with id: 2024-03-29 11:00:27.671378-118.67.183.120-a72
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:02:37,715 ERROR frappe New Exception collected with id: 2024-03-29 11:02:37.713953-118.67.183.120-e53
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:03:12,849 ERROR frappe New Exception collected with id: 2024-03-29 11:03:12.848103-118.67.183.120-5ec
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:03:39,261 ERROR frappe New Exception collected with id: 2024-03-29 11:03:39.259296-118.67.183.120-7e6
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:04:09,009 ERROR frappe New Exception collected with id: 2024-03-29 11:04:09.007145-118.67.183.120-07d
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:04:32,029 ERROR frappe New Exception collected with id: 2024-03-29 11:04:32.027594-118.67.183.120-26c
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:04:36,392 ERROR frappe New Exception collected with id: 2024-03-29 11:04:36.390939-118.67.183.120-2b1
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:05:31,178 ERROR frappe New Exception collected with id: 2024-03-29 11:05:31.176332-118.67.183.120-7b3
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:06:18,779 ERROR frappe New Exception collected with id: 2024-03-29 11:06:18.777764-118.67.183.120-b1a
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:06:34,752 ERROR frappe New Exception collected with id: 2024-03-29 11:06:34.750683-118.67.183.120-82a
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:06:50,013 ERROR frappe New Exception collected with id: 2024-03-29 11:06:50.011493-118.67.183.120-82e
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:07:05,316 ERROR frappe New Exception collected with id: 2024-03-29 11:07:05.314642-118.67.183.120-1f2
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:07:23,270 ERROR frappe New Exception collected with id: 2024-03-29 11:07:23.268630-118.67.183.120-599
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:08:05,369 ERROR frappe New Exception collected with id: 2024-03-29 11:08:05.367749-118.67.183.120-3de
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:09:10,541 ERROR frappe New Exception collected with id: 2024-03-29 11:09:10.539348-118.67.183.120-ee9
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:09:10,848 ERROR frappe New Exception collected with id: 2024-03-29 11:09:10.846190-118.67.183.120-7d3
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:09:26,111 ERROR frappe New Exception collected with id: 2024-03-29 11:09:26.109656-118.67.183.120-e12
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:09:39,986 ERROR frappe New Exception collected with id: 2024-03-29 11:09:39.984509-118.67.183.120-100
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:10:55,778 ERROR frappe New Exception collected with id: 2024-03-29 11:10:55.776762-118.67.183.120-22a
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:11:50,045 ERROR frappe New Exception collected with id: 2024-03-29 11:11:50.043773-118.67.183.120-2c6
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:12:09,893 ERROR frappe New Exception collected with id: 2024-03-29 11:12:09.891037-118.67.183.120-7aa
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:13:13,041 ERROR frappe New Exception collected with id: 2024-03-29 11:13:13.039978-118.67.183.120-e2b
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:13:45,448 ERROR frappe New Exception collected with id: 2024-03-29 11:13:45.446101-118.67.183.120-740
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:16:46,551 ERROR frappe New Exception collected with id: 2024-03-29 11:16:46.549728-118.67.183.120-660
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:17:50,316 ERROR frappe New Exception collected with id: 2024-03-29 11:17:50.314864-118.67.183.120-c9b
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:19:18,490 ERROR frappe New Exception collected with id: 2024-03-29 11:19:18.488798-118.67.183.120-79a
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:19:35,822 ERROR frappe New Exception collected with id: 2024-03-29 11:19:35.820659-118.67.183.120-dee
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:22:20,269 ERROR frappe New Exception collected with id: 2024-03-29 11:22:20.267264-118.67.183.120-94b
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:23:04,205 ERROR frappe New Exception collected with id: 2024-03-29 11:23:04.203408-118.67.183.120-026
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}
+2024-03-29 11:25:19,486 ERROR frappe New Exception collected with id: 2024-03-29 11:25:19.484297-118.67.183.120-ac5
+Site: bankar.edofoxerp.com
+Form Dict: {'cmd': 'frappe.utils.print_format.download_pdf'}

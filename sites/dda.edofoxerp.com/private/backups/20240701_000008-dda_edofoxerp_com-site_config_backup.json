@@ -1,0 +1,11 @@
+{
+    "developer_mode": 1,
+    "db_name": "_970e96ce6c6dc3ef",
+    "db_password": "2KWT8lcLKbQ0Y6hV",
+    "db_type": "mariadb",
+    "encryption_key": "09BaP4V04bL1pR_j--rgxCGDox-8cCkZ-5BDvTBfbnU=",
+    "maintenance_mode": 0,
+    "ssl_certificate": "/etc/letsencrypt/live/dda.edofoxerp.com/fullchain.pem",
+    "ssl_certificate_key": "/etc/letsencrypt/live/dda.edofoxerp.com/privkey.pem",
+    "allow_cors": "*"
+}

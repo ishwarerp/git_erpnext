@@ -1,0 +1,10 @@
+{
+ "db_name": "_904fe5a091040390",
+ "db_password": "CXeBWyAwwbYHwHng",
+ "db_type": "mariadb",
+ "developer_mode": 1,
+ "max_file_size": 20000000,
+ "encryption_key": "ZkqCU-7G77-lIdWZY610RX8PKepD3_UH9h15FCyAKyA=",
+ "ssl_certificate": "/etc/letsencrypt/live/operations.connectkare.in/fullchain.pem",
+ "ssl_certificate_key": "/etc/letsencrypt/live/operations.connectkare.in/privkey.pem"
+}

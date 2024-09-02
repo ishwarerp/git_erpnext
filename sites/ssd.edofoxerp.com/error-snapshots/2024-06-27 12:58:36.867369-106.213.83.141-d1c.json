@@ -1,0 +1,253 @@
+{
+ "etype": "TypeError",
+ "evalue": "TypeError(\"Database.get_value() got an unexpected keyword argument 'fields'\")",
+ "exception": {
+  "args": [
+   40,
+   34,
+   68,
+   97,
+   116,
+   97,
+   98,
+   97,
+   115,
+   101,
+   46,
+   103,
+   101,
+   116,
+   95,
+   118,
+   97,
+   108,
+   117,
+   101,
+   40,
+   41,
+   32,
+   103,
+   111,
+   116,
+   32,
+   97,
+   110,
+   32,
+   117,
+   110,
+   101,
+   120,
+   112,
+   101,
+   99,
+   116,
+   101,
+   100,
+   32,
+   107,
+   101,
+   121,
+   119,
+   111,
+   114,
+   100,
+   32,
+   97,
+   114,
+   103,
+   117,
+   109,
+   101,
+   110,
+   116,
+   32,
+   39,
+   102,
+   105,
+   101,
+   108,
+   100,
+   115,
+   39,
+   34,
+   44,
+   41
+  ],
+  "with_traceback": [
+   60,
+   98,
+   117,
+   105,
+   108,
+   116,
+   45,
+   105,
+   110,
+   32,
+   109,
+   101,
+   116,
+   104,
+   111,
+   100,
+   32,
+   119,
+   105,
+   116,
+   104,
+   95,
+   116,
+   114,
+   97,
+   99,
+   101,
+   98,
+   97,
+   99,
+   107,
+   32,
+   111,
+   102,
+   32,
+   84,
+   121,
+   112,
+   101,
+   69,
+   114,
+   114,
+   111,
+   114,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   62
+  ]
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'https://ssd.edofoxerp.com/api/method/f...ents?customer_property=CU-PR-06.2024-1783' [GET]>)",
+   "dump": {
+    "frappe. api": "<module 'frappe.api' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py'>",
+    "frappe.api. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "response": "None"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "64": "",
+    "65": "\t\telif request.path.startswith(\"/api/\"):",
+    "66": "\t\t\tresponse = frappe.api.handle()",
+    "67": "",
+    "68": "\t\telif request.path.startswith(\"/backups\"):"
+   },
+   "lnum": 66
+  },
+  {
+   "call": "()",
+   "dump": {
+    "frappe. handler": "<module 'frappe.handler' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py'>",
+    "frappe.handler. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py",
+   "func": "handle",
+   "lines": {
+    "52": "\tif call == \"method\":",
+    "53": "\t\tfrappe.local.form_dict.cmd = doctype",
+    "54": "\t\treturn frappe.handler.handle()",
+    "55": "",
+    "56": "\telif call == \"resource\":"
+   },
+   "lnum": 54
+  },
+  {
+   "call": "()",
+   "dump": {
+    "cmd": "'frappe.connect_care.doctype.customer.customer.get_amount_from_cust_payments'",
+    "data": "None",
+    "global execute_cmd": "<function execute_cmd>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "handle",
+   "lines": {
+    "43": "",
+    "44": "\tif cmd != \"login\":",
+    "45": "\t\tdata = execute_cmd(cmd)",
+    "46": "",
+    "47": "\t# data can be an empty string or list which are valid responses"
+   },
+   "lnum": 45
+  },
+  {
+   "call": "(cmd='frappe.connect_care.doctype.customer.customer.get_amount_from_cust_payments', from_async=False)",
+   "dump": {
+    "frappe. call": "<function call>",
+    "frappe. form_dict": "{'customer_property': 'CU-PR-06.2024-1783', 'cmd...customer.customer.get_amount_from_cust_payments'}",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "method": "<function get_amount_from_cust_payments>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "execute_cmd",
+   "lines": {
+    "81": "\t\tis_valid_http_method(method)",
+    "82": "",
+    "83": "\treturn frappe.call(method, **frappe.form_dict)",
+    "84": "",
+    "85": ""
+   },
+   "lnum": 83
+  },
+  {
+   "call": "(fn=<function get_amount_from_cust_payments>, *args=(), **kwargs={'cmd': 'frappe.connect_care.doctype.customer.customer.get_amount_from_cust_payments', 'customer_property': 'CU-PR-06.2024-1783'})",
+   "dump": {
+    "args": "()",
+    "fn": "<function get_amount_from_cust_payments>",
+    "newargs": "{'customer_property': 'CU-PR-06.2024-1783'}"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "call",
+   "lines": {
+    "1605": "\tnewargs = get_newargs(fn, kwargs)",
+    "1606": "",
+    "1607": "\treturn fn(*args, **newargs)",
+    "1608": "",
+    "1609": ""
+   },
+   "lnum": 1607
+  },
+  {
+   "call": "(customer_property='CU-PR-06.2024-1783')",
+   "dump": {
+    "amount_data": "undefined",
+    "customer_property": "'CU-PR-06.2024-1783'",
+    "fields": "undefined",
+    "filters": "undefined",
+    "frappe. db": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "frappe.db. get_value": "<bound method Database.get_value of <frappe.database.mariadb.database.MariaDBDatabase object>>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/connect_care/doctype/customer/customer.py",
+   "func": "get_amount_from_cust_payments",
+   "lines": {
+    "18": "@frappe.whitelist()",
+    "19": "def get_amount_from_cust_payments(customer_property):",
+    "20": "\tamount_data = frappe.db.get_value(\"Customer Payments\",",
+    "21": "\tfilters={'customer_property':customer_property},",
+    "22": "\tfields=['outstanding_amount','paid_amount'])"
+   },
+   "lnum": 20
+  }
+ ],
+ "locals": {
+  "customer_property": "CU-PR-06.2024-1783"
+ },
+ "pyver": "Python 3.10.12: /home/gauritrans/frappe-bench/env/bin/python (prefix: /home/gauritrans/frappe-bench/env)",
+ "timestamp": "2024-06-27 12:58:36.867473",
+ "traceback": "Traceback (most recent call last):\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py\", line 66, in application\n    response = frappe.api.handle()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py\", line 54, in handle\n    return frappe.handler.handle()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py\", line 45, in handle\n    data = execute_cmd(cmd)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py\", line 83, in execute_cmd\n    return frappe.call(method, **frappe.form_dict)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py\", line 1607, in call\n    return fn(*args, **newargs)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/connect_care/doctype/customer/customer.py\", line 20, in get_amount_from_cust_payments\n    amount_data = frappe.db.get_value(\"Customer Payments\",\nTypeError: Database.get_value() got an unexpected keyword argument 'fields'\n"
+}

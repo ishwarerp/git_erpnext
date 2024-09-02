@@ -1,0 +1,282 @@
+{
+ "etype": "KeyError",
+ "evalue": "KeyError('searchfield')",
+ "exception": {
+  "args": [
+   40,
+   39,
+   115,
+   101,
+   97,
+   114,
+   99,
+   104,
+   102,
+   105,
+   101,
+   108,
+   100,
+   39,
+   44,
+   41
+  ],
+  "with_traceback": [
+   60,
+   98,
+   117,
+   105,
+   108,
+   116,
+   45,
+   105,
+   110,
+   32,
+   109,
+   101,
+   116,
+   104,
+   111,
+   100,
+   32,
+   119,
+   105,
+   116,
+   104,
+   95,
+   116,
+   114,
+   97,
+   99,
+   101,
+   98,
+   97,
+   99,
+   107,
+   32,
+   111,
+   102,
+   32,
+   75,
+   101,
+   121,
+   69,
+   114,
+   114,
+   111,
+   114,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   62
+  ]
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'https://ssd.edofoxerp.com/api/method/frappe.desk.search.search_link' [POST]>)",
+   "dump": {
+    "frappe. api": "<module 'frappe.api' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py'>",
+    "frappe.api. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "response": "None"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "64": "",
+    "65": "\t\telif request.path.startswith(\"/api/\"):",
+    "66": "\t\t\tresponse = frappe.api.handle()",
+    "67": "",
+    "68": "\t\telif request.path.startswith(\"/backups\"):"
+   },
+   "lnum": 66
+  },
+  {
+   "call": "()",
+   "dump": {
+    "frappe. handler": "<module 'frappe.handler' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py'>",
+    "frappe.handler. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py",
+   "func": "handle",
+   "lines": {
+    "52": "\tif call == \"method\":",
+    "53": "\t\tfrappe.local.form_dict.cmd = doctype",
+    "54": "\t\treturn frappe.handler.handle()",
+    "55": "",
+    "56": "\telif call == \"resource\":"
+   },
+   "lnum": 54
+  },
+  {
+   "call": "()",
+   "dump": {
+    "cmd": "'frappe.desk.search.search_link'",
+    "data": "None",
+    "global execute_cmd": "<function execute_cmd>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "handle",
+   "lines": {
+    "43": "",
+    "44": "\tif cmd != \"login\":",
+    "45": "\t\tdata = execute_cmd(cmd)",
+    "46": "",
+    "47": "\t# data can be an empty string or list which are valid responses"
+   },
+   "lnum": 45
+  },
+  {
+   "call": "(cmd='frappe.desk.search.search_link', from_async=False)",
+   "dump": {
+    "frappe. call": "<function call>",
+    "frappe. form_dict": "{'txt': '', 'doctype': 'User', 'reference_doctyp..._users', 'cmd': 'frappe.desk.search.search_link'}",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "method": "<function search_link>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "execute_cmd",
+   "lines": {
+    "81": "\t\tis_valid_http_method(method)",
+    "82": "",
+    "83": "\treturn frappe.call(method, **frappe.form_dict)",
+    "84": "",
+    "85": ""
+   },
+   "lnum": 83
+  },
+  {
+   "call": "(fn=<function search_link>, *args=(), **kwargs={'cmd': 'frappe.desk.search.search_link', 'doctype': 'User', 'query': 'frappe.core.doctype.role.role.get_staff_users', 'reference_doctype': '', 'txt': ''})",
+   "dump": {
+    "args": "()",
+    "fn": "<function search_link>",
+    "newargs": "{'doctype': 'User', 'query': 'frappe.core.doctype.role.role.get_staff_users', 'reference_doctype': '', 'txt': ''}"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "call",
+   "lines": {
+    "1605": "\tnewargs = get_newargs(fn, kwargs)",
+    "1606": "",
+    "1607": "\treturn fn(*args, **newargs)",
+    "1608": "",
+    "1609": ""
+   },
+   "lnum": 1607
+  },
+  {
+   "call": "(doctype='User', txt='', query='frappe.core.doctype.role.role.get_staff_users', filters=None, page_length=20, searchfield=None, reference_doctype='', ignore_user_permissions=False)",
+   "dump": {
+    "doctype": "'User'",
+    "filters": "None",
+    "global search_widget": "<function search_widget>",
+    "ignore_user_permissions": "False",
+    "page_length": "20",
+    "query": "'frappe.core.doctype.role.role.get_staff_users'",
+    "reference_doctype": "''",
+    "searchfield": "None",
+    "txt": "''",
+    "txt. strip": "<built-in method strip of str object>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/search.py",
+   "func": "search_link",
+   "lines": {
+    "33": "\tignore_user_permissions=False,",
+    "34": "):",
+    "35": "\tsearch_widget(",
+    "36": "\t\tdoctype,",
+    "37": "\t\ttxt.strip(),"
+   },
+   "lnum": 35
+  },
+  {
+   "call": "(doctype='User', txt='', query='frappe.core.doctype.role.role.get_staff_users', searchfield='name', start=0, page_length=20, filters=None, filter_fields=None, as_dict=False, reference_doctype='', ignore_user_permissions=False)",
+   "dump": {
+    "e": "undefined"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/search.py",
+   "func": "search_widget",
+   "lines": {
+    "104": "\t\t\treturn",
+    "105": "\t\texcept Exception as e:",
+    "106": "\t\t\traise e",
+    "107": "\telif not query and doctype in standard_queries:",
+    "108": "\t\t# from standard queries"
+   },
+   "lnum": 106
+  },
+  {
+   "call": "(doctype='User', txt='', query='frappe.core.doctype.role.role.get_staff_users', searchfield='name', start=0, page_length=20, filters=None, filter_fields=None, as_dict=False, reference_doctype='', ignore_user_permissions=False)",
+   "dump": {
+    "as_dict": "False",
+    "doctype": "'User'",
+    "filters": "None",
+    "frappe. call": "<function call>",
+    "frappe. response": "{'exception': \"KeyError: 'searchfield'\", 'exc': ...archfield\\\\\"])\\\\nKeyError: \\'searchfield\\'\\\\n\"]'}",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "page_length": "20",
+    "query": "'frappe.core.doctype.role.role.get_staff_users'",
+    "reference_doctype": "''",
+    "searchfield": "'name'",
+    "start": "0",
+    "txt": "''"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/search.py",
+   "func": "search_widget",
+   "lines": {
+    "81": "\t\ttry:",
+    "82": "\t\t\tis_whitelisted(frappe.get_attr(query))",
+    "83": "\t\t\tfrappe.response[\"values\"] = frappe.call(",
+    "84": "\t\t\t\tquery,",
+    "85": "\t\t\t\tdoctype,"
+   },
+   "lnum": 83
+  },
+  {
+   "call": "(fn=<function get_staff_users>, *args=('User', '', 'name', 0, 20, None), **kwargs={'as_dict': False, 'reference_doctype': ''})",
+   "dump": {
+    "args": "('User', '', 'name', 0, 20, None)",
+    "fn": "<function get_staff_users>",
+    "newargs": "{}"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "call",
+   "lines": {
+    "1605": "\tnewargs = get_newargs(fn, kwargs)",
+    "1606": "",
+    "1607": "\treturn fn(*args, **newargs)",
+    "1608": "",
+    "1609": ""
+   },
+   "lnum": 1607
+  },
+  {
+   "call": "(*args=('User', '', 'name', 0, 20, None), **kwargs={'o': 'User'})",
+   "dump": {
+    "global sanitize_searchfield": "<function sanitize_searchfield>",
+    "kwargs": "{'o': 'User'}"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/search.py",
+   "func": "wrapper",
+   "lines": {
+    "298": "\tdef wrapper(*args, **kwargs):",
+    "299": "\t\tkwargs.update(dict(zip(fn.__code__.co_varnames, args)))",
+    "300": "\t\tsanitize_searchfield(kwargs[\"searchfield\"])",
+    "301": "\t\tkwargs[\"start\"] = cint(kwargs[\"start\"])",
+    "302": "\t\tkwargs[\"page_len\"] = cint(kwargs[\"page_len\"])"
+   },
+   "lnum": 300
+  }
+ ],
+ "locals": {
+  "args": "('User', '', 'name', 0, 20, None)",
+  "fn": "<function get_staff_users>",
+  "kwargs": "{'o': 'User'}"
+ },
+ "pyver": "Python 3.10.12: /home/gauritrans/frappe-bench/env/bin/python (prefix: /home/gauritrans/frappe-bench/env)",
+ "timestamp": "2024-06-28 18:10:53.920361",
+ "traceback": "Traceback (most recent call last):\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py\", line 66, in application\n    response = frappe.api.handle()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py\", line 54, in handle\n    return frappe.handler.handle()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py\", line 45, in handle\n    data = execute_cmd(cmd)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py\", line 83, in execute_cmd\n    return frappe.call(method, **frappe.form_dict)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py\", line 1607, in call\n    return fn(*args, **newargs)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/search.py\", line 35, in search_link\n    search_widget(\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/search.py\", line 106, in search_widget\n    raise e\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/search.py\", line 83, in search_widget\n    frappe.response[\"values\"] = frappe.call(\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py\", line 1607, in call\n    return fn(*args, **newargs)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/search.py\", line 300, in wrapper\n    sanitize_searchfield(kwargs[\"searchfield\"])\nKeyError: 'searchfield'\n"
+}

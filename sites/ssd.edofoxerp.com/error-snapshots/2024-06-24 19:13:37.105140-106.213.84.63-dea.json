@@ -1,0 +1,548 @@
+{
+ "etype": "OperationalError",
+ "evalue": "OperationalError(1412, 'Table definition has changed, please retry transaction')",
+ "exception": {
+  "args": [
+   40,
+   49,
+   52,
+   49,
+   50,
+   44,
+   32,
+   39,
+   84,
+   97,
+   98,
+   108,
+   101,
+   32,
+   100,
+   101,
+   102,
+   105,
+   110,
+   105,
+   116,
+   105,
+   111,
+   110,
+   32,
+   104,
+   97,
+   115,
+   32,
+   99,
+   104,
+   97,
+   110,
+   103,
+   101,
+   100,
+   44,
+   32,
+   112,
+   108,
+   101,
+   97,
+   115,
+   101,
+   32,
+   114,
+   101,
+   116,
+   114,
+   121,
+   32,
+   116,
+   114,
+   97,
+   110,
+   115,
+   97,
+   99,
+   116,
+   105,
+   111,
+   110,
+   39,
+   41
+  ],
+  "errno": [
+   52,
+   48,
+   56,
+   52
+  ],
+  "with_traceback": [
+   60,
+   98,
+   117,
+   105,
+   108,
+   116,
+   45,
+   105,
+   110,
+   32,
+   109,
+   101,
+   116,
+   104,
+   111,
+   100,
+   32,
+   119,
+   105,
+   116,
+   104,
+   95,
+   116,
+   114,
+   97,
+   99,
+   101,
+   98,
+   97,
+   99,
+   107,
+   32,
+   111,
+   102,
+   32,
+   79,
+   112,
+   101,
+   114,
+   97,
+   116,
+   105,
+   111,
+   110,
+   97,
+   108,
+   69,
+   114,
+   114,
+   111,
+   114,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   62
+  ]
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'https://ssd.edofoxerp.com/app/workspace/SSD' [GET]>)",
+   "dump": {
+    "global get_response": "<function get_response>",
+    "response": "None"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "73": "",
+    "74": "\t\telif request.method in (\"GET\", \"HEAD\", \"POST\"):",
+    "75": "\t\t\tresponse = get_response()",
+    "76": "",
+    "77": "\t\telse:"
+   },
+   "lnum": 75
+  },
+  {
+   "call": "(path='/app/workspace/SSD', http_status_code=200)",
+   "dump": {
+    "frappe. log_error": "<function log_error>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/website/serve.py",
+   "func": "get_response",
+   "lines": {
+    "24": "\t\tresponse = NotFoundPage(endpoint, http_status_code).render()",
+    "25": "\texcept Exception as e:",
+    "26": "\t\tfrappe.log_error(f\"{path} failed\")",
+    "27": "\t\tresponse = ErrorPage(exception=e).render()",
+    "28": ""
+   },
+   "lnum": 26
+  },
+  {
+   "call": "(title='/app/workspace/SSD failed', message=None, reference_doctype=None, reference_name=None)",
+   "dump": {
+    "error_log": "<ErrorLog: unsaved>",
+    "error_log. insert": "<bound method Document.insert of <ErrorLog: unsaved>>",
+    "ignore_permissions": "undefined"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "log_error",
+   "lines": {
+    "2247": "\t\terror_log.deferred_insert()",
+    "2248": "\telse:",
+    "2249": "\t\treturn error_log.insert(ignore_permissions=True)",
+    "2250": "",
+    "2251": ""
+   },
+   "lnum": 2249
+  },
+  {
+   "call": "(self=<ErrorLog: unsaved>, ignore_permissions=True, ignore_links=None, ignore_if_duplicate=False, ignore_mandatory=None, set_name=None, set_child_names=True)",
+   "dump": {
+    "self": "<ErrorLog: unsaved>",
+    "self. run_method": "<bound method Document.run_method of <ErrorLog: unsaved>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "insert",
+   "lines": {
+    "251": "\t\tself._validate_links()",
+    "252": "\t\tself.check_permission(\"create\")",
+    "253": "\t\tself.run_method(\"before_insert\")",
+    "254": "\t\tself.set_new_name(set_name=set_name, set_child_names=set_child_names)",
+    "255": "\t\tself.set_parent_in_children()"
+   },
+   "lnum": 253
+  },
+  {
+   "call": "(self=<ErrorLog: unsaved>, method='before_insert', *args=(), **kwargs={})",
+   "dump": {
+    "global run_webhooks": "<function run_webhooks>",
+    "method": "'before_insert'",
+    "self": "<ErrorLog: unsaved>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "run_method",
+   "lines": {
+    "917": "",
+    "918": "\t\tself.run_notifications(method)",
+    "919": "\t\trun_webhooks(self, method)",
+    "920": "\t\trun_server_script_for_doc_event(self, method)",
+    "921": ""
+   },
+   "lnum": 919
+  },
+  {
+   "call": "(doc=<ErrorLog: unsaved>, method='before_insert')",
+   "dump": {
+    "fields": "undefined",
+    "filters": "undefined",
+    "frappe. get_all": "<function get_all>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "webhooks_list": "undefined"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/integrations/doctype/webhook/__init__.py",
+   "func": "run_webhooks",
+   "lines": {
+    "24": "\t\tif webhooks is None:",
+    "25": "\t\t\t# query webhooks",
+    "26": "\t\t\twebhooks_list = frappe.get_all(",
+    "27": "\t\t\t\t\"Webhook\",",
+    "28": "\t\t\t\tfields=[\"name\", \"`condition`\", \"webhook_docevent\", \"webhook_doctype\"],"
+   },
+   "lnum": 26
+  },
+  {
+   "call": "(doctype='Webhook', *args=(), **kwargs={'fields': ['name', '`condition`', 'webhook_docevent', 'webhook_doctype'], 'filters': {'enabled': True}, 'ignore_permissions': True, 'limit_page_length': 0})",
+   "dump": {
+    "args": "()",
+    "doctype": "'Webhook'",
+    "global get_list": "<function get_list>",
+    "kwargs": "{'fields': ['name', '`condition`', 'webhook_docevent', 'webhook_doctype'], 'filters': {'enabled': True}, 'ignore_permissions': True, 'limit_page_length': 0}"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "get_all",
+   "lines": {
+    "1922": "\tif not \"limit_page_length\" in kwargs:",
+    "1923": "\t\tkwargs[\"limit_page_length\"] = 0",
+    "1924": "\treturn get_list(doctype, *args, **kwargs)",
+    "1925": "",
+    "1926": ""
+   },
+   "lnum": 1924
+  },
+  {
+   "call": "(doctype='Webhook', *args=(), **kwargs={'fields': ['name', '`condition`', 'webhook_docevent', 'webhook_doctype'], 'filters': {'enabled': True}, 'ignore_permissions': True, 'limit_page_length': 0})",
+   "dump": {
+    ").execute": "undefined",
+    "args": "()",
+    "doctype": "'Webhook'",
+    "frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "frappe. model": "<module 'frappe.model' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/model/__init__.py'>",
+    "frappe.model. db_query": "<module 'frappe.model.db_query' from '/home/gaur...appe-bench/apps/frappe/frappe/model/db_query.py'>",
+    "frappe.model.db_query. DatabaseQuery": "<class 'frappe.model.db_query.DatabaseQuery'>",
+    "kwargs": "{'fields': ['name', '`condition`', 'webhook_docevent', 'webhook_doctype'], 'filters': {'enabled': True}, 'ignore_permissions': True, 'limit_page_length': 0}"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "get_list",
+   "lines": {
+    "1894": "\timport frappe.model.db_query",
+    "1895": "",
+    "1896": "\treturn frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)",
+    "1897": "",
+    "1898": ""
+   },
+   "lnum": 1896
+  },
+  {
+   "call": "(self=<frappe.model.db_query.DatabaseQuery object>, fields=['name', '`condition`', 'webhook_docevent', 'webhook_doctype'], filters={'enabled': True}, or_filters=None, docstatus=None, group_by=None, order_by='KEEP_DEFAULT_ORDERING', limit_start=False, limit_page_length=0, as_list=False, with_childnames=False, debug=False, ignore_permissions=True, user=None, with_comment_count=False, join='left join', distinct=False, start=None, page_length=None, limit=None, ignore_ifnull=False, save_user_settings=False, save_user_settings_fields=False, update=None, add_total_row=None, user_settings=None, reference_doctype=None, run=True, strict=True, pluck=None, ignore_ddl=False, parent_doctype=None)",
+   "dump": {
+    "result": "undefined",
+    "self": "<frappe.model.db_query.DatabaseQuery object>",
+    "self. build_and_run": "<bound method DatabaseQuery.build_and_run of <frappe.model.db_query.DatabaseQuery object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/db_query.py",
+   "func": "execute",
+   "lines": {
+    "200": "\t\t\treturn []",
+    "201": "",
+    "202": "\t\tresult = self.build_and_run()",
+    "203": "",
+    "204": "\t\tif sbool(with_comment_count) and not as_list and self.doctype:"
+   },
+   "lnum": 202
+  },
+  {
+   "call": "(self=<frappe.model.db_query.DatabaseQuery object>)",
+   "dump": {
+    "as_dict": "undefined",
+    "debug": "undefined",
+    "frappe. db": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "frappe.db. sql": "<bound method Database.sql of <frappe.database.mariadb.database.MariaDBDatabase object>>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "ignore_ddl": "undefined",
+    "query": "'select `name`, `condition`, `webhook_docevent`, ...\\t\\t\\t\\n\\t\\t\\t order by `tabWebhook`.`modified` DESC\\n\\t\\t\\t'",
+    "run": "undefined",
+    "self": "<frappe.model.db_query.DatabaseQuery object>",
+    "self. as_list": "False",
+    "self. debug": "False",
+    "self. ignore_ddl": "False",
+    "self. run": "True",
+    "self. update": "None",
+    "update": "undefined"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/db_query.py",
+   "func": "build_and_run",
+   "lines": {
+    "240": "\t\t)",
+    "241": "",
+    "242": "\t\treturn frappe.db.sql(",
+    "243": "\t\t\tquery,",
+    "244": "\t\t\tas_dict=not self.as_list,"
+   },
+   "lnum": 242
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>, query='select `name`, `condition`, `webhook_docevent`, ...1.0\\n\\t\\t\\t\\n\\t\\t\\t order by `tabWebhook`.`modified` DESC', values=None, as_dict=True, as_list=0, formatted=0, debug=False, ignore_ddl=False, as_utf8=0, auto_commit=0, update=None, explain=False, run=True, pluck=False)",
+   "dump": {
+    "query": "'select `name`, `condition`, `webhook_docevent`, ...1.0\\n\\t\\t\\t\\n\\t\\t\\t order by `tabWebhook`.`modified` DESC'",
+    "self": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "self. _cursor": "<pymysql.cursors.Cursor object>",
+    "self._cursor. execute": "<bound method Cursor.execute of <pymysql.cursors.Cursor object>>",
+    "values": "None"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py",
+   "func": "sql",
+   "lines": {
+    "217": "",
+    "218": "\t\ttry:",
+    "219": "\t\t\tself._cursor.execute(query, values)",
+    "220": "\t\texcept Exception as e:",
+    "221": "\t\t\tif self.is_syntax_error(e):"
+   },
+   "lnum": 219
+  },
+  {
+   "call": "(self=<pymysql.cursors.Cursor object>, query='select `name`, `condition`, `webhook_docevent`, ...1.0\\n\\t\\t\\t\\n\\t\\t\\t order by `tabWebhook`.`modified` DESC', args=None)",
+   "dump": {
+    "query": "'select `name`, `condition`, `webhook_docevent`, ...1.0\\n\\t\\t\\t\\n\\t\\t\\t order by `tabWebhook`.`modified` DESC'",
+    "result": "undefined",
+    "self": "<pymysql.cursors.Cursor object>",
+    "self. _query": "<bound method Cursor._query of <pymysql.cursors.Cursor object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py",
+   "func": "execute",
+   "lines": {
+    "156": "        query = self.mogrify(query, args)",
+    "157": "",
+    "158": "        result = self._query(query)",
+    "159": "        self._executed = query",
+    "160": "        return result"
+   },
+   "lnum": 158
+  },
+  {
+   "call": "(self=<pymysql.cursors.Cursor object>, q='select `name`, `condition`, `webhook_docevent`, ...1.0\\n\\t\\t\\t\\n\\t\\t\\t order by `tabWebhook`.`modified` DESC')",
+   "dump": {
+    "conn": "<pymysql.connections.Connection object>",
+    "conn. query": "<bound method Connection.query of <pymysql.connections.Connection object>>",
+    "q": "'select `name`, `condition`, `webhook_docevent`, ...1.0\\n\\t\\t\\t\\n\\t\\t\\t order by `tabWebhook`.`modified` DESC'"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py",
+   "func": "_query",
+   "lines": {
+    "323": "        conn = self._get_db()",
+    "324": "        self._clear_result()",
+    "325": "        conn.query(q)",
+    "326": "        self._do_get_result()",
+    "327": "        return self.rowcount"
+   },
+   "lnum": 325
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, sql=b'select `name`, `condition`, `webhook_docevent`...\\t\\n\\t\\t\\t order by `tabWebhook`.`modified` DESC', unbuffered=False)",
+   "dump": {
+    "self": "<pymysql.connections.Connection object>",
+    "self. _affected_rows": "0",
+    "self. _read_query_result": "<bound method Connection._read_query_result of <pymysql.connections.Connection object>>",
+    "unbuffered": "False"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py",
+   "func": "query",
+   "lines": {
+    "547": "            sql = sql.encode(self.encoding, \"surrogateescape\")",
+    "548": "        self._execute_command(COMMAND.COM_QUERY, sql)",
+    "549": "        self._affected_rows = self._read_query_result(unbuffered=unbuffered)",
+    "550": "        return self._affected_rows",
+    "551": ""
+   },
+   "lnum": 549
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, unbuffered=False)",
+   "dump": {
+    "result": "<pymysql.connections.MySQLResult object>",
+    "result. read": "<bound method MySQLResult.read of <pymysql.connections.MySQLResult object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py",
+   "func": "_read_query_result",
+   "lines": {
+    "777": "        else:",
+    "778": "            result = MySQLResult(self)",
+    "779": "            result.read()",
+    "780": "        self._result = result",
+    "781": "        if result.server_status is not None:"
+   },
+   "lnum": 779
+  },
+  {
+   "call": "(self=<pymysql.connections.MySQLResult object>)",
+   "dump": {
+    "first_packet": "<pymysql.protocol.MysqlPacket object>",
+    "self": "<pymysql.connections.MySQLResult object>",
+    "self. _read_result_packet": "<bound method MySQLResult._read_result_packet of <pymysql.connections.MySQLResult object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py",
+   "func": "read",
+   "lines": {
+    "1162": "                self._read_load_local_packet(first_packet)",
+    "1163": "            else:",
+    "1164": "                self._read_result_packet(first_packet)",
+    "1165": "        finally:",
+    "1166": "            self.connection = None"
+   },
+   "lnum": 1164
+  },
+  {
+   "call": "(self=<pymysql.connections.MySQLResult object>, first_packet=<pymysql.protocol.MysqlPacket object>)",
+   "dump": {
+    "self": "<pymysql.connections.MySQLResult object>",
+    "self. _read_rowdata_packet": "<bound method MySQLResult._read_rowdata_packet of <pymysql.connections.MySQLResult object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py",
+   "func": "_read_result_packet",
+   "lines": {
+    "1238": "        self.field_count = first_packet.read_length_encoded_integer()",
+    "1239": "        self._get_descriptions()",
+    "1240": "        self._read_rowdata_packet()",
+    "1241": "",
+    "1242": "    def _read_rowdata_packet_unbuffered(self):"
+   },
+   "lnum": 1240
+  },
+  {
+   "call": "(self=<pymysql.connections.MySQLResult object>)",
+   "dump": {
+    "packet": "undefined",
+    "self": "<pymysql.connections.MySQLResult object>",
+    "self. connection": "None",
+    "self.connection._read_packet": "undefined"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py",
+   "func": "_read_rowdata_packet",
+   "lines": {
+    "1272": "        rows = []",
+    "1273": "        while True:",
+    "1274": "            packet = self.connection._read_packet()",
+    "1275": "            if self._check_packet_is_eof(packet):",
+    "1276": "                self.connection = None  # release reference to kill cyclic reference."
+   },
+   "lnum": 1274
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, packet_type=<class 'pymysql.protocol.MysqlPacket'>)",
+   "dump": {
+    "packet": "<pymysql.protocol.MysqlPacket object>",
+    "packet. raise_for_error": "<bound method MysqlPacket.raise_for_error of <pymysql.protocol.MysqlPacket object>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py",
+   "func": "_read_packet",
+   "lines": {
+    "727": "            if self._result is not None and self._result.unbuffered_active is True:",
+    "728": "                self._result.unbuffered_active = False",
+    "729": "            packet.raise_for_error()",
+    "730": "        return packet",
+    "731": ""
+   },
+   "lnum": 729
+  },
+  {
+   "call": "(self=<pymysql.protocol.MysqlPacket object>)",
+   "dump": {
+    "err. raise_mysql_exception": "<function raise_mysql_exception>",
+    "global err": "<module 'pymysql.err' from '/home/gauritrans/fra...env/lib/python3.10/site-packages/pymysql/err.py'>",
+    "self": "<pymysql.protocol.MysqlPacket object>",
+    "self. _data": "b'\\xff\\x84\\x05#HY000Table definition has changed, please retry transaction'"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/protocol.py",
+   "func": "raise_for_error",
+   "lines": {
+    "219": "        if DEBUG:",
+    "220": "            print(\"errno =\", errno)",
+    "221": "        err.raise_mysql_exception(self._data)",
+    "222": "",
+    "223": "    def dump(self):"
+   },
+   "lnum": 221
+  },
+  {
+   "call": "(data=b'\\xff\\x84\\x05#HY000Table definition has changed, please retry transaction')",
+   "dump": {
+    "errno": "1412",
+    "errorclass": "<class 'pymysql.err.OperationalError'>",
+    "errval": "'Table definition has changed, please retry transaction'"
+   },
+   "file": "/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/err.py",
+   "func": "raise_mysql_exception",
+   "lines": {
+    "139": "    errval = data[9:].decode(\"utf-8\", \"replace\")",
+    "140": "    errorclass = error_map.get(errno)",
+    "141": "    if errorclass is None:",
+    "142": "        errorclass = InternalError if errno < 1000 else OperationalError",
+    "143": "    raise errorclass(errno, errval)"
+   },
+   "lnum": 143
+  }
+ ],
+ "locals": {
+  "data": "b'\\xff\\x84\\x05#HY000Table definition has changed, please retry transaction'",
+  "errno": "1412",
+  "errorclass": "<class 'pymysql.err.OperationalError'>",
+  "errval": "Table definition has changed, please retry transaction"
+ },
+ "pyver": "Python 3.10.12: /home/gauritrans/frappe-bench/env/bin/python (prefix: /home/gauritrans/frappe-bench/env)",
+ "timestamp": "2024-06-24 19:13:37.105232",
+ "traceback": "Traceback (most recent call last):\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/website/serve.py\", line 17, in get_response\n    endpoint, renderer_instance = path_resolver.resolve()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/website/path_resolver.py\", line 36, in resolve\n    resolve_redirect(self.path, request.query_string)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/website/path_resolver.py\", line 108, in resolve_redirect\n    redirects += frappe.get_all(\"Website Route Redirect\", [\"source\", \"target\"], order_by=None)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py\", line 1924, in get_all\n    return get_list(doctype, *args, **kwargs)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py\", line 1896, in get_list\n    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/db_query.py\", line 196, in execute\n    self.columns = self.get_table_columns()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/db_query.py\", line 527, in get_table_columns\n    return get_table_columns(self.doctype)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/meta.py\", line 75, in get_table_columns\n    return frappe.db.get_table_columns(doctype)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py\", line 1161, in get_table_columns\n    raise self.TableMissingError(\"DocType\", doctype)\npymysql.err.ProgrammingError: ('DocType', 'Website Route Redirect')\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py\", line 75, in application\n    response = get_response()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/website/serve.py\", line 26, in get_response\n    frappe.log_error(f\"{path} failed\")\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py\", line 2249, in log_error\n    return error_log.insert(ignore_permissions=True)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 253, in insert\n    self.run_method(\"before_insert\")\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 919, in run_method\n    run_webhooks(self, method)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/integrations/doctype/webhook/__init__.py\", line 26, in run_webhooks\n    webhooks_list = frappe.get_all(\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py\", line 1924, in get_all\n    return get_list(doctype, *args, **kwargs)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py\", line 1896, in get_list\n    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/db_query.py\", line 202, in execute\n    result = self.build_and_run()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/db_query.py\", line 242, in build_and_run\n    return frappe.db.sql(\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py\", line 219, in sql\n    self._cursor.execute(query, values)\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py\", line 158, in execute\n    result = self._query(query)\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py\", line 325, in _query\n    conn.query(q)\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 549, in query\n    self._affected_rows = self._read_query_result(unbuffered=unbuffered)\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 779, in _read_query_result\n    result.read()\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 1164, in read\n    self._read_result_packet(first_packet)\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 1240, in _read_result_packet\n    self._read_rowdata_packet()\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 1274, in _read_rowdata_packet\n    packet = self.connection._read_packet()\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 729, in _read_packet\n    packet.raise_for_error()\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/protocol.py\", line 221, in raise_for_error\n    err.raise_mysql_exception(self._data)\n  File \"/home/gauritrans/frappe-bench/env/lib/python3.10/site-packages/pymysql/err.py\", line 143, in raise_mysql_exception\n    raise errorclass(errno, errval)\npymysql.err.OperationalError: (1412, 'Table definition has changed, please retry transaction')\n"
+}

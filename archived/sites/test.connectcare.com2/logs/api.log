@@ -1,0 +1,23 @@
+2023-06-24 13:56:43,530 INFO api An exception occurred: 'str' object has no attribute 'Photo'
+2023-06-24 13:57:29,897 INFO api An exception occurred: local variable 'image' referenced before assignment
+2023-06-24 13:57:37,831 INFO api An exception occurred: local variable 'image' referenced before assignment
+2023-06-24 13:57:49,770 INFO api An exception occurred: local variable 'image' referenced before assignment
+2023-06-24 13:58:38,133 INFO api An exception occurred: local variable 'image' referenced before assignment
+2023-06-24 13:58:47,719 INFO api An exception occurred: local variable 'image' referenced before assignment
+2023-06-24 14:02:24,108 INFO api An exception occurred: local variable 'image' referenced before assignment
+2023-06-24 14:07:50,687 INFO api An exception occurred: local variable 'image' referenced before assignment
+2023-07-06 15:39:03,838 INFO api An exception occurred: unhashable type: 'dict'
+2023-07-06 15:40:59,484 INFO api An exception occurred: unhashable type: 'dict'
+2023-07-06 15:41:02,315 INFO api An exception occurred: unhashable type: 'dict'
+2023-07-06 15:41:06,674 INFO api An exception occurred: unhashable type: 'dict'
+2023-07-06 15:41:07,183 INFO api An exception occurred: unhashable type: 'dict'
+2023-07-06 15:46:09,372 INFO api An exception occurred: unhashable type: 'dict'
+2023-07-06 15:47:48,149 INFO api An exception occurred: unhashable type: 'dict'
+2023-07-06 15:47:53,585 INFO api An exception occurred: unhashable type: 'dict'
+2023-07-06 15:47:55,332 INFO api An exception occurred: unhashable type: 'dict'
+2023-07-06 15:47:56,751 INFO api An exception occurred: unhashable type: 'dict'
+2023-07-06 15:47:57,261 INFO api An exception occurred: unhashable type: 'dict'
+2023-07-06 15:48:01,699 INFO api An exception occurred: unhashable type: 'dict'
+2023-07-06 15:56:15,212 INFO api An exception occurred: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDERBY `tabProperty`.building, `tabProperty`.office_name' at line 14")
+2023-07-06 15:56:27,502 INFO api An exception occurred: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDERBY `tabProperty`.building, `tabProperty`.office_name' at line 14")
+2023-07-06 16:03:42,553 INFO api An exception occurred: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDERBY `tabProperty`.building, `tabProperty`.office_name' at line 14")

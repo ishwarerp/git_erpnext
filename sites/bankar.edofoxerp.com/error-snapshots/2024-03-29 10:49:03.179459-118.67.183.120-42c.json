@@ -1,0 +1,338 @@
+{
+ "etype": "JSONDecodeError",
+ "evalue": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+ "exception": {
+  "args": [
+   40,
+   39,
+   69,
+   120,
+   112,
+   101,
+   99,
+   116,
+   105,
+   110,
+   103,
+   32,
+   118,
+   97,
+   108,
+   117,
+   101,
+   58,
+   32,
+   108,
+   105,
+   110,
+   101,
+   32,
+   49,
+   32,
+   99,
+   111,
+   108,
+   117,
+   109,
+   110,
+   32,
+   49,
+   32,
+   40,
+   99,
+   104,
+   97,
+   114,
+   32,
+   48,
+   41,
+   39,
+   44,
+   41
+  ],
+  "colno": [
+   49
+  ],
+  "doc": [
+   39,
+   105,
+   102,
+   40,
+   110,
+   111,
+   119,
+   40,
+   41,
+   61,
+   115,
+   121,
+   115,
+   100,
+   97,
+   116,
+   101,
+   40,
+   41,
+   44,
+   115,
+   108,
+   101,
+   101,
+   112,
+   40,
+   49,
+   53,
+   41,
+   44,
+   48,
+   41,
+   39
+  ],
+  "lineno": [
+   49
+  ],
+  "msg": [
+   39,
+   69,
+   120,
+   112,
+   101,
+   99,
+   116,
+   105,
+   110,
+   103,
+   32,
+   118,
+   97,
+   108,
+   117,
+   101,
+   39
+  ],
+  "pos": [
+   48
+  ],
+  "with_traceback": [
+   60,
+   98,
+   117,
+   105,
+   108,
+   116,
+   45,
+   105,
+   110,
+   32,
+   109,
+   101,
+   116,
+   104,
+   111,
+   100,
+   32,
+   119,
+   105,
+   116,
+   104,
+   95,
+   116,
+   114,
+   97,
+   99,
+   101,
+   98,
+   97,
+   99,
+   107,
+   32,
+   111,
+   102,
+   32,
+   74,
+   83,
+   79,
+   78,
+   68,
+   101,
+   99,
+   111,
+   100,
+   101,
+   69,
+   114,
+   114,
+   111,
+   114,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   62
+  ]
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'https://bankar.edofoxerp.com/' [POST]>)",
+   "dump": {
+    "frappe. handler": "<module 'frappe.handler' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py'>",
+    "frappe.handler. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "response": "None"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "61": "",
+    "62": "\t\telif frappe.form_dict.cmd:",
+    "63": "\t\t\tresponse = frappe.handler.handle()",
+    "64": "",
+    "65": "\t\telif request.path.startswith(\"/api/\"):"
+   },
+   "lnum": 63
+  },
+  {
+   "call": "()",
+   "dump": {
+    "cmd": "'erpnext.e_commerce.api.get_product_filter_data'",
+    "data": "None",
+    "global execute_cmd": "<function execute_cmd>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "handle",
+   "lines": {
+    "43": "",
+    "44": "\tif cmd != \"login\":",
+    "45": "\t\tdata = execute_cmd(cmd)",
+    "46": "",
+    "47": "\t# data can be an empty string or list which are valid responses"
+   },
+   "lnum": 45
+  },
+  {
+   "call": "(cmd='erpnext.e_commerce.api.get_product_filter_data', from_async=False)",
+   "dump": {
+    "frappe. call": "<function call>",
+    "frappe. form_dict": "{'cmd': 'erpnext.e_commerce.api.get_product_filt... 'query_args': 'if(now()=sysdate(),sleep(15),0)'}",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "method": "<function get_product_filter_data>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "execute_cmd",
+   "lines": {
+    "81": "\t\tis_valid_http_method(method)",
+    "82": "",
+    "83": "\treturn frappe.call(method, **frappe.form_dict)",
+    "84": "",
+    "85": ""
+   },
+   "lnum": 83
+  },
+  {
+   "call": "(fn=<function get_product_filter_data>, *args=(), **kwargs={'cmd': 'erpnext.e_commerce.api.get_product_filter_data', 'query_args': 'if(now()=sysdate(),sleep(15),0)'})",
+   "dump": {
+    "args": "()",
+    "fn": "<function get_product_filter_data>",
+    "newargs": "{'query_args': 'if(now()=sysdate(),sleep(15),0)'}"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "call",
+   "lines": {
+    "1605": "\tnewargs = get_newargs(fn, kwargs)",
+    "1606": "",
+    "1607": "\treturn fn(*args, **newargs)",
+    "1608": "",
+    "1609": ""
+   },
+   "lnum": 1607
+  },
+  {
+   "call": "(query_args='if(now()=sysdate(),sleep(15),0)')",
+   "dump": {
+    "global json": "<module 'json' from '/usr/lib/python3.10/json/__init__.py'>",
+    "json. loads": "<function loads>",
+    "query_args": "'if(now()=sysdate(),sleep(15),0)'"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/erpnext/erpnext/e_commerce/api.py",
+   "func": "get_product_filter_data",
+   "lines": {
+    "28": "\t\"\"\"",
+    "29": "\tif isinstance(query_args, str):",
+    "30": "\t\tquery_args = json.loads(query_args)",
+    "31": "",
+    "32": "\tquery_args = frappe._dict(query_args)"
+   },
+   "lnum": 30
+  },
+  {
+   "call": "(s='if(now()=sysdate(),sleep(15),0)', cls=None, object_hook=None, parse_float=None, parse_int=None, parse_constant=None, object_pairs_hook=None, **kw={})",
+   "dump": {
+    "_default_decoder. decode": "<bound method JSONDecoder.decode of <json.decoder.JSONDecoder object>>",
+    "global _default_decoder": "<json.decoder.JSONDecoder object>",
+    "s": "'if(now()=sysdate(),sleep(15),0)'"
+   },
+   "file": "/usr/lib/python3.10/json/__init__.py",
+   "func": "loads",
+   "lines": {
+    "344": "            parse_int is None and parse_float is None and",
+    "345": "            parse_constant is None and object_pairs_hook is None and not kw):",
+    "346": "        return _default_decoder.decode(s)",
+    "347": "    if cls is None:",
+    "348": "        cls = JSONDecoder"
+   },
+   "lnum": 346
+  },
+  {
+   "call": "(self=<json.decoder.JSONDecoder object>, s='if(now()=sysdate(),sleep(15),0)', _w=<built-in method match of re.Pattern object>)",
+   "dump": {
+    ").end": "undefined",
+    "_w": "<built-in method match of re.Pattern object>",
+    "end": "undefined",
+    "idx": "undefined",
+    "obj": "undefined",
+    "s": "'if(now()=sysdate(),sleep(15),0)'",
+    "self": "<json.decoder.JSONDecoder object>",
+    "self. raw_decode": "<bound method JSONDecoder.raw_decode of <json.decoder.JSONDecoder object>>"
+   },
+   "file": "/usr/lib/python3.10/json/decoder.py",
+   "func": "decode",
+   "lines": {
+    "335": "",
+    "336": "        \"\"\"",
+    "337": "        obj, end = self.raw_decode(s, idx=_w(s, 0).end())",
+    "338": "        end = _w(s, end).end()",
+    "339": "        if end != len(s):"
+   },
+   "lnum": 337
+  },
+  {
+   "call": "(self=<json.decoder.JSONDecoder object>, s='if(now()=sysdate(),sleep(15),0)', idx=0)",
+   "dump": {
+    "err": "undefined",
+    "global JSONDecodeError": "<class 'json.decoder.JSONDecodeError'>",
+    "s": "'if(now()=sysdate(),sleep(15),0)'"
+   },
+   "file": "/usr/lib/python3.10/json/decoder.py",
+   "func": "raw_decode",
+   "lines": {
+    "352": "        try:",
+    "353": "            obj, end = self.scan_once(s, idx)",
+    "354": "        except StopIteration as err:",
+    "355": "            raise JSONDecodeError(\"Expecting value\", s, err.value) from None",
+    "356": "        return obj, end"
+   },
+   "lnum": 355
+  }
+ ],
+ "locals": {
+  "idx": "0",
+  "s": "if(now()=sysdate(),sleep(15),0)",
+  "self": "<json.decoder.JSONDecoder object>"
+ },
+ "pyver": "Python 3.10.12: /home/gauritrans/frappe-bench/env/bin/python (prefix: /home/gauritrans/frappe-bench/env)",
+ "timestamp": "2024-03-29 10:49:03.179540",
+ "traceback": "Traceback (most recent call last):\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py\", line 63, in application\n    response = frappe.handler.handle()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py\", line 45, in handle\n    data = execute_cmd(cmd)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py\", line 83, in execute_cmd\n    return frappe.call(method, **frappe.form_dict)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py\", line 1607, in call\n    return fn(*args, **newargs)\n  File \"/home/gauritrans/frappe-bench/apps/erpnext/erpnext/e_commerce/api.py\", line 30, in get_product_filter_data\n    query_args = json.loads(query_args)\n  File \"/usr/lib/python3.10/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/usr/lib/python3.10/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n  File \"/usr/lib/python3.10/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+}

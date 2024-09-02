@@ -1,0 +1,8 @@
+{
+ "db_name": "_039cc45dd718bebf",
+ "db_password": "xH9lJcGAoxAcKzIe",
+ "db_type": "mariadb",
+ "encryption_key": "mIqcuCksulL99qCx8nlATPbn4qfTHMZ4NE2BlK5A4Xs=",
+ "ssl_certificate": "/etc/letsencrypt/live/ssd.edofoxerp.com/fullchain.pem",
+ "ssl_certificate_key": "/etc/letsencrypt/live/ssd.edofoxerp.com/privkey.pem"
+}

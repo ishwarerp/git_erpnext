@@ -1,0 +1,459 @@
+2023-10-30 18:01:49,933 ERROR frappe New Exception collected with id: 2023-10-30 18:01:49.923193-106.213.85.127-577
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-2","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ishwar.pandit@mattersoft.xyz","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","country":"India","occupation":"Private Employee / खाजगी नोकरदार","budget":"Rs. 15 - 20 Lacs","qualification_status":"Unqualified","company":"ConnectKare","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"__run_link_triggers":1,"lead_name":"ee","gender":"Female","mobile_no":"33"}', 'cmd': 'frappe.client.save'}
+2023-10-31 16:33:25,087 ERROR frappe New Exception collected with id: 2023-10-31 16:33:25.081863-52.114.14.71-44b
+Site: connectcare.edofoxerp.com
+Form Dict: {'cmd': 'frappe.ConnectCareLogin.login'}
+2023-10-31 16:41:43,245 ERROR frappe New Exception collected with id: 2023-10-31 16:41:43.136608-106.213.87.66-fd4
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Rent","name":"new-rent-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","rented":0,"is_disabled":0,"consent":1,"satus":"Select an Option","customer":"CUST-2023-00232","company_registration":"ConnectKare","property":"DP-B1-F-A001","min_expected_rent":2,"prefered_to":"Any","rent_duration":"2"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-10-31 16:42:00,973 ERROR frappe New Exception collected with id: 2023-10-31 16:42:00.865068-106.213.87.66-08e
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Rent","name":"new-rent-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","rented":0,"is_disabled":0,"consent":1,"satus":"Select an Option","customer":"CUST-2023-00232","company_registration":"ConnectKare","property":"DP-B1-F-A001","min_expected_rent":2,"prefered_to":"Any","rent_duration":"2"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-10-31 16:44:12,200 ERROR frappe New Exception collected with id: 2023-10-31 16:44:12.186014-106.213.87.66-9e5
+Site: connectcare.edofoxerp.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Rent","name":"new-rent-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","rented":0,"is_disabled":0,"consent":1,"satus":"Select an Option","customer":"CUST-2023-00232","company_registration":"ConnectKare","property":"DP-B1-F-A001","min_expected_rent":2,"prefered_to":"Any","rent_duration":"2"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-10-31 17:07:20,768 ERROR frappe New Exception collected with id: 2023-10-31 17:07:20.761648-106.213.87.66-e94
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-10-31 17:07:31,703 ERROR frappe New Exception collected with id: 2023-10-31 17:07:31.693868-106.213.87.66-784
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-10-31 17:17:14,565 ERROR frappe New Exception collected with id: 2023-10-31 17:17:14.563179-106.213.87.66-970
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-10-31 17:20:18,426 ERROR frappe New Exception collected with id: 2023-10-31 17:20:18.424136-106.213.87.66-95d
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-10-31 17:20:26,393 ERROR frappe New Exception collected with id: 2023-10-31 17:20:26.390563-106.213.87.66-061
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-10-31 17:21:04,245 ERROR frappe New Exception collected with id: 2023-10-31 17:21:04.239116-106.213.87.66-292
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-10-31 17:32:05,264 ERROR frappe New Exception collected with id: 2023-10-31 17:32:05.250217-106.213.87.66-93d
+Site: connectcare.edofoxerp.com
+Form Dict: {'doctype': 'Services', 'docname': 'Ser-10-2023-1436', 'fieldname': 'image', 'cmd': 'CustomerData'}
+2023-10-31 17:48:19,060 ERROR frappe New Exception collected with id: 2023-10-31 17:48:19.058372-127.0.0.1-0c0
+Site: connectcare.edofoxerp.com
+Form Dict: {}
+2023-10-31 18:54:14,799 ERROR frappe New Exception collected with id: 2023-10-31 18:54:14.789467-106.213.87.66-33d
+Site: operations.connectkare.in
+Form Dict: {'cmd': 'AddRent'}
+2023-11-01 12:07:50,100 ERROR frappe New Exception collected with id: 2023-11-01 12:07:50.098286-106.213.82.70-278
+Site: operations.connectkare.in
+Form Dict: {}
+2023-11-01 12:10:37,060 ERROR frappe New Exception collected with id: 2023-11-01 12:10:37.057637-106.213.82.70-006
+Site: operations.connectkare.in
+Form Dict: {}
+2023-11-01 12:19:59,061 ERROR frappe New Exception collected with id: 2023-11-01 12:19:59.059024-106.213.82.70-686
+Site: operations.connectkare.in
+Form Dict: {}
+2023-11-01 12:20:27,689 ERROR frappe New Exception collected with id: 2023-11-01 12:20:27.686991-106.213.82.70-a5b
+Site: operations.connectkare.in
+Form Dict: {}
+2023-11-01 12:22:29,914 ERROR frappe New Exception collected with id: 2023-11-01 12:22:29.912505-106.213.82.70-4fc
+Site: operations.connectkare.in
+Form Dict: {}
+2023-11-01 15:25:29,617 ERROR frappe New Exception collected with id: 2023-11-01 15:25:29.607548-106.213.82.70-bc6
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ishwar.pandit@mattersoft.xyz","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","state":"Select an Option","country":"India","occupation":"Private Employee / खाजगी नोकरदार","budget":"Rs. 45 - 50 Lacs","qualification_status":"Unqualified","company":"ConnectKare","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"lead_name":"Onii","gender":"Male","mobile_no":"3232"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-01 15:25:43,315 ERROR frappe New Exception collected with id: 2023-11-01 15:25:43.306650-106.213.82.70-3d1
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ishwar.pandit@mattersoft.xyz","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","state":"Select an Option","country":"India","occupation":"Private Employee / खाजगी नोकरदार","budget":"Rs. 45 - 50 Lacs","qualification_status":"Unqualified","company":"ConnectKare","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"lead_name":"Onii","gender":"Male","mobile_no":"3232"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-01 15:26:20,246 ERROR frappe New Exception collected with id: 2023-11-01 15:26:20.236715-106.213.82.70-455
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ishwar.pandit@mattersoft.xyz","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","state":"Select an Option","country":"India","occupation":"Private Employee / खाजगी नोकरदार","budget":"Rs. 45 - 50 Lacs","qualification_status":"Unqualified","company":"ConnectKare","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"lead_name":"Onii","gender":"Male","mobile_no":"3232"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-01 15:27:57,566 ERROR frappe New Exception collected with id: 2023-11-01 15:27:57.557411-106.213.82.70-a6d
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ishwar.pandit@mattersoft.xyz","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","state":"Select an Option","country":"India","occupation":"Private Employee / खाजगी नोकरदार","budget":"Rs. 45 - 50 Lacs","qualification_status":"Unqualified","company":"ConnectKare","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"lead_name":"Onii","gender":"Male","mobile_no":"3232323232"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-01 15:28:52,149 ERROR frappe New Exception collected with id: 2023-11-01 15:28:52.139616-106.213.82.70-56a
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ishwar.pandit@mattersoft.xyz","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","state":"Select an Option","country":"India","occupation":"Government Employee / सरकारी नोकरदार","budget":"Rs. 50 - 55 Lacs","qualification_status":"Unqualified","company":"ConnectKare","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"lead_name":"ONIIIII","gender":"Male","mobile_no":"21"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-01 15:33:28,734 ERROR frappe New Exception collected with id: 2023-11-01 15:33:28.725648-106.213.82.70-75b
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ishwar.pandit@mattersoft.xyz","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","state":"Select an Option","country":"India","occupation":"Government Employee / सरकारी नोकरदार","budget":"Rs. 50 - 55 Lacs","qualification_status":"Unqualified","company":"ConnectKare","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"lead_name":"ONIIIII","gender":"Male","mobile_no":"212121"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-01 15:34:23,665 ERROR frappe New Exception collected with id: 2023-11-01 15:34:23.656163-106.213.82.70-e3b
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ishwar.pandit@mattersoft.xyz","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","state":"Select an Option","country":"India","occupation":"Government Employee / सरकारी नोकरदार","budget":"Rs. 50 - 55 Lacs","qualification_status":"Unqualified","company":"ConnectKare","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"lead_name":"ONIIIII","gender":"Male","mobile_no":"212121"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-01 15:34:25,769 ERROR frappe New Exception collected with id: 2023-11-01 15:34:25.756580-106.213.82.70-d06
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ishwar.pandit@mattersoft.xyz","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","state":"Select an Option","country":"India","occupation":"Government Employee / सरकारी नोकरदार","budget":"Rs. 50 - 55 Lacs","qualification_status":"Unqualified","company":"ConnectKare","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"lead_name":"ONIIIII","gender":"Male","mobile_no":"212121"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-01 15:35:18,701 ERROR frappe New Exception collected with id: 2023-11-01 15:35:18.691653-106.213.82.70-df2
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ishwar.pandit@mattersoft.xyz","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","state":"Select an Option","country":"India","occupation":"Government Employee / सरकारी नोकरदार","budget":"Rs. 50 - 55 Lacs","qualification_status":"Unqualified","company":"ConnectKare","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"lead_name":"ONIIIII","gender":"Male","mobile_no":"212121"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-01 15:35:37,136 ERROR frappe New Exception collected with id: 2023-11-01 15:35:37.127966-106.213.82.70-854
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ishwar.pandit@mattersoft.xyz","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","state":"Select an Option","country":"India","occupation":"Government Employee / सरकारी नोकरदार","budget":"Rs. 50 - 55 Lacs","qualification_status":"Unqualified","company":"ConnectKare","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"lead_name":"ONIIIII","gender":"Male","mobile_no":"212121"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-01 15:36:45,938 ERROR frappe New Exception collected with id: 2023-11-01 15:36:45.929798-106.213.82.70-68a
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ishwar.pandit@mattersoft.xyz","status":"Lead","type":"","request_type":"","no_of_employees":"1-10","state":"Select an Option","country":"India","occupation":"Government Employee / सरकारी नोकरदार","budget":"Rs. 50 - 55 Lacs","qualification_status":"Unqualified","company":"ConnectKare","language":"en","disabled":0,"unsubscribed":0,"blog_subscriber":0,"lead_name":"ONIIIII","gender":"Male","mobile_no":"212121"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-01 17:51:00,282 ERROR frappe New Exception collected with id: 2023-11-01 17:51:00.273864-106.213.82.70-155
+Site: operations.connectkare.in
+Form Dict: {'name': 'CUST-2023-00244', 'cmd': 'CustomerServicesApi'}
+2023-11-01 18:57:12,799 ERROR frappe New Exception collected with id: 2023-11-01 18:57:12.788780-106.213.82.70-6ae
+Site: operations.connectkare.in
+Form Dict: {'property': 'TE-B-S-33', 'status': 'Completed', 'cmd': 'SiteDevelopementReport'}
+2023-11-01 18:57:25,793 ERROR frappe New Exception collected with id: 2023-11-01 18:57:25.784507-106.213.82.70-c0e
+Site: operations.connectkare.in
+Form Dict: {'property': 'TE-B-S-33', 'status': 'Completed', 'cmd': 'SiteDevelopementReport'}
+2023-11-02 12:27:30,794 ERROR frappe New Exception collected with id: 2023-11-02 12:27:30.745290-106.213.84.89-c10
+Site: operations.connectkare.in
+Form Dict: {'mobile_no': '8888888888', 'cmd': 'ReferralCodeApi'}
+2023-11-02 16:36:16,720 ERROR frappe New Exception collected with id: 2023-11-02 16:36:16.711189-106.213.84.89-951
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"R-11-2023-1529","owner":"9503368774@connectcare.in","creation":"2023-11-01 17:15:03.393483","modified":"2023-11-02 16:25:22.052038","modified_by":"9503368774@connectcare.in","docstatus":0,"idx":0,"rented":1,"is_disabled":0,"consent":1,"customer":"CUST-2023-00214","min_expected_rent":9494,"prefered_to":"Bachlor","rent_duration":"646","notes":"","company_registration":"ConnectKare","property":"TE-B-S-33","min_expected_deposit":6461,"tenant_name":"onkar","tenant_mobile_number":"1213412","satus":"Rented","consent_text":"I Accept to pay one month rent as comission in advance ","doctype":"Rent","photo":[],"__last_sync_on":"2023-11-02T10:58:10.561Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-02 16:49:25,528 ERROR frappe New Exception collected with id: 2023-11-02 16:49:25.427136-106.213.84.89-2eb
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"R-11-2023-1529","owner":"9503368774@connectcare.in","creation":"2023-11-01 17:15:03.393483","modified":"2023-11-02 16:49:21.350374","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"rented":1,"is_disabled":0,"consent":1,"customer":"CUST-2023-00214","min_expected_rent":9494,"prefered_to":"Bachlor","rent_duration":"646","notes":"","company_registration":"ConnectKare","property":"TE-B-S-33","min_expected_deposit":6461,"tenant_name":"onkar","tenant_mobile_number":"1213414444","satus":"Select an Option","consent_text":"I Accept to pay one month rent as comission in advance ","doctype":"Rent","photo":[],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-03 17:15:57,497 ERROR frappe New Exception collected with id: 2023-11-03 17:15:57.491455-106.213.84.177-95d
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"Customer","creation":"2023-05-13 15:19:35.668958","modified":"2023-05-13 15:19:35.668958","modified_by":"Administrator","docstatus":0,"idx":0,"role_name":"Customer","disabled":0,"is_custom":0,"desk_access":0,"two_factor_auth":0,"search_bar":0,"notifications":0,"list_sidebar":0,"bulk_actions":0,"view_switcher":0,"form_sidebar":0,"timeline":0,"dashboard":0,"doctype":"Role","__last_sync_on":"2023-11-03T11:45:04.060Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-03 17:21:50,302 ERROR frappe New Exception collected with id: 2023-11-03 17:21:50.297018-106.213.84.177-668
+Site: operations.connectkare.in
+Form Dict: {'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-03 19:03:18,292 ERROR frappe New Exception collected with id: 2023-11-03 19:03:18.261719-106.213.84.177-6bf
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"S-11-2023-1584","owner":"9503368774@connectcare.in","creation":"2023-11-03 18:58:00.024662","modified":"2023-11-03 18:58:00.024662","modified_by":"9503368774@connectcare.in","docstatus":0,"idx":0,"status":"Sold","is_disabled":0,"consent":1,"customer":"CUST-2023-00214","property":"TE-B-B-901","notes":"t","company_registration":"ConnectKare","min_expected_value":2333333,"doctype":"Sell","photo":[],"__last_sync_on":"2023-11-03T13:31:53.962Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-07 12:38:55,362 ERROR frappe New Exception collected with id: 2023-11-07 12:38:55.359585-106.213.86.115-f43
+Site: operations.connectkare.in
+Form Dict: {'customer': 'CUST-2023-00214', 'doctype': 'Customer Property', 'fields': '["name"]', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-11-07 12:39:22,870 ERROR frappe New Exception collected with id: 2023-11-07 12:39:22.769850-106.213.86.115-048
+Site: operations.connectkare.in
+Form Dict: {'customer': 'CUST-2023-00214', 'doctype': 'Customer Property', 'fields': '["name"]', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-11-07 12:44:12,764 ERROR frappe New Exception collected with id: 2023-11-07 12:44:12.758954-106.213.86.115-3de
+Site: operations.connectkare.in
+Form Dict: {'customer': 'CUST-2023-00214', 'doctype': 'Customer Property', 'fields': '["name"]', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-11-07 12:58:36,529 ERROR frappe New Exception collected with id: 2023-11-07 12:58:36.526860-106.213.86.115-999
+Site: operations.connectkare.in
+Form Dict: {'customer': 'CUST-2023-00214', 'doctype': 'Customer Property', 'fields': '["name"]', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-11-07 13:12:14,132 ERROR frappe New Exception collected with id: 2023-11-07 13:12:14.125551-106.213.86.115-194
+Site: operations.connectkare.in
+Form Dict: {'customer': 'CUST-2023-00214', 'doctype': 'Customer Property', 'fields': '["name"]', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-11-07 13:14:53,307 ERROR frappe New Exception collected with id: 2023-11-07 13:14:53.304891-106.213.86.115-57a
+Site: operations.connectkare.in
+Form Dict: {'customer': 'CUST-2023-00214', 'doctype': 'Customer Property', 'fields': '["name"]', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-11-07 13:17:51,447 ERROR frappe New Exception collected with id: 2023-11-07 13:17:51.444049-106.213.86.115-338
+Site: operations.connectkare.in
+Form Dict: {'customer': 'CUST-2023-00214', 'doctype': 'Customer Property', 'fields': '["name"]', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-11-07 13:19:39,817 ERROR frappe New Exception collected with id: 2023-11-07 13:19:39.814588-106.213.86.115-d72
+Site: operations.connectkare.in
+Form Dict: {'customer': 'CUST-2023-00214', 'doctype': 'Customer Property', 'fields': '["name"]', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-11-07 13:29:00,103 ERROR frappe New Exception collected with id: 2023-11-07 13:29:00.092059-54.86.50.139-85a
+Site: operations.connectkare.in
+Form Dict: {'cmd': 'PropertyData'}
+2023-11-07 15:45:02,326 ERROR frappe New Exception collected with id: 2023-11-07 15:45:02.324010-106.213.82.69-0d3
+Site: operations.connectkare.in
+Form Dict: {'customer': '123', 'doctype': 'Customer Property', 'fields': '["name"]', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-11-07 16:08:36,261 ERROR frappe New Exception collected with id: 2023-11-07 16:08:36.170783-106.213.86.115-4a7
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Site Visit Form","name":"new-site-visit-form-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","mobile_no":"9503368774","name1":"Lead-09-2023-0429","full_name":"Ishwar P","address":null,"budget":"Rs. 25 - 30 Lacs","occupation":"Government Employee / सरकारी नोकरदार","suggestion":null,"site_visit":[{"docstatus":0,"doctype":"Site Visit","name":"new-site-visit-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","date_and_time":"2023-11-07 16:08:31","parent":"new-site-visit-form-1","parentfield":"site_visit","parenttype":"Site Visit Form","idx":1,"__unedited":false,"project":"PROJ-0002"}]}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-08 18:06:51,522 ERROR frappe New Exception collected with id: 2023-11-08 18:06:51.507574-106.213.85.60-057
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"CUST-2023-00214","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-09-01 13:38:25.576723","modified":"2023-11-08 17:45:48.360457","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":1,"naming_series":"CUST-.YYYY.-","customer_type":"Company","is_internal_customer":0,"language":"en","default_commission_rate":0,"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"lead_name":"Lead-09-2023-0429","gender":"Male","phone_no":"9503368774","state":"Maharashtra","email":"9503368774@connectcare.in","image":"/files/image_cropper_1697129740652.jpg","customer_name":"Ishwar P","date_of_birth":"2023-09-06","marital_status":"Single","referral_code":"b9f6ef","has_edited":1,"user_link":"9503368774@connectcare.in","doctype":"Customer","property":[],"sales_team":[],"accounts":[],"credit_limits":[],"companies":[],"customer_detals":[],"__last_sync_on":"2023-11-08T12:36:44.923Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-08 18:22:40,811 ERROR frappe New Exception collected with id: 2023-11-08 18:22:40.802726-106.213.83.231-04b
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"CUST-2023-00214","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-09-01 13:38:25.576723","modified":"2023-11-08 18:13:18.982734","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":1,"naming_series":"CUST-.YYYY.-","customer_type":"Company","is_internal_customer":0,"language":"en","default_commission_rate":0,"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"lead_name":"Lead-09-2023-0429","gender":"Male","phone_no":"9503368774","state":"Maharashtra","email":"9503368774@connectcare.in","image":"/files/image_cropper_1697129740652.jpg","customer_name":"Ishwar","date_of_birth":"2023-09-06","marital_status":"Single","referral_code":"b9f6ef","has_edited":1,"user_link":"9503368774@connectcare.in","doctype":"Customer","property":[],"sales_team":[],"accounts":[],"credit_limits":[],"companies":[],"customer_detals":[],"__last_sync_on":"2023-11-08T12:49:40.442Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-08 18:23:00,229 ERROR frappe New Exception collected with id: 2023-11-08 18:23:00.220668-106.213.83.231-a7e
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"CUST-2023-00214","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-09-01 13:38:25.576723","modified":"2023-11-08 18:13:18.982734","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":1,"naming_series":"CUST-.YYYY.-","customer_type":"Company","is_internal_customer":0,"language":"en","default_commission_rate":0,"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"lead_name":"Lead-09-2023-0429","gender":"Male","phone_no":"9503368774","state":"Maharashtra","email":"9503368774@connectcare.in","image":"/files/image_cropper_1697129740652.jpg","customer_name":"Ishwar","date_of_birth":"2023-09-06","marital_status":"Single","referral_code":"b9f6ef","has_edited":1,"user_link":"9503368774@connectcare.in","doctype":"Customer","property":[],"sales_team":[],"accounts":[],"credit_limits":[],"companies":[],"customer_detals":[],"__last_sync_on":"2023-11-08T12:49:40.442Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-08 18:24:03,717 ERROR frappe New Exception collected with id: 2023-11-08 18:24:03.704243-106.213.83.231-3b9
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"CUST-2023-00214","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-09-01 13:38:25.576723","modified":"2023-11-08 18:13:18.982734","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":1,"naming_series":"CUST-.YYYY.-","customer_type":"Company","is_internal_customer":0,"language":"en","default_commission_rate":0,"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"lead_name":"Lead-09-2023-0429","gender":"Male","phone_no":"9503368774","state":"Maharashtra","email":"9503368774@connectcare.in","image":"/files/image_cropper_1697129740652.jpg","customer_name":"Ishwar","date_of_birth":"2023-09-06","marital_status":"Single","referral_code":"b9f6ef","has_edited":1,"user_link":"9503368774@connectcare.in","doctype":"Customer","property":[],"sales_team":[],"accounts":[],"credit_limits":[],"companies":[],"customer_detals":[],"__last_sync_on":"2023-11-08T12:49:40.442Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-08 18:25:09,976 ERROR frappe New Exception collected with id: 2023-11-08 18:25:09.966505-106.213.83.231-59f
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"CUST-2023-00214","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-09-01 13:38:25.576723","modified":"2023-11-08 18:13:18.982734","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":1,"naming_series":"CUST-.YYYY.-","customer_type":"Company","is_internal_customer":0,"language":"en","default_commission_rate":0,"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"lead_name":"Lead-09-2023-0429","gender":"Male","phone_no":"9503368774","state":"Maharashtra","email":"9503368774@connectcare.in","image":"/files/image_cropper_1697129740652.jpg","customer_name":"Ishwar","date_of_birth":"2023-09-06","marital_status":"Single","referral_code":"b9f6ef","has_edited":1,"user_link":"9503368774@connectcare.in","doctype":"Customer","property":[],"sales_team":[],"accounts":[],"credit_limits":[],"companies":[],"customer_detals":[],"__last_sync_on":"2023-11-08T12:54:27.851Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-08 18:25:26,416 ERROR frappe New Exception collected with id: 2023-11-08 18:25:26.405790-106.213.83.231-287
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"CUST-2023-00214","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-09-01 13:38:25.576723","modified":"2023-11-08 18:13:18.982734","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":1,"naming_series":"CUST-.YYYY.-","customer_type":"Company","is_internal_customer":0,"language":"en","default_commission_rate":0,"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"lead_name":"Lead-09-2023-0429","gender":"Male","phone_no":"9503368774","state":"Maharashtra","email":"9503368774@connectcare.in","image":"/files/image_cropper_1697129740652.jpg","customer_name":"Ishwar","date_of_birth":"2023-09-06","marital_status":"Single","referral_code":"b9f6ef","has_edited":1,"user_link":"9503368774@connectcare.in","doctype":"Customer","property":[],"sales_team":[],"accounts":[],"credit_limits":[],"companies":[],"customer_detals":[],"__last_sync_on":"2023-11-08T12:54:27.851Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-08 18:25:58,849 ERROR frappe New Exception collected with id: 2023-11-08 18:25:58.834380-106.213.83.231-a4b
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"CUST-2023-00214","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-09-01 13:38:25.576723","modified":"2023-11-08 18:13:18.982734","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":1,"naming_series":"CUST-.YYYY.-","customer_type":"Company","is_internal_customer":0,"language":"en","default_commission_rate":0,"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"lead_name":"Lead-09-2023-0429","gender":"Male","phone_no":"9503368774","state":"Maharashtra","email":"9503368774@connectcare.in","image":"/files/image_cropper_1697129740652.jpg","customer_name":"Ishwar","date_of_birth":"2023-09-06","marital_status":"Single","referral_code":"b9f6ef","has_edited":1,"user_link":"9503368774@connectcare.in","doctype":"Customer","property":[],"sales_team":[],"accounts":[],"credit_limits":[],"companies":[],"customer_detals":[],"__last_sync_on":"2023-11-08T12:54:27.851Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-08 18:26:56,577 ERROR frappe New Exception collected with id: 2023-11-08 18:26:56.567911-106.213.83.231-2e1
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"CUST-2023-00214","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-09-01 13:38:25.576723","modified":"2023-11-08 18:13:18.982734","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":1,"naming_series":"CUST-.YYYY.-","customer_type":"Company","is_internal_customer":0,"language":"en","default_commission_rate":0,"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"lead_name":"Lead-09-2023-0429","gender":"Male","phone_no":"9503368774","state":"Maharashtra","email":"9503368774@connectcare.in","image":"/files/image_cropper_1697129740652.jpg","customer_name":"Ishwar","date_of_birth":"2023-09-06","marital_status":"Single","referral_code":"b9f6ef","has_edited":1,"user_link":"9503368774@connectcare.in","doctype":"Customer","property":[],"sales_team":[],"accounts":[],"credit_limits":[],"companies":[],"customer_detals":[],"__last_sync_on":"2023-11-08T12:54:27.851Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-08 18:35:43,851 ERROR frappe New Exception collected with id: 2023-11-08 18:35:43.838280-106.213.83.231-1b2
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"CUST-2023-00214","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-09-01 13:38:25.576723","modified":"2023-11-08 18:30:44.484283","modified_by":"guruprasad.kulkarni@mattersoft.xyz","docstatus":0,"idx":1,"naming_series":"CUST-.YYYY.-","customer_type":"Company","is_internal_customer":0,"language":"en","default_commission_rate":0,"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"lead_name":"Lead-09-2023-0429","gender":"Male","phone_no":"9503368774","state":"Maharashtra","email":"9503368774@connectcare.in","image":"/files/image_cropper_1697129740652.jpg","customer_name":"Ishwar P","date_of_birth":"2023-09-06","marital_status":"Single","referral_code":"b9f6ef","has_edited":1,"user_link":"9503368774@connectcare.in","doctype":"Customer","property":[],"sales_team":[],"accounts":[],"credit_limits":[],"companies":[],"customer_detals":[],"__last_sync_on":"2023-11-08T13:00:49.841Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-08 18:37:51,153 ERROR frappe New Exception collected with id: 2023-11-08 18:37:51.143303-106.213.83.231-a60
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"CUST-2023-00214","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-09-01 13:38:25.576723","modified":"2023-11-08 18:30:44.484283","modified_by":"guruprasad.kulkarni@mattersoft.xyz","docstatus":0,"idx":1,"naming_series":"CUST-.YYYY.-","customer_type":"Company","is_internal_customer":0,"language":"en","default_commission_rate":0,"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"lead_name":"Lead-09-2023-0429","gender":"Male","phone_no":"9503368774","state":"Maharashtra","email":"9503368774@connectcare.in","image":"/files/image_cropper_1697129740652.jpg","customer_name":"Ishwar P","date_of_birth":"2023-09-06","marital_status":"Single","referral_code":"b9f6ef","has_edited":1,"user_link":"9503368774@connectcare.in","doctype":"Customer","property":[],"sales_team":[],"accounts":[],"credit_limits":[],"companies":[],"customer_detals":[],"__last_sync_on":"2023-11-08T13:07:46.341Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-08 18:39:32,832 ERROR frappe New Exception collected with id: 2023-11-08 18:39:32.822783-106.213.83.231-c3d
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"CUST-2023-00214","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-09-01 13:38:25.576723","modified":"2023-11-08 18:30:44.484283","modified_by":"guruprasad.kulkarni@mattersoft.xyz","docstatus":0,"idx":1,"naming_series":"CUST-.YYYY.-","customer_type":"Company","is_internal_customer":0,"language":"en","default_commission_rate":0,"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"lead_name":"Lead-09-2023-0429","gender":"Male","phone_no":"9503368774","state":"Maharashtra","email":"9503368774@connectcare.in","image":"/files/image_cropper_1697129740652.jpg","customer_name":"Ishwar P","date_of_birth":"2023-09-06","marital_status":"Single","referral_code":"b9f6ef","has_edited":1,"user_link":"9503368774@connectcare.in","doctype":"Customer","property":[],"sales_team":[],"accounts":[],"credit_limits":[],"companies":[],"customer_detals":[],"__last_sync_on":"2023-11-08T13:08:03.532Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-09 14:13:24,384 ERROR frappe New Exception collected with id: 2023-11-09 14:13:24.376449-106.213.87.171-83d
+Site: operations.connectkare.in
+Form Dict: {'customer_name': 'CUST-2023-00244', 'cmd': 'PropertyData'}
+2023-11-16 13:31:57,758 ERROR frappe New Exception collected with id: 2023-11-16 13:31:57.659670-106.213.81.32-9d3
+Site: operations.connectkare.in
+Form Dict: {'name': 'frm.doc.email_id', 'doctype': 'User', 'fields': '["name"]', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2023-11-16 16:50:29,037 ERROR frappe New Exception collected with id: 2023-11-16 16:50:29.013239-106.213.81.32-d69
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"I p","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-11-16 15:54:44.968339","modified":"2023-11-16 16:45:59.239782","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"owner_name":"I p","company_name":"ConnectKare","address":"hj","city":"Latur","mobile_number":"3388109115","email_id":"I@gmail.com","state":"Maharashtra","doctype":"Staff","__last_sync_on":"2023-11-16T11:20:23.556Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-16 17:01:02,033 ERROR frappe New Exception collected with id: 2023-11-16 17:01:02.024511-106.213.81.32-3b7
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"I p","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-11-16 15:54:44.968339","modified":"2023-11-16 16:45:59.239782","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"owner_name":"I p","company_name":"ConnectKare","address":"hj","city":"Latur","mobile_number":"3388100005","email_id":"I@gmail.com","state":"Maharashtra","doctype":"Staff","__last_sync_on":"2023-11-16T11:20:23.556Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-16 17:01:51,283 ERROR frappe New Exception collected with id: 2023-11-16 17:01:51.179834-106.213.81.32-4e5
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"I p","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-11-16 15:54:44.968339","modified":"2023-11-16 16:45:59.239782","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"owner_name":"I p","company_name":"ConnectKare","address":"hj","city":"Latur","mobile_number":"3388008115","email_id":"I@gmail.com","state":"Maharashtra","doctype":"Staff","__last_sync_on":"2023-11-16T11:31:46.397Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-16 17:03:03,639 ERROR frappe New Exception collected with id: 2023-11-16 17:03:02.904449-106.213.81.32-485
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"I p","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-11-16 15:54:44.968339","modified":"2023-11-16 16:45:59.239782","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"owner_name":"I p","company_name":"ConnectKare","address":"hj","city":"Latur","mobile_number":"3388002115","email_id":"I@gmail.com","state":"Maharashtra","doctype":"Staff","__last_sync_on":"2023-11-16T11:32:54.173Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-16 17:07:32,888 ERROR frappe New Exception collected with id: 2023-11-16 17:07:32.191306-106.213.81.32-76d
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"I p","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-11-16 15:54:44.968339","modified":"2023-11-16 16:45:59.239782","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"owner_name":"I p","company_name":"ConnectKare","address":"hj","city":"Latur","mobile_number":"3388004115","email_id":"I@gmail.com","state":"Maharashtra","doctype":"Staff","__last_sync_on":"2023-11-16T11:37:20.491Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-17 11:07:56,524 ERROR frappe New Exception collected with id: 2023-11-17 11:07:55.790926-106.213.84.142-f71
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"arjun","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-11-17 10:57:29.715939","modified":"2023-11-17 11:07:05.718201","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"owner_name":"arjun","company_name":"ConnectKare","address":"ff","city":"Latur","mobile_number":"4433554438","email_id":"4433554433@connectkare.in","state":"Maharashtra","doctype":"Staff","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-17 11:08:40,893 ERROR frappe New Exception collected with id: 2023-11-17 11:08:40.884034-106.213.84.142-704
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"arjun","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-11-17 10:57:29.715939","modified":"2023-11-17 11:07:05.718201","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"owner_name":"arjun","company_name":"ConnectKare","address":"ff","city":"Latur","mobile_number":"4433554439","email_id":"4433554433@connectkare.in","state":"Maharashtra","doctype":"Staff","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-17 11:13:53,123 ERROR frappe New Exception collected with id: 2023-11-17 11:13:53.113622-106.213.84.142-a38
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"arjun","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-11-17 10:57:29.715939","modified":"2023-11-17 11:07:05.718201","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"owner_name":"arjun","company_name":"ConnectKare","address":"ff","city":"Latur","mobile_number":"4433554430","email_id":"4433554433@connectkare.in","state":"Maharashtra","doctype":"Staff","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-17 11:18:10,033 ERROR frappe New Exception collected with id: 2023-11-17 11:18:10.024182-106.213.84.142-e59
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"arjun","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-11-17 10:57:29.715939","modified":"2023-11-17 11:07:05.718201","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"owner_name":"arjun","company_name":"ConnectKare","address":"ff","city":"Latur","mobile_number":"4433554431","email_id":"4433554433@connectkare.in","state":"Maharashtra","doctype":"Staff","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-17 11:18:47,525 ERROR frappe New Exception collected with id: 2023-11-17 11:18:47.515817-106.213.84.142-316
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"arjun","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-11-17 10:57:29.715939","modified":"2023-11-17 11:07:05.718201","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"owner_name":"arjun","company_name":"ConnectKare","address":"ff","city":"Latur","mobile_number":"4433554434","email_id":"4433554433@connectkare.in","state":"Maharashtra","doctype":"Staff","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-17 11:19:04,699 ERROR frappe New Exception collected with id: 2023-11-17 11:19:04.565243-106.213.84.142-4a9
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"arjun","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-11-17 10:57:29.715939","modified":"2023-11-17 11:07:05.718201","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"owner_name":"arjun","company_name":"ConnectKare","address":"ff","city":"Latur","mobile_number":"4433554437","email_id":"4433554433@connectkare.in","state":"Maharashtra","doctype":"Staff","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-17 11:19:12,104 ERROR frappe New Exception collected with id: 2023-11-17 11:19:12.095380-106.213.84.142-ca9
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"arjun","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-11-17 10:57:29.715939","modified":"2023-11-17 11:07:05.718201","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"owner_name":"arjun","company_name":"ConnectKare","address":"ff","city":"Latur","mobile_number":"4433554430","email_id":"4433554433@connectkare.in","state":"Maharashtra","doctype":"Staff","__last_sync_on":"2023-11-17T05:49:08.875Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-17 11:20:08,512 ERROR frappe New Exception collected with id: 2023-11-17 11:20:08.502791-106.213.84.142-276
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"arjun","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-11-17 10:57:29.715939","modified":"2023-11-17 11:07:05.718201","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"owner_name":"arjun","company_name":"ConnectKare","address":"ff","city":"Latur","mobile_number":"4433554439","email_id":"4433554433@connectkare.in","state":"Maharashtra","doctype":"Staff","__last_sync_on":"2023-11-17T05:49:08.875Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-17 11:21:44,922 ERROR frappe New Exception collected with id: 2023-11-17 11:21:44.275983-106.213.84.142-c6d
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"arjun","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-11-17 10:57:29.715939","modified":"2023-11-17 11:07:05.718201","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"owner_name":"arjun","company_name":"ConnectKare","address":"ff","city":"Latur","mobile_number":"4433554466","email_id":"4433554433@connectkare.in","state":"Maharashtra","doctype":"Staff","__last_sync_on":"2023-11-17T05:49:08.875Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-17 11:37:51,616 ERROR frappe New Exception collected with id: 2023-11-17 11:37:50.970072-106.213.84.142-34a
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"arjun","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-11-17 10:57:29.715939","modified":"2023-11-17 11:07:05.718201","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":0,"owner_name":"arjun","company_name":"ConnectKare","address":"ff","city":"Latur","mobile_number":"4433554468","email_id":"4433554433@connectkare.in","state":"Maharashtra","doctype":"Staff","__last_sync_on":"2023-11-17T05:49:08.875Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-17 11:49:35,026 ERROR frappe New Exception collected with id: 2023-11-17 11:49:34.380068-106.213.84.142-6f5
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Staff","name":"new-staff-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","state":"Maharashtra","owner_name":"omm","city":"Latur","company_name":"ConnectKare","mobile_number":"4368399399","address":"jj"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-17 12:09:55,017 ERROR frappe New Exception collected with id: 2023-11-17 12:09:55.004931-106.213.84.142-fc5
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Staff","name":"new-staff-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","state":"Maharashtra","owner_name":"omm","city":"Latur","company_name":"ConnectKare","mobile_number":"4368399399","address":"jj"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-17 12:11:38,850 ERROR frappe New Exception collected with id: 2023-11-17 12:11:38.838358-106.213.84.142-9fc
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Staff","name":"new-staff-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","state":"Maharashtra","owner_name":"omm","city":"Latur","company_name":"ConnectKare","mobile_number":"4368399393","address":"jj"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-17 12:12:03,697 ERROR frappe New Exception collected with id: 2023-11-17 12:12:03.684957-106.213.84.142-beb
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Staff","name":"new-staff-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","state":"Maharashtra","owner_name":"ommi","city":"Latur","company_name":"ConnectKare","mobile_number":"6284628475","address":"ff"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-18 17:53:10,951 ERROR frappe New Exception collected with id: 2023-11-18 17:53:10.937609-106.213.81.100-fe6
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Customer","name":"new-customer-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","naming_series":"CUST-.YYYY.-","customer_type":"Company","is_internal_customer":0,"language":"en","so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"state":"Select an Option","company":"ConnectKare","marital_status":"Select an Option","referral_code":"1","has_edited":0,"lead_name":"LEAD-11-1648","first_name":null,"middle_name":null,"last_name":null,"gender":"Male","email":null,"phone_no":"9383625201","address":null,"customer_name":"Ankush","date_of_birth":null,"city":null}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-18 17:53:47,580 ERROR frappe New Exception collected with id: 2023-11-18 17:53:47.564052-106.213.81.100-a82
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Customer","name":"new-customer-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","naming_series":"CUST-.YYYY.-","customer_type":"Company","is_internal_customer":0,"language":"en","so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"state":"Select an Option","company":"ConnectKare","marital_status":"Select an Option","referral_code":"1","has_edited":0,"lead_name":"LEAD-11-1648","first_name":null,"middle_name":null,"last_name":null,"gender":"Male","email":null,"phone_no":"9383625201","address":null,"customer_name":"Ankush","date_of_birth":null,"city":null}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-18 17:54:03,751 ERROR frappe New Exception collected with id: 2023-11-18 17:54:03.737236-106.213.81.100-d82
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Customer","name":"new-customer-1","__islocal":1,"__unsaved":1,"owner":"ishwar.pandit@mattersoft.xyz","naming_series":"CUST-.YYYY.-","customer_type":"Company","is_internal_customer":0,"language":"en","so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"state":"Select an Option","company":"ConnectKare","marital_status":"Select an Option","referral_code":"1","has_edited":0,"lead_name":"LEAD-11-1648","first_name":null,"middle_name":null,"last_name":null,"gender":"Male","email":null,"phone_no":"9383625201","address":null,"customer_name":"Ankush","date_of_birth":null,"city":null}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-20 18:14:09,975 ERROR frappe New Exception collected with id: 2023-11-20 18:14:09.890971-106.213.84.253-506
+Site: operations.connectkare.in
+Form Dict: {'txt': '', 'doctype': 'Property', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Property', 'query': 'frappe.connect_care.api.get_properties', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2023-11-20 18:14:23,634 ERROR frappe New Exception collected with id: 2023-11-20 18:14:23.551533-106.213.82.88-464
+Site: operations.connectkare.in
+Form Dict: {'txt': '', 'doctype': 'Property', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Property', 'query': 'frappe.connect_care.api.get_properties', 'filters': '{"building":"BLD-0002"}', 'cmd': 'frappe.desk.search.search_link'}
+2023-11-20 18:14:42,767 ERROR frappe New Exception collected with id: 2023-11-20 18:14:42.760519-106.213.82.88-d1a
+Site: operations.connectkare.in
+Form Dict: {'txt': '', 'doctype': 'Property', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Property', 'query': 'frappe.connect_care.api.get_properties', 'filters': '{"building":"BLD-0002"}', 'cmd': 'frappe.desk.search.search_link'}
+2023-11-20 18:15:00,335 ERROR frappe New Exception collected with id: 2023-11-20 18:15:00.329312-106.213.82.88-84e
+Site: operations.connectkare.in
+Form Dict: {'txt': '', 'doctype': 'Property', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Property', 'query': 'frappe.connect_care.api.get_properties', 'filters': '{"building":"BLD-0002"}', 'cmd': 'frappe.desk.search.search_link'}
+2023-11-20 18:15:49,280 ERROR frappe New Exception collected with id: 2023-11-20 18:15:49.202286-106.213.84.253-a97
+Site: operations.connectkare.in
+Form Dict: {'txt': '', 'doctype': 'Property', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Property', 'query': 'frappe.connect_care.api.get_properties', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2023-11-20 18:16:21,785 ERROR frappe New Exception collected with id: 2023-11-20 18:16:21.697220-106.213.84.253-5f2
+Site: operations.connectkare.in
+Form Dict: {'txt': '', 'doctype': 'Property', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Property', 'query': 'frappe.connect_care.api.get_properties', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2023-11-20 18:16:54,252 ERROR frappe New Exception collected with id: 2023-11-20 18:16:54.177693-106.213.84.253-ce1
+Site: operations.connectkare.in
+Form Dict: {'txt': '', 'doctype': 'Property', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Property', 'query': 'frappe.connect_care.api.get_properties', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2023-11-20 18:17:08,937 ERROR frappe New Exception collected with id: 2023-11-20 18:17:08.856766-106.213.84.253-449
+Site: operations.connectkare.in
+Form Dict: {'txt': '', 'doctype': 'Property', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Property', 'query': 'frappe.connect_care.api.get_properties', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2023-11-20 18:19:22,578 ERROR frappe New Exception collected with id: 2023-11-20 18:19:22.489561-106.213.82.88-3a1
+Site: operations.connectkare.in
+Form Dict: {'txt': '', 'doctype': 'Property', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Property', 'query': 'frappe.connect_care.api.get_properties', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2023-11-20 18:19:34,722 ERROR frappe New Exception collected with id: 2023-11-20 18:19:34.640551-106.213.82.88-f8f
+Site: operations.connectkare.in
+Form Dict: {'txt': '', 'doctype': 'Property', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Property', 'query': 'frappe.connect_care.api.get_properties', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2023-11-20 18:21:21,855 ERROR frappe New Exception collected with id: 2023-11-20 18:21:21.767108-106.213.82.88-fbc
+Site: operations.connectkare.in
+Form Dict: {'txt': '', 'doctype': 'Property', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Property', 'query': 'frappe.connect_care.api.get_properties', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2023-11-20 18:21:39,789 ERROR frappe New Exception collected with id: 2023-11-20 18:21:39.701078-106.213.82.88-4d9
+Site: operations.connectkare.in
+Form Dict: {'txt': '', 'doctype': 'Property', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Property', 'query': 'frappe.connect_care.api.get_properties', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2023-11-20 18:21:45,082 ERROR frappe New Exception collected with id: 2023-11-20 18:21:45.077155-106.213.84.253-e45
+Site: operations.connectkare.in
+Form Dict: {'txt': '', 'doctype': 'Property', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Property', 'query': 'frappe.connect_care.api.get_properties', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2023-11-20 18:21:46,986 ERROR frappe New Exception collected with id: 2023-11-20 18:21:46.895003-106.213.82.88-bb2
+Site: operations.connectkare.in
+Form Dict: {'txt': '', 'doctype': 'Property', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Property', 'query': 'frappe.connect_care.api.get_properties', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2023-11-20 18:21:52,086 ERROR frappe New Exception collected with id: 2023-11-20 18:21:52.080586-106.213.84.253-426
+Site: operations.connectkare.in
+Form Dict: {'txt': '', 'doctype': 'Property', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Property', 'query': 'frappe.connect_care.api.get_properties', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2023-11-20 18:21:56,615 ERROR frappe New Exception collected with id: 2023-11-20 18:21:56.609461-106.213.82.88-a6a
+Site: operations.connectkare.in
+Form Dict: {'txt': '', 'doctype': 'Property', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Property', 'query': 'frappe.connect_care.api.get_properties', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2023-11-20 18:22:01,479 ERROR frappe New Exception collected with id: 2023-11-20 18:22:01.474136-106.213.82.88-078
+Site: operations.connectkare.in
+Form Dict: {'txt': '', 'doctype': 'Property', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Property', 'query': 'frappe.connect_care.api.get_properties', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2023-11-20 18:22:17,305 ERROR frappe New Exception collected with id: 2023-11-20 18:22:17.299819-106.213.84.253-380
+Site: operations.connectkare.in
+Form Dict: {'txt': '', 'doctype': 'Property', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Property', 'query': 'frappe.connect_care.api.get_properties', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2023-11-20 18:22:20,155 ERROR frappe New Exception collected with id: 2023-11-20 18:22:20.149629-106.213.84.253-0cb
+Site: operations.connectkare.in
+Form Dict: {'txt': '', 'doctype': 'Property', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Property', 'query': 'frappe.connect_care.api.get_properties', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2023-11-20 18:22:54,684 ERROR frappe New Exception collected with id: 2023-11-20 18:22:54.512692-106.213.84.253-970
+Site: operations.connectkare.in
+Form Dict: {'txt': '', 'doctype': 'Property', 'ignore_user_permissions': '0', 'reference_doctype': 'Customer Property', 'query': 'frappe.connect_care.api.get_properties', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2023-11-21 14:05:10,144 ERROR frappe New Exception collected with id: 2023-11-21 14:05:10.063970-106.213.80.169-de1
+Site: operations.connectkare.in
+Form Dict: {'doctype': 'Services', 'name': 'Ser-11-2023-1660', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-11-21 14:05:20,869 ERROR frappe New Exception collected with id: 2023-11-21 14:05:20.794230-106.213.80.169-fb4
+Site: operations.connectkare.in
+Form Dict: {'doctype': 'Services', 'name': 'Ser-11-2023-1660', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-11-21 14:05:36,413 ERROR frappe New Exception collected with id: 2023-11-21 14:05:36.410930-106.213.84.198-d26
+Site: operations.connectkare.in
+Form Dict: {'doctype': 'Error Log', 'name': '62119', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-11-21 17:06:24,012 ERROR frappe New Exception collected with id: 2023-11-21 17:06:23.915327-54.86.50.139-16a
+Site: operations.connectkare.in
+Form Dict: {'customer': 'CUST-2023-00214', 'cmd': 'PropertyData'}
+2023-11-22 12:54:36,591 ERROR frappe New Exception collected with id: 2023-11-22 12:54:36.484326-54.86.50.139-016
+Site: operations.connectkare.in
+Form Dict: {'customer': 'CUST-2023-00214', 'min_expected_rent': 500000, 'prefered_to': 'Family', 'rent_duration': 6, 'property': 'TE-B-F-A-11', 'min_expected_deposit': 5000, 'notes': '', 'consent': 1, 'cmd': 'PropertyData'}
+2023-11-22 12:55:08,084 ERROR frappe New Exception collected with id: 2023-11-22 12:55:08.071210-54.86.50.139-60c
+Site: operations.connectkare.in
+Form Dict: {'customer': 'CUST-2023-00214', 'min_expected_rent': 500000, 'prefered_to': 'Family', 'rent_duration': 6, 'property': 'TE-B-F-A-11', 'min_expected_deposit': 5000, 'notes': '', 'consent': 1, 'cmd': 'PropertyData'}
+2023-11-22 13:13:33,474 ERROR frappe New Exception collected with id: 2023-11-22 13:13:33.469145-54.86.50.139-f81
+Site: operations.connectkare.in
+Form Dict: {'mobile': '9503368774', 'cmd': 'frappe.ConnectCareLogin.login'}
+2023-11-22 13:15:08,776 ERROR frappe New Exception collected with id: 2023-11-22 13:15:08.679480-54.86.50.139-8fa
+Site: operations.connectkare.in
+Form Dict: {'mobile': '7464532838', 'uid': 'HXhMckU14YbHo766mVzkvBpgUiH2', 'cmd': 'frappe.ConnectCareLogin.login'}
+2023-11-22 13:54:47,863 ERROR frappe New Exception collected with id: 2023-11-22 13:54:47.853489-54.86.50.139-97a
+Site: operations.connectkare.in
+Form Dict: {'name': 'CUST-2023-00214', 'cmd': 'ShareRefernce'}
+2023-11-22 18:20:19,263 ERROR frappe New Exception collected with id: 2023-11-22 18:20:19.254110-54.86.50.139-e47
+Site: operations.connectkare.in
+Form Dict: {'name': 'CUST-2023-00214', 'cmd': 'ShareRefernce'}
+2023-11-22 18:22:43,691 ERROR frappe New Exception collected with id: 2023-11-22 18:22:43.680467-54.86.50.139-e03
+Site: operations.connectkare.in
+Form Dict: {'name': 'CUST-2023-00214', 'cmd': 'ShareRefernce'}
+2023-11-22 18:23:32,864 ERROR frappe New Exception collected with id: 2023-11-22 18:23:32.838540-54.86.50.139-5c8
+Site: operations.connectkare.in
+Form Dict: {'name': 'CUST-2023-00214', 'cmd': 'ShareRefernce'}
+2023-11-22 18:25:27,564 ERROR frappe New Exception collected with id: 2023-11-22 18:25:27.554718-54.86.50.139-76f
+Site: operations.connectkare.in
+Form Dict: {'name': 'CUST-2023-00214', 'cmd': 'ShareRefernce'}
+2023-11-22 18:26:34,267 ERROR frappe New Exception collected with id: 2023-11-22 18:26:34.160254-54.86.50.139-edb
+Site: operations.connectkare.in
+Form Dict: {'name': 'CUST-2023-00214', 'cmd': 'ShareRefernce'}
+2023-11-22 18:27:52,992 ERROR frappe New Exception collected with id: 2023-11-22 18:27:52.982712-54.86.50.139-867
+Site: operations.connectkare.in
+Form Dict: {'name': 'CUST-2023-00214', 'cmd': 'ShareRefernce'}
+2023-11-22 18:29:16,572 ERROR frappe New Exception collected with id: 2023-11-22 18:29:16.563402-54.86.50.139-faf
+Site: operations.connectkare.in
+Form Dict: {'name': 'CUST-2023-00214', 'cmd': 'ShareRefernce'}
+2023-11-23 17:20:15,812 ERROR frappe New Exception collected with id: 2023-11-23 17:20:15.810580-127.0.0.1-d8d
+Site: operations.connectkare.in
+Form Dict: {}
+2023-11-23 17:21:49,715 ERROR frappe New Exception collected with id: 2023-11-23 17:21:49.714168-54.86.50.139-fe3
+Site: operations.connectkare.in
+Form Dict: {'mobile': '9503368774', 'cmd': 'frappe.ConnectCareLogin.login'}
+2023-11-23 17:21:59,485 ERROR frappe New Exception collected with id: 2023-11-23 17:21:59.484121-54.86.50.139-761
+Site: operations.connectkare.in
+Form Dict: {'mobile_no': '9503368774', 'cmd': 'frappe.ConnectCareLogin.login'}
+2023-11-23 17:51:06,152 ERROR frappe New Exception collected with id: 2023-11-23 17:51:06.143056-106.213.83.170-ac8
+Site: operations.connectkare.in
+Form Dict: {'doctype': 'Customer', 'name': 'CUST-2023-00258', 'cmd': 'frappe.client.delete'}
+2023-11-23 18:22:50,761 ERROR frappe New Exception collected with id: 2023-11-23 18:22:50.758950-106.213.83.170-686
+Site: operations.connectkare.in
+Form Dict: {'cmd': 'frappe.core.doctype.user_permission.user_permission.get_user_permissions'}
+2023-11-23 18:22:51,130 ERROR frappe New Exception collected with id: 2023-11-23 18:22:51.127695-106.213.83.170-bc3
+Site: operations.connectkare.in
+Form Dict: {'cmd': 'frappe.core.doctype.user_permission.user_permission.get_user_permissions'}
+2023-11-23 18:22:55,932 ERROR frappe New Exception collected with id: 2023-11-23 18:22:55.926303-106.213.83.170-b12
+Site: operations.connectkare.in
+Form Dict: {'cmd': 'frappe.core.doctype.user_permission.user_permission.get_user_permissions'}
+2023-11-23 18:22:55,997 ERROR frappe New Exception collected with id: 2023-11-23 18:22:55.993451-106.213.83.170-679
+Site: operations.connectkare.in
+Form Dict: {'cmd': 'frappe.desk.doctype.tag.tag.get_tags_list_for_awesomebar'}
+2023-11-23 18:22:56,070 ERROR frappe New Exception collected with id: 2023-11-23 18:22:56.063137-106.213.83.170-87c
+Site: operations.connectkare.in
+Form Dict: {'limit': '20', 'cmd': 'frappe.desk.doctype.notification_log.notification_log.get_notification_logs'}
+2023-11-23 18:22:56,134 ERROR frappe New Exception collected with id: 2023-11-23 18:22:56.129418-106.213.83.170-535
+Site: operations.connectkare.in
+Form Dict: {'doctype': 'Customer Property', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2023-11-23 18:22:56,155 ERROR frappe New Exception collected with id: 2023-11-23 18:22:56.150551-106.213.83.170-01c
+Site: operations.connectkare.in
+Form Dict: {'doctype': 'RQ Job', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2023-11-24 18:51:23,071 ERROR frappe New Exception collected with id: 2023-11-24 18:51:23.061564-106.213.84.196-53f
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"CUST-2023-00214","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-09-01 13:38:25.576723","modified":"2023-11-24 18:35:01.717860","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":1,"naming_series":"CUST-.YYYY.-","customer_type":"Company","is_internal_customer":0,"language":"en","default_commission_rate":0,"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"lead_name":"Lead-09-2023-0429","gender":"Male","phone_no":"9503368774","state":"Maharashtra","email":"9503368774@connectcare.in","company":"ConnectKare","image":"/files/DSC_0146.JPG","customer_name":"Ishwar Pandit","date_of_birth":"2023-09-06","marital_status":"Single","referral_code":"b9f6ef","has_edited":1,"user_link":"9503368774@connectcare.in","doctype":"Customer","customer_detals":[],"sales_team":[],"property":[],"credit_limits":[],"accounts":[],"companies":[],"__last_sync_on":"2023-11-24T13:05:05.848Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-24 18:57:06,872 ERROR frappe New Exception collected with id: 2023-11-24 18:57:06.862032-106.213.84.196-8e0
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"CUST-2023-00214","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-09-01 13:38:25.576723","modified":"2023-11-24 18:35:01.717860","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":1,"naming_series":"CUST-.YYYY.-","customer_type":"Company","is_internal_customer":0,"language":"en","default_commission_rate":0,"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"lead_name":"Lead-09-2023-0429","gender":"Male","phone_no":"9503368774","state":"Maharashtra","email":"9503368774@connectcare.in","company":"ConnectKare","image":"/files/DSC_0146.JPG","customer_name":"Ishwar","date_of_birth":"2023-09-06","marital_status":"Single","referral_code":"b9f6ef","has_edited":1,"user_link":"9503368774@connectcare.in","doctype":"Customer","customer_detals":[],"sales_team":[],"property":[],"credit_limits":[],"accounts":[],"companies":[],"__last_sync_on":"2023-11-24T13:05:05.848Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-24 18:57:20,427 ERROR frappe New Exception collected with id: 2023-11-24 18:57:20.417432-106.213.84.196-00d
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"CUST-2023-00214","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-09-01 13:38:25.576723","modified":"2023-11-24 18:35:01.717860","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":1,"naming_series":"CUST-.YYYY.-","customer_type":"Company","is_internal_customer":0,"language":"en","default_commission_rate":0,"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"lead_name":"Lead-09-2023-0429","gender":"Male","phone_no":"9503368774","state":"Maharashtra","email":"9503368774@connectcare.in","company":"ConnectKare","image":"/files/DSC_0146.JPG","customer_name":"Ishwar","date_of_birth":"2023-09-06","marital_status":"Single","referral_code":"b9f6ef","has_edited":1,"user_link":"9503368774@connectcare.in","doctype":"Customer","customer_detals":[],"sales_team":[],"property":[],"credit_limits":[],"accounts":[],"companies":[],"__last_sync_on":"2023-11-24T13:05:05.848Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-24 18:57:23,561 ERROR frappe New Exception collected with id: 2023-11-24 18:57:23.552034-106.213.84.196-108
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"CUST-2023-00214","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-09-01 13:38:25.576723","modified":"2023-11-24 18:35:01.717860","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":1,"naming_series":"CUST-.YYYY.-","customer_type":"Company","is_internal_customer":0,"language":"en","default_commission_rate":0,"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"lead_name":"Lead-09-2023-0429","gender":"Male","phone_no":"9503368774","state":"Maharashtra","email":"9503368774@connectcare.in","company":"ConnectKare","image":"/files/DSC_0146.JPG","customer_name":"Ishwar","date_of_birth":"2023-09-06","marital_status":"Single","referral_code":"b9f6ef","has_edited":1,"user_link":"9503368774@connectcare.in","doctype":"Customer","customer_detals":[],"sales_team":[],"property":[],"credit_limits":[],"accounts":[],"companies":[],"__last_sync_on":"2023-11-24T13:05:05.848Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-25 12:00:09,708 ERROR frappe New Exception collected with id: 2023-11-25 12:00:09.696389-106.213.86.211-1d9
+Site: operations.connectkare.in
+Form Dict: {'doc': '{"name":"CUST-2023-00214","owner":"ishwar.pandit@mattersoft.xyz","creation":"2023-09-01 13:38:25.576723","modified":"2023-11-24 19:01:58.867067","modified_by":"ishwar.pandit@mattersoft.xyz","docstatus":0,"idx":1,"naming_series":"CUST-.YYYY.-","customer_type":"Company","is_internal_customer":0,"language":"en","default_commission_rate":0,"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"lead_name":"Lead-09-2023-0429","gender":"Male","phone_no":"9503368774","state":"Maharashtra","email":"9503368774@connectcare.in","company":"ConnectKare","image":"/files/DSC_0146.JPG","customer_name":"Ishwar PPP","date_of_birth":"2023-09-06","marital_status":"Single","referral_code":"b9f6ef","has_edited":1,"user_link":"9503368774@connectcare.in","doctype":"Customer","customer_detals":[],"sales_team":[],"property":[],"credit_limits":[],"accounts":[],"companies":[],"__last_sync_on":"2023-11-25T06:30:03.193Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-11-25 15:58:26,552 ERROR frappe New Exception collected with id: 2023-11-25 15:58:26.550850-54.86.50.139-d15
+Site: operations.connectkare.in
+Form Dict: {'mobile_no': '7464532838', 'cmd': 'frappe.ConnectCareLogin.login'}
+2023-11-25 15:58:45,094 ERROR frappe New Exception collected with id: 2023-11-25 15:58:45.091878-127.0.0.1-cf6
+Site: operations.connectkare.in
+Form Dict: {}
+2023-12-04 12:51:42,588 ERROR frappe New Exception collected with id: 2023-12-04 12:51:42.503628-106.213.84.252-596
+Site: operations.connectkare.in
+Form Dict: {'mobile': '5522663344', 'cmd': 'frappe.ConnectCareLogin.login'}
+2023-12-09 13:11:34,824 ERROR frappe New Exception collected with id: 2023-12-09 13:11:34.730136-152.57.182.10-cd9
+Site: operations.connectkare.in
+Form Dict: {'name': 'CUST-2023-00228', 'cmd': 'frappe.ConnectCareLogin.login'}
+2024-01-01 13:44:14,791 ERROR frappe New Exception collected with id: 2024-01-01 13:44:14.783193-54.86.50.139-d2a
+Site: operations.connectkare.in
+Form Dict: {'customer': 'CUST-2023-00214', 'min_expected_rent': 500000, 'prefered_to': 'Family', 'rent_duration': 6, 'property': 'TE-B-F-A-11', 'min_expected_deposit': 5000, 'notes': '', 'consent': 1, 'cmd': 'PropertyData'}
+2024-03-28 16:27:19,315 ERROR frappe New Exception collected with id: 2024-03-28 16:27:19.313300-127.0.0.1-f56
+Site: operations.connectkare.in
+Form Dict: {}
+2024-04-01 16:12:14,121 ERROR frappe New Exception collected with id: 2024-04-01 16:12:14.119637-106.213.83.219-8af
+Site: operations.connectkare.in
+Form Dict: {'cmd': 'frappe.ConnectCareLogin.login'}
+2024-04-01 16:21:57,087 ERROR frappe New Exception collected with id: 2024-04-01 16:21:57.085945-52.112.125.8-c9c
+Site: operations.connectkare.in
+Form Dict: {'cmd': 'frappe.loginApi.login'}
+2024-04-01 16:21:57,187 ERROR frappe New Exception collected with id: 2024-04-01 16:21:57.185303-52.112.125.8-f34
+Site: operations.connectkare.in
+Form Dict: {'cmd': 'frappe.loginApi.login'}
+2024-04-01 16:23:12,952 ERROR frappe New Exception collected with id: 2024-04-01 16:23:12.951054-106.213.83.219-7cb
+Site: operations.connectkare.in
+Form Dict: {'cmd': 'frappe.ConnectCareLogin.login'}
+2024-04-01 16:23:20,474 ERROR frappe New Exception collected with id: 2024-04-01 16:23:20.472650-52.112.125.8-0a1
+Site: operations.connectkare.in
+Form Dict: {'cmd': 'frappe.ConnectCareLogin.login'}
+2024-04-01 16:35:22,092 ERROR frappe New Exception collected with id: 2024-04-01 16:35:22.090026-106.213.83.219-6c4
+Site: operations.connectkare.in
+Form Dict: {'cmd': 'frappe.loginApi.login'}
+2024-04-11 12:21:36,789 ERROR frappe New Exception collected with id: 2024-04-11 12:21:36.784883-152.57.216.19-1b7
+Site: operations.connectkare.in
+Form Dict: {'mobile_no': '8888888888', 'uid': 'or 1=1', 'cmd': 'frappe.ConnectCareLogin.login'}
+2024-04-11 12:21:50,838 ERROR frappe New Exception collected with id: 2024-04-11 12:21:50.830659-152.57.216.19-385
+Site: operations.connectkare.in
+Form Dict: {'mobile_no': '8888888888', 'uid': ' or 1=1', 'cmd': 'frappe.ConnectCareLogin.login'}
+2024-04-11 12:21:56,760 ERROR frappe New Exception collected with id: 2024-04-11 12:21:56.758228-152.57.216.19-159
+Site: operations.connectkare.in
+Form Dict: {'mobile_no': '8888888888', 'uid': '1=1', 'cmd': 'frappe.ConnectCareLogin.login'}
+2024-04-27 13:04:15,146 ERROR frappe New Exception collected with id: 2024-04-27 13:04:15.144473-52.112.49.104-456
+Site: operations.connectkare.in
+Form Dict: {'cmd': 'frappe.loginApi.login'}

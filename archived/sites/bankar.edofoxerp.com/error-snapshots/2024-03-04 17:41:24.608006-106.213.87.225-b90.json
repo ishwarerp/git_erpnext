@@ -1,0 +1,564 @@
+{
+ "etype": "AttributeError",
+ "evalue": "AttributeError(\"'dict' object has no attribute 'update_if_missing'\")",
+ "exception": {
+  "args": [
+   40,
+   34,
+   39,
+   100,
+   105,
+   99,
+   116,
+   39,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   32,
+   104,
+   97,
+   115,
+   32,
+   110,
+   111,
+   32,
+   97,
+   116,
+   116,
+   114,
+   105,
+   98,
+   117,
+   116,
+   101,
+   32,
+   39,
+   117,
+   112,
+   100,
+   97,
+   116,
+   101,
+   95,
+   105,
+   102,
+   95,
+   109,
+   105,
+   115,
+   115,
+   105,
+   110,
+   103,
+   39,
+   34,
+   44,
+   41
+  ],
+  "name": [
+   39,
+   117,
+   112,
+   100,
+   97,
+   116,
+   101,
+   95,
+   105,
+   102,
+   95,
+   109,
+   105,
+   115,
+   115,
+   105,
+   110,
+   103,
+   39
+  ],
+  "obj": [
+   123,
+   39,
+   97,
+   109,
+   111,
+   117,
+   110,
+   116,
+   39,
+   58,
+   32,
+   50,
+   48,
+   48,
+   48,
+   48,
+   46,
+   48,
+   44,
+   32,
+   39,
+   101,
+   120,
+   112,
+   101,
+   99,
+   116,
+   101,
+   100,
+   95,
+   100,
+   97,
+   116,
+   101,
+   39,
+   58,
+   32,
+   100,
+   97,
+   116,
+   101,
+   116,
+   105,
+   109,
+   101,
+   46,
+   100,
+   97,
+   116,
+   101,
+   40,
+   50,
+   48,
+   50,
+   52,
+   44,
+   32,
+   51,
+   44,
+   32,
+   52,
+   41,
+   44,
+   32,
+   39,
+   111,
+   117,
+   116,
+   115,
+   116,
+   97,
+   110,
+   100,
+   105,
+   110,
+   103,
+   95,
+   97,
+   109,
+   111,
+   117,
+   110,
+   116,
+   39,
+   58,
+   32,
+   49,
+   56,
+   48,
+   48,
+   48,
+   48,
+   46,
+   48,
+   44,
+   32,
+   39,
+   112,
+   97,
+   105,
+   100,
+   39,
+   58,
+   32,
+   48,
+   125
+  ],
+  "with_traceback": [
+   60,
+   98,
+   117,
+   105,
+   108,
+   116,
+   45,
+   105,
+   110,
+   32,
+   109,
+   101,
+   116,
+   104,
+   111,
+   100,
+   32,
+   119,
+   105,
+   116,
+   104,
+   95,
+   116,
+   114,
+   97,
+   99,
+   101,
+   98,
+   97,
+   99,
+   107,
+   32,
+   111,
+   102,
+   32,
+   65,
+   116,
+   116,
+   114,
+   105,
+   98,
+   117,
+   116,
+   101,
+   69,
+   114,
+   114,
+   111,
+   114,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   62
+  ]
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'https://ssd.edofoxerp.com/api/method/frappe.desk.form.save.savedocs' [POST]>)",
+   "dump": {
+    "frappe. api": "<module 'frappe.api' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py'>",
+    "frappe.api. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "response": "None"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "64": "",
+    "65": "\t\telif request.path.startswith(\"/api/\"):",
+    "66": "\t\t\tresponse = frappe.api.handle()",
+    "67": "",
+    "68": "\t\telif request.path.startswith(\"/backups\"):"
+   },
+   "lnum": 66
+  },
+  {
+   "call": "()",
+   "dump": {
+    "frappe. handler": "<module 'frappe.handler' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py'>",
+    "frappe.handler. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py",
+   "func": "handle",
+   "lines": {
+    "52": "\tif call == \"method\":",
+    "53": "\t\tfrappe.local.form_dict.cmd = doctype",
+    "54": "\t\treturn frappe.handler.handle()",
+    "55": "",
+    "56": "\telif call == \"resource\":"
+   },
+   "lnum": 54
+  },
+  {
+   "call": "()",
+   "dump": {
+    "cmd": "'frappe.desk.form.save.savedocs'",
+    "data": "None",
+    "global execute_cmd": "<function execute_cmd>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "handle",
+   "lines": {
+    "43": "",
+    "44": "\tif cmd != \"login\":",
+    "45": "\t\tdata = execute_cmd(cmd)",
+    "46": "",
+    "47": "\t# data can be an empty string or list which are valid responses"
+   },
+   "lnum": 45
+  },
+  {
+   "call": "(cmd='frappe.desk.form.save.savedocs', from_async=False)",
+   "dump": {
+    "frappe. call": "<function call>",
+    "frappe. form_dict": "{'doc': '{\"docstatus\":0,\"doctype\":\"Site Progress... 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "method": "<function savedocs>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "execute_cmd",
+   "lines": {
+    "81": "\t\tis_valid_http_method(method)",
+    "82": "",
+    "83": "\treturn frappe.call(method, **frappe.form_dict)",
+    "84": "",
+    "85": ""
+   },
+   "lnum": 83
+  },
+  {
+   "call": "(fn=<function savedocs>, *args=(), **kwargs={'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs', 'doc': '{\"docstatus\":0,\"doctype\":\"Site Progress\",\"name\":...work_type\":\"Door Works\",\"percent_completed\":\"44\"}'})",
+   "dump": {
+    "args": "()",
+    "fn": "<function savedocs>",
+    "newargs": "{'action': 'Save', 'doc': '{\"docstatus\":0,\"doctype\":\"Site Progress\",\"name\":...work_type\":\"Door Works\",\"percent_completed\":\"44\"}'}"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "call",
+   "lines": {
+    "1605": "\tnewargs = get_newargs(fn, kwargs)",
+    "1606": "",
+    "1607": "\treturn fn(*args, **newargs)",
+    "1608": "",
+    "1609": ""
+   },
+   "lnum": 1607
+  },
+  {
+   "call": "(doc=<Document: SP-2024-00007>, action='Save')",
+   "dump": {
+    "doc": "<Document: SP-2024-00007>",
+    "doc. save": "<bound method Document.save of <Document: SP-2024-00007>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/save.py",
+   "func": "savedocs",
+   "lines": {
+    "24": "\t}[action]",
+    "25": "",
+    "26": "\tdoc.save()",
+    "27": "",
+    "28": "\t# update recent documents"
+   },
+   "lnum": 26
+  },
+  {
+   "call": "(self=<Document: SP-2024-00007>, *args=(), **kwargs={})",
+   "dump": {
+    "args": "()",
+    "kwargs": "{}",
+    "self": "<Document: SP-2024-00007>",
+    "self. _save": "<bound method Document._save of <Document: SP-2024-00007>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "save",
+   "lines": {
+    "303": "\tdef save(self, *args, **kwargs):",
+    "304": "\t\t\"\"\"Wrapper for _save\"\"\"",
+    "305": "\t\treturn self._save(*args, **kwargs)",
+    "306": "",
+    "307": "\tdef _save(self, ignore_permissions=None, ignore_version=None) -> \"Document\":"
+   },
+   "lnum": 305
+  },
+  {
+   "call": "(self=<Document: SP-2024-00007>, ignore_permissions=None, ignore_version=None)",
+   "dump": {
+    "self": "<Document: SP-2024-00007>",
+    "self. insert": "<bound method Document.insert of <Document: SP-2024-00007>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "_save",
+   "lines": {
+    "325": "",
+    "326": "\t\tif self.get(\"__islocal\") or not self.get(\"name\"):",
+    "327": "\t\t\treturn self.insert()",
+    "328": "",
+    "329": "\t\tself.check_permission(\"write\", \"save\")"
+   },
+   "lnum": 327
+  },
+  {
+   "call": "(self=<Document: SP-2024-00007>, ignore_permissions=None, ignore_links=None, ignore_if_duplicate=False, ignore_mandatory=None, set_name=None, set_child_names=True)",
+   "dump": {
+    "self": "<Document: SP-2024-00007>",
+    "self. run_post_save_methods": "<bound method Document.run_post_save_methods of <Document: SP-2024-00007>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "insert",
+   "lines": {
+    "283": "\t\t# during document creation",
+    "284": "\t\tself.flags.update_log_for_doc_creation = True",
+    "285": "\t\tself.run_post_save_methods()",
+    "286": "\t\tself.flags.in_insert = False",
+    "287": ""
+   },
+   "lnum": 285
+  },
+  {
+   "call": "(self=<Document: SP-2024-00007>)",
+   "dump": {
+    "self": "<Document: SP-2024-00007>",
+    "self. run_method": "<bound method Document.run_method of <Document: SP-2024-00007>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "run_post_save_methods",
+   "lines": {
+    "1082": "",
+    "1083": "\t\tif self._action == \"save\":",
+    "1084": "\t\t\tself.run_method(\"on_update\")",
+    "1085": "\t\telif self._action == \"submit\":",
+    "1086": "\t\t\tself.run_method(\"on_update\")"
+   },
+   "lnum": 1084
+  },
+  {
+   "call": "(self=<Document: SP-2024-00007>, method='on_update', *args=(), **kwargs={})",
+   "dump": {
+    "global run_server_script_for_doc_event": "<function run_server_script_for_doc_event>",
+    "method": "'on_update'",
+    "self": "<Document: SP-2024-00007>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "run_method",
+   "lines": {
+    "918": "\t\tself.run_notifications(method)",
+    "919": "\t\trun_webhooks(self, method)",
+    "920": "\t\trun_server_script_for_doc_event(self, method)",
+    "921": "",
+    "922": "\t\treturn out"
+   },
+   "lnum": 920
+  },
+  {
+   "call": "(doc=<Document: SP-2024-00007>, event='on_update')",
+   "dump": {
+    ").execute_doc": "undefined",
+    "doc": "<Document: SP-2024-00007>",
+    "frappe. get_doc": "<function get_doc>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "script_name": "'MakePaymentEntryAfterSiteProgress'"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/core/doctype/server_script/server_script_utils.py",
+   "func": "run_server_script_for_doc_event",
+   "lines": {
+    "37": "\t\t# run all scripts for this doctype + event",
+    "38": "\t\tfor script_name in scripts:",
+    "39": "\t\t\tfrappe.get_doc(\"Server Script\", script_name).execute_doc(doc)",
+    "40": "",
+    "41": ""
+   },
+   "lnum": 39
+  },
+  {
+   "call": "(self=<ServerScript: MakePaymentEntryAfterSiteProgress>, doc=<Document: SP-2024-00007>)",
+   "dump": {
+    "_locals": "undefined",
+    "doc": "<Document: SP-2024-00007>",
+    "global safe_exec": "<function safe_exec>",
+    "restrict_commit_rollback": "undefined",
+    "self": "<ServerScript: MakePaymentEntryAfterSiteProgress>",
+    "self. script": "'cust_prop = frappe.get_doc(\"Customer Property\", ...g_amount - next_amount\\ncustomer_payment.insert()\\n'"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/core/doctype/server_script/server_script.py",
+   "func": "execute_doc",
+   "lines": {
+    "96": "\t\t        doc (Document): Executes script with for a certain document's events",
+    "97": "\t\t\"\"\"",
+    "98": "\t\tsafe_exec(self.script, _locals={\"doc\": doc}, restrict_commit_rollback=True)",
+    "99": "",
+    "100": "\tdef execute_scheduled_method(self):"
+   },
+   "lnum": 98
+  },
+  {
+   "call": "(script='cust_prop = frappe.get_doc(\"Customer Property\", ...g_amount - next_amount\\ncustomer_payment.insert()\\n', _globals=None, _locals={'cust_prop': <Document: CU-PR-03.2024-1744>, 'customer_payment': <Document: unsaved>, 'doc': <Document: SP-2024-00007>, 'next_amount': 20000.0}, restrict_commit_rollback=True)",
+   "dump": {
+    "_locals": "{'cust_prop': <Document: CU-PR-03.2024-1744>, 'customer_payment': <Document: unsaved>, 'doc': <Document: SP-2024-00007>, 'next_amount': 20000.0}",
+    "builtin exec": "<built-in function exec>",
+    "exec_globals": "{'json': {'loads': <function loads at 0x7f266be8...built-in function sum>, 'tuple': <class 'tuple'>}",
+    "global compile_restricted": "<function compile_restricted>",
+    "script": "'cust_prop = frappe.get_doc(\"Customer Property\", ...g_amount - next_amount\\ncustomer_payment.insert()\\n'"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/safe_exec.py",
+   "func": "safe_exec",
+   "lines": {
+    "70": "\twith safe_exec_flags(), patched_qb():",
+    "71": "\t\t# execute script compiled by RestrictedPython",
+    "72": "\t\texec(compile_restricted(script), exec_globals, _locals)  # pylint: disable=exec-used",
+    "73": "",
+    "74": "\treturn exec_globals, _locals"
+   },
+   "lnum": 72
+  },
+  {
+   "call": "()",
+   "dump": {},
+   "file": "/home/gauritrans/frappe-bench/sites/<unknown>",
+   "func": "<module>",
+   "lines": {},
+   "lnum": 19
+  },
+  {
+   "call": "(self=<Document: unsaved>, ignore_permissions=None, ignore_links=None, ignore_if_duplicate=False, ignore_mandatory=None, set_name=None, set_child_names=True)",
+   "dump": {
+    "self": "<Document: unsaved>",
+    "self. _set_defaults": "<bound method Document._set_defaults of <Document: unsaved>>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "insert",
+   "lines": {
+    "245": "\t\tself.set(\"__islocal\", True)",
+    "246": "",
+    "247": "\t\tself._set_defaults()",
+    "248": "\t\tself.set_user_and_timestamp()",
+    "249": "\t\tself.set_docstatus()"
+   },
+   "lnum": 247
+  },
+  {
+   "call": "(self=<Document: unsaved>)",
+   "dump": {
+    "d": "{'amount': 20000.0, 'expected_date': datetime.date(2024, 3, 4), 'outstanding_amount': 180000.0, 'paid': 0}",
+    "d.update_if_missing": "undefined",
+    "new_doc": "{'name': None, 'owner': 'ishwar.pandit@mattersof...ype': 'CP Child', '__islocal': 1, '__unsaved': 1}"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "_set_defaults",
+   "lines": {
+    "745": "\t\t\tif isinstance(value, list):",
+    "746": "\t\t\t\tfor d in value:",
+    "747": "\t\t\t\t\td.update_if_missing(new_doc)",
+    "748": "",
+    "749": "\tdef check_if_latest(self):"
+   },
+   "lnum": 747
+  }
+ ],
+ "locals": {
+  "d": "{'amount': 20000.0, 'expected_date': datetime.date(2024, 3, 4), 'outstanding_amount': 180000.0, 'paid': 0}",
+  "df": "<DocField: e3a5171719 parent=Customer Payments>",
+  "new_doc": "{'name': None, 'owner': 'ishwar.pandit@mattersof...ype': 'CP Child', '__islocal': 1, '__unsaved': 1}",
+  "self": "<Document: unsaved>",
+  "value": "[{'amount': 20000.0, 'expected_date': datetime.date(2024, 3, 4), 'outstanding_amount': 180000.0, 'paid': 0}]"
+ },
+ "pyver": "Python 3.10.12: /home/gauritrans/frappe-bench/env/bin/python (prefix: /home/gauritrans/frappe-bench/env)",
+ "timestamp": "2024-03-04 17:41:24.608093",
+ "traceback": "Traceback (most recent call last):\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py\", line 66, in application\n    response = frappe.api.handle()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py\", line 54, in handle\n    return frappe.handler.handle()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py\", line 45, in handle\n    data = execute_cmd(cmd)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py\", line 83, in execute_cmd\n    return frappe.call(method, **frappe.form_dict)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py\", line 1607, in call\n    return fn(*args, **newargs)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/desk/form/save.py\", line 26, in savedocs\n    doc.save()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 305, in save\n    return self._save(*args, **kwargs)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 327, in _save\n    return self.insert()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 285, in insert\n    self.run_post_save_methods()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 1084, in run_post_save_methods\n    self.run_method(\"on_update\")\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 920, in run_method\n    run_server_script_for_doc_event(self, method)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/core/doctype/server_script/server_script_utils.py\", line 39, in run_server_script_for_doc_event\n    frappe.get_doc(\"Server Script\", script_name).execute_doc(doc)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/core/doctype/server_script/server_script.py\", line 98, in execute_doc\n    safe_exec(self.script, _locals={\"doc\": doc}, restrict_commit_rollback=True)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/safe_exec.py\", line 72, in safe_exec\n    exec(compile_restricted(script), exec_globals, _locals)  # pylint: disable=exec-used\n  File \"<unknown>\", line 19, in <module>\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 247, in insert\n    self._set_defaults()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py\", line 747, in _set_defaults\n    d.update_if_missing(new_doc)\nAttributeError: 'dict' object has no attribute 'update_if_missing'\n"
+}

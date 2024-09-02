@@ -1,0 +1,313 @@
+{
+ "etype": "ImportError",
+ "evalue": "ImportError('__import__ not found')",
+ "exception": {
+  "args": [
+   40,
+   39,
+   95,
+   95,
+   105,
+   109,
+   112,
+   111,
+   114,
+   116,
+   95,
+   95,
+   32,
+   110,
+   111,
+   116,
+   32,
+   102,
+   111,
+   117,
+   110,
+   100,
+   39,
+   44,
+   41
+  ],
+  "msg": [
+   39,
+   95,
+   95,
+   105,
+   109,
+   112,
+   111,
+   114,
+   116,
+   95,
+   95,
+   32,
+   110,
+   111,
+   116,
+   32,
+   102,
+   111,
+   117,
+   110,
+   100,
+   39
+  ],
+  "name": [
+   78,
+   111,
+   110,
+   101
+  ],
+  "path": [
+   78,
+   111,
+   110,
+   101
+  ],
+  "with_traceback": [
+   60,
+   98,
+   117,
+   105,
+   108,
+   116,
+   45,
+   105,
+   110,
+   32,
+   109,
+   101,
+   116,
+   104,
+   111,
+   100,
+   32,
+   119,
+   105,
+   116,
+   104,
+   95,
+   116,
+   114,
+   97,
+   99,
+   101,
+   98,
+   97,
+   99,
+   107,
+   32,
+   111,
+   102,
+   32,
+   73,
+   109,
+   112,
+   111,
+   114,
+   116,
+   69,
+   114,
+   114,
+   111,
+   114,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   62
+  ]
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'https://ssd.edofoxerp.com/api/method/getEventByLead' [GET]>)",
+   "dump": {
+    "frappe. api": "<module 'frappe.api' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py'>",
+    "frappe.api. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "response": "None"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "64": "",
+    "65": "\t\telif request.path.startswith(\"/api/\"):",
+    "66": "\t\t\tresponse = frappe.api.handle()",
+    "67": "",
+    "68": "\t\telif request.path.startswith(\"/backups\"):"
+   },
+   "lnum": 66
+  },
+  {
+   "call": "()",
+   "dump": {
+    "frappe. handler": "<module 'frappe.handler' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py'>",
+    "frappe.handler. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py",
+   "func": "handle",
+   "lines": {
+    "52": "\tif call == \"method\":",
+    "53": "\t\tfrappe.local.form_dict.cmd = doctype",
+    "54": "\t\treturn frappe.handler.handle()",
+    "55": "",
+    "56": "\telif call == \"resource\":"
+   },
+   "lnum": 54
+  },
+  {
+   "call": "()",
+   "dump": {
+    "cmd": "'getEventByLead'",
+    "data": "None",
+    "global execute_cmd": "<function execute_cmd>"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "handle",
+   "lines": {
+    "43": "",
+    "44": "\tif cmd != \"login\":",
+    "45": "\t\tdata = execute_cmd(cmd)",
+    "46": "",
+    "47": "\t# data can be an empty string or list which are valid responses"
+   },
+   "lnum": 45
+  },
+  {
+   "call": "(cmd='getEventByLead', from_async=False)",
+   "dump": {
+    "global run_server_script": "<function run_server_script>",
+    "server_script": "'get Event by Lead'"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "execute_cmd",
+   "lines": {
+    "67": "\tserver_script = get_server_script_map().get(\"_api\", {}).get(cmd)",
+    "68": "\tif server_script:",
+    "69": "\t\treturn run_server_script(server_script)",
+    "70": "",
+    "71": "\ttry:"
+   },
+   "lnum": 69
+  },
+  {
+   "call": "(server_script='get Event by Lead')",
+   "dump": {
+    ").execute_method": "undefined",
+    "frappe. get_doc": "<function get_doc>",
+    "global frappe": "<module 'frappe' from '/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "response": "undefined",
+    "server_script": "'get Event by Lead'"
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "run_server_script",
+   "lines": {
+    "85": "",
+    "86": "def run_server_script(server_script):",
+    "87": "\tresponse = frappe.get_doc(\"Server Script\", server_script).execute_method()",
+    "88": "",
+    "89": "\t# some server scripts return output using flags (empty dict by default),"
+   },
+   "lnum": 87
+  },
+  {
+   "call": "(self=<ServerScript: get Event by Lead>)",
+   "dump": {
+    "_globals": "undefined",
+    "_locals": "undefined",
+    "global safe_exec": "<function safe_exec>",
+    "self": "<ServerScript: get Event by Lead>",
+    "self. script": "\"# payload= json.loads(frappe.request.data)\\n# eve...ent data\\nfrappe.response['message'] = event_data\\n\""
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/core/doctype/server_script/server_script.py",
+   "func": "execute_method",
+   "lines": {
+    "87": "",
+    "88": "\t\t# output can be stored in flags",
+    "89": "\t\t_globals, _locals = safe_exec(self.script)",
+    "90": "\t\treturn _globals.frappe.flags",
+    "91": ""
+   },
+   "lnum": 89
+  },
+  {
+   "call": "(script=\"# payload= json.loads(frappe.request.data)\\n# eve...ent data\\nfrappe.response['message'] = event_data\\n\", _globals=None, _locals=None, restrict_commit_rollback=False)",
+   "dump": {
+    "_locals": "None",
+    "builtin exec": "<built-in function exec>",
+    "exec_globals": "{'json': {'loads': <function loads at 0x7b4f2cd3...built-in function sum>, 'tuple': <class 'tuple'>}",
+    "global compile_restricted": "<function compile_restricted>",
+    "script": "\"# payload= json.loads(frappe.request.data)\\n# eve...ent data\\nfrappe.response['message'] = event_data\\n\""
+   },
+   "file": "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/safe_exec.py",
+   "func": "safe_exec",
+   "lines": {
+    "70": "\twith safe_exec_flags(), patched_qb():",
+    "71": "\t\t# execute script compiled by RestrictedPython",
+    "72": "\t\texec(compile_restricted(script), exec_globals, _locals)  # pylint: disable=exec-used",
+    "73": "",
+    "74": "\treturn exec_globals, _locals"
+   },
+   "lnum": 72
+  },
+  {
+   "call": "()",
+   "dump": {},
+   "file": "/home/gauritrans/frappe-bench/sites/<unknown>",
+   "func": "<module>",
+   "lines": {},
+   "lnum": 10
+  }
+ ],
+ "locals": {
+  "FrappeClient": "<class 'frappe.frappeclient.FrappeClient'>",
+  "_": "<function _>",
+  "__builtins__": "{'ArithmeticError': <class 'ArithmeticError'>, 'AssertionError': <class 'AssertionError'>, 'AttributeError': <class 'AttributeError'>, 'BaseException': <class 'BaseException'>, 'BufferError': <class 'BufferError'>, 'BytesWarning': <class 'BytesWarning'>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'EOFError': <class 'EOFError'>, 'EnvironmentError': <class 'OSError'>, 'Exception': <class 'Exception'>, ...}",
+  "_dict": "<class 'frappe._dict'>",
+  "_getattr_": "<function _getattr>",
+  "_getitem_": "<function _getitem>",
+  "_getiter_": "<built-in function iter>",
+  "_iter_unpack_sequence_": "<function guarded_iter_unpack_sequence>",
+  "_write_": "<function _write>",
+  "abs": "<built-in function abs>",
+  "all": "<built-in function all>",
+  "any": "<built-in function any>",
+  "args": "{'lead': 'LEAD-05-1776', 'cmd': 'getEventByLead'}",
+  "as_json": "<function as_json>",
+  "bool": "<class 'bool'>",
+  "dev_server": "0",
+  "dict": "<class 'dict'>",
+  "enumerate": "<class 'enumerate'>",
+  "frappe": "{'call': <function call_whitelisted_function at ...dule>\\\\nImportError: __import__ not found\\\\n\"]'}}",
+  "get_next_link": "<function get_next_link>",
+  "get_shade": "<function get_shade>",
+  "get_toc": "<function get_toc>",
+  "get_visible_columns": "<function get_visible_columns>",
+  "guess_mimetype": "<function guess_type>",
+  "html2text": "<function html2text>",
+  "is_job_queued": "<function is_job_queued>",
+  "isinstance": "<built-in function isinstance>",
+  "issubclass": "<built-in function issubclass>",
+  "json": "{'loads': <function loads at 0x7b4f2cd36b90>, 'dumps': <function dumps at 0x7b4f2cd365f0>}",
+  "list": "<class 'list'>",
+  "log": "<function log>",
+  "max": "<built-in function max>",
+  "min": "<built-in function min>",
+  "range": "<class 'range'>",
+  "run_script": "<function run_script>",
+  "scrub": "<function scrub>",
+  "set": "<class 'set'>",
+  "sorted": "<built-in function sorted>",
+  "style": "{'border_color': '#d1d8dd'}",
+  "sum": "<built-in function sum>",
+  "tuple": "<class 'tuple'>"
+ },
+ "pyver": "Python 3.10.12: /home/gauritrans/frappe-bench/env/bin/python (prefix: /home/gauritrans/frappe-bench/env)",
+ "timestamp": "2024-06-25 01:00:46.276248",
+ "traceback": "Traceback (most recent call last):\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py\", line 66, in application\n    response = frappe.api.handle()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/api.py\", line 54, in handle\n    return frappe.handler.handle()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py\", line 45, in handle\n    data = execute_cmd(cmd)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py\", line 69, in execute_cmd\n    return run_server_script(server_script)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/handler.py\", line 87, in run_server_script\n    response = frappe.get_doc(\"Server Script\", server_script).execute_method()\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/core/doctype/server_script/server_script.py\", line 89, in execute_method\n    _globals, _locals = safe_exec(self.script)\n  File \"/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/safe_exec.py\", line 72, in safe_exec\n    exec(compile_restricted(script), exec_globals, _locals)  # pylint: disable=exec-used\n  File \"<unknown>\", line 10, in <module>\nImportError: __import__ not found\n"
+}

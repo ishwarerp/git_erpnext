@@ -1,0 +1,342 @@
+2023-07-04 17:31:53,832 ERROR frappe Could not take error snapshot: invalid syntax. Perhaps you forgot a comma? (hooks.py, line 110)
+Site: gatlpro.in
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 55, in application
+    init_request(request)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 143, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 34, in __init__
+    self.set_session()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 70, in set_session
+    frappe.local.login_manager = LoginManager()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 119, in __init__
+    self.make_session(resume=True)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 207, in make_session
+    frappe.local.session_obj = Session(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/sessions.py", line 238, in __init__
+    self.resume()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/sessions.py", line 310, in resume
+    validate_ip_address(self.user)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 416, in validate_ip_address
+    frappe.get_cached_value("User", user, user_fields, as_dict=True)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1150, in get_cached_value
+    doc = get_cached_doc(doctype, name)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1091, in get_cached_doc
+    doc = get_doc(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1184, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/base_document.py", line 82, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/base_document.py", line 48, in _get_controller
+    module_name, custom = frappe.db.get_value(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 496, in get_value
+    result = self.get_values(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 593, in get_values
+    out = self._get_values_from_table(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 810, in _get_values_from_table
+    query = frappe.qb.engine.get_query(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 515, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 371, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 330, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1465, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1327, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gauritrans/frappe-bench/apps/fcm_notification/fcm_notification/hooks.py", line 110
+    	"cron":{
+    	       
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/error.py", line 48, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/error.py", line 106, in get_snapshot
+    vars = cgitb.scanvars(reader, frame, locals)
+  File "/usr/lib/python3.10/cgitb.py", line 88, in scanvars
+    value = getattr(parent, token, __UNDEF__)
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1465, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1327, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gauritrans/frappe-bench/apps/fcm_notification/fcm_notification/hooks.py", line 110
+    	"cron":{
+    	       
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+2023-07-04 17:31:53,864 ERROR frappe Failed to run after request hook
+Site: gatlpro.in
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 55, in application
+    init_request(request)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 143, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 34, in __init__
+    self.set_session()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 70, in set_session
+    frappe.local.login_manager = LoginManager()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 119, in __init__
+    self.make_session(resume=True)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 207, in make_session
+    frappe.local.session_obj = Session(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/sessions.py", line 238, in __init__
+    self.resume()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/sessions.py", line 310, in resume
+    validate_ip_address(self.user)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/auth.py", line 416, in validate_ip_address
+    frappe.get_cached_value("User", user, user_fields, as_dict=True)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1150, in get_cached_value
+    doc = get_cached_doc(doctype, name)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1091, in get_cached_doc
+    doc = get_doc(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1184, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/base_document.py", line 82, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/base_document.py", line 48, in _get_controller
+    module_name, custom = frappe.db.get_value(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 496, in get_value
+    result = self.get_values(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 593, in get_values
+    out = self._get_values_from_table(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 810, in _get_values_from_table
+    query = frappe.qb.engine.get_query(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 515, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 371, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 330, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1465, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1327, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gauritrans/frappe-bench/apps/fcm_notification/fcm_notification/hooks.py", line 110
+    	"cron":{
+    	       
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/website/serve.py", line 17, in get_response
+    endpoint, renderer_instance = path_resolver.resolve()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 36, in resolve
+    resolve_redirect(self.path, request.query_string)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 107, in resolve_redirect
+    redirects = frappe.get_hooks("website_redirects")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1465, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1327, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gauritrans/frappe-bench/apps/fcm_notification/fcm_notification/hooks.py", line 110
+    	"cron":{
+    	       
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 84, in application
+    response = handle_exception(e)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 338, in handle_exception
+    response = get_response("message", http_status_code=http_status_code)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/website/serve.py", line 26, in get_response
+    frappe.log_error(f"{path} failed")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 2238, in log_error
+    error_log = get_doc(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1184, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/base_document.py", line 82, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/model/base_document.py", line 48, in _get_controller
+    module_name, custom = frappe.db.get_value(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 496, in get_value
+    result = self.get_values(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 593, in get_values
+    out = self._get_values_from_table(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/database.py", line 810, in _get_values_from_table
+    query = frappe.qb.engine.get_query(
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 515, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 371, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 330, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1465, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1327, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gauritrans/frappe-bench/apps/fcm_notification/fcm_notification/hooks.py", line 110
+    	"cron":{
+    	       
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 98, in application
+    run_after_request_hooks(request, response)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/app.py", line 114, in run_after_request_hooks
+    for after_request_task in frappe.get_hooks("after_request"):
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1465, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/gauritrans/frappe-bench/apps/frappe/frappe/__init__.py", line 1327, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gauritrans/frappe-bench/apps/fcm_notification/fcm_notification/hooks.py", line 110
+    	"cron":{
+    	       
+SyntaxError: invalid syntax. Perhaps you forgot a comma?

@@ -1,0 +1,13 @@
+{
+ "db_name": "_d026d30d85988375",
+ "db_password": "7UAc551JD7a8AAgL",
+ "db_type": "mariadb",
+ "developer_mode": 1,
+ "encryption_key": "ZkqCU-7G77-lIdWZY610RX8PKepD3_UH9h15FCyAKyA=",
+ "max_file_size": 20000000,
+ "ssl_certificate": "/etc/letsencrypt/live/test.connectkare.in/fullchain.pem",
+ "ssl_certificate_key": "/etc/letsencrypt/live/test.connectkare.in/privkey.pem",
+ "user_type_doctype_limit": {
+  "employee_self_service": 40
+ }
+}

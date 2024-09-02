@@ -1,0 +1,10 @@
+{
+ "db_name": "_894f2bb7c1871de2",
+ "db_password": "yd98BsFzD37WPY92",
+ "db_type": "mariadb",
+ "developer_mode": 1,
+ "encryption_key": "8ojOd775XMK2XxNKPQwWyHZ8zD7ZxOyQw1PYi8lyMcc=",
+ "maintenance_mode": 0,
+ "ssl_certificate": "/etc/letsencrypt/live/gatlpro.in/fullchain.pem",
+ "ssl_certificate_key": "/etc/letsencrypt/live/gatlpro.in/privkey.pem"
+}
